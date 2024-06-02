@@ -9,7 +9,7 @@ this code here, in a console or from any site
 ```js
 fetch("https://linux-trend.vercel.app/api/last1months")
   .then((response) => response.json())
-  .then((json) => console.log(json));
+  .then((json) => console.log(json))
 ```
 
 ## Resources
