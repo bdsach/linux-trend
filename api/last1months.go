@@ -3,19 +3,40 @@ package handlers
 import (
 	"encoding/json"
 	"net/http"
+	"os"
+	"time"
 )
 
+type DistroItem struct {
+	No        int    `json:"no"`
+	Name      string `json:"name"`
+	Rank      int    `json:"rank"`
+	Trend     string `json:"trend"`
+	URL       string `json:"url"`
+	Logo      string `json:"logo"`
+	Yesterday int    `json:"yesterday"`
+}
+
+type ResponseData struct {
+	CreateAt time.Time    `json:"createAt"`
+	Data     []DistroItem `json:"last1months"`
+}
+
 func Json(w http.ResponseWriter, r *http.Request) {
-	responseData := map[string]string{
-		"message": "Hello, JSON!",
-	}
 
-	jsonData, err := json.Marshal(responseData)
+	// read json file root project /data/last1months.json
+	jsonFile, err := os.Open("data/last1months.json")
+
 	if err != nil {
-		http.Error(w, "Internal Server Error", http.StatusInternalServerError)
-		return
+		println(err)
 	}
 
+	defer jsonFile.Close()
+
+	data := ResponseData{
+		CreateAt: time.Now(),
+		Data:     []DistroItem{},
+	}
 	w.Header().Set("Content-Type", "application/json")
-	w.Write(jsonData)
+	json.NewEncoder(w).Encode(data)
 }
