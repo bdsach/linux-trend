@@ -4,8 +4,28 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Linux Trend</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
 	</head>
-	<body>
-		<h1>Express on Vercel</h1>
+	<body class="container">
+		<header>
+			<h1 id="linux-trend-api">Linux Trend API</h1>
+			<p>Get JSON data from DistroWatch Page Hit.</p>
+		</header>
+		<main>
+			<h2 id="try-it-run">Try it Run</h2>
+			<p>this code here, in a console or from any site</p>
+<pre><code class="lang-js">fetch(<span class="hljs-string">"https://linux-trend.vercel.app/api/last1months"</span>)
+  .<span class="hljs-keyword">then</span>(<span class="hljs-function"><span class="hljs-params">(response)</span> =&gt;</span> response.json())
+  .<span class="hljs-keyword">then</span>(<span class="hljs-function"><span class="hljs-params">(json)</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(json));
+</code></pre>
+			<h2 id="resources">Resources</h2>
+			<p>Following resources are available which you can access via our REST API.</p>
+			<ul>
+				<li><a href="https://linux-trend.vercel.app/api/last12months">Last 12 Months</a></li>
+				<li><a href="https://linux-trend.vercel.app/api/last6months">Last 6 Months</a></li>
+				<li><a href="https://linux-trend.vercel.app/api/last3months">Last 3 Months</a></li>
+				<li><a href="https://linux-trend.vercel.app/api/last1months">Last 1 Months</a></li>
+			</ul>
+		</main>
 	</body>
 </html>
