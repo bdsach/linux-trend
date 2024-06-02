@@ -17,19 +17,19 @@ const scrap = async (childNum = 2) => {
   switch (childNum) {
     case 1:
       month = 12;
-      resultObj.last12months = [];
+      resultObj.data = [];
       break;
     case 2:
       month = 6;
-      resultObj.last6months = [];
+      resultObj.data = [];
       break;
     case 3:
       month = 3;
-      resultObj.last3months = [];
+      resultObj.data = [];
       break;
     case 4:
       month = 1;
-      resultObj.last1months = [];
+      resultObj.data = [];
       break;
     default:
       break;
