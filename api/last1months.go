@@ -25,7 +25,7 @@ type ResponseData struct {
 
 func Json(w http.ResponseWriter, r *http.Request) {
 	// Open the JSON file
-	jsonFile, err := os.Open("../data/last1months.json")
+	jsonFile, err := os.Open("data/last1months.json")
 	if err != nil {
 		// Handle error and return 500 status code
 		http.Error(w, "Unable to open JSON file", http.StatusInternalServerError)
