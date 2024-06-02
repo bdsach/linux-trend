@@ -1,12 +1,11 @@
 const express = require("express");
 const app = express();
-const data = require("../data/last1months.json");
+const dataLast1months = require("../data/last1months.json");
 
-app.get("/", (req, res) => res.send("Express on Vercel"));
+app.use(express.static("public"));
 
-
-app.get("/last1months", (req, res) => {
-    res.json(data);
+app.get("/api/last1months", (req, res) => {
+  res.json(dataLast1months);
 });
 
 app.listen(3000, () => console.log("Server ready on port 3000."));
