@@ -1,9 +1,0 @@
-{
-    "rewrites": [
-        {
-          "source": "/favicon.ico",
-          "destination": "https://assets.vercel.com/image/upload/front/favicon/vercel/favicon.ico"
-        },
-        { "source": "/(.*)", "destination": "/api/index.go" }
-      ]
-}
