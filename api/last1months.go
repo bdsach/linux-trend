@@ -2,6 +2,7 @@ package handlers
 
 import (
 	"encoding/json"
+	"log"
 	"net/http"
 	"os"
 	"time"
@@ -23,20 +24,35 @@ type ResponseData struct {
 }
 
 func Json(w http.ResponseWriter, r *http.Request) {
-
-	// read json file root project /data/last1months.json
+	// Open the JSON file
 	jsonFile, err := os.Open("data/last1months.json")
-
 	if err != nil {
-		println(err)
+		// Handle error and return 500 status code
+		http.Error(w, "Unable to open JSON file", http.StatusInternalServerError)
+		log.Println(err)
+		return
 	}
-
 	defer jsonFile.Close()
 
-	data := ResponseData{
-		CreateAt: time.Now(),
-		Data:     []DistroItem{},
+	// Decode the JSON file into a Go data structure
+	var data interface{}
+	err = json.NewDecoder(jsonFile).Decode(&data)
+	if err != nil {
+		// Handle error and return 500 status code
+		http.Error(w, "Unable to decode JSON file", http.StatusInternalServerError)
+		log.Println(err)
+		return
 	}
+
+	// Set the content type to application/json
 	w.Header().Set("Content-Type", "application/json")
-	json.NewEncoder(w).Encode(data)
+
+	// Encode the data structure into JSON and write it to the response
+	err = json.NewEncoder(w).Encode(data)
+	if err != nil {
+		// Handle error and return 500 status code
+		http.Error(w, "Unable to encode JSON response", http.StatusInternalServerError)
+		log.Println(err)
+		return
+	}
 }
