@@ -1,0 +1,13 @@
+{
+	"name": "linux-trend-api",
+	"version": "1.0.0",
+	"description": "Deploy JSON Server to Vercel",
+	"main": "api/server.js",
+	"scripts": {
+		"dev": "node api/server.js"
+	},
+	"dependencies": {
+		"express": "^4.19.2",
+		"json-server": "^0.17.4"
+	}
+}
