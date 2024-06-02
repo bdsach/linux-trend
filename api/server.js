@@ -2,6 +2,9 @@ const express = require("express");
 const app = express();
 const data = require("../data/last1months.json");
 
+app.get("/", (req, res) => res.send("Express on Vercel"));
+
+
 app.get("/last1months", (req, res) => {
     res.json(data);
 });
