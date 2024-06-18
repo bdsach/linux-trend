@@ -5,18 +5,34 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Linux Trend</title>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+		<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 	</head>
 	<body class="container">
 		<header>
 			<h1 id="linux-trend-api">Linux Trend API</h1>
 			<p>Get JSON data from DistroWatch Page Hit.</p>
 		</header>
+		<hr />
 		<main>
+			<div id="app">
+				<div v-if="loading">Loading...</div>
+				<div v-else>
+				  <h2>Last 1 Month Trends</h2>
+				  <ul>
+					<li v-for="(distro, index) in distros" :key="index">
+					  {{ distro.name }}: {{ distro.hits }}
+					</li>
+				  </ul>
+				</div>
+				<i style="font-size: 16px;">updateAt: {{ updateAt }}</i>
+			</div>
+			<hr />
 			<h2 id="try-it-run">Try it Run</h2>
 			<p>this code here, in a console or from any site</p>
 			<pre><code class="language-js">fetch(&quot;https://linux-trend.vercel.app/api/last1months&quot;)
   .then((response) =&gt; response.json())
   .then((json) =&gt; console.log(json))</code></pre>
+  			<hr />
 			<h2 id="resources">Resources</h2>
 			<p>Following resources are available which you can access via our REST API.</p>
 			<ul>
@@ -26,5 +42,31 @@
 				<li><a href="https://linux-trend.vercel.app/api/last1months">Last 1 Months</a></li>
 			</ul>
 		</main>
+		<script>
+			const { createApp } = Vue;
+			createApp({
+			data() {
+				return {
+				distros: [],
+				updateAt: new Date(),
+				loading: true
+				};
+			},
+			mounted() {
+				fetch("https://linux-trend.vercel.app/api/last1months")
+				.then(response => response.json())
+				.then(data => {
+					console.log(data)
+					this.distros = data.data.slice(0,10);
+					this.updateAt = new Date(data.createAt).toLocaleString()
+					this.loading = false;
+				})
+				.catch(error => {
+					console.error('Error fetching data:', error);
+					this.loading = false;
+				});
+			}
+			}).mount('#app');
+		  </script>
 	</body>
 </html>
