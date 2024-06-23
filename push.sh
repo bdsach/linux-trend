@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Get the current date (date time)
 current_datetime=$(date +'%d-%m-%Y %H:%M:%S')
 
