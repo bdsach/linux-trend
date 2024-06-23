@@ -7,7 +7,7 @@ current_datetime=$(date +'%d-%m-%Y %H:%M:%S')
 if [ -n "$(git status --porcelain)" ]; then
   # Add and commit changes to Git
   git add .
-  git commit -m "📚 push from script: $current_datetime"
+  git commit -m "📚 update from script: $current_datetime"
 
   # Push to GitHub (replace <branch> with your desired branch name)
   git push origin main
