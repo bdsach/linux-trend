@@ -4,7 +4,7 @@ const path = require("path");
 const distroUrl = "https://distrowatch.com/dwres.php?resource=popularity";
 
 const scrap = async (section) => {
-  const totalDistro = 274;
+  const totalDistro = 271;
 
   let result = [];
   let start = 2;
