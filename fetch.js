@@ -8,6 +8,20 @@ function getLogo(name) {
   return `https://linux-trend.vercel.app/logos/${name}.svg`.toLocaleLowerCase();
 }
 
+function getDesktop(name) {
+  const data = fs.readFileSync("./data/distroName.json", "utf8");
+  const distroName = JSON.parse(data);
+  
+  const foundItem = distroName.find((item) => item.name === name);
+  if (foundItem) {
+    return foundItem.desktop;
+  } else {
+    // Handle the case when no matching item is found
+    console.error(`No item found with the name: ${name}`);
+    return null; // or return an empty array [] if you prefer
+  }
+}
+
 function getCategory(name) {
   const data = fs.readFileSync("./data/distroName.json", "utf8");
   const distroName = JSON.parse(data);
@@ -114,6 +128,7 @@ const scrap = async (childNum = 2) => {
           url: url,
           logo: getLogo(nameEvaluate),
           category: getCategory(nameEvaluate),
+          desktop: getDesktop(nameEvaluate),
           yesterday: parseInt(yesterdayEvaluate.slice(11, 15)),
         });
         break;
@@ -126,6 +141,7 @@ const scrap = async (childNum = 2) => {
           url: url,
           logo: getLogo(nameEvaluate),
           category: getCategory(nameEvaluate),
+          desktop: getDesktop(nameEvaluate),
           yesterday: parseInt(yesterdayEvaluate.slice(11, 15)),
         });
         break;
@@ -138,6 +154,7 @@ const scrap = async (childNum = 2) => {
           url: url,
           logo: getLogo(nameEvaluate),
           category: getCategory(nameEvaluate),
+          desktop: getDesktop(nameEvaluate),
           yesterday: parseInt(yesterdayEvaluate.slice(11, 15)),
         });
         break;
@@ -150,6 +167,7 @@ const scrap = async (childNum = 2) => {
           url: url,
           logo: getLogo(nameEvaluate),
           category: getCategory(nameEvaluate),
+          desktop: getDesktop(nameEvaluate),
           yesterday: parseInt(yesterdayEvaluate.slice(11, 15)),
         });
         break;
