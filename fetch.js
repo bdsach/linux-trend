@@ -149,6 +149,7 @@ const scrap = async (childNum = 2) => {
           trend: getTrend,
           url: url,
           logo: getLogo(nameEvaluate),
+          category: getCategory(nameEvaluate),
           yesterday: parseInt(yesterdayEvaluate.slice(11, 15)),
         });
         break;
