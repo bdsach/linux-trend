@@ -8,6 +8,20 @@ function getLogo(name) {
   return `https://linux-trend.vercel.app/logos/${name}.svg`.toLocaleLowerCase();
 }
 
+function getCategory(name) {
+  const data = fs.readFileSync("./data/distroName.json", "utf8");
+  const distroName = JSON.parse(data);
+  
+  const foundItem = distroName.find((item) => item.name === name);
+  if (foundItem) {
+    return foundItem.categories;
+  } else {
+    // Handle the case when no matching item is found
+    console.error(`No item found with the name: ${name}`);
+    return null; // or return an empty array [] if you prefer
+  }
+}
+
 const scrap = async (childNum = 2) => {
   let month = 0;
   let resultObj = {
@@ -99,6 +113,7 @@ const scrap = async (childNum = 2) => {
           trend: getTrend,
           url: url,
           logo: getLogo(nameEvaluate),
+          category: getCategory(nameEvaluate),
           yesterday: parseInt(yesterdayEvaluate.slice(11, 15)),
         });
         break;
@@ -110,6 +125,7 @@ const scrap = async (childNum = 2) => {
           trend: getTrend,
           url: url,
           logo: getLogo(nameEvaluate),
+          category: getCategory(nameEvaluate),
           yesterday: parseInt(yesterdayEvaluate.slice(11, 15)),
         });
         break;
@@ -121,6 +137,7 @@ const scrap = async (childNum = 2) => {
           trend: getTrend,
           url: url,
           logo: getLogo(nameEvaluate),
+          category: getCategory(nameEvaluate),
           yesterday: parseInt(yesterdayEvaluate.slice(11, 15)),
         });
         break;
