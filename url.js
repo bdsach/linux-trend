@@ -82,14 +82,25 @@ const scrap = async (section) => {
       /(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])/gim
     );
 
+    const categories = await page2.$$eval(
+      "a[href*='search.php?category=']",
+      (links) => links.map((link) => link.textContent)
+    );
+
+    const desktop = await page2.$$eval(
+      "a[href*='search.php?desktop=']",
+      (links) => links.map((link) => link.textContent)
+    );
+
     const url = getUrl[1];
 
     console.log(i - 1, nameEvaluate, url, "✅");
 
     result.push({
       name: nameEvaluate,
+      categories,
+      desktop,
       url,
-      logo: "",
     });
     await browser.close();
   }

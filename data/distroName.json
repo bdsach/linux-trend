@@ -1,435 +1,2005 @@
 [
-  { "name": "MX Linux", "url": "https://mxlinux.org/", "logo": "" },
-  { "name": "Mint", "url": "https://linuxmint.com/", "logo": "" },
-  { "name": "EndeavourOS", "url": "https://endeavouros.com/", "logo": "" },
-  { "name": "Debian", "url": "https://www.debian.org/", "logo": "" },
-  { "name": "Manjaro", "url": "https://manjaro.org/", "logo": "" },
-  { "name": "Ubuntu", "url": "https://www.ubuntu.com/", "logo": "" },
-  { "name": "Fedora", "url": "https://getfedora.org/", "logo": "" },
-  { "name": "Pop!_OS", "url": "https://system76.com/pop", "logo": "" },
-  { "name": "Zorin", "url": "https://zorin.com/os/", "logo": "" },
-  { "name": "openSUSE", "url": "https://www.opensuse.org/", "logo": "" },
-  { "name": "CachyOS", "url": "https://cachyos.org/", "logo": "" },
-  { "name": "Nobara", "url": "https://nobaraproject.org/", "logo": "" },
-  { "name": "KDE neon", "url": "https://neon.kde.org/", "logo": "" },
-  { "name": "antiX", "url": "https://antixlinux.com/", "logo": "" },
-  { "name": "Garuda", "url": "https://garudalinux.org/", "logo": "" },
-  { "name": "elementary", "url": "https://elementary.io/", "logo": "" },
-  { "name": "NixOS", "url": "https://nixos.org/", "logo": "" },
-  { "name": "Vanilla", "url": "https://vanillaos.org/", "logo": "" },
-  { "name": "TUXEDO", "url": "https://www.tuxedocomputers.com/os", "logo": "" },
-  { "name": "SparkyLinux", "url": "https://sparkylinux.org/", "logo": "" },
-  { "name": "Kali", "url": "https://www.kali.org/", "logo": "" },
-  { "name": "FreeBSD", "url": "https://www.freebsd.org/", "logo": "" },
-  { "name": "Lite", "url": "https://www.linuxliteos.com/", "logo": "" },
-  { "name": "Solus", "url": "https://getsol.us/", "logo": "" },
-  { "name": "AlmaLinux", "url": "https://almalinux.org/", "logo": "" },
-  { "name": "Alpine", "url": "https://www.alpinelinux.org/", "logo": "" },
+  {
+    "name": "MX Linux",
+    "categories": ["Desktop", "From RAM", "Live Medium", "Raspberry Pi"],
+    "desktop": ["Fluxbox", "KDE Plasma", "Xfce"],
+    "url": "https://mxlinux.org/"
+  },
+  {
+    "name": "Mint",
+    "categories": ["Beginners", "Desktop", "Live Medium"],
+    "desktop": ["Cinnamon", "MATE", "Xfce"],
+    "url": "https://linuxmint.com/"
+  },
+  {
+    "name": "EndeavourOS",
+    "categories": ["Desktop", "Live Medium", "Raspberry Pi"],
+    "desktop": [
+      "Budgie",
+      "Cinnamon",
+      "GNOME",
+      "i3",
+      "KDE Plasma",
+      "LXQt",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://endeavouros.com/"
+  },
+  {
+    "name": "Debian",
+    "categories": ["Desktop", "Live Medium", "Server"],
+    "desktop": [
+      "AfterStep",
+      "Awesome",
+      "Blackbox",
+      "Budgie",
+      "Cinnamon",
+      "Fluxbox",
+      "flwm",
+      "FVWM",
+      "GNOME",
+      "i3",
+      "IceWM",
+      "ion",
+      "JWM",
+      "KDE",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Openbox",
+      "pekwm",
+      "Ratpoison",
+      "WMaker",
+      "XBMC",
+      "Xfce"
+    ],
+    "url": "https://www.debian.org/"
+  },
+  {
+    "name": "Manjaro",
+    "categories": ["Desktop", "Live Medium", "Raspberry Pi"],
+    "desktop": [
+      "Awesome",
+      "bspwm",
+      "Budgie",
+      "Cinnamon",
+      "GNOME",
+      "i3",
+      "KDE Plasma",
+      "LXQt",
+      "MATE",
+      "Openbox",
+      "Sway",
+      "Xfce"
+    ],
+    "url": "https://manjaro.org/"
+  },
+  {
+    "name": "Ubuntu",
+    "categories": [
+      "Beginners",
+      "Desktop",
+      "Immutable",
+      "Server",
+      "Live Medium"
+    ],
+    "desktop": ["GNOME", "Unity"],
+    "url": "https://www.ubuntu.com/"
+  },
+  {
+    "name": "Fedora",
+    "categories": ["Desktop", "Immutable", "Server", "Live Medium"],
+    "desktop": [
+      "Awesome",
+      "Budgie",
+      "Cinnamon",
+      "Enlightenment",
+      "i3",
+      "GNOME",
+      "KDE Plasma",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Openbox",
+      "Pantheon",
+      "Ratpoison",
+      "Xfce"
+    ],
+    "url": "https://getfedora.org/"
+  },
+  {
+    "name": "Pop!_OS",
+    "categories": ["Desktop", "Live Medium", "Raspberry Pi"],
+    "desktop": ["GNOME"],
+    "url": "https://system76.com/pop"
+  },
+  {
+    "name": "Zorin",
+    "categories": ["Beginners", "Desktop", "Live Medium"],
+    "desktop": ["GNOME", "Xfce"],
+    "url": "https://zorin.com/os/"
+  },
+  {
+    "name": "openSUSE",
+    "categories": [
+      "Desktop",
+      "Immutable",
+      "Server",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "Enlightenment",
+      "GNOME",
+      "IceWM",
+      "KDE Plasma",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://www.opensuse.org/"
+  },
+  {
+    "name": "CachyOS",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["KDE Plasma"],
+    "url": "https://cachyos.org/"
+  },
+  {
+    "name": "Nobara",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["GNOME", "KDE"],
+    "url": "https://nobaraproject.org/"
+  },
+  {
+    "name": "KDE neon",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["KDE Plasma"],
+    "url": "https://neon.kde.org/"
+  },
+  {
+    "name": "antiX",
+    "categories": ["From RAM", "Desktop", "Live Medium", "Old Computers"],
+    "desktop": ["Fluxbox", "IceWM", "JWM"],
+    "url": "https://antixlinux.com/"
+  },
+  {
+    "name": "elementary",
+    "categories": ["Beginners", "Desktop", "Live Medium"],
+    "desktop": ["Pantheon"],
+    "url": "https://elementary.io/"
+  },
+  {
+    "name": "Garuda",
+    "categories": ["Desktop", "Live Media"],
+    "desktop": [
+      "bspwm",
+      "Cinnamon",
+      "GNOME",
+      "i3",
+      "KDE Plasma",
+      "Recbox",
+      "UKUI",
+      "Xfce"
+    ],
+    "url": "https://garudalinux.org/"
+  },
+  {
+    "name": "NixOS",
+    "categories": ["Desktop", "Education", "Live Medium", "Server"],
+    "desktop": [
+      "Awesome",
+      "Enlightenment",
+      "Fluxbox",
+      "GNOME",
+      "i3",
+      "IceWM",
+      "KDE Plasma",
+      "LXQt",
+      "Ratpoison",
+      "Xfce"
+    ],
+    "url": "https://nixos.org/"
+  },
+  {
+    "name": "Vanilla",
+    "categories": ["Desktop", "Immutable", "Live Medium"],
+    "desktop": ["GNOME"],
+    "url": "https://vanillaos.org/"
+  },
+  {
+    "name": "TUXEDO",
+    "categories": ["Beginners", "Desktop", "Live Medium"],
+    "desktop": ["KDE Plasma"],
+    "url": "https://www.tuxedocomputers.com/os"
+  },
+  {
+    "name": "SparkyLinux",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": [
+      "Budgie",
+      "Enlightenment",
+      "JWM",
+      "KDE Plasma",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Openbox",
+      "Xfce"
+    ],
+    "url": "https://sparkylinux.org/"
+  },
+  {
+    "name": "Kali",
+    "categories": [
+      "Data Rescue",
+      "Forensics",
+      "Live Medium",
+      "Raspberry Pi",
+      "Security"
+    ],
+    "desktop": ["GNOME", "KDE Plasma", "Xfce"],
+    "url": "https://www.kali.org/"
+  },
+  {
+    "name": "Lite",
+    "categories": ["Beginners", "Desktop", "Live Medium"],
+    "desktop": ["Xfce"],
+    "url": "https://www.linuxliteos.com/"
+  },
+  {
+    "name": "FreeBSD",
+    "categories": ["Desktop", "Firewall", "Raspberry Pi", "Server"],
+    "desktop": ["Cinnamon", "GNOME", "KDE Plasma", "LXQt", "MATE", "Xfce"],
+    "url": "https://www.freebsd.org/"
+  },
+  {
+    "name": "Solus",
+    "categories": ["Beginners", "Desktop", "Live Medium"],
+    "desktop": ["Budgie", "GNOME", "KDE Plasma", "Xfce"],
+    "url": "https://getsol.us/"
+  },
+  {
+    "name": "AlmaLinux",
+    "categories": ["Desktop", "Server", "Raspberry Pi"],
+    "desktop": ["GNOME", "KDE Plasma", "MATE", "Xfce"],
+    "url": "https://almalinux.org/"
+  },
+  {
+    "name": "Alpine",
+    "categories": [
+      "Firewall",
+      "From RAM",
+      "Raspberry Pi",
+      "Server",
+      "Security",
+      "Telephony"
+    ],
+    "desktop": ["GNOME", "KDE Plasma", "LXQt", "MATE", "Xfce"],
+    "url": "https://www.alpinelinux.org/"
+  },
   {
     "name": "Puppy",
-    "url": "https://puppylinux-woof-ce.github.io/",
-    "logo": ""
+    "categories": [
+      "Desktop",
+      "From RAM",
+      "Old Computers",
+      "Live Medium",
+      "Netbooks"
+    ],
+    "desktop": ["JWM", "Openbox"],
+    "url": "https://puppylinux-woof-ce.github.io/"
   },
-  { "name": "PCLinuxOS", "url": "https://www.pclinuxos.com/", "logo": "" },
-  { "name": "Kubuntu", "url": "https://kubuntu.org/", "logo": "" },
-  { "name": "Mageia", "url": "https://www.mageia.org/", "logo": "" },
-  { "name": "EasyOS", "url": "https://easyos.org/", "logo": "" },
-  { "name": "Tails", "url": "https://tails.net/", "logo": "" },
-  { "name": "ArcoLinux", "url": "https://arcolinux.info/", "logo": "" },
-  { "name": "Q4OS", "url": "https://q4os.org/", "logo": "" },
-  { "name": "Devuan", "url": "https://devuan.org/", "logo": "" },
-  { "name": "CentOS", "url": "https://www.centos.org/", "logo": "" },
+  {
+    "name": "EasyOS",
+    "categories": ["Desktop", "Live Medium", "Specialist"],
+    "desktop": ["JWM"],
+    "url": "https://easyos.org/"
+  },
+  {
+    "name": "Kubuntu",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["KDE Plasma"],
+    "url": "https://kubuntu.org/"
+  },
+  {
+    "name": "PCLinuxOS",
+    "categories": ["Beginners", "Desktop", "Live Medium"],
+    "desktop": ["KDE Plasma", "MATE", "Xfce"],
+    "url": "https://www.pclinuxos.com/"
+  },
+  {
+    "name": "Mageia",
+    "categories": ["Desktop", "Live Medium", "Server"],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "IceWM",
+      "KDE",
+      "MATE",
+      "LXDE",
+      "LXQt",
+      "Openbox",
+      "WMaker",
+      "Xfce"
+    ],
+    "url": "https://www.mageia.org/"
+  },
+  {
+    "name": "Tails",
+    "categories": ["From RAM", "Live Medium", "Privacy", "Security"],
+    "desktop": ["GNOME"],
+    "url": "https://tails.net/"
+  },
+  {
+    "name": "ArcoLinux",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["KDE Plasma", "Xfce"],
+    "url": "https://arcolinux.info/"
+  },
+  {
+    "name": "Q4OS",
+    "categories": ["Desktop", "Live Medium", "Old Computers"],
+    "desktop": ["KDE Plasma", "Trinity"],
+    "url": "https://q4os.org/"
+  },
+  {
+    "name": "CentOS",
+    "categories": ["Desktop", "Live Medium", "Server"],
+    "desktop": ["GNOME"],
+    "url": "https://www.centos.org/"
+  },
+  {
+    "name": "Devuan",
+    "categories": ["Desktop", "Live Medium", "Server", "Raspberry Pi"],
+    "desktop": ["Cinnamon", "KDE Plasma", "LXQt", "MATE", "Xfce"],
+    "url": "https://devuan.org/"
+  },
   {
     "name": "Bluestar",
-    "url": "https://sourceforge.net/projects/bluestarlinux/",
-    "logo": ""
+    "categories": ["Desktop"],
+    "desktop": ["KDE Plasma"],
+    "url": "https://sourceforge.net/projects/bluestarlinux/"
   },
-  { "name": "Slackware", "url": "http://www.slackware.com/", "logo": "" },
-  { "name": "deepin", "url": "https://deepin.org/", "logo": "" },
-  { "name": "Voyager", "url": "https://voyagerlive.org/", "logo": "" },
-  { "name": "Peppermint", "url": "https://peppermintos.com/", "logo": "" },
-  { "name": "Parrot", "url": "https://parrotsec.org/", "logo": "" },
-  { "name": "Regata", "url": "https://www.regataos.com.br/", "logo": "" },
-  { "name": "GhostBSD", "url": "https://www.ghostbsd.org/", "logo": "" },
-  { "name": "Lubuntu", "url": "https://lubuntu.me/", "logo": "" },
-  { "name": "wattOS", "url": "https://www.planetwatt.com/", "logo": "" },
-  { "name": "KaOS", "url": "https://kaosx.us/", "logo": "" },
-  { "name": "Rhino", "url": "https://rhinolinux.org/", "logo": "" },
-  { "name": "Rocky", "url": "https://rockylinux.org/", "logo": "" },
-  { "name": "SDesk", "url": "https://www.stevestudios.net/", "logo": "" },
-  { "name": "Gnoppix", "url": "https://www.gnoppix.com/", "logo": "" },
-  { "name": "Qubes", "url": "https://qubes-os.org/", "logo": "" },
-  { "name": "Archcraft", "url": "https://archcraft.io/", "logo": "" },
   {
-    "name": "Ultramarine",
-    "url": "https://ultramarine-linux.org/",
-    "logo": ""
+    "name": "deepin",
+    "categories": ["Desktop"],
+    "desktop": ["Deepin"],
+    "url": "https://deepin.org/"
+  },
+  {
+    "name": "Slackware",
+    "categories": ["Desktop", "Server"],
+    "desktop": ["Blackbox", "Fluxbox", "FVWM", "KDE", "WMaker", "Xfce"],
+    "url": "http://www.slackware.com/"
+  },
+  {
+    "name": "Voyager",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["GNOME", "Xfce"],
+    "url": "https://voyagerlive.org/"
+  },
+  {
+    "name": "Regata",
+    "categories": ["Desktop", "Gaming", "Live Medium"],
+    "desktop": ["KDE Plasma"],
+    "url": "https://www.regataos.com.br/"
+  },
+  {
+    "name": "Parrot",
+    "categories": ["Forensics", "Live Medium", "Security"],
+    "desktop": ["KDE Plasma", "MATE"],
+    "url": "https://parrotsec.org/"
+  },
+  {
+    "name": "Peppermint",
+    "categories": ["Desktop", "Live Medium", "Raspberry Pi"],
+    "desktop": ["Xfce"],
+    "url": "https://peppermintos.com/"
+  },
+  {
+    "name": "Lubuntu",
+    "categories": ["Desktop", "Live Medium", "Netbooks"],
+    "desktop": ["LXDE", "LXQt"],
+    "url": "https://lubuntu.me/"
+  },
+  {
+    "name": "wattOS",
+    "categories": ["Desktop", "Live Medium", "Netbooks", "Old Computers"],
+    "desktop": ["LXDE"],
+    "url": "https://www.planetwatt.com/"
+  },
+  {
+    "name": "GhostBSD",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["MATE", "Xfce"],
+    "url": "https://www.ghostbsd.org/"
+  },
+  {
+    "name": "KaOS",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["KDE Plasma"],
+    "url": "https://kaosx.us/"
+  },
+  {
+    "name": "Rhino",
+    "categories": ["Desktop", "Live Medium", "Raspberry Pi"],
+    "desktop": ["Xfce"],
+    "url": "https://rhinolinux.org/"
+  },
+  {
+    "name": "Rocky",
+    "categories": ["Desktop", "Server"],
+    "desktop": ["GNOME"],
+    "url": "https://rockylinux.org/"
+  },
+  {
+    "name": "SDesk",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["GNOME"],
+    "url": "https://www.stevestudios.net/"
+  },
+  {
+    "name": "Qubes",
+    "categories": ["Desktop", "Security"],
+    "desktop": ["Xfce"],
+    "url": "https://qubes-os.org/"
   },
   {
     "name": "Damn Small",
-    "url": "https://www.damnsmalllinux.org/",
-    "logo": ""
+    "categories": ["Desktop", "Old Computers", "Live Medium"],
+    "desktop": ["JWM", "Fluxbox"],
+    "url": "https://www.damnsmalllinux.org/"
   },
-  { "name": "Murena", "url": "https://murena.com/", "logo": "" },
+  {
+    "name": "Ultramarine",
+    "categories": ["Desktop", "Live Medium", "Raspberry Pi"],
+    "desktop": ["Budgie", "GNOME", "KDE Plasma", "Xfce"],
+    "url": "https://ultramarine-linux.org/"
+  },
+  {
+    "name": "Archcraft",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["bspwm", "Openbox"],
+    "url": "https://archcraft.io/"
+  },
+  {
+    "name": "Murena",
+    "categories": ["Immutable", "Mobile"],
+    "desktop": ["Bliss"],
+    "url": "https://murena.com/"
+  },
+  {
+    "name": "Gnoppix",
+    "categories": ["Live Medium", "Security"],
+    "desktop": ["GNOME", "KDE Plasma", "Xfce"],
+    "url": "https://www.gnoppix.com/"
+  },
   {
     "name": "OpenMandriva",
-    "url": "https://www.openmandriva.org/",
-    "logo": ""
+    "categories": ["Desktop", "Live Medium", "Raspberry Pi"],
+    "desktop": ["KDE Plasma"],
+    "url": "https://www.openmandriva.org/"
   },
-  { "name": "Bodhi", "url": "https://www.bodhilinux.com/", "logo": "" },
-  { "name": "Xubuntu", "url": "https://www.xubuntu.org/", "logo": "" },
+  {
+    "name": "Bodhi",
+    "categories": ["Desktop", "Live Medium", "Netbooks", "Old Computers"],
+    "desktop": ["Moksha (Enlightenment)"],
+    "url": "https://www.bodhilinux.com/"
+  },
   {
     "name": "Calculate",
-    "url": "https://www.calculate-linux.org/",
-    "logo": ""
+    "categories": ["Desktop", "Live Medium", "Server", "Source-based"],
+    "desktop": ["Cinnamon", "KDE Plasma", "LXQt", "MATE", "Xfce"],
+    "url": "https://www.calculate-linux.org/"
   },
-  { "name": "Gentoo", "url": "https://www.gentoo.org/", "logo": "" },
-  { "name": "BigLinux", "url": "https://www.biglinux.com.br/", "logo": "" },
-  { "name": "Red Hat", "url": "http://www.redhat.com/", "logo": "" },
-  { "name": "Arch", "url": "http://www.archlinux.org/", "logo": "" },
-  { "name": "Mabox", "url": "https://maboxlinux.org/", "logo": "" },
-  { "name": "ALT", "url": "https://en.altlinux.org/", "logo": "" },
-  { "name": "ReactOS", "url": "https://www.reactos.org/", "logo": "" },
-  { "name": "PureOS", "url": "https://pureos.net/", "logo": "" },
-  { "name": "Endless", "url": "https://endlessos.com/", "logo": "" },
-  { "name": "blendOS", "url": "https://blendos.co/", "logo": "" },
-  { "name": "4MLinux", "url": "https://4mlinux.com/", "logo": "" },
+  {
+    "name": "Xubuntu",
+    "categories": ["Desktop"],
+    "desktop": ["Xfce"],
+    "url": "https://www.xubuntu.org/"
+  },
+  {
+    "name": "Gentoo",
+    "categories": ["Desktop", "Server", "Source-based"],
+    "desktop": [
+      "AfterStep",
+      "Awesome",
+      "Blackbox",
+      "Enlightenment",
+      "Fluxbox",
+      "GNOME",
+      "IceWM",
+      "KDE Plasma",
+      "LXDE",
+      "MATE",
+      "Openbox",
+      "WMaker",
+      "Xfce"
+    ],
+    "url": "https://www.gentoo.org/"
+  },
+  {
+    "name": "Red Hat",
+    "categories": ["Desktop", "Server"],
+    "desktop": ["GNOME"],
+    "url": "http://www.redhat.com/"
+  },
+  {
+    "name": "Arch",
+    "categories": ["Desktop", "Server"],
+    "desktop": [
+      "Cinnamon",
+      "Enlightenment",
+      "GNOME",
+      "KDE",
+      "LXDE",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "http://www.archlinux.org/"
+  },
+  {
+    "name": "BigLinux",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["KDE Plasma"],
+    "url": "https://www.biglinux.com.br/"
+  },
+  {
+    "name": "Mabox",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Openbox"],
+    "url": "https://maboxlinux.org/"
+  },
+  {
+    "name": "ReactOS",
+    "categories": ["Desktop", "Old Computers", "Live Medium"],
+    "desktop": ["ReactOS Explorer"],
+    "url": "https://www.reactos.org/"
+  },
+  {
+    "name": "4MLinux",
+    "categories": ["Desktop", "Live Medium", "Server"],
+    "desktop": ["JWM"],
+    "url": "https://4mlinux.com/"
+  },
+  {
+    "name": "Endless",
+    "categories": ["Desktop", "Immutable", "Live Medium", "Raspberry Pi"],
+    "desktop": ["EOS Shell (GNOME)"],
+    "url": "https://endlessos.com/"
+  },
+  {
+    "name": "PureOS",
+    "categories": ["Desktop", "Free Software", "Live Medium", "Mobile"],
+    "desktop": ["GNOME"],
+    "url": "https://pureos.net/"
+  },
   {
     "name": "AV Linux",
-    "url": "https://www.bandshed.net/avlinux/",
-    "logo": ""
+    "categories": ["Desktop", "Live Medium", "Multimedia"],
+    "desktop": ["Enlightenment", "Xfce"],
+    "url": "https://www.bandshed.net/avlinux/"
   },
-  { "name": "Haiku", "url": "https://haiku-os.org/", "logo": "" },
-  { "name": "RELIANOID", "url": "https://www.relianoid.com/", "logo": "" },
+  {
+    "name": "Haiku",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Haiku"],
+    "url": "https://haiku-os.org/"
+  },
+  {
+    "name": "RELIANOID",
+    "categories": ["Firewall", "Specialist"],
+    "desktop": ["No Desktop", "WebUI"],
+    "url": "https://www.relianoid.com/"
+  },
+  {
+    "name": "ALT",
+    "categories": [
+      "Data Rescue",
+      "Desktop",
+      "Education",
+      "Live Medium",
+      "Raspberry Pi",
+      "Old Computers",
+      "Security",
+      "Server"
+    ],
+    "desktop": [
+      "AfterStep",
+      "Blackbox",
+      "Cinnamon",
+      "Enlightenment",
+      "FVWM",
+      "GNOME",
+      "IceWM",
+      "KDE",
+      "LXDE",
+      "MATE",
+      "Openbox",
+      "LXQt",
+      "WMaker",
+      "Xfce"
+    ],
+    "url": "https://en.altlinux.org/"
+  },
+  {
+    "name": "blendOS",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["GNOME"],
+    "url": "https://blendos.co/"
+  },
   {
     "name": "SpiralLinux",
-    "url": "https://spirallinux.github.io/",
-    "logo": ""
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": [
+      "Budgie",
+      "Cinnamon",
+      "GNOME",
+      "KDE Plasma",
+      "LXQt",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://spirallinux.github.io/"
+  },
+  {
+    "name": "Linuxfx",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["KDE Plasma"],
+    "url": "https://www.linuxfx.org/"
+  },
+  {
+    "name": "Artix",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Cinnamon", "LXDE", "LXQt", "MATE", "KDE Plasma", "Xfce"],
+    "url": "https://artixlinux.org/"
   },
   {
     "name": "SmartOS",
-    "url": "https://www.tritondatacenter.com/smartos",
-    "logo": ""
+    "categories": ["Specialist", "Live Medium"],
+    "desktop": ["No Desktop"],
+    "url": "https://www.tritondatacenter.com/smartos"
   },
-  { "name": "Linuxfx", "url": "https://www.linuxfx.org/", "logo": "" },
-  { "name": "Artix", "url": "https://artixlinux.org/", "logo": "" },
-  { "name": "Tiny Core", "url": "http://www.tinycorelinux.net/", "logo": "" },
-  { "name": "OpenBSD", "url": "https://www.openbsd.org/", "logo": "" },
-  { "name": "RebornOS", "url": "https://rebornos.org/", "logo": "" },
-  { "name": "Ubuntu Studio", "url": "https://ubuntustudio.org/", "logo": "" },
-  { "name": "SysLinuxOS", "url": "https://syslinuxos.com/", "logo": "" },
-  { "name": "TrueNAS", "url": "https://www.truenas.com/", "logo": "" },
-  { "name": "Oracle", "url": "https://www.oracle.com/linux/", "logo": "" },
-  { "name": "Ubuntu MATE", "url": "https://ubuntu-mate.org/", "logo": "" },
-  { "name": "MakuluLinux", "url": "https://www.makululinux.com/", "logo": "" },
+  {
+    "name": "Tiny Core",
+    "categories": [
+      "Desktop",
+      "From RAM",
+      "Live Medium",
+      "Old Computers",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "dwm",
+      "Fluxbox",
+      "flwm",
+      "GNOME",
+      "Hackedbox",
+      "i3",
+      "IceWM",
+      "JWM",
+      "Openbox",
+      "WMFS"
+    ],
+    "url": "http://www.tinycorelinux.net/"
+  },
+  {
+    "name": "OpenBSD",
+    "categories": ["Security", "Server"],
+    "desktop": [
+      "AfterStep",
+      "Awesome",
+      "Blackbox",
+      "Enlightenment",
+      "Fluxbox",
+      "GNOME",
+      "IceWM",
+      "KDE",
+      "Openbox",
+      "WMaker",
+      "Xfce"
+    ],
+    "url": "https://www.openbsd.org/"
+  },
+  {
+    "name": "RebornOS",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Xfce"],
+    "url": "https://rebornos.org/"
+  },
+  {
+    "name": "TrueNAS",
+    "categories": ["NAS"],
+    "desktop": ["No Desktop", "WebUI"],
+    "url": "https://www.truenas.com/"
+  },
+  {
+    "name": "Ubuntu Studio",
+    "categories": ["Desktop", "Live Medium", "Multimedia"],
+    "desktop": ["KDE Plasma"],
+    "url": "https://ubuntustudio.org/"
+  },
+  {
+    "name": "SysLinuxOS",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["GNOME", "MATE"],
+    "url": "https://syslinuxos.com/"
+  },
+  {
+    "name": "Br OS",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["KDE Plasma"],
+    "url": "https://br-os.com/"
+  },
+  {
+    "name": "Oracle",
+    "categories": ["Server"],
+    "desktop": ["GNOME"],
+    "url": "https://www.oracle.com/linux/"
+  },
+  {
+    "name": "Ubuntu MATE",
+    "categories": ["Beginners", "Desktop", "Live Medium", "Raspberry Pi"],
+    "desktop": ["MATE"],
+    "url": "https://ubuntu-mate.org/"
+  },
   {
     "name": "EuroLinux",
-    "url": "https://en.euro-linux.com/eurolinux/",
-    "logo": ""
+    "categories": ["Desktop", "Server"],
+    "desktop": ["GNOME", "KDE Plasma"],
+    "url": "https://en.euro-linux.com/eurolinux/"
   },
-  { "name": "Nitrux", "url": "https://nxos.org/", "logo": "" },
-  { "name": "Emmabuntüs", "url": "https://emmabuntus.org/", "logo": "" },
-  { "name": "Proxmox", "url": "https://www.proxmox.com/", "logo": "" },
-  { "name": "LXLE", "url": "http://www.lxle.net/", "logo": "" },
-  { "name": "BunsenLabs", "url": "https://www.bunsenlabs.org/", "logo": "" },
-  { "name": "Br OS", "url": "https://br-os.com/", "logo": "" },
-  { "name": "Void", "url": "https://voidlinux.org/", "logo": "" },
-  { "name": "Absolute", "url": "https://www.absolutelinux.org/", "logo": "" },
+  {
+    "name": "MakuluLinux",
+    "categories": ["Desktop", "Gaming", "Live Medium"],
+    "desktop": ["Cinnamon", "GNOME", "Xfce"],
+    "url": "https://www.makululinux.com/"
+  },
+  {
+    "name": "Nitrux",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["JWM", "NX Desktop (KDE Plasma)"],
+    "url": "https://nxos.org/"
+  },
+  {
+    "name": "Proxmox",
+    "categories": ["Clusters", "Server", "Specialist"],
+    "desktop": ["Openbox"],
+    "url": "https://www.proxmox.com/"
+  },
+  {
+    "name": "Emmabuntüs",
+    "categories": [
+      "Assistive",
+      "Beginners",
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": ["LXQt", "Xfce"],
+    "url": "https://emmabuntus.org/"
+  },
+  {
+    "name": "BunsenLabs",
+    "categories": ["Desktop"],
+    "desktop": ["Openbox"],
+    "url": "https://www.bunsenlabs.org/"
+  },
+  {
+    "name": "LXLE",
+    "categories": ["Desktop", "Live Medium", "Old Computers"],
+    "desktop": ["LXDE"],
+    "url": "http://www.lxle.net/"
+  },
+  {
+    "name": "Void",
+    "categories": ["Desktop", "Live Medium", "Raspberry Pi"],
+    "desktop": ["Xfce"],
+    "url": "https://voidlinux.org/"
+  },
   {
     "name": "Kodachi",
-    "url": "https://www.digi77.com/linux-kodachi/",
-    "logo": ""
+    "categories": ["Live Medium", "Privacy", "Security"],
+    "desktop": ["Xfce"],
+    "url": "https://www.digi77.com/linux-kodachi/"
   },
-  { "name": "Athena", "url": "https://athenaos.org/", "logo": "" },
-  { "name": "Neptune", "url": "https://neptuneos.com/", "logo": "" },
-  { "name": "NetBSD", "url": "https://www.netbsd.org/", "logo": "" },
+  {
+    "name": "Absolute",
+    "categories": ["Desktop", "Old Computers"],
+    "desktop": ["IceWM"],
+    "url": "https://www.absolutelinux.org/"
+  },
   {
     "name": "Ultimate",
-    "url": "https://sourceforge.net/projects/ultimateedition/",
-    "logo": ""
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["KDE Plasma", "MATE", "Xfce"],
+    "url": "https://sourceforge.net/projects/ultimateedition/"
   },
-  { "name": "Archman", "url": "https://archman.org/", "logo": "" },
+  {
+    "name": "Neptune",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["KDE Plasma"],
+    "url": "https://neptuneos.com/"
+  },
+  {
+    "name": "NetBSD",
+    "categories": ["Desktop", "Raspberry Pi", "Server"],
+    "desktop": [
+      "AfterStep",
+      "Awesome",
+      "Blackbox",
+      "Fluxbox",
+      "GNOME",
+      "IceWM",
+      "KDE",
+      "Openbox",
+      "WMaker",
+      "Xfce"
+    ],
+    "url": "https://www.netbsd.org/"
+  },
+  {
+    "name": "Athena",
+    "categories": ["Desktop", "Forensics", "Live Medium", "Security"],
+    "desktop": ["GNOME"],
+    "url": "https://athenaos.org/"
+  },
+  {
+    "name": "Archman",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["i3", "Xfce"],
+    "url": "https://archman.org/"
+  },
   {
     "name": "OpenMediaVault",
-    "url": "https://www.openmediavault.org/",
-    "logo": ""
+    "categories": ["NAS"],
+    "desktop": ["No Desktop", "WebUI"],
+    "url": "https://www.openmediavault.org/"
   },
-  { "name": "ExTiX", "url": "https://www.extix.se/", "logo": "" },
-  { "name": "Liya", "url": "https://liyalinux.gitlab.io/", "logo": "" },
-  { "name": "Whonix", "url": "https://www.whonix.org/", "logo": "" },
-  { "name": "rlxos", "url": "https://rlxos.dev/", "logo": "" },
-  { "name": "Clonezilla", "url": "https://clonezilla.org/", "logo": "" },
+  {
+    "name": "ExTiX",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Budgie", "Deepin", "KDE Plasma", "LXQt"],
+    "url": "https://www.extix.se/"
+  },
+  {
+    "name": "Liya",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Cinnamon", "MATE"],
+    "url": "https://liyalinux.gitlab.io/"
+  },
+  {
+    "name": "Whonix",
+    "categories": ["Desktop", "Privacy", "Security"],
+    "desktop": ["Xfce"],
+    "url": "https://www.whonix.org/"
+  },
+  {
+    "name": "rlxos",
+    "categories": ["Desktop", "Immutable"],
+    "desktop": ["Xfce"],
+    "url": "https://rlxos.dev/"
+  },
   {
     "name": "Dr.Parted",
-    "url": "https://dr-parted-live.sourceforge.io/",
-    "logo": ""
+    "categories": ["Data Rescue", "Forensics", "Live Medium", "Specialist"],
+    "desktop": ["Openbox"],
+    "url": "https://dr-parted-live.sourceforge.io/"
   },
-  { "name": "LibreELEC", "url": "https://libreelec.tv/", "logo": "" },
-  { "name": "Ubuntu Unity", "url": "https://ubuntuunity.org/", "logo": "" },
-  { "name": "Clear", "url": "https://clearlinux.org/", "logo": "" },
-  { "name": "openmamba", "url": "https://openmamba.org/", "logo": "" },
-  { "name": "Slax", "url": "https://www.slax.org/", "logo": "" },
-  { "name": "NuTyX", "url": "https://www.nutyx.org/", "logo": "" },
-  { "name": "postmarketOS", "url": "https://postmarketos.org/", "logo": "" },
-  { "name": "BackBox", "url": "https://www.backbox.org/", "logo": "" },
-  { "name": "Slackel", "url": "http://www.slackel.gr/", "logo": "" },
   {
-    "name": "Fatdog64",
-    "url": "https://distro.ibiblio.org/fatdog/web/",
-    "logo": ""
+    "name": "BackBox",
+    "categories": ["Data Rescue", "Forensics", "Security", "Live Medium"],
+    "desktop": ["Xfce"],
+    "url": "https://www.backbox.org/"
   },
-  { "name": "NomadBSD", "url": "https://nomadbsd.org/", "logo": "" },
   {
-    "name": "SystemRescue",
-    "url": "https://www.system-rescue.org/",
-    "logo": ""
+    "name": "Clonezilla",
+    "categories": ["Data Rescue", "Specialist"],
+    "desktop": ["No Desktop"],
+    "url": "https://clonezilla.org/"
   },
-  { "name": "ROSA", "url": "https://www.rosalinux.ru/", "logo": "" },
-  { "name": "siduction", "url": "https://siduction.org/", "logo": "" },
-  { "name": "Ubuntu Budgie", "url": "https://ubuntubudgie.org/", "logo": "" },
-  { "name": "OSMC", "url": "https://osmc.tv/", "logo": "" },
-  { "name": "Redcore", "url": "https://redcorelinux.org/", "logo": "" },
-  { "name": "MidnightBSD", "url": "https://www.midnightbsd.org/", "logo": "" },
-  { "name": "Peropesis", "url": "https://peropesis.org/", "logo": "" },
+  {
+    "name": "Ubuntu Unity",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Unity"],
+    "url": "https://ubuntuunity.org/"
+  },
+  {
+    "name": "LibreELEC",
+    "categories": ["Multimedia", "Raspberry Pi"],
+    "desktop": ["Kodi"],
+    "url": "https://libreelec.tv/"
+  },
+  {
+    "name": "Clear",
+    "categories": ["Cloud", "Desktop", "Server", "Specialist"],
+    "desktop": ["GNOME"],
+    "url": "https://clearlinux.org/"
+  },
+  {
+    "name": "openmamba",
+    "categories": ["Desktop", "Live Medium", "Raspberry Pi", "Server"],
+    "desktop": ["KDE Plasma", "LXQt"],
+    "url": "https://openmamba.org/"
+  },
+  {
+    "name": "Slax",
+    "categories": ["From RAM", "Live Medium"],
+    "desktop": ["Fluxbox"],
+    "url": "https://www.slax.org/"
+  },
+  {
+    "name": "postmarketOS",
+    "categories": ["Live Medium", "Mobile"],
+    "desktop": ["GNOME", "Phosh", "Plasma Mobile", "Sxmo"],
+    "url": "https://postmarketos.org/"
+  },
   {
     "name": "RasPiOS",
-    "url": "https://www.raspberrypi.com/software/",
-    "logo": ""
+    "categories": ["Raspberry Pi"],
+    "desktop": ["LXDE"],
+    "url": "https://www.raspberrypi.com/software/"
+  },
+  {
+    "name": "NomadBSD",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Xfce"],
+    "url": "https://nomadbsd.org/"
+  },
+  {
+    "name": "NuTyX",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": [
+      "CDE",
+      "Cinnamon",
+      "Enlightenment",
+      "GNOME",
+      "JWM",
+      "KDE Plasma",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Openbox",
+      "Xfce"
+    ],
+    "url": "https://www.nutyx.org/"
+  },
+  {
+    "name": "ROSA",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["GNOME", "KDE Plasma", "LXQt", "Xfce"],
+    "url": "https://www.rosalinux.ru/"
+  },
+  {
+    "name": "SystemRescue",
+    "categories": ["Data Rescue", "From RAM", "Live Medium"],
+    "desktop": ["Xfce"],
+    "url": "https://www.system-rescue.org/"
+  },
+  {
+    "name": "Slackel",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["MATE", "Openbox"],
+    "url": "http://www.slackel.gr/"
+  },
+  {
+    "name": "Fatdog64",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Openbox"],
+    "url": "https://distro.ibiblio.org/fatdog/web/"
+  },
+  {
+    "name": "Peropesis",
+    "categories": ["Live Medium"],
+    "desktop": [""],
+    "url": "https://peropesis.org/"
+  },
+  {
+    "name": "Ubuntu Budgie",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Budgie"],
+    "url": "https://ubuntubudgie.org/"
+  },
+  {
+    "name": "OSMC",
+    "categories": ["Raspberry Pi"],
+    "desktop": ["Kodi"],
+    "url": "https://osmc.tv/"
+  },
+  {
+    "name": "Redcore",
+    "categories": ["Desktop", "Live Medium", "Source-based"],
+    "desktop": ["KDE Plasma"],
+    "url": "https://redcorelinux.org/"
+  },
+  {
+    "name": "siduction",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["KDE Plasma", "LXQt", "Xfce"],
+    "url": "https://siduction.org/"
+  },
+  {
+    "name": "MidnightBSD",
+    "categories": ["Desktop"],
+    "desktop": [
+      "Awesome",
+      "Blackbox",
+      "Cinnamon",
+      "Enlightenment",
+      "Fluxbox",
+      "GNOME",
+      "MATE",
+      "Openbox",
+      "WMaker",
+      "Xfce"
+    ],
+    "url": "https://www.midnightbsd.org/"
   },
   {
     "name": "Ubuntu Pack",
-    "url": "https://ualinux.com/en/ubuntu-oem",
-    "logo": ""
+    "categories": ["Beginners", "Live Medium", "Desktop"],
+    "desktop": [
+      "Budgie",
+      "Cinnamon",
+      "Deepin",
+      "GNOME",
+      "KDE Plasma",
+      "LXQt",
+      "MATE",
+      "Unity",
+      "Xfce"
+    ],
+    "url": "https://ualinux.com/en/ubuntu-oem"
   },
-  { "name": "Porteus", "url": "http://www.porteus.org/", "logo": "" },
+  {
+    "name": "AUSTRUMI",
+    "categories": ["Data Rescue", "Desktop", "From RAM", "Live Medium"],
+    "desktop": ["FVWM"],
+    "url": "http://cyti.latgola.lv/ruuni/"
+  },
+  {
+    "name": "Porteus",
+    "categories": ["From RAM", "Live Medium", "Old Computers"],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "KDE Plasma",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Openbox",
+      "Xfce"
+    ],
+    "url": "http://www.porteus.org/"
+  },
   {
     "name": "Ubuntu Cinnamon",
-    "url": "https://ubuntucinnamon.org/",
-    "logo": ""
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Cinnamon"],
+    "url": "https://ubuntucinnamon.org/"
   },
-  { "name": "AUSTRUMI", "url": "http://cyti.latgola.lv/ruuni/", "logo": "" },
-  { "name": "Pardus", "url": "https://www.pardus.org.tr/", "logo": "" },
-  { "name": "SUSE", "url": "https://www.suse.com/", "logo": "" },
-  { "name": "Armbian", "url": "https://www.armbian.com/", "logo": "" },
-  { "name": "DragonFly", "url": "http://www.dragonflybsd.org/", "logo": "" },
-  { "name": "KANOTIX", "url": "http://kanotix.com/", "logo": "" },
-  { "name": "Daphile", "url": "https://www.daphile.com/", "logo": "" },
-  { "name": "GParted", "url": "https://gparted.org/livecd.php", "logo": "" },
-  { "name": "T2", "url": "http://www.t2-project.org/", "logo": "" },
-  { "name": "Plop", "url": "https://www.plop.at/", "logo": "" },
+  {
+    "name": "Pardus",
+    "categories": ["Desktop", "Live Medium", "Server"],
+    "desktop": ["GNOME", "Xfce"],
+    "url": "https://www.pardus.org.tr/"
+  },
+  {
+    "name": "SUSE",
+    "categories": ["Desktop", "Raspberry Pi", "Server"],
+    "desktop": ["GNOME", "IceWM"],
+    "url": "https://www.suse.com/"
+  },
+  {
+    "name": "Armbian",
+    "categories": ["Desktop", "Specialist"],
+    "desktop": ["GNOME", "Xfce"],
+    "url": "https://www.armbian.com/"
+  },
+  {
+    "name": "DragonFly",
+    "categories": ["Desktop", "Live Medium", "Server"],
+    "desktop": [
+      "Awesome",
+      "Cinnamon",
+      "Fluxbox",
+      "JWM",
+      "KDE Plasma",
+      "Lumina",
+      "LXDE",
+      "MATE",
+      "Openbox",
+      "WMaker",
+      "Xfce"
+    ],
+    "url": "http://www.dragonflybsd.org/"
+  },
+  {
+    "name": "KANOTIX",
+    "categories": ["Desktop", "From RAM", "Live Medium"],
+    "desktop": ["KDE", "LXDE"],
+    "url": "http://kanotix.com/"
+  },
+  {
+    "name": "Daphile",
+    "categories": ["Live Medium", "Multimedia"],
+    "desktop": ["No Desktop", "WebUI"],
+    "url": "https://www.daphile.com/"
+  },
+  {
+    "name": "GParted",
+    "categories": ["Disk Management", "Data Rescue", "Live Medium"],
+    "desktop": ["Fluxbox"],
+    "url": "https://gparted.org/livecd.php"
+  },
+  {
+    "name": "T2",
+    "categories": ["Source-based"],
+    "desktop": [
+      "AfterStep",
+      "Awesome",
+      "Blackbox",
+      "Enlightenment",
+      "Fluxbox",
+      "GNOME",
+      "IceWM",
+      "KDE",
+      "LXDE",
+      "Openbox",
+      "WMaker",
+      "Xfce"
+    ],
+    "url": "http://www.t2-project.org/"
+  },
   {
     "name": "Super Grub2",
-    "url": "https://www.supergrubdisk.org/super-grub2-disk/",
-    "logo": ""
+    "categories": ["Data Rescue", "Live Medium", "Specialist"],
+    "desktop": [""],
+    "url": "https://www.supergrubdisk.org/super-grub2-disk/"
   },
-  { "name": "Ubuntu Kylin", "url": "https://www.ubuntukylin.com/", "logo": "" },
-  { "name": "Feren", "url": "http://ferenos.weebly.com/", "logo": "" },
-  { "name": "Lakka", "url": "http://www.lakka.tv/", "logo": "" },
-  { "name": "LFS", "url": "http://www.linuxfromscratch.org", "logo": "" },
-  { "name": "ArchBang", "url": "https://archbang.org/", "logo": "" },
-  { "name": "Pearl", "url": "https://www.pearllinux.net/", "logo": "" },
-  { "name": "OPNsense", "url": "https://opnsense.org/", "logo": "" },
   {
-    "name": "RebeccaBlackOS",
-    "url": "https://sourceforge.net/projects/rebeccablackos/",
-    "logo": ""
+    "name": "Ubuntu Kylin",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["UKUI"],
+    "url": "https://www.ubuntukylin.com/"
   },
-  { "name": "Berry", "url": "http://berry-lab.net/berry.html", "logo": "" },
-  { "name": "BlackArch", "url": "http://blackarch.org/", "logo": "" },
-  { "name": "Elive", "url": "https://www.elivecd.org/", "logo": "" },
-  { "name": "Exe", "url": "http://exegnulinux.net/", "logo": "" },
-  { "name": "KolibriOS", "url": "http://kolibrios.org/", "logo": "" },
-  { "name": "Trisquel", "url": "https://trisquel.info/", "logo": "" },
-  { "name": "Hyperbola", "url": "https://www.hyperbola.info/", "logo": "" },
+  {
+    "name": "Plop",
+    "categories": [
+      "Data Rescue",
+      "Desktop",
+      "Live Medium",
+      "Raspberry Pi",
+      "Server"
+    ],
+    "desktop": ["Fluxbox", "MATE", "Xfce"],
+    "url": "https://www.plop.at/"
+  },
+  {
+    "name": "Lakka",
+    "categories": ["Gaming", "Multimedia", "Raspberry Pi"],
+    "desktop": ["RetroArch"],
+    "url": "http://www.lakka.tv/"
+  },
+  {
+    "name": "LFS",
+    "categories": ["Source-based", "Education"],
+    "desktop": ["Fluxbox", "IceWM", "KDE Plasma", "LXDE", "Openbox", "Xfce"],
+    "url": "http://www.linuxfromscratch.org"
+  },
+  {
+    "name": "ArchBang",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["i3"],
+    "url": "https://archbang.org/"
+  },
+  {
+    "name": "Feren",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Cinnamon", "KDE Plasma"],
+    "url": "http://ferenos.weebly.com/"
+  },
+  {
+    "name": "Pearl",
+    "categories": ["Desktop"],
+    "desktop": ["MATE", "Xfce"],
+    "url": "https://www.pearllinux.net/"
+  },
   {
     "name": "PorteuX",
-    "url": "https://github.com/porteux/porteux/",
-    "logo": ""
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "KDE Plasma",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://github.com/porteux/porteux/"
   },
-  { "name": "Skudonet", "url": "https://www.skudonet.com/", "logo": "" },
-  { "name": "SliTaz", "url": "http://www.slitaz.org/", "logo": "" },
-  { "name": "Snal", "url": "https://snallinux.sourceforge.io/", "logo": "" },
-  { "name": "IPFire", "url": "https://www.ipfire.org/", "logo": "" },
-  { "name": "UBports", "url": "https://ubports.com/", "logo": "" },
-  { "name": "Finnix", "url": "https://www.finnix.org/", "logo": "" },
-  { "name": "Legacy", "url": "https://legacyoslinux.net/", "logo": "" },
   {
-    "name": "Live Raizo",
-    "url": "https://sourceforge.net/projects/live-raizo/",
-    "logo": ""
+    "name": "OPNsense",
+    "categories": ["Firewall", "Live Medium"],
+    "desktop": ["No Desktop", "WebUI"],
+    "url": "https://opnsense.org/"
   },
-  { "name": "pfSense", "url": "https://www.pfsense.org/", "logo": "" },
-  { "name": "Rescuezilla", "url": "https://rescuezilla.com/", "logo": "" },
-  { "name": "Univention", "url": "https://www.univention.com/", "logo": "" },
-  { "name": "Parabola", "url": "https://parabola.nu/", "logo": "" },
-  { "name": "Pentoo", "url": "https://www.pentoo.ch/", "logo": "" },
-  { "name": "Debian Edu", "url": "http://www.skolelinux.org/", "logo": "" },
+  {
+    "name": "RebeccaBlackOS",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Weston"],
+    "url": "https://sourceforge.net/projects/rebeccablackos/"
+  },
+  {
+    "name": "Berry",
+    "categories": ["Live Medium"],
+    "desktop": ["LXDE", "Maynard"],
+    "url": "http://berry-lab.net/berry.html"
+  },
+  {
+    "name": "BlackArch",
+    "categories": ["Live Medium", "Security", "Forensics"],
+    "desktop": ["Xfce"],
+    "url": "http://blackarch.org/"
+  },
+  {
+    "name": "Elive",
+    "categories": ["Live Medium"],
+    "desktop": ["Enlightenment"],
+    "url": "https://www.elivecd.org/"
+  },
+  {
+    "name": "Exe",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Trinity"],
+    "url": "http://exegnulinux.net/"
+  },
+  {
+    "name": "KolibriOS",
+    "categories": ["Desktop", "Old Computers", "Live Medium", "Netbooks"],
+    "desktop": ["KolibriOS"],
+    "url": "http://kolibrios.org/"
+  },
+  {
+    "name": "Skudonet",
+    "categories": ["Server", "Specialist"],
+    "desktop": ["No Desktop", "WebUI"],
+    "url": "https://www.skudonet.com/"
+  },
+  {
+    "name": "Trisquel",
+    "categories": ["Free Software", "Desktop", "Live Medium", "Education"],
+    "desktop": ["KDE Plasma", "LXDE", "MATE"],
+    "url": "https://trisquel.info/"
+  },
+  {
+    "name": "Hyperbola",
+    "categories": ["Desktop", "Free Software", "Server"],
+    "desktop": ["Lumina", "IceWM", "JWM", "Openbox"],
+    "url": "https://www.hyperbola.info/"
+  },
+  {
+    "name": "SliTaz",
+    "categories": [
+      "Desktop",
+      "From RAM",
+      "Live Medium",
+      "Old Computers",
+      "Raspberry Pi"
+    ],
+    "desktop": ["Openbox"],
+    "url": "http://www.slitaz.org/"
+  },
+  {
+    "name": "UBports",
+    "categories": ["Immutable", "Mobile"],
+    "desktop": ["Unity"],
+    "url": "https://ubports.com/"
+  },
+  {
+    "name": "BlueOnyx",
+    "categories": ["Server"],
+    "desktop": ["No Desktop", "WebUI"],
+    "url": "https://www.blueonyx.it/"
+  },
+  {
+    "name": "Finnix",
+    "categories": ["Data Rescue", "Live Medium"],
+    "desktop": ["No Desktop"],
+    "url": "https://www.finnix.org/"
+  },
+  {
+    "name": "IPFire",
+    "categories": ["Firewall"],
+    "desktop": ["No Desktop", "WebUI"],
+    "url": "https://www.ipfire.org/"
+  },
+  {
+    "name": "Legacy",
+    "categories": ["Desktop", "Live Medium", "Old Computers"],
+    "desktop": ["IceWM"],
+    "url": "https://legacyoslinux.net/"
+  },
+  {
+    "name": "pfSense",
+    "categories": ["Firewall", "Live Medium"],
+    "desktop": ["No Desktop", "WebUI"],
+    "url": "https://www.pfsense.org/"
+  },
+  {
+    "name": "Pisi",
+    "categories": ["Desktop"],
+    "desktop": ["KDE Plasma"],
+    "url": "https://www.pisilinux.org/"
+  },
+  {
+    "name": "Rescuezilla",
+    "categories": ["Data Rescue", "Live Image"],
+    "desktop": ["LXDE"],
+    "url": "https://rescuezilla.com/"
+  },
+  {
+    "name": "Snal",
+    "categories": ["Docker", "From RAM", "Live Medium", "Rescue"],
+    "desktop": ["i3"],
+    "url": "https://snallinux.sourceforge.io/"
+  },
+  {
+    "name": "Univention",
+    "categories": ["Server"],
+    "desktop": ["KDE"],
+    "url": "https://www.univention.com/products/ucs/"
+  },
   {
     "name": "DynFi",
-    "url": "https://dynfi.com/en/dynfi-firewall/",
-    "logo": ""
+    "categories": ["Firewall", "Security"],
+    "desktop": ["WebUI"],
+    "url": "https://dynfi.com/en/dynfi-firewall/"
   },
-  { "name": "Salix", "url": "http://www.salixos.org/", "logo": "" },
-  { "name": "Grml", "url": "https://www.grml.org/", "logo": "" },
-  { "name": "RISC", "url": "https://www.riscosopen.org/", "logo": "" },
-  { "name": "SolydXK", "url": "https://solydxk.com/", "logo": "" },
-  { "name": "Dynebolic", "url": "https://dynebolic.org", "logo": "" },
+  {
+    "name": "Live Raizo",
+    "categories": ["Live Medium", "Specialist"],
+    "desktop": ["Fluxbox"],
+    "url": "https://sourceforge.net/projects/live-raizo/"
+  },
+  {
+    "name": "Parabola",
+    "categories": ["Desktop", "Free Software", "Server"],
+    "desktop": [
+      "Blackbox",
+      "Fluxbox",
+      "GNOME",
+      "IceWM",
+      "KDE",
+      "LXDE",
+      "MATE",
+      "Openbox",
+      "WMaker",
+      "Xfce"
+    ],
+    "url": "https://parabola.nu/"
+  },
+  {
+    "name": "Pentoo",
+    "categories": ["Forensics", "Live Medium", "Security"],
+    "desktop": ["Xfce"],
+    "url": "https://www.pentoo.ch/"
+  },
+  {
+    "name": "Debian Edu",
+    "categories": ["Desktop", "Education", "Thin Client"],
+    "desktop": ["Cinnamon", "GNOME", "KDE", "LXDE", "LXQt", "MATE", "Xfce"],
+    "url": "http://www.skolelinux.org/"
+  },
+  {
+    "name": "NethSecurity",
+    "categories": ["Firewall"],
+    "desktop": ["No Desktop", "WebUI"],
+    "url": "https://nethsecurity.org/"
+  },
+  {
+    "name": "Salix",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Xfce"],
+    "url": "http://www.salixos.org/"
+  },
+  {
+    "name": "Dynebolic",
+    "categories": ["Desktop", "Free Software", "Live Medium", "Multimedia"],
+    "desktop": ["KDE Plasma"],
+    "url": "https://dynebolic.org"
+  },
+  {
+    "name": "Grml",
+    "categories": ["From RAM", "Live Medium"],
+    "desktop": ["Fluxbox"],
+    "url": "https://www.grml.org/"
+  },
+  {
+    "name": "RISC",
+    "categories": ["Raspberry Pi"],
+    "desktop": ["Pinboard"],
+    "url": "https://www.riscosopen.org/"
+  },
+  {
+    "name": "SolydXK",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["KDE", "Xfce"],
+    "url": "https://solydxk.com/"
+  },
   {
     "name": "Guix System",
-    "url": "https://www.gnu.org/software/guix/",
-    "logo": ""
+    "categories": ["Education", "Free Software", "Live Medium"],
+    "desktop": [
+      "Awesome",
+      "Enlightenment",
+      "GNOME",
+      "i3",
+      "MATE",
+      "Openbox",
+      "KDE Plasma",
+      "Ratpoison",
+      "Xfce"
+    ],
+    "url": "https://www.gnu.org/software/guix/"
   },
-  { "name": "MIRACLE", "url": "https://www.miraclelinux.com", "logo": "" },
-  { "name": "Edubuntu", "url": "https://www.edubuntu.org/", "logo": "" },
+  {
+    "name": "MIRACLE",
+    "categories": ["Server"],
+    "desktop": ["GNOME"],
+    "url": "https://www.miraclelinux.com"
+  },
+  {
+    "name": "Edubuntu",
+    "categories": ["Education", "Live Medium", "Raspberry Pi"],
+    "desktop": ["GNOME"],
+    "url": "https://www.edubuntu.org/"
+  },
   {
     "name": "hellosystem",
-    "url": "https://github.com/helloSystem/hello",
-    "logo": ""
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["helloDesktop"],
+    "url": "https://github.com/helloSystem/hello"
   },
-  { "name": "3CX", "url": "http://www.3cx.com/", "logo": "" },
-  { "name": "Batocera", "url": "https://batocera.org/", "logo": "" },
-  { "name": "BlueOnyx", "url": "https://www.blueonyx.it/", "logo": "" },
   {
-    "name": "Crunchbangplusplus",
-    "url": "https://www.crunchbangplusplus.org/",
-    "logo": ""
+    "name": "Batocera",
+    "categories": ["Gaming", "Live Medium", "Multimedia"],
+    "desktop": ["Openbox"],
+    "url": "https://batocera.org/"
+  },
+  {
+    "name": "Redox",
+    "categories": ["Desktop", "Live Medium", "Server"],
+    "desktop": ["COSMIC"],
+    "url": "https://www.redox-os.org/"
+  },
+  {
+    "name": "Runtu",
+    "categories": ["Desktop", "Live Medium", "Netbooks"],
+    "desktop": ["KDE Plasma", "LXDE"],
+    "url": "http://www.runtu.org/"
   },
   {
     "name": "SELKS",
-    "url": "https://www.stamus-networks.com/open-source/#selks",
-    "logo": ""
+    "categories": ["Live Medium", "Security"],
+    "desktop": ["Xfce"],
+    "url": "https://www.stamus-networks.com/open-source/#selks"
   },
-  { "name": "Redox", "url": "https://www.redox-os.org/", "logo": "" },
-  { "name": "Runtu", "url": "http://www.runtu.org/", "logo": "" },
-  { "name": "Kaisen", "url": "https://kaisenlinux.org/", "logo": "" },
-  { "name": "Lernstick", "url": "https://www.lernstick.ch/", "logo": "" },
-  { "name": "NethSecurity", "url": "https://nethsecurity.org/", "logo": "" },
+  {
+    "name": "3CX",
+    "categories": ["Telephony"],
+    "desktop": ["No desktop"],
+    "url": "http://www.3cx.com/"
+  },
+  {
+    "name": "Crunchbangplusplus",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Openbox"],
+    "url": "https://www.crunchbangplusplus.org/"
+  },
+  {
+    "name": "Lernstick",
+    "categories": ["Desktop", "Education", "Live Medium"],
+    "desktop": [
+      "Cinnamon",
+      "Enlightenment",
+      "GNOME",
+      "KDE Plasma",
+      "LXDE",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://www.lernstick.ch/"
+  },
+  {
+    "name": "Kaisen",
+    "categories": ["Data Rescue", "Desktop", "Live Medium", "Specialist"],
+    "desktop": ["KDE Plasma", "LXQt", "MATE", "Xfce"],
+    "url": "https://kaisenlinux.org/"
+  },
   {
     "name": "Canaima",
-    "url": "https://canaima.softwarelibre.gob.ve/",
-    "logo": ""
+    "categories": ["Desktop", "Live Medium", "Server"],
+    "desktop": ["Cinnamon", "GNOME", "KDE Plasma", "LXDE", "MATE", "Xfce"],
+    "url": "https://canaima.softwarelibre.gob.ve/"
   },
-  { "name": "PrimTux", "url": "https://primtux.fr/", "logo": "" },
-  { "name": "Netrunner", "url": "http://www.netrunner.com/", "logo": "" },
+  {
+    "name": "Parted Magic",
+    "categories": ["Data Rescue", "Disk Management", "From RAM", "Live Medium"],
+    "desktop": ["Xfce"],
+    "url": "https://partedmagic.com/"
+  },
+  {
+    "name": "PrimTux",
+    "categories": ["Desktop", "Education", "Raspberry Pi"],
+    "desktop": ["Xfce"],
+    "url": "https://primtux.fr/"
+  },
+  {
+    "name": "Commodore",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["MATE"],
+    "url": "https://www.commodoreusa.net/"
+  },
   {
     "name": "Solaris",
-    "url": "https://www.oracle.com/technetwork/server-storage/solaris11/overview/",
-    "logo": ""
+    "categories": ["Server", "UNIX"],
+    "desktop": ["AfterStep", "GNOME", "KDE", "WMaker", "Xfce"],
+    "url": "https://www.oracle.com/technetwork/server-storage/solaris11/overview/"
   },
-  { "name": "Zenwalk", "url": "http://zenwalk.org/", "logo": "" },
-  { "name": "Bedrock", "url": "https://bedrocklinux.org/", "logo": "" },
-  { "name": "CRUX", "url": "https://crux.nu/", "logo": "" },
-  { "name": "Freespire", "url": "https://www.freespire.net/", "logo": "" },
-  { "name": "FuguIta", "url": "https://fuguita.org/", "logo": "" },
-  { "name": "Wifislax", "url": "http://www.wifislax.com/", "logo": "" },
-  { "name": "Commodore", "url": "https://www.commodoreusa.net/", "logo": "" },
-  { "name": "HardenedBSD", "url": "https://hardenedbsd.org/", "logo": "" },
-  { "name": "Obarun", "url": "https://web.obarun.org/", "logo": "" },
-  { "name": "OpenIndiana", "url": "https://openindiana.org/", "logo": "" },
-  { "name": "OviOS", "url": "https://www.ovios.org/", "logo": "" },
-  { "name": "Robolinux", "url": "http://www.robolinux.org/", "logo": "" },
-  { "name": "WM Live", "url": "https://wmlive.sourceforge.net/", "logo": "" },
-  { "name": "CAINE", "url": "https://www.caine-live.net/", "logo": "" },
-  { "name": "Dragora", "url": "http://www.dragora.org/", "logo": "" },
-  { "name": "Parted Magic", "url": "https://partedmagic.com/", "logo": "" },
-  { "name": "Thinstation", "url": "https://www.thinstation.org/", "logo": "" },
-  { "name": "Ufficio Zero", "url": "https://www.ufficiozero.org/", "logo": "" },
-  { "name": "Venom", "url": "https://venomlinux.org/", "logo": "" },
-  { "name": "BSDRP", "url": "http://bsdrp.net/", "logo": "" },
+  {
+    "name": "Zenwalk",
+    "categories": ["Desktop"],
+    "desktop": ["Xfce"],
+    "url": "http://zenwalk.org/"
+  },
+  {
+    "name": "Bedrock",
+    "categories": ["Specialist"],
+    "desktop": ["No Desktop"],
+    "url": "https://bedrocklinux.org/"
+  },
+  {
+    "name": "CRUX",
+    "categories": ["Desktop", "Raspberry Pi", "Server", "Source-based"],
+    "desktop": ["Openbox"],
+    "url": "https://crux.nu/"
+  },
+  {
+    "name": "Freespire",
+    "categories": ["Desktop"],
+    "desktop": ["Xfce"],
+    "url": "https://www.freespire.net/"
+  },
+  {
+    "name": "Netrunner",
+    "categories": ["Beginners", "Desktop", "Live Medium"],
+    "desktop": ["KDE Plasma"],
+    "url": "http://www.netrunner.com/"
+  },
+  {
+    "name": "Wifislax",
+    "categories": ["Security", "Live Medium"],
+    "desktop": ["KDE"],
+    "url": "http://www.wifislax.com/"
+  },
+  {
+    "name": "HardenedBSD",
+    "categories": ["Security"],
+    "desktop": ["No Desktop"],
+    "url": "https://hardenedbsd.org/"
+  },
+  {
+    "name": "Obarun",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["JWM", "KDE Plasma", "Openbox", "Xfce"],
+    "url": "https://web.obarun.org/"
+  },
+  {
+    "name": "OpenIndiana",
+    "categories": ["Desktop", "Live Medium", "UNIX"],
+    "desktop": ["MATE"],
+    "url": "https://openindiana.org/"
+  },
+  {
+    "name": "OviOS",
+    "categories": ["Server"],
+    "desktop": ["No Desktop"],
+    "url": "https://www.ovios.org/"
+  },
+  {
+    "name": "Robolinux",
+    "categories": ["Beginners", "Desktop", "Live Medium"],
+    "desktop": ["Cinnamon", "MATE", "Xfce"],
+    "url": "http://www.robolinux.org/"
+  },
+  {
+    "name": "WM Live",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["WMaker"],
+    "url": "https://wmlive.sourceforge.net/"
+  },
+  {
+    "name": "CAINE",
+    "categories": ["Forensics", "Live Medium"],
+    "desktop": ["MATE"],
+    "url": "https://www.caine-live.net/"
+  },
+  {
+    "name": "Dragora",
+    "categories": ["Free Software"],
+    "desktop": ["Trinity"],
+    "url": "http://www.dragora.org/"
+  },
   {
     "name": "Linux Schools",
-    "url": "https://www.linuxschools.com/",
-    "logo": ""
+    "categories": ["Education", "Live Medium"],
+    "desktop": ["Xfce"],
+    "url": "https://www.linuxschools.com/"
   },
-  { "name": "XigmaNAS", "url": "https://www.xigmanas.com/", "logo": "" },
+  {
+    "name": "MAX",
+    "categories": ["Desktop", "Education", "Live Medium"],
+    "desktop": ["MATE"],
+    "url": "https://www.educa2.madrid.org/web/max/inicio"
+  },
+  {
+    "name": "Thinstation",
+    "categories": ["Thin Client"],
+    "desktop": ["Xfce"],
+    "url": "https://www.thinstation.org/"
+  },
+  {
+    "name": "Ufficio Zero",
+    "categories": ["Data Rescue", "Desktop", "Live Medium"],
+    "desktop": ["MATE", "Openbox", "Xfce"],
+    "url": "https://www.ufficiozero.org/"
+  },
+  {
+    "name": "Venom",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Openbox"],
+    "url": "https://venomlinux.org/"
+  },
+  {
+    "name": "BSDRP",
+    "categories": ["Firewall", "Router"],
+    "desktop": ["No Desktop"],
+    "url": "http://bsdrp.net/"
+  },
+  {
+    "name": "XigmaNAS",
+    "categories": ["NAS"],
+    "desktop": ["No Desktop", "WebUI"],
+    "url": "https://www.xigmanas.com/"
+  },
   {
     "name": "Accessible-Coconut",
-    "url": "https://zendalona.com/accessible-coconut/",
-    "logo": ""
+    "categories": ["Live Medium", "Specialist"],
+    "desktop": ["MATE"],
+    "url": "https://zendalona.com/accessible-coconut/"
   },
   {
     "name": "CROWZ",
-    "url": "https://sourceforge.net/projects/crowz/",
-    "logo": ""
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Fluxbox", "JWM", "Openbox"],
+    "url": "https://sourceforge.net/projects/crowz/"
   },
-  { "name": "EasyNAS", "url": "https://www.easynas.org/", "logo": "" },
+  {
+    "name": "EasyNAS",
+    "categories": ["NAS"],
+    "desktop": ["No Desktop", "WebUI"],
+    "url": "https://www.easynas.org/"
+  },
   {
     "name": "NST",
-    "url": "https://www.networksecuritytoolkit.org/",
-    "logo": ""
+    "categories": ["Live Medium", "Security"],
+    "desktop": ["Fluxbox", "MATE", "Openbox"],
+    "url": "https://www.networksecuritytoolkit.org/"
   },
-  { "name": "Untangle", "url": "https://www.untangle.com/", "logo": "" },
-  { "name": "Vine", "url": "http://www.vinelinux.org/", "logo": "" },
-  { "name": "Zentyal", "url": "https://www.zentyal.org/", "logo": "" },
   {
-    "name": "Zephix",
-    "url": "https://zephix-linux.sourceforge.io/",
-    "logo": ""
+    "name": "Untangle",
+    "categories": ["Firewall", "Server"],
+    "desktop": ["Xfce"],
+    "url": "https://www.untangle.com/"
+  },
+  {
+    "name": "Vine",
+    "categories": ["Desktop", "Server"],
+    "desktop": ["GNOME"],
+    "url": "http://www.vinelinux.org/"
+  },
+  {
+    "name": "Zentyal",
+    "categories": ["Security", "Server"],
+    "desktop": ["LXDE", "WebUI"],
+    "url": "https://www.zentyal.org/"
   },
   {
     "name": "Bicom",
-    "url": "http://www.bicomsystems.com/products/pbxware/",
-    "logo": ""
+    "categories": ["Server", "Telephony"],
+    "desktop": ["No Desktop", "WebUI"],
+    "url": "http://www.bicomsystems.com/products/pbxware/"
+  },
+  {
+    "name": "FuguIta",
+    "categories": ["Live Medium"],
+    "desktop": ["Fvwm"],
+    "url": "https://fuguita.org/"
+  },
+  {
+    "name": "Ubuntu Christian",
+    "categories": ["Desktop", "Live Medium", "Specialist"],
+    "desktop": ["Unity"],
+    "url": "http://www.ubuntuce.com/"
+  },
+  {
+    "name": "Zephix",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "KDE Plasma",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://zephix-linux.sourceforge.io/"
+  },
+  {
+    "name": "Exherbo",
+    "categories": ["Desktop", "Server", "Source-based"],
+    "desktop": [
+      "Awesome",
+      "Enlightenment",
+      "Fluxbox",
+      "GNOME",
+      "KDE",
+      "Openbox",
+      "Xfce"
+    ],
+    "url": "http://exherbo.org/"
+  },
+  {
+    "name": "FunOS",
+    "categories": ["Desktop", "Live Medium", "Old Computers"],
+    "desktop": ["JWM"],
+    "url": "https://funos.org/"
+  },
+  {
+    "name": "Kumander",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Xfce"],
+    "url": "https://www.kumander.org/"
+  },
+  {
+    "name": "Linspire",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["GNOME"],
+    "url": "http://www.linspirelinux.com/"
+  },
+  {
+    "name": "Navy",
+    "categories": ["Server"],
+    "desktop": ["GNOME"],
+    "url": "https://navylinux.org/"
   },
   {
     "name": "PakOS",
-    "url": "https://sourceforge.net/projects/pakos/",
-    "logo": ""
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["LXQt"],
+    "url": "https://sourceforge.net/projects/pakos/"
   },
-  { "name": "Photon", "url": "https://vmware.github.io/photon/", "logo": "" },
-  { "name": "Ubuntu Christian", "url": "http://www.ubuntuce.com/", "logo": "" },
-  { "name": "Exherbo", "url": "http://exherbo.org/", "logo": "" },
-  { "name": "Kumander", "url": "https://www.kumander.org/", "logo": "" },
-  { "name": "Linspire", "url": "http://www.linspirelinux.com/", "logo": "" },
-  { "name": "Navy", "url": "https://navylinux.org/", "logo": "" },
-  { "name": "Pisi", "url": "https://www.pisilinux.org/", "logo": "" },
-  { "name": "VyOS", "url": "https://vyos.io/", "logo": "" },
-  { "name": "Refracta", "url": "https://refracta.org/", "logo": "" },
-  { "name": "DietPi", "url": "https://dietpi.com/", "logo": "" },
-  { "name": "Nova", "url": "https://www.nova.cu/", "logo": "" },
-  { "name": "Recalbox", "url": "https://www.recalbox.com/", "logo": "" },
-  { "name": "risiOS", "url": "https://risi.io/", "logo": "" },
-  { "name": "Rockstor", "url": "http://rockstor.com/", "logo": "" },
-  { "name": "Endian", "url": "https://www.endian.com/community/", "logo": "" },
-  { "name": "Porteus Kiosk", "url": "http://porteus-kiosk.org/", "logo": "" },
-  { "name": "Diamond", "url": "https://www.linux-tt.com/", "logo": "" },
-  { "name": "FunOS", "url": "https://funos.org/", "logo": "" },
-  { "name": "LliureX", "url": "http://www.lliurex.net/", "logo": "" },
-  { "name": "Plamo", "url": "https://www.plamolinux.org/", "logo": "" },
-  { "name": "UBOS", "url": "http://ubos.net/", "logo": "" },
-  { "name": "Baruwa", "url": "https://www.baruwa.com/", "logo": "" },
-  { "name": "FreedomBox", "url": "https://freedombox.org/", "logo": "" },
-  { "name": "HamoniKR", "url": "https://hamonikr.org/", "logo": "" },
-  { "name": "OSGeoLive", "url": "https://live.osgeo.org/", "logo": "" },
+  {
+    "name": "VyOS",
+    "categories": ["Firewall"],
+    "desktop": ["No desktop"],
+    "url": "https://vyos.io/"
+  },
+  {
+    "name": "Refracta",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Xfce"],
+    "url": "https://refracta.org/"
+  },
+  {
+    "name": "Nova",
+    "categories": ["Desktop", "Live Medium", "Server"],
+    "desktop": ["GNOME", "Guano", "LXDE"],
+    "url": "https://www.nova.cu/"
+  },
+  {
+    "name": "Photon",
+    "categories": ["Docker"],
+    "desktop": ["No Desktop"],
+    "url": "https://vmware.github.io/photon/"
+  },
+  {
+    "name": "Recalbox",
+    "categories": ["Gaming", "Live Medium", "Multimedia"],
+    "desktop": ["No desktop"],
+    "url": "https://www.recalbox.com/"
+  },
+  {
+    "name": "risiOS",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["GNOME"],
+    "url": "https://risi.io/"
+  },
+  {
+    "name": "Rockstor",
+    "categories": ["NAS"],
+    "desktop": ["No Desktop", "WebUI"],
+    "url": "http://rockstor.com/"
+  },
+  {
+    "name": "DietPi",
+    "categories": ["Raspberry Pi"],
+    "desktop": ["No Desktop"],
+    "url": "https://dietpi.com/"
+  },
+  {
+    "name": "Endian",
+    "categories": ["Firewall"],
+    "desktop": ["No desktop"],
+    "url": "https://www.endian.com/community/"
+  },
+  {
+    "name": "Porteus Kiosk",
+    "categories": ["Live Medium", "Specialist"],
+    "desktop": ["Firefox"],
+    "url": "http://porteus-kiosk.org/"
+  },
+  {
+    "name": "Diamond",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["KDE Plasma"],
+    "url": "https://www.linux-tt.com/"
+  },
+  {
+    "name": "LliureX",
+    "categories": [
+      "Desktop",
+      "Education",
+      "Live Medium",
+      "Server",
+      "Thin Client"
+    ],
+    "desktop": ["KDE Plasma"],
+    "url": "http://www.lliurex.net/"
+  },
+  {
+    "name": "UBOS",
+    "categories": ["Raspberry Pi", "Server"],
+    "desktop": ["No Desktop"],
+    "url": "http://ubos.net/"
+  },
+  {
+    "name": "Baruwa",
+    "categories": ["Server"],
+    "desktop": ["No Desktop", "WebUI"],
+    "url": "https://www.baruwa.com/"
+  },
+  {
+    "name": "FreedomBox",
+    "categories": ["Server"],
+    "desktop": ["WebUI"],
+    "url": "https://freedombox.org/"
+  },
+  {
+    "name": "HamoniKR",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Cinnamon"],
+    "url": "https://hamonikr.org/"
+  },
+  {
+    "name": "Plamo",
+    "categories": ["Desktop", "Server"],
+    "desktop": ["LXDE", "LXQt", "MATE", "Xfce"],
+    "url": "https://www.plamolinux.org/"
+  },
   {
     "name": "Springdale",
-    "url": "http://springdale.math.ias.edu/",
-    "logo": ""
+    "categories": ["Desktop", "Server"],
+    "desktop": ["GNOME"],
+    "url": "http://springdale.math.ias.edu/"
   },
-  { "name": "Uruk", "url": "https://urukproject.org/dist/", "logo": "" },
   {
-    "name": "MAX",
-    "url": "https://www.educa2.madrid.org/web/max/inicio",
-    "logo": ""
+    "name": "Uruk",
+    "categories": ["Free Software", "Desktop", "Live Medium"],
+    "desktop": ["Cinnamon", "MATE"],
+    "url": "https://urukproject.org/dist/"
   },
-  { "name": "PLD", "url": "http://pld-linux.org/", "logo": "" },
-  { "name": "Slint", "url": "https://slint.fr/en/home.html", "logo": "" },
-  { "name": "YunoHost", "url": "https://yunohost.org/", "logo": "" },
-  { "name": "eLearnix", "url": "http://freehumanity.live/", "logo": "" },
   {
-    "name": "NexentaStor",
-    "url": "https://nexenta.com/products/nexentastor",
-    "logo": ""
+    "name": "PLD",
+    "categories": ["Desktop", "Server"],
+    "desktop": [
+      "Blackbox",
+      "Fluxbox",
+      "GNOME",
+      "IceWM",
+      "KDE",
+      "WMaker",
+      "Xfce"
+    ],
+    "url": "http://pld-linux.org/"
   },
-  { "name": "paldo", "url": "http://www.paldo.org/", "logo": "" },
-  { "name": "TurnKey", "url": "http://www.turnkeylinux.org/", "logo": "" },
+  {
+    "name": "Slint",
+    "categories": ["Assistive", "Desktop"],
+    "desktop": ["LXQt", "MATE"],
+    "url": "https://slint.fr/en/home.html"
+  },
   {
     "name": "DragonOS",
-    "url": "https://sourceforge.net/projects/dragonos-focal/",
-    "logo": ""
+    "categories": ["Desktop", "Live Medium", "Specialist"],
+    "desktop": ["", "LXQt"],
+    "url": "https://sourceforge.net/projects/dragonos-focal/"
   },
-  { "name": "SME Server", "url": "http://www.smeserver.org/", "logo": "" },
-  { "name": "Volumio", "url": "https://volumio.org/", "logo": "" },
-  { "name": "mAid", "url": "https://maid.binbash.rocks/", "logo": "" },
-  { "name": "OB2D", "url": "http://b2d-linux.com/", "logo": "" }
+  {
+    "name": "eLearnix",
+    "categories": ["Education", "Live Medium"],
+    "desktop": ["Xfce"],
+    "url": "http://freehumanity.live/"
+  },
+  {
+    "name": "NexentaStor",
+    "categories": ["Specialist", "UNIX"],
+    "desktop": ["No desktop"],
+    "url": "https://nexenta.com/products/nexentastor"
+  },
+  {
+    "name": "OSGeoLive",
+    "categories": ["Education", "Live Medium"],
+    "desktop": ["LXQt"],
+    "url": "https://live.osgeo.org/"
+  },
+  {
+    "name": "paldo",
+    "categories": ["Data Rescue", "Live Medium"],
+    "desktop": ["GNOME", "IceWM", "Xfce"],
+    "url": "http://www.paldo.org/"
+  },
+  {
+    "name": "TurnKey",
+    "categories": ["Server"],
+    "desktop": ["No Desktop"],
+    "url": "http://www.turnkeylinux.org/"
+  },
+  {
+    "name": "YunoHost",
+    "categories": ["Server"],
+    "desktop": ["No Desktop", "WebUI"],
+    "url": "https://yunohost.org/"
+  },
+  {
+    "name": "Volumio",
+    "categories": ["Raspberry Pi"],
+    "desktop": ["No Desktop"],
+    "url": "https://volumio.org/"
+  },
+  {
+    "name": "mAid",
+    "categories": ["Desktop", "Live Medium"],
+    "desktop": ["Budgie"],
+    "url": "https://maid.binbash.rocks/"
+  },
+  {
+    "name": "OB2D",
+    "categories": ["Server"],
+    "desktop": ["Xfce"],
+    "url": "http://b2d-linux.com/"
+  },
+  {
+    "name": "Omoikane",
+    "categories": ["Desktop"],
+    "desktop": ["GNOME"],
+    "url": "http://www.omoikane.co.jp"
+  }
 ]
