@@ -1,10 +1,10 @@
 {
-  "createAt": "2024-11-17T11:50:54.449Z",
+  "createAt": "2024-11-18T02:45:33.629Z",
   "data": [
     {
       "no": 1,
       "name": "MX Linux",
-      "rank": 2396,
+      "rank": 2392,
       "trend": "down",
       "url": "https://mxlinux.org/",
       "logo": "https://linux-trend.vercel.app/logos/mx linux.svg",
@@ -19,12 +19,12 @@
         "KDE Plasma",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 2,
       "name": "Mint",
-      "rank": 2314,
+      "rank": 2305,
       "trend": "down",
       "url": "https://linuxmint.com/",
       "logo": "https://linux-trend.vercel.app/logos/mint.svg",
@@ -38,12 +38,12 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 3,
       "name": "EndeavourOS",
-      "rank": 1602,
+      "rank": 1596,
       "trend": "down",
       "url": "https://endeavouros.com/",
       "logo": "https://linux-trend.vercel.app/logos/endeavouros.svg",
@@ -62,12 +62,28 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 4,
+      "name": "CachyOS",
+      "rank": 1368,
+      "trend": "up",
+      "url": "https://cachyos.org/",
+      "logo": "https://linux-trend.vercel.app/logos/cachyos.svg",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 5,
       "name": "Debian",
-      "rank": 1358,
+      "rank": 1360,
       "trend": "up",
       "url": "https://www.debian.org/",
       "logo": "https://linux-trend.vercel.app/logos/debian.svg",
@@ -101,28 +117,12 @@
         "XBMC",
         "Xfce"
       ],
-      "yesterday": 2397
-    },
-    {
-      "no": 5,
-      "name": "CachyOS",
-      "rank": 1357,
-      "trend": "up",
-      "url": "https://cachyos.org/",
-      "logo": "https://linux-trend.vercel.app/logos/cachyos.svg",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 6,
       "name": "Fedora",
-      "rank": 1206,
+      "rank": 1204,
       "trend": "down",
       "url": "https://getfedora.org/",
       "logo": "https://linux-trend.vercel.app/logos/fedora.svg",
@@ -148,13 +148,13 @@
         "Ratpoison",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 7,
       "name": "Manjaro",
       "rank": 1142,
-      "trend": "up",
+      "trend": "level",
       "url": "https://manjaro.org/",
       "logo": "https://linux-trend.vercel.app/logos/manjaro.svg",
       "category": [
@@ -176,13 +176,13 @@
         "Sway",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 8,
       "name": "Pop!_OS",
-      "rank": 1110,
-      "trend": "up",
+      "rank": 1109,
+      "trend": "down",
       "url": "https://system76.com/pop",
       "logo": "https://linux-trend.vercel.app/logos/pop!_os.svg",
       "category": [
@@ -193,12 +193,12 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 9,
       "name": "Ubuntu",
-      "rank": 1050,
+      "rank": 1041,
       "trend": "down",
       "url": "https://www.ubuntu.com/",
       "logo": "https://linux-trend.vercel.app/logos/ubuntu.svg",
@@ -213,12 +213,12 @@
         "GNOME",
         "Unity"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 10,
       "name": "openSUSE",
-      "rank": 701,
+      "rank": 698,
       "trend": "down",
       "url": "https://www.opensuse.org/",
       "logo": "https://linux-trend.vercel.app/logos/opensuse.svg",
@@ -240,12 +240,12 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 11,
       "name": "Zorin",
-      "rank": 641,
+      "rank": 639,
       "trend": "down",
       "url": "https://zorin.com/os/",
       "logo": "https://linux-trend.vercel.app/logos/zorin.svg",
@@ -258,12 +258,12 @@
         "GNOME",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 12,
       "name": "TUXEDO",
-      "rank": 587,
+      "rank": 588,
       "trend": "up",
       "url": "https://www.tuxedocomputers.com/os",
       "logo": "https://linux-trend.vercel.app/logos/tuxedo.svg",
@@ -275,27 +275,10 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 13,
-      "name": "elementary",
-      "rank": 525,
-      "trend": "up",
-      "url": "https://elementary.io/",
-      "logo": "https://linux-trend.vercel.app/logos/elementary.svg",
-      "category": [
-        "Beginners",
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Pantheon"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 14,
       "name": "Nobara",
       "rank": 522,
       "trend": "level",
@@ -309,12 +292,29 @@
         "GNOME",
         "KDE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 14,
+      "name": "elementary",
+      "rank": 521,
+      "trend": "down",
+      "url": "https://elementary.io/",
+      "logo": "https://linux-trend.vercel.app/logos/elementary.svg",
+      "category": [
+        "Beginners",
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Pantheon"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 15,
       "name": "KDE neon",
-      "rank": 513,
+      "rank": 508,
       "trend": "down",
       "url": "https://neon.kde.org/",
       "logo": "https://linux-trend.vercel.app/logos/kde neon.svg",
@@ -325,12 +325,12 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 16,
       "name": "Lite",
-      "rank": 497,
+      "rank": 498,
       "trend": "up",
       "url": "https://www.linuxliteos.com/",
       "logo": "https://linux-trend.vercel.app/logos/lite.svg",
@@ -342,13 +342,13 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 17,
       "name": "antiX",
       "rank": 487,
-      "trend": "down",
+      "trend": "level",
       "url": "https://antixlinux.com/",
       "logo": "https://linux-trend.vercel.app/logos/antix.svg",
       "category": [
@@ -362,12 +362,12 @@
         "IceWM",
         "JWM"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 18,
       "name": "AlmaLinux",
-      "rank": 458,
+      "rank": 445,
       "trend": "down",
       "url": "https://almalinux.org/",
       "logo": "https://linux-trend.vercel.app/logos/almalinux.svg",
@@ -382,12 +382,12 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 19,
       "name": "Parrot",
-      "rank": 436,
+      "rank": 437,
       "trend": "up",
       "url": "https://parrotsec.org/",
       "logo": "https://linux-trend.vercel.app/logos/parrot.svg",
@@ -400,12 +400,12 @@
         "KDE Plasma",
         "MATE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 20,
       "name": "Solus",
-      "rank": 431,
+      "rank": 408,
       "trend": "down",
       "url": "https://getsol.us/",
       "logo": "https://linux-trend.vercel.app/logos/solus.svg",
@@ -420,12 +420,12 @@
         "KDE Plasma",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 21,
       "name": "FreeBSD",
-      "rank": 394,
+      "rank": 405,
       "trend": "up",
       "url": "https://www.freebsd.org/",
       "logo": "https://linux-trend.vercel.app/logos/freebsd.svg",
@@ -443,13 +443,13 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 22,
       "name": "SparkyLinux",
-      "rank": 392,
-      "trend": "level",
+      "rank": 389,
+      "trend": "down",
       "url": "https://sparkylinux.org/",
       "logo": "https://linux-trend.vercel.app/logos/sparkylinux.svg",
       "category": [
@@ -467,13 +467,13 @@
         "Openbox",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 23,
       "name": "NixOS",
-      "rank": 379,
-      "trend": "level",
+      "rank": 378,
+      "trend": "down",
       "url": "https://nixos.org/",
       "logo": "https://linux-trend.vercel.app/logos/nixos.svg",
       "category": [
@@ -494,13 +494,13 @@
         "Ratpoison",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 24,
       "name": "PCLinuxOS",
-      "rank": 378,
-      "trend": "up",
+      "rank": 374,
+      "trend": "down",
       "url": "https://www.pclinuxos.com/",
       "logo": "https://linux-trend.vercel.app/logos/pclinuxos.svg",
       "category": [
@@ -513,12 +513,12 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 25,
       "name": "Q4OS",
-      "rank": 349,
+      "rank": 354,
       "trend": "up",
       "url": "https://q4os.org/",
       "logo": "https://linux-trend.vercel.app/logos/q4os.svg",
@@ -531,12 +531,12 @@
         "KDE Plasma",
         "Trinity"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 26,
       "name": "PorteuX",
-      "rank": 344,
+      "rank": 346,
       "trend": "up",
       "url": "https://github.com/porteux/porteux/",
       "logo": "https://linux-trend.vercel.app/logos/porteux.svg",
@@ -553,13 +553,13 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 27,
       "name": "Garuda",
       "rank": 343,
-      "trend": "up",
+      "trend": "level",
       "url": "https://garudalinux.org/",
       "logo": "https://linux-trend.vercel.app/logos/garuda.svg",
       "category": [
@@ -576,13 +576,28 @@
         "UKUI",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 28,
-      "name": "Kali",
+      "name": "Pisi",
       "rank": 339,
-      "trend": "level",
+      "trend": "up",
+      "url": "https://www.pisilinux.org/",
+      "logo": "https://linux-trend.vercel.app/logos/pisi.svg",
+      "category": [
+        "Desktop"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 29,
+      "name": "Kali",
+      "rank": 338,
+      "trend": "down",
       "url": "https://www.kali.org/",
       "logo": "https://linux-trend.vercel.app/logos/kali.svg",
       "category": [
@@ -597,12 +612,12 @@
         "KDE Plasma",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 29,
+      "no": 30,
       "name": "Bluestar",
-      "rank": 334,
+      "rank": 337,
       "trend": "up",
       "url": "https://sourceforge.net/projects/bluestarlinux/",
       "logo": "https://linux-trend.vercel.app/logos/bluestar.svg",
@@ -612,28 +627,13 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 2397
-    },
-    {
-      "no": 30,
-      "name": "Pisi",
-      "rank": 334,
-      "trend": "up",
-      "url": "https://www.pisilinux.org/",
-      "logo": "https://linux-trend.vercel.app/logos/pisi.svg",
-      "category": [
-        "Desktop"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 31,
       "name": "Vanilla",
-      "rank": 310,
-      "trend": "up",
+      "rank": 309,
+      "trend": "down",
       "url": "https://vanillaos.org/",
       "logo": "https://linux-trend.vercel.app/logos/vanilla.svg",
       "category": [
@@ -644,12 +644,12 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 32,
       "name": "EasyOS",
-      "rank": 304,
+      "rank": 305,
       "trend": "up",
       "url": "https://easyos.org/",
       "logo": "https://linux-trend.vercel.app/logos/easyos.svg",
@@ -661,12 +661,12 @@
       "desktop": [
         "JWM"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 33,
       "name": "Kubuntu",
-      "rank": 285,
+      "rank": 282,
       "trend": "down",
       "url": "https://kubuntu.org/",
       "logo": "https://linux-trend.vercel.app/logos/kubuntu.svg",
@@ -677,28 +677,12 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 34,
-      "name": "Murena",
-      "rank": 282,
-      "trend": "down",
-      "url": "https://murena.com/",
-      "logo": "https://linux-trend.vercel.app/logos/murena.svg",
-      "category": [
-        "Immutable",
-        "Mobile"
-      ],
-      "desktop": [
-        "Bliss"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 35,
       "name": "Puppy",
-      "rank": 270,
+      "rank": 269,
       "trend": "down",
       "url": "https://puppylinux-woof-ce.github.io/",
       "logo": "https://linux-trend.vercel.app/logos/puppy.svg",
@@ -713,12 +697,28 @@
         "JWM",
         "Openbox"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 35,
+      "name": "Linuxfx",
+      "rank": 268,
+      "trend": "up",
+      "url": "https://www.linuxfx.org/",
+      "logo": "https://linux-trend.vercel.app/logos/linuxfx.svg",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 36,
       "name": "ArcoLinux",
-      "rank": 268,
+      "rank": 265,
       "trend": "down",
       "url": "https://arcolinux.info/",
       "logo": "https://linux-trend.vercel.app/logos/arcolinux.svg",
@@ -730,7 +730,7 @@
         "KDE Plasma",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 37,
@@ -748,13 +748,13 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 38,
       "name": "deepin",
-      "rank": 255,
-      "trend": "down",
+      "rank": 256,
+      "trend": "up",
       "url": "https://deepin.org/",
       "logo": "https://linux-trend.vercel.app/logos/deepin.svg",
       "category": [
@@ -763,13 +763,13 @@
       "desktop": [
         "Deepin"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 39,
       "name": "Alpine",
-      "rank": 251,
-      "trend": "down",
+      "rank": 252,
+      "trend": "up",
       "url": "https://www.alpinelinux.org/",
       "logo": "https://linux-trend.vercel.app/logos/alpine.svg",
       "category": [
@@ -787,12 +787,12 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 40,
       "name": "FunOS",
-      "rank": 251,
+      "rank": 249,
       "trend": "down",
       "url": "https://funos.org/",
       "logo": "https://linux-trend.vercel.app/logos/funos.svg",
@@ -804,13 +804,13 @@
       "desktop": [
         "JWM"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 41,
       "name": "CentOS",
       "rank": 246,
-      "trend": "down",
+      "trend": "level",
       "url": "https://www.centos.org/",
       "logo": "https://linux-trend.vercel.app/logos/centos.svg",
       "category": [
@@ -821,79 +821,12 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 42,
-      "name": "Voyager",
-      "rank": 245,
-      "trend": "down",
-      "url": "https://voyagerlive.org/",
-      "logo": "https://linux-trend.vercel.app/logos/voyager.svg",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME",
-        "Xfce"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 43,
-      "name": "Br OS",
-      "rank": 243,
-      "trend": "level",
-      "url": "https://br-os.com/",
-      "logo": "https://linux-trend.vercel.app/logos/br os.svg",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 44,
-      "name": "Endless",
-      "rank": 239,
-      "trend": "up",
-      "url": "https://endlessos.com/",
-      "logo": "https://linux-trend.vercel.app/logos/endless.svg",
-      "category": [
-        "Desktop",
-        "Immutable",
-        "Live Medium",
-        "Raspberry Pi"
-      ],
-      "desktop": [
-        "EOS Shell (GNOME)"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 45,
-      "name": "Linuxfx",
-      "rank": 239,
-      "trend": "up",
-      "url": "https://www.linuxfx.org/",
-      "logo": "https://linux-trend.vercel.app/logos/linuxfx.svg",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 46,
       "name": "BackBox",
-      "rank": 238,
+      "rank": 242,
       "trend": "up",
       "url": "https://www.backbox.org/",
       "logo": "https://linux-trend.vercel.app/logos/backbox.svg",
@@ -906,12 +839,28 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 47,
+      "no": 43,
+      "name": "Br OS",
+      "rank": 242,
+      "trend": "down",
+      "url": "https://br-os.com/",
+      "logo": "https://linux-trend.vercel.app/logos/br os.svg",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 44,
       "name": "Calculate",
-      "rank": 238,
+      "rank": 240,
       "trend": "up",
       "url": "https://www.calculate-linux.org/",
       "logo": "https://linux-trend.vercel.app/logos/calculate.svg",
@@ -928,7 +877,57 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 45,
+      "name": "Endless",
+      "rank": 238,
+      "trend": "down",
+      "url": "https://endlessos.com/",
+      "logo": "https://linux-trend.vercel.app/logos/endless.svg",
+      "category": [
+        "Desktop",
+        "Immutable",
+        "Live Medium",
+        "Raspberry Pi"
+      ],
+      "desktop": [
+        "EOS Shell (GNOME)"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 46,
+      "name": "Murena",
+      "rank": 234,
+      "trend": "down",
+      "url": "https://murena.com/",
+      "logo": "https://linux-trend.vercel.app/logos/murena.svg",
+      "category": [
+        "Immutable",
+        "Mobile"
+      ],
+      "desktop": [
+        "Bliss"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 47,
+      "name": "Red Hat",
+      "rank": 233,
+      "trend": "up",
+      "url": "http://www.redhat.com/",
+      "logo": "https://linux-trend.vercel.app/logos/red hat.svg",
+      "category": [
+        "Desktop",
+        "Server"
+      ],
+      "desktop": [
+        "GNOME"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 48,
@@ -945,13 +944,13 @@
         "bspwm",
         "Openbox"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 49,
       "name": "Slackware",
-      "rank": 230,
-      "trend": "up",
+      "rank": 229,
+      "trend": "down",
       "url": "http://www.slackware.com/",
       "logo": "https://linux-trend.vercel.app/logos/slackware.svg",
       "category": [
@@ -966,29 +965,30 @@
         "WMaker",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 50,
-      "name": "Red Hat",
-      "rank": 224,
-      "trend": "up",
-      "url": "http://www.redhat.com/",
-      "logo": "https://linux-trend.vercel.app/logos/red hat.svg",
+      "name": "Voyager",
+      "rank": 225,
+      "trend": "down",
+      "url": "https://voyagerlive.org/",
+      "logo": "https://linux-trend.vercel.app/logos/voyager.svg",
       "category": [
         "Desktop",
-        "Server"
+        "Live Medium"
       ],
       "desktop": [
-        "GNOME"
+        "GNOME",
+        "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 51,
       "name": "Ultimate",
       "rank": 224,
-      "trend": "up",
+      "trend": "level",
       "url": "https://sourceforge.net/projects/ultimateedition/",
       "logo": "https://linux-trend.vercel.app/logos/ultimate.svg",
       "category": [
@@ -1000,12 +1000,29 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 52,
-      "name": "Lubuntu",
+      "name": "RELIANOID",
       "rank": 209,
+      "trend": "up",
+      "url": "https://www.relianoid.com/",
+      "logo": "https://linux-trend.vercel.app/logos/relianoid.svg",
+      "category": [
+        "Firewall",
+        "Specialist"
+      ],
+      "desktop": [
+        "No Desktop",
+        "WebUI"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 53,
+      "name": "Lubuntu",
+      "rank": 208,
       "trend": "down",
       "url": "https://lubuntu.me/",
       "logo": "https://linux-trend.vercel.app/logos/lubuntu.svg",
@@ -1018,10 +1035,10 @@
         "LXDE",
         "LXQt"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 53,
+      "no": 54,
       "name": "Devuan",
       "rank": 206,
       "trend": "level",
@@ -1040,12 +1057,12 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 54,
+      "no": 55,
       "name": "Parted Magic",
-      "rank": 200,
+      "rank": 203,
       "trend": "up",
       "url": "https://partedmagic.com/",
       "logo": "https://linux-trend.vercel.app/logos/parted magic.svg",
@@ -1058,27 +1075,25 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
-    },
-    {
-      "no": 55,
-      "name": "RELIANOID",
-      "rank": 199,
-      "trend": "up",
-      "url": "https://www.relianoid.com/",
-      "logo": "https://linux-trend.vercel.app/logos/relianoid.svg",
-      "category": [
-        "Firewall",
-        "Specialist"
-      ],
-      "desktop": [
-        "No Desktop",
-        "WebUI"
-      ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 56,
+      "name": "RasPiOS",
+      "rank": 198,
+      "trend": "up",
+      "url": "https://www.raspberrypi.com/software/",
+      "logo": "https://linux-trend.vercel.app/logos/raspios.svg",
+      "category": [
+        "Raspberry Pi"
+      ],
+      "desktop": [
+        "LXDE"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 57,
       "name": "Mageia",
       "rank": 197,
       "trend": "level",
@@ -1101,28 +1116,13 @@
         "WMaker",
         "Xfce"
       ],
-      "yesterday": 2397
-    },
-    {
-      "no": 57,
-      "name": "RasPiOS",
-      "rank": 197,
-      "trend": "up",
-      "url": "https://www.raspberrypi.com/software/",
-      "logo": "https://linux-trend.vercel.app/logos/raspios.svg",
-      "category": [
-        "Raspberry Pi"
-      ],
-      "desktop": [
-        "LXDE"
-      ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 58,
       "name": "Canaima",
       "rank": 192,
-      "trend": "up",
+      "trend": "level",
       "url": "https://canaima.softwarelibre.gob.ve/",
       "logo": "https://linux-trend.vercel.app/logos/canaima.svg",
       "category": [
@@ -1138,29 +1138,12 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 59,
-      "name": "Regata",
-      "rank": 187,
-      "trend": "level",
-      "url": "https://www.regataos.com.br/",
-      "logo": "https://linux-trend.vercel.app/logos/regata.svg",
-      "category": [
-        "Desktop",
-        "Gaming",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 60,
       "name": "NethSecurity",
-      "rank": 185,
+      "rank": 189,
       "trend": "up",
       "url": "https://nethsecurity.org/",
       "logo": "https://linux-trend.vercel.app/logos/nethsecurity.svg",
@@ -1171,13 +1154,30 @@
         "No Desktop",
         "WebUI"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 60,
+      "name": "Regata",
+      "rank": 186,
+      "trend": "down",
+      "url": "https://www.regataos.com.br/",
+      "logo": "https://linux-trend.vercel.app/logos/regata.svg",
+      "category": [
+        "Desktop",
+        "Gaming",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 61,
       "name": "Peppermint",
       "rank": 185,
-      "trend": "down",
+      "trend": "level",
       "url": "https://peppermintos.com/",
       "logo": "https://linux-trend.vercel.app/logos/peppermint.svg",
       "category": [
@@ -1188,7 +1188,7 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 62,
@@ -1204,28 +1204,10 @@
         "No Desktop",
         "WebUI"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 63,
-      "name": "Damn Small",
-      "rank": 175,
-      "trend": "down",
-      "url": "https://www.damnsmalllinux.org/",
-      "logo": "https://linux-trend.vercel.app/logos/damn small.svg",
-      "category": [
-        "Desktop",
-        "Old Computers",
-        "Live Medium"
-      ],
-      "desktop": [
-        "JWM",
-        "Fluxbox"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 64,
       "name": "Skudonet",
       "rank": 175,
       "trend": "level",
@@ -1239,10 +1221,10 @@
         "No Desktop",
         "WebUI"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 65,
+      "no": 64,
       "name": "Bodhi",
       "rank": 174,
       "trend": "level",
@@ -1257,28 +1239,31 @@
       "desktop": [
         "Moksha (Enlightenment)"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 65,
+      "name": "Damn Small",
+      "rank": 174,
+      "trend": "down",
+      "url": "https://www.damnsmalllinux.org/",
+      "logo": "https://linux-trend.vercel.app/logos/damn small.svg",
+      "category": [
+        "Desktop",
+        "Old Computers",
+        "Live Medium"
+      ],
+      "desktop": [
+        "JWM",
+        "Fluxbox"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 66,
-      "name": "Xubuntu",
-      "rank": 173,
-      "trend": "down",
-      "url": "https://www.xubuntu.org/",
-      "logo": "https://linux-trend.vercel.app/logos/xubuntu.svg",
-      "category": [
-        "Desktop"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 67,
       "name": "Rocky",
       "rank": 171,
-      "trend": "down",
+      "trend": "level",
       "url": "https://rockylinux.org/",
       "logo": "https://linux-trend.vercel.app/logos/rocky.svg",
       "category": [
@@ -1288,12 +1273,27 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 67,
+      "name": "Xubuntu",
+      "rank": 171,
+      "trend": "down",
+      "url": "https://www.xubuntu.org/",
+      "logo": "https://linux-trend.vercel.app/logos/xubuntu.svg",
+      "category": [
+        "Desktop"
+      ],
+      "desktop": [
+        "Xfce"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 68,
       "name": "Gentoo",
-      "rank": 168,
+      "rank": 169,
       "trend": "up",
       "url": "https://www.gentoo.org/",
       "logo": "https://linux-trend.vercel.app/logos/gentoo.svg",
@@ -1317,7 +1317,7 @@
         "WMaker",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 69,
@@ -1333,7 +1333,7 @@
       "desktop": [
         "WebUI"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 70,
@@ -1355,13 +1355,13 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 71,
       "name": "Dr.Parted",
-      "rank": 159,
-      "trend": "level",
+      "rank": 158,
+      "trend": "down",
       "url": "https://dr-parted-live.sourceforge.io/",
       "logo": "https://linux-trend.vercel.app/logos/dr.parted.svg",
       "category": [
@@ -1373,12 +1373,12 @@
       "desktop": [
         "Openbox"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 72,
       "name": "GhostBSD",
-      "rank": 152,
+      "rank": 155,
       "trend": "up",
       "url": "https://www.ghostbsd.org/",
       "logo": "https://linux-trend.vercel.app/logos/ghostbsd.svg",
@@ -1390,12 +1390,12 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 73,
       "name": "PureOS",
-      "rank": 151,
+      "rank": 150,
       "trend": "down",
       "url": "https://pureos.net/",
       "logo": "https://linux-trend.vercel.app/logos/pureos.svg",
@@ -1408,7 +1408,7 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 74,
@@ -1425,13 +1425,13 @@
       "desktop": [
         "MATE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 75,
       "name": "wattOS",
       "rank": 148,
-      "trend": "down",
+      "trend": "level",
       "url": "https://www.planetwatt.com/",
       "logo": "https://linux-trend.vercel.app/logos/wattos.svg",
       "category": [
@@ -1443,30 +1443,13 @@
       "desktop": [
         "LXDE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 76,
-      "name": "ReactOS",
-      "rank": 147,
-      "trend": "level",
-      "url": "https://www.reactos.org/",
-      "logo": "https://linux-trend.vercel.app/logos/reactos.svg",
-      "category": [
-        "Desktop",
-        "Old Computers",
-        "Live Medium"
-      ],
-      "desktop": [
-        "ReactOS Explorer"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 77,
       "name": "4MLinux",
       "rank": 146,
-      "trend": "up",
+      "trend": "level",
       "url": "https://4mlinux.com/",
       "logo": "https://linux-trend.vercel.app/logos/4mlinux.svg",
       "category": [
@@ -1477,13 +1460,30 @@
       "desktop": [
         "JWM"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 77,
+      "name": "ReactOS",
+      "rank": 146,
+      "trend": "down",
+      "url": "https://www.reactos.org/",
+      "logo": "https://linux-trend.vercel.app/logos/reactos.svg",
+      "category": [
+        "Desktop",
+        "Old Computers",
+        "Live Medium"
+      ],
+      "desktop": [
+        "ReactOS Explorer"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 78,
       "name": "Ultramarine",
       "rank": 143,
-      "trend": "up",
+      "trend": "level",
       "url": "https://ultramarine-linux.org/",
       "logo": "https://linux-trend.vercel.app/logos/ultramarine.svg",
       "category": [
@@ -1497,7 +1497,7 @@
         "KDE Plasma",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 79,
@@ -1513,13 +1513,13 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 80,
       "name": "SDesk",
-      "rank": 141,
-      "trend": "level",
+      "rank": 142,
+      "trend": "up",
       "url": "https://www.stevestudios.net/",
       "logo": "https://linux-trend.vercel.app/logos/sdesk.svg",
       "category": [
@@ -1529,27 +1529,10 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 81,
-      "name": "Ubuntu Studio",
-      "rank": 141,
-      "trend": "down",
-      "url": "https://ubuntustudio.org/",
-      "logo": "https://linux-trend.vercel.app/logos/ubuntu studio.svg",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Multimedia"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 82,
       "name": "ALT",
       "rank": 139,
       "trend": "level",
@@ -1581,7 +1564,24 @@
         "WMaker",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 82,
+      "name": "Ubuntu Studio",
+      "rank": 137,
+      "trend": "down",
+      "url": "https://ubuntustudio.org/",
+      "logo": "https://linux-trend.vercel.app/logos/ubuntu studio.svg",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Multimedia"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 83,
@@ -1597,13 +1597,13 @@
       "desktop": [
         "Haiku"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 84,
       "name": "OpenBSD",
-      "rank": 132,
-      "trend": "level",
+      "rank": 131,
+      "trend": "down",
       "url": "https://www.openbsd.org/",
       "logo": "https://linux-trend.vercel.app/logos/openbsd.svg",
       "category": [
@@ -1623,13 +1623,13 @@
         "WMaker",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 85,
       "name": "BlueOnyx",
       "rank": 130,
-      "trend": "up",
+      "trend": "level",
       "url": "https://www.blueonyx.it/",
       "logo": "https://linux-trend.vercel.app/logos/blueonyx.svg",
       "category": [
@@ -1639,32 +1639,13 @@
         "No Desktop",
         "WebUI"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 86,
-      "name": "MakuluLinux",
-      "rank": 128,
-      "trend": "down",
-      "url": "https://www.makululinux.com/",
-      "logo": "https://linux-trend.vercel.app/logos/makululinux.svg",
-      "category": [
-        "Desktop",
-        "Gaming",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Cinnamon",
-        "GNOME",
-        "Xfce"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 87,
       "name": "Qubes",
       "rank": 128,
-      "trend": "up",
+      "trend": "level",
       "url": "https://qubes-os.org/",
       "logo": "https://linux-trend.vercel.app/logos/qubes.svg",
       "category": [
@@ -1674,10 +1655,10 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 88,
+      "no": 87,
       "name": "Artix",
       "rank": 127,
       "trend": "level",
@@ -1695,12 +1676,12 @@
         "KDE Plasma",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 89,
+      "no": 88,
       "name": "OpenMandriva",
-      "rank": 126,
+      "rank": 127,
       "trend": "up",
       "url": "https://www.openmandriva.org/",
       "logo": "https://linux-trend.vercel.app/logos/openmandriva.svg",
@@ -1712,10 +1693,10 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 90,
+      "no": 89,
       "name": "Tiny Core",
       "rank": 126,
       "trend": "level",
@@ -1740,7 +1721,26 @@
         "Openbox",
         "WMFS"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 90,
+      "name": "MakuluLinux",
+      "rank": 123,
+      "trend": "down",
+      "url": "https://www.makululinux.com/",
+      "logo": "https://linux-trend.vercel.app/logos/makululinux.svg",
+      "category": [
+        "Desktop",
+        "Gaming",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Cinnamon",
+        "GNOME",
+        "Xfce"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 91,
@@ -1758,7 +1758,7 @@
       "desktop": [
         "FVWM"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 92,
@@ -1774,28 +1774,13 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 93,
-      "name": "BunsenLabs",
-      "rank": 121,
-      "trend": "level",
-      "url": "https://www.bunsenlabs.org/",
-      "logo": "https://linux-trend.vercel.app/logos/bunsenlabs.svg",
-      "category": [
-        "Desktop"
-      ],
-      "desktop": [
-        "Openbox"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 94,
       "name": "SpiralLinux",
       "rank": 121,
-      "trend": "up",
+      "trend": "level",
       "url": "https://spirallinux.github.io/",
       "logo": "https://linux-trend.vercel.app/logos/spirallinux.svg",
       "category": [
@@ -1811,13 +1796,13 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 95,
+      "no": 94,
       "name": "Ubuntu MATE",
       "rank": 121,
-      "trend": "down",
+      "trend": "level",
       "url": "https://ubuntu-mate.org/",
       "logo": "https://linux-trend.vercel.app/logos/ubuntu mate.svg",
       "category": [
@@ -1829,13 +1814,28 @@
       "desktop": [
         "MATE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 95,
+      "name": "BunsenLabs",
+      "rank": 119,
+      "trend": "down",
+      "url": "https://www.bunsenlabs.org/",
+      "logo": "https://linux-trend.vercel.app/logos/bunsenlabs.svg",
+      "category": [
+        "Desktop"
+      ],
+      "desktop": [
+        "Openbox"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 96,
       "name": "RebornOS",
       "rank": 119,
-      "trend": "up",
+      "trend": "level",
       "url": "https://rebornos.org/",
       "logo": "https://linux-trend.vercel.app/logos/rebornos.svg",
       "category": [
@@ -1845,7 +1845,7 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 97,
@@ -1862,7 +1862,7 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 98,
@@ -1879,7 +1879,7 @@
         "JWM",
         "NX Desktop (KDE Plasma)"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 99,
@@ -1894,13 +1894,29 @@
       "desktop": [
         ""
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 100,
-      "name": "blendOS",
+      "name": "UBports",
       "rank": 116,
       "trend": "up",
+      "url": "https://ubports.com/",
+      "logo": "https://linux-trend.vercel.app/logos/ubports.svg",
+      "category": [
+        "Immutable",
+        "Mobile"
+      ],
+      "desktop": [
+        "Unity"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 101,
+      "name": "blendOS",
+      "rank": 115,
+      "trend": "down",
       "url": "https://blendos.co/",
       "logo": "https://linux-trend.vercel.app/logos/blendos.svg",
       "category": [
@@ -1910,10 +1926,10 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 101,
+      "no": 102,
       "name": "AV Linux",
       "rank": 114,
       "trend": "level",
@@ -1928,44 +1944,13 @@
         "Enlightenment",
         "Xfce"
       ],
-      "yesterday": 2397
-    },
-    {
-      "no": 102,
-      "name": "MIRACLE",
-      "rank": 113,
-      "trend": "down",
-      "url": "https://www.miraclelinux.com",
-      "logo": "https://linux-trend.vercel.app/logos/miracle.svg",
-      "category": [
-        "Server"
-      ],
-      "desktop": [
-        "GNOME"
-      ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 103,
-      "name": "UBports",
-      "rank": 113,
-      "trend": "up",
-      "url": "https://ubports.com/",
-      "logo": "https://linux-trend.vercel.app/logos/ubports.svg",
-      "category": [
-        "Immutable",
-        "Mobile"
-      ],
-      "desktop": [
-        "Unity"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 104,
       "name": "Void",
       "rank": 113,
-      "trend": "down",
+      "trend": "level",
       "url": "https://voidlinux.org/",
       "logo": "https://linux-trend.vercel.app/logos/void.svg",
       "category": [
@@ -1976,13 +1961,13 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 105,
+      "no": 104,
       "name": "Liya",
-      "rank": 112,
-      "trend": "level",
+      "rank": 111,
+      "trend": "down",
       "url": "https://liyalinux.gitlab.io/",
       "logo": "https://linux-trend.vercel.app/logos/liya.svg",
       "category": [
@@ -1993,27 +1978,10 @@
         "Cinnamon",
         "MATE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 106,
-      "name": "Proxmox",
-      "rank": 109,
-      "trend": "down",
-      "url": "https://www.proxmox.com/",
-      "logo": "https://linux-trend.vercel.app/logos/proxmox.svg",
-      "category": [
-        "Clusters",
-        "Server",
-        "Specialist"
-      ],
-      "desktop": [
-        "Openbox"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 107,
+      "no": 105,
       "name": "Oracle",
       "rank": 108,
       "trend": "level",
@@ -2025,26 +1993,27 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 108,
-      "name": "Ubuntu Unity",
+      "no": 106,
+      "name": "Proxmox",
       "rank": 107,
       "trend": "down",
-      "url": "https://ubuntuunity.org/",
-      "logo": "https://linux-trend.vercel.app/logos/ubuntu unity.svg",
+      "url": "https://www.proxmox.com/",
+      "logo": "https://linux-trend.vercel.app/logos/proxmox.svg",
       "category": [
-        "Desktop",
-        "Live Medium"
+        "Clusters",
+        "Server",
+        "Specialist"
       ],
       "desktop": [
-        "Unity"
+        "Openbox"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 109,
+      "no": 107,
       "name": "Rhino",
       "rank": 106,
       "trend": "level",
@@ -2058,28 +2027,10 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 110,
-      "name": "Snal",
-      "rank": 105,
-      "trend": "level",
-      "url": "https://snallinux.sourceforge.io/",
-      "logo": "https://linux-trend.vercel.app/logos/snal.svg",
-      "category": [
-        "Docker",
-        "From RAM",
-        "Live Medium",
-        "Rescue"
-      ],
-      "desktop": [
-        "i3"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 111,
+      "no": 108,
       "name": "Absolute",
       "rank": 104,
       "trend": "level",
@@ -2092,12 +2043,30 @@
       "desktop": [
         "IceWM"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 112,
+      "no": 109,
+      "name": "Snal",
+      "rank": 104,
+      "trend": "down",
+      "url": "https://snallinux.sourceforge.io/",
+      "logo": "https://linux-trend.vercel.app/logos/snal.svg",
+      "category": [
+        "Docker",
+        "From RAM",
+        "Live Medium",
+        "Rescue"
+      ],
+      "desktop": [
+        "i3"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 110,
       "name": "EuroLinux",
-      "rank": 100,
+      "rank": 102,
       "trend": "up",
       "url": "https://en.euro-linux.com/eurolinux/",
       "logo": "https://linux-trend.vercel.app/logos/eurolinux.svg",
@@ -2109,13 +2078,29 @@
         "GNOME",
         "KDE Plasma"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 113,
+      "no": 111,
+      "name": "Ubuntu Unity",
+      "rank": 100,
+      "trend": "down",
+      "url": "https://ubuntuunity.org/",
+      "logo": "https://linux-trend.vercel.app/logos/ubuntu unity.svg",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Unity"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 112,
       "name": "Debian Edu",
-      "rank": 99,
-      "trend": "up",
+      "rank": 98,
+      "trend": "down",
       "url": "http://www.skolelinux.org/",
       "logo": "https://linux-trend.vercel.app/logos/debian edu.svg",
       "category": [
@@ -2132,24 +2117,35 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 113,
+      "name": "AnduinOS",
+      "rank": 96,
+      "trend": "up",
+      "url": "",
+      "logo": "https://linux-trend.vercel.app/logos/anduinos.svg",
+      "category": null,
+      "desktop": null,
+      "yesterday": 2396
     },
     {
       "no": 114,
       "name": "openKylin",
-      "rank": 98,
+      "rank": 96,
       "trend": "down",
       "url": "",
       "logo": "https://linux-trend.vercel.app/logos/openkylin.svg",
       "category": null,
       "desktop": null,
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 115,
       "name": "Emmabuntüs",
-      "rank": 96,
-      "trend": "level",
+      "rank": 95,
+      "trend": "down",
       "url": "https://emmabuntus.org/",
       "logo": "https://linux-trend.vercel.app/logos/emmabuntüs.svg",
       "category": [
@@ -2163,13 +2159,24 @@
         "LXQt",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 116,
+      "name": "openEuler",
+      "rank": 95,
+      "trend": "up",
+      "url": "",
+      "logo": "https://linux-trend.vercel.app/logos/openeuler.svg",
+      "category": null,
+      "desktop": null,
+      "yesterday": 2396
+    },
+    {
+      "no": 117,
       "name": "Gnoppix",
-      "rank": 94,
-      "trend": "level",
+      "rank": 93,
+      "trend": "down",
       "url": "https://www.gnoppix.com/",
       "logo": "https://linux-trend.vercel.app/logos/gnoppix.svg",
       "category": [
@@ -2181,48 +2188,10 @@
         "KDE Plasma",
         "Xfce"
       ],
-      "yesterday": 2397
-    },
-    {
-      "no": 117,
-      "name": "AnduinOS",
-      "rank": 93,
-      "trend": "up",
-      "url": "",
-      "logo": "https://linux-trend.vercel.app/logos/anduinos.svg",
-      "category": null,
-      "desktop": null,
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 118,
-      "name": "openEuler",
-      "rank": 93,
-      "trend": "up",
-      "url": "",
-      "logo": "https://linux-trend.vercel.app/logos/openeuler.svg",
-      "category": null,
-      "desktop": null,
-      "yesterday": 2397
-    },
-    {
-      "no": 119,
-      "name": "Clonezilla",
-      "rank": 89,
-      "trend": "down",
-      "url": "https://clonezilla.org/",
-      "logo": "https://linux-trend.vercel.app/logos/clonezilla.svg",
-      "category": [
-        "Data Rescue",
-        "Specialist"
-      ],
-      "desktop": [
-        "No Desktop"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 120,
       "name": "Mabox",
       "rank": 88,
       "trend": "level",
@@ -2235,13 +2204,13 @@
       "desktop": [
         "Openbox"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 121,
+      "no": 119,
       "name": "SysLinuxOS",
-      "rank": 87,
-      "trend": "level",
+      "rank": 88,
+      "trend": "up",
       "url": "https://syslinuxos.com/",
       "logo": "https://linux-trend.vercel.app/logos/syslinuxos.svg",
       "category": [
@@ -2252,32 +2221,44 @@
         "GNOME",
         "MATE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 122,
-      "name": "openmamba",
-      "rank": 85,
-      "trend": "level",
-      "url": "https://openmamba.org/",
-      "logo": "https://linux-trend.vercel.app/logos/openmamba.svg",
+      "no": 120,
+      "name": "Clonezilla",
+      "rank": 82,
+      "trend": "down",
+      "url": "https://clonezilla.org/",
+      "logo": "https://linux-trend.vercel.app/logos/clonezilla.svg",
       "category": [
-        "Desktop",
-        "Live Medium",
-        "Raspberry Pi",
+        "Data Rescue",
+        "Specialist"
+      ],
+      "desktop": [
+        "No Desktop"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 121,
+      "name": "MIRACLE",
+      "rank": 80,
+      "trend": "down",
+      "url": "https://www.miraclelinux.com",
+      "logo": "https://linux-trend.vercel.app/logos/miracle.svg",
+      "category": [
         "Server"
       ],
       "desktop": [
-        "KDE Plasma",
-        "LXQt"
+        "GNOME"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 123,
+      "no": 122,
       "name": "ExTiX",
       "rank": 75,
-      "trend": "down",
+      "trend": "level",
       "url": "https://www.extix.se/",
       "logo": "https://linux-trend.vercel.app/logos/extix.svg",
       "category": [
@@ -2290,10 +2271,10 @@
         "KDE Plasma",
         "LXQt"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 124,
+      "no": 123,
       "name": "Porteus",
       "rank": 75,
       "trend": "level",
@@ -2314,29 +2295,13 @@
         "Openbox",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 125,
-      "name": "Ubuntu Kylin",
-      "rank": 71,
-      "trend": "down",
-      "url": "https://www.ubuntukylin.com/",
-      "logo": "https://linux-trend.vercel.app/logos/ubuntu kylin.svg",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "UKUI"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 126,
+      "no": 124,
       "name": "Redox",
       "rank": 70,
-      "trend": "up",
+      "trend": "level",
       "url": "https://www.redox-os.org/",
       "logo": "https://linux-trend.vercel.app/logos/redox.svg",
       "category": [
@@ -2347,12 +2312,28 @@
       "desktop": [
         "COSMIC"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 127,
-      "name": "Commodore",
+      "no": 125,
+      "name": "Ubuntu Kylin",
       "rank": 68,
+      "trend": "down",
+      "url": "https://www.ubuntukylin.com/",
+      "logo": "https://linux-trend.vercel.app/logos/ubuntu kylin.svg",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "UKUI"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 126,
+      "name": "Commodore",
+      "rank": 67,
       "trend": "down",
       "url": "https://www.commodoreusa.net/",
       "logo": "https://linux-trend.vercel.app/logos/commodore.svg",
@@ -2363,29 +2344,13 @@
       "desktop": [
         "MATE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 128,
-      "name": "Ubuntu Budgie",
-      "rank": 67,
-      "trend": "down",
-      "url": "https://ubuntubudgie.org/",
-      "logo": "https://linux-trend.vercel.app/logos/ubuntu budgie.svg",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Budgie"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 129,
+      "no": 127,
       "name": "Archman",
       "rank": 66,
-      "trend": "up",
+      "trend": "level",
       "url": "https://archman.org/",
       "logo": "https://linux-trend.vercel.app/logos/archman.svg",
       "category": [
@@ -2396,7 +2361,42 @@
         "i3",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 128,
+      "name": "Ubuntu Budgie",
+      "rank": 64,
+      "trend": "down",
+      "url": "https://ubuntubudgie.org/",
+      "logo": "https://linux-trend.vercel.app/logos/ubuntu budgie.svg",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Budgie"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 129,
+      "name": "openmamba",
+      "rank": 63,
+      "trend": "down",
+      "url": "https://openmamba.org/",
+      "logo": "https://linux-trend.vercel.app/logos/openmamba.svg",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Raspberry Pi",
+        "Server"
+      ],
+      "desktop": [
+        "KDE Plasma",
+        "LXQt"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 130,
@@ -2412,13 +2412,13 @@
       "desktop": [
         "Fluxbox"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 131,
       "name": "KolibriOS",
       "rank": 61,
-      "trend": "down",
+      "trend": "level",
       "url": "http://kolibrios.org/",
       "logo": "https://linux-trend.vercel.app/logos/kolibrios.svg",
       "category": [
@@ -2430,7 +2430,7 @@
       "desktop": [
         "KolibriOS"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 132,
@@ -2448,7 +2448,7 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 133,
@@ -2475,26 +2475,10 @@
         "WMaker",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 134,
-      "name": "Ubuntu Cinnamon",
-      "rank": 58,
-      "trend": "down",
-      "url": "https://ubuntucinnamon.org/",
-      "logo": "https://linux-trend.vercel.app/logos/ubuntu cinnamon.svg",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Cinnamon"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 135,
       "name": "ArchBang",
       "rank": 56,
       "trend": "level",
@@ -2507,30 +2491,13 @@
       "desktop": [
         "i3"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 136,
-      "name": "BlackArch",
-      "rank": 56,
-      "trend": "level",
-      "url": "http://blackarch.org/",
-      "logo": "https://linux-trend.vercel.app/logos/blackarch.svg",
-      "category": [
-        "Live Medium",
-        "Security",
-        "Forensics"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 137,
+      "no": 135,
       "name": "ROSA",
       "rank": 56,
-      "trend": "up",
+      "trend": "level",
       "url": "https://www.rosalinux.ru/",
       "logo": "https://linux-trend.vercel.app/logos/rosa.svg",
       "category": [
@@ -2543,13 +2510,13 @@
         "LXQt",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 138,
+      "no": 136,
       "name": "Trisquel",
       "rank": 56,
-      "trend": "down",
+      "trend": "level",
       "url": "https://trisquel.info/",
       "logo": "https://linux-trend.vercel.app/logos/trisquel.svg",
       "category": [
@@ -2563,28 +2530,27 @@
         "LXDE",
         "MATE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 139,
-      "name": "SUSE",
+      "no": 137,
+      "name": "BlackArch",
       "rank": 55,
       "trend": "down",
-      "url": "https://www.suse.com/",
-      "logo": "https://linux-trend.vercel.app/logos/suse.svg",
+      "url": "http://blackarch.org/",
+      "logo": "https://linux-trend.vercel.app/logos/blackarch.svg",
       "category": [
-        "Desktop",
-        "Raspberry Pi",
-        "Server"
+        "Live Medium",
+        "Security",
+        "Forensics"
       ],
       "desktop": [
-        "GNOME",
-        "IceWM"
+        "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 140,
+      "no": 138,
       "name": "SliTaz",
       "rank": 54,
       "trend": "level",
@@ -2600,29 +2566,47 @@
       "desktop": [
         "Openbox"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 139,
+      "name": "SUSE",
+      "rank": 54,
+      "trend": "down",
+      "url": "https://www.suse.com/",
+      "logo": "https://linux-trend.vercel.app/logos/suse.svg",
+      "category": [
+        "Desktop",
+        "Raspberry Pi",
+        "Server"
+      ],
+      "desktop": [
+        "GNOME",
+        "IceWM"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 140,
+      "name": "Ubuntu Cinnamon",
+      "rank": 54,
+      "trend": "down",
+      "url": "https://ubuntucinnamon.org/",
+      "logo": "https://linux-trend.vercel.app/logos/ubuntu cinnamon.svg",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Cinnamon"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 141,
-      "name": "IPFire",
-      "rank": 53,
-      "trend": "down",
-      "url": "https://www.ipfire.org/",
-      "logo": "https://linux-trend.vercel.app/logos/ipfire.svg",
-      "category": [
-        "Firewall"
-      ],
-      "desktop": [
-        "No Desktop",
-        "WebUI"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 142,
       "name": "Whonix",
-      "rank": 52,
-      "trend": "up",
+      "rank": 51,
+      "trend": "down",
       "url": "https://www.whonix.org/",
       "logo": "https://linux-trend.vercel.app/logos/whonix.svg",
       "category": [
@@ -2633,10 +2617,10 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 143,
+      "no": 142,
       "name": "GParted",
       "rank": 50,
       "trend": "level",
@@ -2650,13 +2634,13 @@
       "desktop": [
         "Fluxbox"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 144,
+      "no": 143,
       "name": "Pardus",
       "rank": 50,
-      "trend": "up",
+      "trend": "level",
       "url": "https://www.pardus.org.tr/",
       "logo": "https://linux-trend.vercel.app/logos/pardus.svg",
       "category": [
@@ -2668,10 +2652,10 @@
         "GNOME",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 145,
+      "no": 144,
       "name": "postmarketOS",
       "rank": 50,
       "trend": "level",
@@ -2687,13 +2671,13 @@
         "Plasma Mobile",
         "Sxmo"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 146,
+      "no": 145,
       "name": "Clear",
       "rank": 49,
-      "trend": "down",
+      "trend": "level",
       "url": "https://clearlinux.org/",
       "logo": "https://linux-trend.vercel.app/logos/clear.svg",
       "category": [
@@ -2705,30 +2689,13 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 147,
-      "name": "Feren",
-      "rank": 49,
-      "trend": "level",
-      "url": "http://ferenos.weebly.com/",
-      "logo": "https://linux-trend.vercel.app/logos/feren.svg",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Cinnamon",
-        "KDE Plasma"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 148,
+      "no": 146,
       "name": "NetBSD",
       "rank": 49,
-      "trend": "down",
+      "trend": "level",
       "url": "https://www.netbsd.org/",
       "logo": "https://linux-trend.vercel.app/logos/netbsd.svg",
       "category": [
@@ -2748,10 +2715,10 @@
         "WMaker",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 149,
+      "no": 147,
       "name": "Parabola",
       "rank": 49,
       "trend": "level",
@@ -2774,10 +2741,10 @@
         "WMaker",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 150,
+      "no": 148,
       "name": "Salix",
       "rank": 49,
       "trend": "level",
@@ -2790,10 +2757,27 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 151,
+      "no": 149,
+      "name": "Feren",
+      "rank": 48,
+      "trend": "down",
+      "url": "http://ferenos.weebly.com/",
+      "logo": "https://linux-trend.vercel.app/logos/feren.svg",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Cinnamon",
+        "KDE Plasma"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 150,
       "name": "Guix System",
       "rank": 48,
       "trend": "level",
@@ -2815,30 +2799,29 @@
         "Ratpoison",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 151,
+      "name": "IPFire",
+      "rank": 48,
+      "trend": "down",
+      "url": "https://www.ipfire.org/",
+      "logo": "https://linux-trend.vercel.app/logos/ipfire.svg",
+      "category": [
+        "Firewall"
+      ],
+      "desktop": [
+        "No Desktop",
+        "WebUI"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 152,
-      "name": "Edubuntu",
-      "rank": 47,
-      "trend": "down",
-      "url": "https://www.edubuntu.org/",
-      "logo": "https://linux-trend.vercel.app/logos/edubuntu.svg",
-      "category": [
-        "Education",
-        "Live Medium",
-        "Raspberry Pi"
-      ],
-      "desktop": [
-        "GNOME"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 153,
       "name": "NomadBSD",
-      "rank": 47,
-      "trend": "down",
+      "rank": 48,
+      "trend": "up",
       "url": "https://nomadbsd.org/",
       "logo": "https://linux-trend.vercel.app/logos/nomadbsd.svg",
       "category": [
@@ -2848,10 +2831,10 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 154,
+      "no": 153,
       "name": "SystemRescue",
       "rank": 47,
       "trend": "level",
@@ -2865,10 +2848,10 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 155,
+      "no": 154,
       "name": "siduction",
       "rank": 46,
       "trend": "level",
@@ -2883,7 +2866,24 @@
         "LXQt",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 155,
+      "name": "Edubuntu",
+      "rank": 45,
+      "trend": "down",
+      "url": "https://www.edubuntu.org/",
+      "logo": "https://linux-trend.vercel.app/logos/edubuntu.svg",
+      "category": [
+        "Education",
+        "Live Medium",
+        "Raspberry Pi"
+      ],
+      "desktop": [
+        "GNOME"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 156,
@@ -2900,13 +2900,13 @@
       "desktop": [
         "IceWM"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 157,
       "name": "MidnightBSD",
       "rank": 45,
-      "trend": "up",
+      "trend": "level",
       "url": "https://www.midnightbsd.org/",
       "logo": "https://linux-trend.vercel.app/logos/midnightbsd.svg",
       "category": [
@@ -2924,13 +2924,13 @@
         "WMaker",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 158,
       "name": "Neptune",
       "rank": 45,
-      "trend": "up",
+      "trend": "level",
       "url": "https://neptuneos.com/",
       "logo": "https://linux-trend.vercel.app/logos/neptune.svg",
       "category": [
@@ -2940,7 +2940,7 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 159,
@@ -2957,7 +2957,7 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 160,
@@ -2974,7 +2974,7 @@
       "desktop": [
         "Openbox"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 161,
@@ -2992,7 +2992,7 @@
         "",
         "LXQt"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 162,
@@ -3013,7 +3013,7 @@
         "Openbox",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 163,
@@ -3029,13 +3029,13 @@
       "desktop": [
         "helloDesktop"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 164,
       "name": "Kaisen",
       "rank": 43,
-      "trend": "up",
+      "trend": "level",
       "url": "https://kaisenlinux.org/",
       "logo": "https://linux-trend.vercel.app/logos/kaisen.svg",
       "category": [
@@ -3050,7 +3050,7 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 165,
@@ -3066,7 +3066,7 @@
         "No Desktop",
         "WebUI"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 166,
@@ -3081,7 +3081,7 @@
       "desktop": [
         "No desktop"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 167,
@@ -3101,18 +3101,18 @@
         "WMaker",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 168,
       "name": "LinuxConsole",
       "rank": 41,
-      "trend": "down",
+      "trend": "level",
       "url": "",
       "logo": "https://linux-trend.vercel.app/logos/linuxconsole.svg",
       "category": null,
       "desktop": null,
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 169,
@@ -3129,13 +3129,13 @@
         "No Desktop",
         "WebUI"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 170,
       "name": "Runtu",
       "rank": 41,
-      "trend": "up",
+      "trend": "level",
       "url": "http://www.runtu.org/",
       "logo": "https://linux-trend.vercel.app/logos/runtu.svg",
       "category": [
@@ -3147,7 +3147,7 @@
         "KDE Plasma",
         "LXDE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 171,
@@ -3163,13 +3163,13 @@
       "desktop": [
         "No Desktop"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 172,
       "name": "Ubuntu Pack",
       "rank": 41,
-      "trend": "up",
+      "trend": "level",
       "url": "https://ualinux.com/en/ubuntu-oem",
       "logo": "https://linux-trend.vercel.app/logos/ubuntu pack.svg",
       "category": [
@@ -3188,7 +3188,7 @@
         "Unity",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 173,
@@ -3204,13 +3204,13 @@
       "desktop": [
         "KDE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 174,
       "name": "Zenwalk",
       "rank": 41,
-      "trend": "down",
+      "trend": "level",
       "url": "http://zenwalk.org/",
       "logo": "https://linux-trend.vercel.app/logos/zenwalk.svg",
       "category": [
@@ -3219,26 +3219,10 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 175,
-      "name": "Crunchbangplusplus",
-      "rank": 40,
-      "trend": "level",
-      "url": "https://www.crunchbangplusplus.org/",
-      "logo": "https://linux-trend.vercel.app/logos/crunchbangplusplus.svg",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Openbox"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 176,
       "name": "KANOTIX",
       "rank": 40,
       "trend": "level",
@@ -3253,10 +3237,10 @@
         "KDE",
         "LXDE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 177,
+      "no": 176,
       "name": "OpenIndiana",
       "rank": 40,
       "trend": "level",
@@ -3270,7 +3254,23 @@
       "desktop": [
         "MATE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 177,
+      "name": "Crunchbangplusplus",
+      "rank": 39,
+      "trend": "down",
+      "url": "https://www.crunchbangplusplus.org/",
+      "logo": "https://linux-trend.vercel.app/logos/crunchbangplusplus.svg",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Openbox"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 178,
@@ -3289,28 +3289,10 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 179,
-      "name": "CRUX",
-      "rank": 38,
-      "trend": "up",
-      "url": "https://crux.nu/",
-      "logo": "https://linux-trend.vercel.app/logos/crux.svg",
-      "category": [
-        "Desktop",
-        "Raspberry Pi",
-        "Server",
-        "Source-based"
-      ],
-      "desktop": [
-        "Openbox"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 180,
       "name": "Elive",
       "rank": 38,
       "trend": "level",
@@ -3322,10 +3304,10 @@
       "desktop": [
         "Enlightenment"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 181,
+      "no": 180,
       "name": "Netrunner",
       "rank": 38,
       "trend": "level",
@@ -3339,10 +3321,10 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 182,
+      "no": 181,
       "name": "CAINE",
       "rank": 37,
       "trend": "level",
@@ -3355,7 +3337,25 @@
       "desktop": [
         "MATE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 182,
+      "name": "CRUX",
+      "rank": 37,
+      "trend": "down",
+      "url": "https://crux.nu/",
+      "logo": "https://linux-trend.vercel.app/logos/crux.svg",
+      "category": [
+        "Desktop",
+        "Raspberry Pi",
+        "Server",
+        "Source-based"
+      ],
+      "desktop": [
+        "Openbox"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 183,
@@ -3372,13 +3372,13 @@
       "desktop": [
         "RetroArch"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 184,
       "name": "Obarun",
       "rank": 37,
-      "trend": "down",
+      "trend": "level",
       "url": "https://web.obarun.org/",
       "logo": "https://linux-trend.vercel.app/logos/obarun.svg",
       "category": [
@@ -3391,7 +3391,7 @@
         "Openbox",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 185,
@@ -3408,7 +3408,7 @@
         "KDE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 186,
@@ -3425,7 +3425,7 @@
         "GNOME",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 187,
@@ -3442,10 +3442,25 @@
         "No Desktop",
         "WebUI"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 188,
+      "name": "Dragora",
+      "rank": 36,
+      "trend": "up",
+      "url": "http://www.dragora.org/",
+      "logo": "https://linux-trend.vercel.app/logos/dragora.svg",
+      "category": [
+        "Free Software"
+      ],
+      "desktop": [
+        "Trinity"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 189,
       "name": "Pearl",
       "rank": 36,
       "trend": "level",
@@ -3458,13 +3473,13 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 189,
+      "no": 190,
       "name": "Rescuezilla",
       "rank": 36,
-      "trend": "down",
+      "trend": "level",
       "url": "https://rescuezilla.com/",
       "logo": "https://linux-trend.vercel.app/logos/rescuezilla.svg",
       "category": [
@@ -3474,13 +3489,13 @@
       "desktop": [
         "LXDE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 190,
+      "no": 191,
       "name": "Venom",
       "rank": 36,
-      "trend": "up",
+      "trend": "level",
       "url": "https://venomlinux.org/",
       "logo": "https://linux-trend.vercel.app/logos/venom.svg",
       "category": [
@@ -3490,44 +3505,13 @@
       "desktop": [
         "Openbox"
       ],
-      "yesterday": 2397
-    },
-    {
-      "no": 191,
-      "name": "Berry",
-      "rank": 35,
-      "trend": "level",
-      "url": "http://berry-lab.net/berry.html",
-      "logo": "https://linux-trend.vercel.app/logos/berry.svg",
-      "category": [
-        "Live Medium"
-      ],
-      "desktop": [
-        "LXDE",
-        "Maynard"
-      ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 192,
-      "name": "Dragora",
-      "rank": 35,
-      "trend": "level",
-      "url": "http://www.dragora.org/",
-      "logo": "https://linux-trend.vercel.app/logos/dragora.svg",
-      "category": [
-        "Free Software"
-      ],
-      "desktop": [
-        "Trinity"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 193,
       "name": "Exe",
       "rank": 35,
-      "trend": "up",
+      "trend": "level",
       "url": "http://exegnulinux.net/",
       "logo": "https://linux-trend.vercel.app/logos/exe.svg",
       "category": [
@@ -3537,7 +3521,23 @@
       "desktop": [
         "Trinity"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 193,
+      "name": "Fatdog64",
+      "rank": 35,
+      "trend": "up",
+      "url": "https://distro.ibiblio.org/fatdog/web/",
+      "logo": "https://linux-trend.vercel.app/logos/fatdog64.svg",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Openbox"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 194,
@@ -3563,7 +3563,7 @@
         "Openbox",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 195,
@@ -3582,7 +3582,7 @@
         "Openbox",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 196,
@@ -3597,26 +3597,42 @@
       "desktop": [
         "No Desktop"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 197,
-      "name": "Fatdog64",
+      "name": "Berry",
       "rank": 34,
       "trend": "down",
-      "url": "https://distro.ibiblio.org/fatdog/web/",
-      "logo": "https://linux-trend.vercel.app/logos/fatdog64.svg",
+      "url": "http://berry-lab.net/berry.html",
+      "logo": "https://linux-trend.vercel.app/logos/berry.svg",
       "category": [
-        "Desktop",
         "Live Medium"
       ],
       "desktop": [
-        "Openbox"
+        "LXDE",
+        "Maynard"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 198,
+      "name": "EasyNAS",
+      "rank": 34,
+      "trend": "up",
+      "url": "https://www.easynas.org/",
+      "logo": "https://linux-trend.vercel.app/logos/easynas.svg",
+      "category": [
+        "NAS"
+      ],
+      "desktop": [
+        "No Desktop",
+        "WebUI"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 199,
       "name": "Hyperbola",
       "rank": 34,
       "trend": "level",
@@ -3633,10 +3649,10 @@
         "JWM",
         "Openbox"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 199,
+      "no": 200,
       "name": "OPNsense",
       "rank": 34,
       "trend": "level",
@@ -3650,13 +3666,13 @@
         "No Desktop",
         "WebUI"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 200,
+      "no": 201,
       "name": "CROWZ",
       "rank": 33,
-      "trend": "down",
+      "trend": "level",
       "url": "https://sourceforge.net/projects/crowz/",
       "logo": "https://linux-trend.vercel.app/logos/crowz.svg",
       "category": [
@@ -3668,23 +3684,7 @@
         "JWM",
         "Openbox"
       ],
-      "yesterday": 2397
-    },
-    {
-      "no": 201,
-      "name": "EasyNAS",
-      "rank": 33,
-      "trend": "level",
-      "url": "https://www.easynas.org/",
-      "logo": "https://linux-trend.vercel.app/logos/easynas.svg",
-      "category": [
-        "NAS"
-      ],
-      "desktop": [
-        "No Desktop",
-        "WebUI"
-      ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 202,
@@ -3700,7 +3700,7 @@
       "desktop": [
         "No Desktop"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 203,
@@ -3715,7 +3715,7 @@
       "desktop": [
         "No Desktop"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 204,
@@ -3731,7 +3731,7 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 205,
@@ -3757,7 +3757,7 @@
         "WMaker",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 206,
@@ -3774,13 +3774,13 @@
       "desktop": [
         "Unity"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 207,
       "name": "Vine",
       "rank": 33,
-      "trend": "down",
+      "trend": "level",
       "url": "http://www.vinelinux.org/",
       "logo": "https://linux-trend.vercel.app/logos/vine.svg",
       "category": [
@@ -3790,7 +3790,7 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 208,
@@ -3805,7 +3805,7 @@
       "desktop": [
         "No desktop"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 209,
@@ -3821,29 +3821,13 @@
       "desktop": [
         "Kodi"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 210,
-      "name": "Linspire",
-      "rank": 32,
-      "trend": "up",
-      "url": "http://www.linspirelinux.com/",
-      "logo": "https://linux-trend.vercel.app/logos/linspire.svg",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 211,
       "name": "Linux Schools",
       "rank": 32,
-      "trend": "up",
+      "trend": "level",
       "url": "https://www.linuxschools.com/",
       "logo": "https://linux-trend.vercel.app/logos/linux schools.svg",
       "category": [
@@ -3853,10 +3837,10 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 212,
+      "no": 211,
       "name": "Pentoo",
       "rank": 32,
       "trend": "level",
@@ -3870,10 +3854,10 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 213,
+      "no": 212,
       "name": "RISC",
       "rank": 32,
       "trend": "level",
@@ -3885,13 +3869,13 @@
       "desktop": [
         "Pinboard"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 214,
+      "no": 213,
       "name": "XigmaNAS",
       "rank": 32,
-      "trend": "down",
+      "trend": "level",
       "url": "https://www.xigmanas.com/",
       "logo": "https://linux-trend.vercel.app/logos/xigmanas.svg",
       "category": [
@@ -3901,10 +3885,10 @@
         "No Desktop",
         "WebUI"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 215,
+      "no": 214,
       "name": "Zephix",
       "rank": 32,
       "trend": "level",
@@ -3923,10 +3907,10 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 216,
+      "no": 215,
       "name": "Accessible-Coconut",
       "rank": 31,
       "trend": "level",
@@ -3939,10 +3923,10 @@
       "desktop": [
         "MATE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 217,
+      "no": 216,
       "name": "FuguIta",
       "rank": 31,
       "trend": "level",
@@ -3954,7 +3938,23 @@
       "desktop": [
         "Fvwm"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 217,
+      "name": "Linspire",
+      "rank": 31,
+      "trend": "down",
+      "url": "http://www.linspirelinux.com/",
+      "logo": "https://linux-trend.vercel.app/logos/linspire.svg",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "GNOME"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 218,
@@ -3969,13 +3969,13 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 219,
       "name": "Slackel",
       "rank": 31,
-      "trend": "up",
+      "trend": "level",
       "url": "http://www.slackel.gr/",
       "logo": "https://linux-trend.vercel.app/logos/slackel.svg",
       "category": [
@@ -3986,27 +3986,10 @@
         "MATE",
         "Openbox"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 220,
-      "name": "Super Grub2",
-      "rank": 31,
-      "trend": "level",
-      "url": "https://www.supergrubdisk.org/super-grub2-disk/",
-      "logo": "https://linux-trend.vercel.app/logos/super grub2.svg",
-      "category": [
-        "Data Rescue",
-        "Live Medium",
-        "Specialist"
-      ],
-      "desktop": [
-        ""
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 221,
       "name": "Untangle",
       "rank": 31,
       "trend": "level",
@@ -4019,10 +4002,10 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 222,
+      "no": 221,
       "name": "BSDRP",
       "rank": 30,
       "trend": "level",
@@ -4035,10 +4018,10 @@
       "desktop": [
         "No Desktop"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 223,
+      "no": 222,
       "name": "Dynebolic",
       "rank": 30,
       "trend": "level",
@@ -4053,10 +4036,10 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 224,
+      "no": 223,
       "name": "Exherbo",
       "rank": 30,
       "trend": "level",
@@ -4076,13 +4059,13 @@
         "Openbox",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 225,
+      "no": 224,
       "name": "Nova",
       "rank": 30,
-      "trend": "up",
+      "trend": "level",
       "url": "https://www.nova.cu/",
       "logo": "https://linux-trend.vercel.app/logos/nova.svg",
       "category": [
@@ -4095,24 +4078,40 @@
         "Guano",
         "LXDE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 225,
+      "name": "Rockstor",
+      "rank": 30,
+      "trend": "up",
+      "url": "http://rockstor.com/",
+      "logo": "https://linux-trend.vercel.app/logos/rockstor.svg",
+      "category": [
+        "NAS"
+      ],
+      "desktop": [
+        "No Desktop",
+        "WebUI"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 226,
-      "name": "Zentyal",
+      "name": "Super Grub2",
       "rank": 30,
-      "trend": "level",
-      "url": "https://www.zentyal.org/",
-      "logo": "https://linux-trend.vercel.app/logos/zentyal.svg",
+      "trend": "down",
+      "url": "https://www.supergrubdisk.org/super-grub2-disk/",
+      "logo": "https://linux-trend.vercel.app/logos/super grub2.svg",
       "category": [
-        "Security",
-        "Server"
+        "Data Rescue",
+        "Live Medium",
+        "Specialist"
       ],
       "desktop": [
-        "LXDE",
-        "WebUI"
+        ""
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 227,
@@ -4123,7 +4122,7 @@
       "logo": "https://linux-trend.vercel.app/logos/pelicanhpc.svg",
       "category": null,
       "desktop": null,
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 228,
@@ -4139,13 +4138,13 @@
       "desktop": [
         "Weston"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 229,
       "name": "Recalbox",
       "rank": 29,
-      "trend": "up",
+      "trend": "level",
       "url": "https://www.recalbox.com/",
       "logo": "https://linux-trend.vercel.app/logos/recalbox.svg",
       "category": [
@@ -4156,7 +4155,7 @@
       "desktop": [
         "No desktop"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 230,
@@ -4172,23 +4171,24 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 231,
-      "name": "Rockstor",
+      "name": "Zentyal",
       "rank": 29,
-      "trend": "level",
-      "url": "http://rockstor.com/",
-      "logo": "https://linux-trend.vercel.app/logos/rockstor.svg",
+      "trend": "down",
+      "url": "https://www.zentyal.org/",
+      "logo": "https://linux-trend.vercel.app/logos/zentyal.svg",
       "category": [
-        "NAS"
+        "Security",
+        "Server"
       ],
       "desktop": [
-        "No Desktop",
+        "LXDE",
         "WebUI"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 232,
@@ -4203,7 +4203,7 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 233,
@@ -4222,25 +4222,10 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 234,
-      "name": "Photon",
-      "rank": 28,
-      "trend": "level",
-      "url": "https://vmware.github.io/photon/",
-      "logo": "https://linux-trend.vercel.app/logos/photon.svg",
-      "category": [
-        "Docker"
-      ],
-      "desktop": [
-        "No Desktop"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 235,
       "name": "Plop",
       "rank": 28,
       "trend": "level",
@@ -4258,10 +4243,10 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 236,
+      "no": 235,
       "name": "Porteus Kiosk",
       "rank": 28,
       "trend": "level",
@@ -4274,13 +4259,13 @@
       "desktop": [
         "Firefox"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 237,
+      "no": 236,
       "name": "Endian",
       "rank": 27,
-      "trend": "down",
+      "trend": "level",
       "url": "https://www.endian.com/community/",
       "logo": "https://linux-trend.vercel.app/logos/endian.svg",
       "category": [
@@ -4289,10 +4274,10 @@
       "desktop": [
         "No desktop"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 238,
+      "no": 237,
       "name": "Kumander",
       "rank": 27,
       "trend": "level",
@@ -4305,10 +4290,10 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 239,
+      "no": 238,
       "name": "NST",
       "rank": 27,
       "trend": "level",
@@ -4323,7 +4308,22 @@
         "MATE",
         "Openbox"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 239,
+      "name": "Photon",
+      "rank": 27,
+      "trend": "down",
+      "url": "https://vmware.github.io/photon/",
+      "logo": "https://linux-trend.vercel.app/logos/photon.svg",
+      "category": [
+        "Docker"
+      ],
+      "desktop": [
+        "No Desktop"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 240,
@@ -4339,7 +4339,7 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 241,
@@ -4355,7 +4355,7 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 242,
@@ -4370,7 +4370,7 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 243,
@@ -4388,7 +4388,7 @@
         "Cinnamon",
         "MATE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 244,
@@ -4404,7 +4404,7 @@
         "No Desktop",
         "WebUI"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 245,
@@ -4420,7 +4420,7 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 246,
@@ -4435,25 +4435,10 @@
       "desktop": [
         "No Desktop"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 247,
-      "name": "FreedomBox",
-      "rank": 26,
-      "trend": "up",
-      "url": "https://freedombox.org/",
-      "logo": "https://linux-trend.vercel.app/logos/freedombox.svg",
-      "category": [
-        "Server"
-      ],
-      "desktop": [
-        "WebUI"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 248,
       "name": "Grml",
       "rank": 26,
       "trend": "level",
@@ -4466,41 +4451,10 @@
       "desktop": [
         "Fluxbox"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 249,
-      "name": "OSMC",
-      "rank": 26,
-      "trend": "up",
-      "url": "https://osmc.tv/",
-      "logo": "https://linux-trend.vercel.app/logos/osmc.svg",
-      "category": [
-        "Raspberry Pi"
-      ],
-      "desktop": [
-        "Kodi"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 250,
-      "name": "PakOS",
-      "rank": 26,
-      "trend": "up",
-      "url": "https://sourceforge.net/projects/pakos/",
-      "logo": "https://linux-trend.vercel.app/logos/pakos.svg",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "LXQt"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 251,
+      "no": 248,
       "name": "Plamo",
       "rank": 26,
       "trend": "level",
@@ -4516,26 +4470,10 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 252,
-      "name": "WM Live",
-      "rank": 26,
-      "trend": "level",
-      "url": "https://wmlive.sourceforge.net/",
-      "logo": "https://linux-trend.vercel.app/logos/wm live.svg",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "WMaker"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 253,
+      "no": 249,
       "name": "eLearnix",
       "rank": 25,
       "trend": "level",
@@ -4548,10 +4486,25 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 254,
+      "no": 250,
+      "name": "FreedomBox",
+      "rank": 25,
+      "trend": "down",
+      "url": "https://freedombox.org/",
+      "logo": "https://linux-trend.vercel.app/logos/freedombox.svg",
+      "category": [
+        "Server"
+      ],
+      "desktop": [
+        "WebUI"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 251,
       "name": "HamoniKR",
       "rank": 25,
       "trend": "level",
@@ -4564,10 +4517,10 @@
       "desktop": [
         "Cinnamon"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 255,
+      "no": 252,
       "name": "Lernstick",
       "rank": 25,
       "trend": "level",
@@ -4587,10 +4540,10 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 256,
+      "no": 253,
       "name": "mAid",
       "rank": 25,
       "trend": "level",
@@ -4603,10 +4556,10 @@
       "desktop": [
         "Budgie"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 257,
+      "no": 254,
       "name": "NexentaStor",
       "rank": 25,
       "trend": "level",
@@ -4619,10 +4572,41 @@
       "desktop": [
         "No desktop"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 258,
+      "no": 255,
+      "name": "OSMC",
+      "rank": 25,
+      "trend": "down",
+      "url": "https://osmc.tv/",
+      "logo": "https://linux-trend.vercel.app/logos/osmc.svg",
+      "category": [
+        "Raspberry Pi"
+      ],
+      "desktop": [
+        "Kodi"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 256,
+      "name": "PakOS",
+      "rank": 25,
+      "trend": "down",
+      "url": "https://sourceforge.net/projects/pakos/",
+      "logo": "https://linux-trend.vercel.app/logos/pakos.svg",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "LXQt"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 257,
       "name": "SELKS",
       "rank": 25,
       "trend": "level",
@@ -4635,7 +4619,24 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 258,
+      "name": "Slint",
+      "rank": 25,
+      "trend": "up",
+      "url": "https://slint.fr/en/home.html",
+      "logo": "https://linux-trend.vercel.app/logos/slint.svg",
+      "category": [
+        "Assistive",
+        "Desktop"
+      ],
+      "desktop": [
+        "LXQt",
+        "MATE"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 259,
@@ -4651,7 +4652,7 @@
       "desktop": [
         "No Desktop"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 260,
@@ -4666,10 +4667,26 @@
       "desktop": [
         "KDE"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 261,
+      "name": "WM Live",
+      "rank": 25,
+      "trend": "down",
+      "url": "https://wmlive.sourceforge.net/",
+      "logo": "https://linux-trend.vercel.app/logos/wm live.svg",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "WMaker"
+      ],
+      "yesterday": 2396
+    },
+    {
+      "no": 262,
       "name": "OviOS",
       "rank": 24,
       "trend": "level",
@@ -4681,25 +4698,7 @@
       "desktop": [
         "No Desktop"
       ],
-      "yesterday": 2397
-    },
-    {
-      "no": 262,
-      "name": "paldo",
-      "rank": 24,
-      "trend": "level",
-      "url": "http://www.paldo.org/",
-      "logo": "https://linux-trend.vercel.app/logos/paldo.svg",
-      "category": [
-        "Data Rescue",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME",
-        "IceWM",
-        "Xfce"
-      ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 263,
@@ -4721,7 +4720,7 @@
         "WMaker",
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 264,
@@ -4738,27 +4737,10 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
       "no": 265,
-      "name": "Slint",
-      "rank": 24,
-      "trend": "level",
-      "url": "https://slint.fr/en/home.html",
-      "logo": "https://linux-trend.vercel.app/logos/slint.svg",
-      "category": [
-        "Assistive",
-        "Desktop"
-      ],
-      "desktop": [
-        "LXQt",
-        "MATE"
-      ],
-      "yesterday": 2397
-    },
-    {
-      "no": 266,
       "name": "YunoHost",
       "rank": 24,
       "trend": "level",
@@ -4771,13 +4753,13 @@
         "No Desktop",
         "WebUI"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 267,
+      "no": 266,
       "name": "Bicom",
       "rank": 23,
-      "trend": "up",
+      "trend": "level",
       "url": "http://www.bicomsystems.com/products/pbxware/",
       "logo": "https://linux-trend.vercel.app/logos/bicom.svg",
       "category": [
@@ -4788,13 +4770,13 @@
         "No Desktop",
         "WebUI"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     },
     {
-      "no": 268,
+      "no": 267,
       "name": "OSGeoLive",
       "rank": 23,
-      "trend": "up",
+      "trend": "level",
       "url": "https://live.osgeo.org/",
       "logo": "https://linux-trend.vercel.app/logos/osgeolive.svg",
       "category": [
@@ -4804,7 +4786,25 @@
       "desktop": [
         "LXQt"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
+    },
+    {
+      "no": 268,
+      "name": "paldo",
+      "rank": 23,
+      "trend": "down",
+      "url": "http://www.paldo.org/",
+      "logo": "https://linux-trend.vercel.app/logos/paldo.svg",
+      "category": [
+        "Data Rescue",
+        "Live Medium"
+      ],
+      "desktop": [
+        "GNOME",
+        "IceWM",
+        "Xfce"
+      ],
+      "yesterday": 2396
     },
     {
       "no": 269,
@@ -4819,7 +4819,7 @@
       "desktop": [
         "No Desktop"
       ],
-      "yesterday": 2397
+      "yesterday": 2396
     }
   ]
 }
