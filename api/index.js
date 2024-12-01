@@ -25,6 +25,9 @@ app.get("/api/last12months", (req, res) => {
   res.json(dataLast12months);
 })
 
+app.get("/api/top1", (req, res) => {
+  res.json(dataLast1months.data[0]);
+})
 
 app.listen(3000, () => console.log("Server ready on port 3000."));
 
