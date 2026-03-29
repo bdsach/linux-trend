@@ -1,21 +1,36 @@
 [
   {
-    "name": "MX Linux",
+    "name": "CachyOS",
+    "basedOn": "Arch",
     "categories": [
       "Desktop",
-      "From RAM",
-      "Live Medium",
-      "Raspberry Pi"
+      "Live Medium"
     ],
     "desktop": [
-      "Fluxbox",
+      "bspwm",
+      "Budgie",
+      "Cinnamon",
+      "COSMIC",
+      "GNOME",
+      "Hyprland",
+      "i3",
       "KDE Plasma",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "niri",
+      "Openbox",
+      "Qtile",
+      "Sway",
+      "UKUI",
+      "Wayfire",
       "Xfce"
     ],
-    "url": "https://mxlinux.org/"
+    "url": "https://discuss.cachyos.org/"
   },
   {
     "name": "Mint",
+    "basedOn": "Debian (Stable)",
     "categories": [
       "Beginners",
       "Desktop",
@@ -26,29 +41,28 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://linuxmint.com/"
+    "url": "https://forums.linuxmint.com/"
   },
   {
-    "name": "EndeavourOS",
+    "name": "MX Linux",
+    "basedOn": "Debian (Stable)",
     "categories": [
       "Desktop",
+      "From RAM",
       "Live Medium",
+      "Old Computers",
       "Raspberry Pi"
     ],
     "desktop": [
-      "Budgie",
-      "Cinnamon",
-      "GNOME",
-      "i3",
+      "Fluxbox",
       "KDE Plasma",
-      "LXQt",
-      "MATE",
       "Xfce"
     ],
-    "url": "https://endeavouros.com/"
+    "url": "https://forum.mxlinux.org/"
   },
   {
     "name": "Debian",
+    "basedOn": "Independent",
     "categories": [
       "Desktop",
       "Live Medium",
@@ -58,39 +72,61 @@
       "AfterStep",
       "Awesome",
       "Blackbox",
+      "bspwm",
       "Budgie",
       "Cinnamon",
+      "dwm",
+      "Enlightenment",
       "Fluxbox",
       "flwm",
       "FVWM",
       "GNOME",
       "i3",
       "IceWM",
-      "ion",
       "JWM",
-      "KDE",
+      "KDE Plasma",
+      "labwc",
+      "Lomiri",
       "LXDE",
       "LXQt",
       "MATE",
+      "Metacity",
       "Openbox",
       "pekwm",
+      "Qtile",
       "Ratpoison",
+      "Sway",
+      "TWM",
+      "UKUI",
+      "Wayfire",
       "WMaker",
-      "XBMC",
       "Xfce"
     ],
-    "url": "https://www.debian.org/"
+    "url": "https://lists.debian.org/"
   },
   {
-    "name": "Manjaro",
+    "name": "Pop!_OS",
+    "basedOn": "Debian",
     "categories": [
       "Desktop",
       "Live Medium",
       "Raspberry Pi"
     ],
     "desktop": [
-      "Awesome",
-      "bspwm",
+      "COSMIC",
+      "GNOME"
+    ],
+    "url": "https://chat.pop-os.org/"
+  },
+  {
+    "name": "EndeavourOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "desktop": [
       "Budgie",
       "Cinnamon",
       "GNOME",
@@ -98,14 +134,75 @@
       "KDE Plasma",
       "LXQt",
       "MATE",
-      "Openbox",
+      "Xfce"
+    ],
+    "url": "https://forum.endeavouros.com/"
+  },
+  {
+    "name": "Zorin",
+    "basedOn": "Debian",
+    "categories": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME",
+      "Xfce"
+    ],
+    "url": "https://forum.zorin.com/"
+  },
+  {
+    "name": "Manjaro",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "i3",
+      "KDE Plasma",
+      "labwc",
+      "MATE",
       "Sway",
       "Xfce"
     ],
-    "url": "https://manjaro.org/"
+    "url": "https://lists.manjaro.org/"
+  },
+  {
+    "name": "Fedora",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Immutable",
+      "Server",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Awesome",
+      "Budgie",
+      "Cinnamon",
+      "Enlightenment",
+      "i3",
+      "GNOME",
+      "KDE Plasma",
+      "labwc",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Openbox",
+      "Ratpoison",
+      "Wayfire",
+      "Xfce"
+    ],
+    "url": "https://docs.fedoraproject.org/en-US/project/communications/"
   },
   {
     "name": "Ubuntu",
+    "basedOn": "Debian",
     "categories": [
       "Beginners",
       "Desktop",
@@ -117,61 +214,23 @@
       "GNOME",
       "Unity"
     ],
-    "url": "https://www.ubuntu.com/"
+    "url": "https://lists.ubuntu.com/mailman/listinfo/"
   },
   {
-    "name": "Fedora",
+    "name": "AnduinOS",
+    "basedOn": "Debian",
     "categories": [
       "Desktop",
-      "Immutable",
-      "Server",
       "Live Medium"
-    ],
-    "desktop": [
-      "Awesome",
-      "Budgie",
-      "Cinnamon",
-      "Enlightenment",
-      "i3",
-      "GNOME",
-      "KDE Plasma",
-      "LXDE",
-      "LXQt",
-      "MATE",
-      "Openbox",
-      "Pantheon",
-      "Ratpoison",
-      "Xfce"
-    ],
-    "url": "https://fedoraproject.org/"
-  },
-  {
-    "name": "Pop!_OS",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Raspberry Pi"
     ],
     "desktop": [
       "GNOME"
     ],
-    "url": "https://system76.com/pop"
-  },
-  {
-    "name": "Zorin",
-    "categories": [
-      "Beginners",
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "GNOME",
-      "Xfce"
-    ],
-    "url": "https://zorin.com/os/"
+    "url": "https://github.com/Anduin2017/AnduinOS/discussions"
   },
   {
     "name": "openSUSE",
+    "basedOn": "Independent",
     "categories": [
       "Desktop",
       "Immutable",
@@ -185,38 +244,71 @@
       "GNOME",
       "IceWM",
       "KDE Plasma",
+      "labwc",
       "LXDE",
       "LXQt",
       "MATE",
+      "Wayfire",
       "Xfce"
     ],
-    "url": "https://www.opensuse.org/"
-  },
-  {
-    "name": "CachyOS",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "https://cachyos.org/"
+    "url": "https://en.opensuse.org/openSUSE:Communication_channels"
   },
   {
     "name": "Nobara",
+    "basedOn": "Fedora",
     "categories": [
       "Desktop",
+      "Gaming",
       "Live Medium"
     ],
     "desktop": [
       "GNOME",
-      "KDE"
+      "KDE Plasma"
     ],
-    "url": "https://nobaraproject.org/"
+    "url": "https://discord.gg/6y3BdzC"
   },
   {
-    "name": "KDE neon",
+    "name": "elementary",
+    "basedOn": "Debian",
+    "categories": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Pantheon"
+    ],
+    "url": "https://elementary.io/docs/learning-the-basics"
+  },
+  {
+    "name": "NixOS",
+    "basedOn": "Independent",
+    "categories": [
+      "Declarative",
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "Awesome",
+      "COSMIC",
+      "Enlightenment",
+      "Fluxbox",
+      "GNOME",
+      "i3",
+      "IceWM",
+      "KDE Plasma",
+      "labwc",
+      "LXQt",
+      "Ratpoison",
+      "Wayfire",
+      "Xfce"
+    ],
+    "url": "https://discourse.nixos.org/"
+  },
+  {
+    "name": "Bluestar",
+    "basedOn": "Arch",
     "categories": [
       "Desktop",
       "Live Medium"
@@ -224,10 +316,11 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://neon.kde.org/"
+    "url": "https://sourceforge.net/p/bluestarlinux/discussion/"
   },
   {
     "name": "antiX",
+    "basedOn": "Debian (Stable)",
     "categories": [
       "From RAM",
       "Desktop",
@@ -239,74 +332,119 @@
       "IceWM",
       "JWM"
     ],
-    "url": "https://antixlinux.com/"
+    "url": "https://www.antixforum.com/"
   },
   {
-    "name": "elementary",
-    "categories": [
-      "Beginners",
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Pantheon"
-    ],
-    "url": "https://elementary.io/"
-  },
-  {
-    "name": "Garuda",
+    "name": "Bazzite",
+    "basedOn": "Fedora",
     "categories": [
       "Desktop",
-      "Live Media"
-    ],
-    "desktop": [
-      "bspwm",
-      "Cinnamon",
-      "GNOME",
-      "i3",
-      "KDE Plasma",
-      "Recbox",
-      "UKUI",
-      "Xfce"
-    ],
-    "url": "https://garudalinux.org/"
-  },
-  {
-    "name": "NixOS",
-    "categories": [
-      "Desktop",
-      "Education",
-      "Live Medium",
-      "Server"
-    ],
-    "desktop": [
-      "Awesome",
-      "Enlightenment",
-      "Fluxbox",
-      "GNOME",
-      "i3",
-      "IceWM",
-      "KDE Plasma",
-      "LXQt",
-      "Ratpoison",
-      "Xfce"
-    ],
-    "url": "https://nixos.org/"
-  },
-  {
-    "name": "Vanilla",
-    "categories": [
-      "Desktop",
+      "Gaming",
       "Immutable",
       "Live Medium"
     ],
     "desktop": [
-      "GNOME"
+      "GNOME",
+      "KDE Plasma"
     ],
-    "url": "https://vanillaos.org/"
+    "url": "https://universal-blue.discourse.group/c/bazzite/5"
+  },
+  {
+    "name": "KDE neon",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://discuss.kde.org/tag/neon"
+  },
+  {
+    "name": "BigLinux",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://forum.biglinux.com.br/"
+  },
+  {
+    "name": "Arch",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Server"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "Enlightenment",
+      "GNOME",
+      "KDE",
+      "labwc",
+      "LXDE",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://lists.archlinux.org/listinfo/"
+  },
+  {
+    "name": "Q4OS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "Trinity"
+    ],
+    "url": "https://www.q4os.org/forum/"
+  },
+  {
+    "name": "Garuda",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "Hyprland",
+      "i3",
+      "KDE Plasma",
+      "Mokka",
+      "Sway",
+      "Xfce"
+    ],
+    "url": "https://forum.garudalinux.org/"
+  },
+  {
+    "name": "PikaOS",
+    "basedOn": "Debian (Unstable)",
+    "categories": [
+      "Desktop",
+      "Gaming",
+      "Live Medium"
+    ],
+    "desktop": [
+      "COSMIC",
+      "GNOME",
+      "Hyprland",
+      "KDE Plasma",
+      "niri"
+    ],
+    "url": "https://wiki.pika-os.com/en/installation/getting-started"
   },
   {
     "name": "TUXEDO",
+    "basedOn": "Debian",
     "categories": [
       "Beginners",
       "Desktop",
@@ -315,29 +453,48 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://www.tuxedocomputers.com/os"
+    "url": "https://os.tuxedocomputers.com/"
+  },
+  {
+    "name": "FreeBSD",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Firewall",
+      "Raspberry Pi",
+      "Server"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "KDE Plasma",
+      "labwc",
+      "LXQt",
+      "MATE",
+      "Wayfire",
+      "Xfce"
+    ],
+    "url": "https://www.freebsd.org/community/mailinglists.html"
   },
   {
     "name": "SparkyLinux",
+    "basedOn": "Debian (Stable)",
     "categories": [
       "Desktop",
       "Live Medium"
     ],
     "desktop": [
-      "Budgie",
-      "Enlightenment",
-      "JWM",
       "KDE Plasma",
-      "LXDE",
       "LXQt",
       "MATE",
       "Openbox",
       "Xfce"
     ],
-    "url": "https://sparkylinux.org/"
+    "url": "https://forum.sparkylinux.org/"
   },
   {
     "name": "Kali",
+    "basedOn": "Debian (Testing)",
     "categories": [
       "Data Rescue",
       "Forensics",
@@ -350,55 +507,11 @@
       "KDE Plasma",
       "Xfce"
     ],
-    "url": "https://www.kali.org/"
-  },
-  {
-    "name": "Lite",
-    "categories": [
-      "Beginners",
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://www.linuxliteos.com/"
-  },
-  {
-    "name": "FreeBSD",
-    "categories": [
-      "Desktop",
-      "Firewall",
-      "Raspberry Pi",
-      "Server"
-    ],
-    "desktop": [
-      "Cinnamon",
-      "GNOME",
-      "KDE Plasma",
-      "LXQt",
-      "MATE",
-      "Xfce"
-    ],
-    "url": "https://www.freebsd.org/"
-  },
-  {
-    "name": "Solus",
-    "categories": [
-      "Beginners",
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Budgie",
-      "GNOME",
-      "KDE Plasma",
-      "Xfce"
-    ],
-    "url": "https://getsol.us/"
+    "url": "https://forums.kali.org/"
   },
   {
     "name": "AlmaLinux",
+    "basedOn": "Fedora",
     "categories": [
       "Desktop",
       "Server",
@@ -410,10 +523,28 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://almalinux.org/"
+    "url": "https://lists.almalinux.org/mailman3/lists/"
+  },
+  {
+    "name": "Puppy",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "From RAM",
+      "Old Computers",
+      "Live Medium",
+      "Netbooks"
+    ],
+    "desktop": [
+      "JWM",
+      "labwc",
+      "Openbox"
+    ],
+    "url": "https://forum.puppylinux.com/"
   },
   {
     "name": "Alpine",
+    "basedOn": "Independent",
     "categories": [
       "Firewall",
       "From RAM",
@@ -427,50 +558,40 @@
       "KDE Plasma",
       "LXQt",
       "MATE",
+      "Sway",
       "Xfce"
     ],
-    "url": "https://www.alpinelinux.org/"
+    "url": "https://lists.alpinelinux.org/"
   },
   {
-    "name": "Puppy",
+    "name": "MiniOS",
+    "basedOn": "Debian (Stable)",
     "categories": [
-      "Desktop",
-      "From RAM",
-      "Old Computers",
-      "Live Medium",
-      "Netbooks"
-    ],
-    "desktop": [
-      "JWM",
-      "Openbox"
-    ],
-    "url": "https://puppylinux-woof-ce.github.io/"
-  },
-  {
-    "name": "Kubuntu",
-    "categories": [
+      "Data Rescue",
       "Desktop",
       "Live Medium"
     ],
     "desktop": [
-      "KDE Plasma"
+      "Xfce"
     ],
-    "url": "https://kubuntu.org/"
+    "url": "https://github.com/orgs/minios-linux/discussions"
   },
   {
-    "name": "EasyOS",
+    "name": "CentOS",
+    "basedOn": "Fedora",
     "categories": [
       "Desktop",
       "Live Medium",
-      "Specialist"
+      "Server"
     ],
     "desktop": [
-      "JWM"
+      "GNOME"
     ],
-    "url": "https://easyos.org/"
+    "url": "https://www.centos.org/forums/"
   },
   {
     "name": "PCLinuxOS",
+    "basedOn": "Independent",
     "categories": [
       "Beginners",
       "Desktop",
@@ -478,13 +599,15 @@
     ],
     "desktop": [
       "KDE Plasma",
+      "labwc",
       "MATE",
       "Xfce"
     ],
-    "url": "https://www.pclinuxos.com/"
+    "url": "https://www.pclinuxos.com/forum"
   },
   {
     "name": "Tails",
+    "basedOn": "Debian (Stable)",
     "categories": [
       "From RAM",
       "Live Medium",
@@ -494,133 +617,11 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://tails.net/"
-  },
-  {
-    "name": "Mageia",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Server"
-    ],
-    "desktop": [
-      "Cinnamon",
-      "GNOME",
-      "IceWM",
-      "KDE",
-      "MATE",
-      "LXDE",
-      "LXQt",
-      "Openbox",
-      "WMaker",
-      "Xfce"
-    ],
-    "url": "https://www.mageia.org/"
-  },
-  {
-    "name": "Q4OS",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Old Computers"
-    ],
-    "desktop": [
-      "KDE Plasma",
-      "Trinity"
-    ],
-    "url": "https://q4os.org/"
-  },
-  {
-    "name": "ArcoLinux",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "KDE Plasma",
-      "Xfce"
-    ],
-    "url": "https://arcolinux.info/"
-  },
-  {
-    "name": "Bluestar",
-    "categories": [
-      "Desktop"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "https://sourceforge.net/projects/bluestarlinux/"
-  },
-  {
-    "name": "CentOS",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Server"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "https://www.centos.org/"
-  },
-  {
-    "name": "deepin",
-    "categories": [
-      "Desktop"
-    ],
-    "desktop": [
-      "Deepin"
-    ],
-    "url": "https://deepin.org/"
-  },
-  {
-    "name": "Devuan",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Server",
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "Cinnamon",
-      "KDE Plasma",
-      "LXQt",
-      "MATE",
-      "Xfce"
-    ],
-    "url": "https://devuan.org/"
-  },
-  {
-    "name": "Slackware",
-    "categories": [
-      "Desktop",
-      "Server"
-    ],
-    "desktop": [
-      "Blackbox",
-      "Fluxbox",
-      "FVWM",
-      "KDE",
-      "WMaker",
-      "Xfce"
-    ],
-    "url": "http://www.slackware.com/"
-  },
-  {
-    "name": "Regata",
-    "categories": [
-      "Desktop",
-      "Gaming",
-      "Live Medium"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "https://www.regataos.com.br/"
+    "url": "https://tails.net/doc/index.en.html"
   },
   {
     "name": "Voyager",
+    "basedOn": "Debian",
     "categories": [
       "Desktop",
       "Live Medium"
@@ -629,84 +630,11 @@
       "GNOME",
       "Xfce"
     ],
-    "url": "https://voyagerlive.org/"
+    "url": "https://sourceforge.net/projects/voyagerlive/"
   },
   {
-    "name": "Parrot",
-    "categories": [
-      "Forensics",
-      "Live Medium",
-      "Security"
-    ],
-    "desktop": [
-      "KDE Plasma",
-      "MATE"
-    ],
-    "url": "https://parrotsec.org/"
-  },
-  {
-    "name": "Peppermint",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://peppermintos.com/"
-  },
-  {
-    "name": "Lubuntu",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Netbooks"
-    ],
-    "desktop": [
-      "LXDE",
-      "LXQt"
-    ],
-    "url": "https://lubuntu.me/"
-  },
-  {
-    "name": "wattOS",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Netbooks",
-      "Old Computers"
-    ],
-    "desktop": [
-      "LXDE"
-    ],
-    "url": "https://www.planetwatt.com/"
-  },
-  {
-    "name": "GhostBSD",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "MATE",
-      "Xfce"
-    ],
-    "url": "https://www.ghostbsd.org/"
-  },
-  {
-    "name": "SDesk",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "https://www.stevestudios.net/"
-  },
-  {
-    "name": "KaOS",
+    "name": "Kubuntu",
+    "basedOn": "Debian",
     "categories": [
       "Desktop",
       "Live Medium"
@@ -714,220 +642,28 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://kaosx.us/"
+    "url": "https://lists.ubuntu.com/mailman/listinfo/kubuntu-users"
   },
   {
-    "name": "Rhino",
+    "name": "EasyOS",
+    "basedOn": "Independent",
     "categories": [
       "Desktop",
       "Live Medium",
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://rhinolinux.org/"
-  },
-  {
-    "name": "Rocky",
-    "categories": [
-      "Desktop",
-      "Server"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "https://rockylinux.org/"
-  },
-  {
-    "name": "Damn Small",
-    "categories": [
-      "Desktop",
-      "Old Computers",
-      "Live Medium"
-    ],
-    "desktop": [
-      "JWM",
-      "Fluxbox"
-    ],
-    "url": "https://www.damnsmalllinux.org/"
-  },
-  {
-    "name": "Calculate",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Server",
-      "Source-based"
-    ],
-    "desktop": [
-      "Cinnamon",
-      "KDE Plasma",
-      "LXQt",
-      "MATE",
-      "Xfce"
-    ],
-    "url": "https://www.calculate-linux.org/"
-  },
-  {
-    "name": "OpenMandriva",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "https://www.openmandriva.org/"
-  },
-  {
-    "name": "PorteuX",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Cinnamon",
-      "GNOME",
-      "KDE Plasma",
-      "LXDE",
-      "LXQt",
-      "MATE",
-      "Xfce"
-    ],
-    "url": "https://github.com/porteux/porteux/"
-  },
-  {
-    "name": "Haiku",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Haiku"
-    ],
-    "url": "https://haiku-os.org/"
-  },
-  {
-    "name": "Xubuntu",
-    "categories": [
-      "Desktop"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://www.xubuntu.org/"
-  },
-  {
-    "name": "Pisi",
-    "categories": [
-      "Desktop"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "https://www.pisilinux.org/"
-  },
-  {
-    "name": "Linuxfx",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "https://www.linuxfx.org/"
-  },
-  {
-    "name": "Red Hat",
-    "categories": [
-      "Desktop",
-      "Server"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "http://www.redhat.com/"
-  },
-  {
-    "name": "RasPiOS",
-    "categories": [
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "LXDE"
-    ],
-    "url": "https://www.raspberrypi.com/software/"
-  },
-  {
-    "name": "FunOS",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Old Computers"
+      "Specialist"
     ],
     "desktop": [
       "JWM"
     ],
-    "url": "https://funos.org/"
+    "url": "https://forum.puppylinux.com/viewforum.php?f=63"
   },
   {
-    "name": "BackBox",
+    "name": "Solus",
+    "basedOn": "Independent",
     "categories": [
-      "Data Rescue",
-      "Forensics",
-      "Security",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://www.backbox.org/"
-  },
-  {
-    "name": "Br OS",
-    "categories": [
+      "Beginners",
       "Desktop",
       "Live Medium"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "https://br-os.com/"
-  },
-  {
-    "name": "Endless",
-    "categories": [
-      "Desktop",
-      "Immutable",
-      "Live Medium",
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "EOS Shell (GNOME)"
-    ],
-    "url": "https://endlessos.com/"
-  },
-  {
-    "name": "Archcraft",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "bspwm",
-      "Openbox"
-    ],
-    "url": "https://archcraft.io/"
-  },
-  {
-    "name": "Ultramarine",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Raspberry Pi"
     ],
     "desktop": [
       "Budgie",
@@ -935,124 +671,24 @@
       "KDE Plasma",
       "Xfce"
     ],
-    "url": "https://ultramarine-linux.org/"
+    "url": "https://discuss.getsol.us/"
   },
   {
-    "name": "Qubes",
+    "name": "Lite",
+    "basedOn": "Debian",
     "categories": [
+      "Beginners",
       "Desktop",
-      "Security"
+      "Live Medium"
     ],
     "desktop": [
       "Xfce"
     ],
-    "url": "https://qubes-os.org/"
+    "url": "https://www.linuxliteos.com/forums/"
   },
   {
-    "name": "Murena",
-    "categories": [
-      "Immutable",
-      "Mobile"
-    ],
-    "desktop": [
-      "Bliss"
-    ],
-    "url": "https://murena.com/"
-  },
-  {
-    "name": "Gnoppix",
-    "categories": [
-      "Live Medium",
-      "Security"
-    ],
-    "desktop": [
-      "GNOME",
-      "KDE Plasma",
-      "Xfce"
-    ],
-    "url": "https://www.gnoppix.com/"
-  },
-  {
-    "name": "Bodhi",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Netbooks",
-      "Old Computers"
-    ],
-    "desktop": [
-      "Moksha (Enlightenment)"
-    ],
-    "url": "https://www.bodhilinux.com/"
-  },
-  {
-    "name": "Gentoo",
-    "categories": [
-      "Desktop",
-      "Server",
-      "Source-based"
-    ],
-    "desktop": [
-      "AfterStep",
-      "Awesome",
-      "Blackbox",
-      "Enlightenment",
-      "Fluxbox",
-      "GNOME",
-      "IceWM",
-      "KDE Plasma",
-      "LXDE",
-      "MATE",
-      "Openbox",
-      "WMaker",
-      "Xfce"
-    ],
-    "url": "https://www.gentoo.org/"
-  },
-  {
-    "name": "Arch",
-    "categories": [
-      "Desktop",
-      "Server"
-    ],
-    "desktop": [
-      "Cinnamon",
-      "Enlightenment",
-      "GNOME",
-      "KDE",
-      "LXDE",
-      "MATE",
-      "Xfce"
-    ],
-    "url": "http://www.archlinux.org/"
-  },
-  {
-    "name": "4MLinux",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Server"
-    ],
-    "desktop": [
-      "JWM"
-    ],
-    "url": "https://4mlinux.com/"
-  },
-  {
-    "name": "AV Linux",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Multimedia"
-    ],
-    "desktop": [
-      "Enlightenment",
-      "Xfce"
-    ],
-    "url": "https://www.bandshed.net/avlinux/"
-  },
-  {
-    "name": "BigLinux",
+    "name": "Linuxfx",
+    "basedOn": "Ubuntu (LTS)",
     "categories": [
       "Desktop",
       "Live Medium"
@@ -1060,46 +696,126 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://www.biglinux.com.br/"
+    "url": "https://linuxfx.org/download/"
   },
   {
-    "name": "ReactOS",
+    "name": "Devuan",
+    "basedOn": "Debian",
     "categories": [
       "Desktop",
-      "Old Computers",
-      "Live Medium"
-    ],
-    "desktop": [
-      "ReactOS Explorer"
-    ],
-    "url": "https://www.reactos.org/"
-  },
-  {
-    "name": "Mabox",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Openbox"
-    ],
-    "url": "https://maboxlinux.org/"
-  },
-  {
-    "name": "PureOS",
-    "categories": [
-      "Desktop",
-      "Free Software",
       "Live Medium",
-      "Mobile"
+      "Server",
+      "Raspberry Pi"
     ],
     "desktop": [
-      "GNOME"
+      "Cinnamon",
+      "KDE Plasma",
+      "labwc",
+      "LXQt",
+      "MATE",
+      "Wayfire",
+      "Xfce"
     ],
-    "url": "https://pureos.net/"
+    "url": "https://devuan.org/os/community"
+  },
+  {
+    "name": "Artix",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "url": "https://artixlinux.org/forum/"
+  },
+  {
+    "name": "Void",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://docs.voidlinux.org/"
+  },
+  {
+    "name": "Exton",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Gaming",
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "Budgie",
+      "Deepin",
+      "Enlightenment",
+      "GNOME",
+      "KDE Plasma",
+      "LXDE",
+      "LXQt",
+      "PIXEL",
+      "Xfce"
+    ],
+    "url": "https://www.exton.se/download/"
+  },
+  {
+    "name": "AerynOS",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "COSMIC",
+      "GNOME",
+      "KDE Plasma"
+    ],
+    "url": "https://github.com/orgs/AerynOS/discussions"
+  },
+  {
+    "name": "Parrot",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Forensics",
+      "Live Medium",
+      "Raspberry Pi",
+      "Security"
+    ],
+    "desktop": [
+      "Enlightenment",
+      "KDE Plasma",
+      "LXQt",
+      "MATE"
+    ],
+    "url": "https://community.parrotsec.org/"
+  },
+  {
+    "name": "Omarchy",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Immutable"
+    ],
+    "desktop": [
+      "Hyprland"
+    ],
+    "url": "https://learn.omacom.io/2/the-omarchy-manual"
   },
   {
     "name": "ALT",
+    "basedOn": "Independent (forked from Mandrake)",
     "categories": [
       "Data Rescue",
       "Desktop",
@@ -1119,73 +835,338 @@
       "GNOME",
       "IceWM",
       "KDE",
+      "labwc",
       "LXDE",
       "MATE",
       "Openbox",
       "LXQt",
       "WMaker",
+      "Wayfire",
       "Xfce"
     ],
-    "url": "https://en.altlinux.org/"
+    "url": "https://www.altlinux.org/"
+  },
+  {
+    "name": "DragonOS",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Specialist"
+    ],
+    "desktop": [
+      "LXQt"
+    ],
+    "url": "https://sourceforge.net/projects/dragonos-focal/support"
+  },
+  {
+    "name": "Rocky",
+    "basedOn": "Fedora",
+    "categories": [
+      "Desktop",
+      "Server"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://lists.resf.org/mailman3/lists/"
+  },
+  {
+    "name": "Gentoo",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Server",
+      "Source-based"
+    ],
+    "desktop": [
+      "Awesome",
+      "Blackbox",
+      "Enlightenment",
+      "Fluxbox",
+      "GNOME",
+      "IceWM",
+      "KDE Plasma",
+      "LXDE",
+      "MATE",
+      "Sway",
+      "Openbox",
+      "WMaker",
+      "Xfce"
+    ],
+    "url": "https://www.gentoo.org/get-involved/mailing-lists/"
+  },
+  {
+    "name": "FunOS",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": [
+      "JWM"
+    ],
+    "url": "https://funos.org/documentation/"
+  },
+  {
+    "name": "Slackware",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Server"
+    ],
+    "desktop": [
+      "Blackbox",
+      "Fluxbox",
+      "FVWM",
+      "KDE",
+      "labwc",
+      "WMaker",
+      "Xfce"
+    ],
+    "url": "http://www.slackware.com/lists/"
+  },
+  {
+    "name": "Lubuntu",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Netbooks"
+    ],
+    "desktop": [
+      "LXQt"
+    ],
+    "url": "https://lists.ubuntu.com/mailman/listinfo/Lubuntu-users"
+  },
+  {
+    "name": "OpenMandriva",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "COSMIC",
+      "GNOME",
+      "KDE Plasma",
+      "labwc",
+      "LXQt",
+      "Wayfire",
+      "Xfce"
+    ],
+    "url": "https://forum.openmandriva.org/"
+  },
+  {
+    "name": "Mageia",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "IceWM",
+      "KDE",
+      "MATE",
+      "labwc",
+      "LXDE",
+      "LXQt",
+      "Openbox",
+      "WMaker",
+      "Xfce"
+    ],
+    "url": "https://www.mageia.org/mailman/"
+  },
+  {
+    "name": "Commodore",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "http://forum.commodoreos.net/"
+  },
+  {
+    "name": "Peppermint",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/p/peppermintos/pepos/"
+  },
+  {
+    "name": "Ultimate",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Gaming",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "KDE Plasma",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://forumubuntusoftware.info/"
+  },
+  {
+    "name": "PorteuX",
+    "basedOn": "Slackware",
+    "categories": [
+      "Desktop",
+      "Immutable",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "COSMIC",
+      "GNOME",
+      "KDE Plasma",
+      "labwc",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://github.com/porteux/porteux/releases"
+  },
+  {
+    "name": "deepin",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "LLM"
+    ],
+    "desktop": [
+      "Deepin"
+    ],
+    "url": "https://bbs.deepin.org/"
+  },
+  {
+    "name": "Red Hat",
+    "basedOn": "Fedora",
+    "categories": [
+      "Desktop",
+      "Server"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "http://www.redhat.com/mailing-lists/"
+  },
+  {
+    "name": "Xubuntu",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://lists.ubuntu.com/mailman/listinfo/xubuntu-users"
+  },
+  {
+    "name": "AV Linux",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "Enlightenment",
+      "Moksha"
+    ],
+    "url": "https://forum.mxlinux.org/viewforum.php?f=127"
   },
   {
     "name": "blendOS",
+    "basedOn": "Arch",
     "categories": [
+      "Declarative",
       "Desktop",
+      "Immutable",
       "Live Medium"
     ],
     "desktop": [
       "GNOME"
     ],
-    "url": "https://blendos.co/"
+    "url": "https://blendos.co/faq/"
   },
   {
-    "name": "SpiralLinux",
+    "name": "Kodachi",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Live Medium",
+      "Privacy",
+      "Security"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/projects/linuxkodachi/files/"
+  },
+  {
+    "name": "MODICIA",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://www.modiciaos.cloud/#iso"
+  },
+  {
+    "name": "MocaccinoOS",
+    "basedOn": "Independent",
     "categories": [
       "Desktop",
+      "Immutable",
       "Live Medium"
     ],
     "desktop": [
-      "Budgie",
-      "Cinnamon",
       "GNOME",
       "KDE Plasma",
-      "LXQt",
       "MATE",
+      "Wayfire",
       "Xfce"
     ],
-    "url": "https://spirallinux.github.io/"
+    "url": "https://github.com/mocaccinoOS/mocaccino/discussions"
   },
   {
-    "name": "RELIANOID",
-    "categories": [
-      "Firewall",
-      "Specialist"
-    ],
-    "desktop": [
-      "No Desktop",
-      "WebUI"
-    ],
-    "url": "https://www.relianoid.com/"
-  },
-  {
-    "name": "Artix",
+    "name": "Archcraft",
+    "basedOn": "Arch",
     "categories": [
       "Desktop",
       "Live Medium"
     ],
     "desktop": [
-      "Cinnamon",
-      "LXDE",
-      "LXQt",
+      "bspwm",
       "MATE",
-      "KDE Plasma",
-      "Xfce"
+      "Openbox"
     ],
-    "url": "https://artixlinux.org/"
+    "url": "https://www.reddit.com/r/archcraft/"
   },
   {
     "name": "Tiny Core",
+    "basedOn": "Independent (forked from Damn Small)",
     "categories": [
       "Desktop",
       "From RAM",
@@ -1205,45 +1186,280 @@
       "Openbox",
       "WMFS"
     ],
-    "url": "http://www.tinycorelinux.net/"
+    "url": "http://forum.tinycorelinux.net/"
   },
   {
-    "name": "SysLinuxOS",
+    "name": "ArchBANG",
+    "basedOn": "Arch",
     "categories": [
       "Desktop",
       "Live Medium"
     ],
     "desktop": [
-      "GNOME",
-      "MATE"
+      "labwc"
     ],
-    "url": "https://syslinuxos.com/"
+    "url": "https://archbang.org/guide/"
   },
   {
-    "name": "TrueNAS",
+    "name": "KDE Linux",
+    "basedOn": "Independent",
     "categories": [
+      "Desktop",
+      "Immutable",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://discuss.kde.org/tag/kde-linux"
+  },
+  {
+    "name": "KaOS",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "niri",
+      "Noctalia"
+    ],
+    "url": "https://groups.google.com/forum/?fromgroups#!forum/kaos-general"
+  },
+  {
+    "name": "Bodhi",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Netbooks",
+      "Old Computers"
+    ],
+    "desktop": [
+      "Moksha (Enlightenment)"
+    ],
+    "url": "https://bodhilinux.boards.net/"
+  },
+  {
+    "name": "GhostBSD",
+    "basedOn": "FreeBSD",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Gershwin",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://forums.ghostbsd.org/"
+  },
+  {
+    "name": "Ultramarine",
+    "basedOn": "Fedora",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Budgie",
+      "GNOME",
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "url": "https://wiki.ultramarine-linux.org/en/community/community/"
+  },
+  {
+    "name": "ZimaOS",
+    "basedOn": "Independent",
+    "categories": [
+      "Server",
       "NAS"
     ],
     "desktop": [
       "No Desktop",
       "WebUI"
     ],
-    "url": "https://www.truenas.com/"
+    "url": "https://github.com/IceWhaleTech/ZimaOS"
   },
   {
-    "name": "Ubuntu Studio",
+    "name": "FydeOS",
+    "basedOn": "Gentoo",
     "categories": [
       "Desktop",
       "Live Medium",
-      "Multimedia"
+      "Old Computers",
+      "Raspberry Pi"
     ],
     "desktop": [
-      "KDE Plasma"
+      "ChromeOS Desktop"
     ],
-    "url": "https://ubuntustudio.org/"
+    "url": "https://community.fydeos.io/"
+  },
+  {
+    "name": "Gnoppix",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "LLM"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "url": "https://forum.gnoppix.org/"
+  },
+  {
+    "name": "MagOS",
+    "basedOn": "ROSA",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "LXQt"
+    ],
+    "url": "https://forum.magos-linux.ru/"
+  },
+  {
+    "name": "Vanilla",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Immutable",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://discord.com/invite/3cD2Q7Ht3S"
+  },
+  {
+    "name": "Mabox",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Openbox"
+    ],
+    "url": "https://forum.maboxlinux.org/"
+  },
+  {
+    "name": "SmartOS",
+    "basedOn": "Solaris",
+    "categories": [
+      "Specialist",
+      "Live Medium"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://smartos.topicbox.com/groups/smartos-discuss"
+  },
+  {
+    "name": "ReactOS",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Old Computers",
+      "Live Medium"
+    ],
+    "desktop": [
+      "ReactOS Explorer"
+    ],
+    "url": "https://www.reactos.org/forum/"
+  },
+  {
+    "name": "Calculate",
+    "basedOn": "Gentoo",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Server",
+      "Source-based"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "KDE Plasma",
+      "LXQt",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://www.calculate-linux.org/main/en/maillist"
+  },
+  {
+    "name": "Nitrux",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Immutable",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Hyprland"
+    ],
+    "url": "https://nxos.org/tutorial/"
+  },
+  {
+    "name": "AxOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Hyprland",
+      "Sleex"
+    ],
+    "url": "https://www.axos-project.com/docs"
+  },
+  {
+    "name": "Qubes",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Security"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://www.mail-archive.com/qubes-users@googlegroups.com/"
+  },
+  {
+    "name": "GNOME OS",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Immutable",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://gitlab.gnome.org/GNOME/gnome-build-meta/-/wikis/gnome_os/"
+  },
+  {
+    "name": "4MLinux",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "JWM"
+    ],
+    "url": "https://4mlinux.com/download.html"
   },
   {
     "name": "OpenBSD",
+    "basedOn": "Independent (forked from NetBSD)",
     "categories": [
       "Security",
       "Server"
@@ -1257,83 +1473,161 @@
       "GNOME",
       "IceWM",
       "KDE",
+      "labwc",
       "Openbox",
+      "Wayfire",
       "WMaker",
       "Xfce"
     ],
-    "url": "https://www.openbsd.org/"
+    "url": "https://www.openbsd.org/mail.html"
   },
   {
-    "name": "RebornOS",
+    "name": "Ubuntu Studio",
+    "basedOn": "Debian",
     "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://rebornos.org/"
-  },
-  {
-    "name": "SmartOS",
-    "categories": [
-      "Specialist",
-      "Live Medium"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "https://www.tritondatacenter.com/smartos"
-  },
-  {
-    "name": "Ubuntu MATE",
-    "categories": [
-      "Beginners",
       "Desktop",
       "Live Medium",
-      "Raspberry Pi"
+      "Multimedia"
     ],
     "desktop": [
-      "MATE"
+      "KDE Plasma"
     ],
-    "url": "https://ubuntu-mate.org/"
+    "url": "https://ubuntustudio.org/support"
   },
   {
-    "name": "BunsenLabs",
+    "name": "Besgnulinux",
+    "basedOn": "Debian (Stable)",
     "categories": [
-      "Desktop"
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
     ],
     "desktop": [
-      "Openbox"
+      "JWM"
     ],
-    "url": "https://www.bunsenlabs.org/"
+    "url": "https://sourceforge.net/projects/besgnulinux/files/"
   },
   {
-    "name": "Nitrux",
+    "name": "Feren",
+    "basedOn": "Debian",
     "categories": [
       "Desktop",
       "Live Medium"
     ],
     "desktop": [
-      "JWM",
-      "NX Desktop (KDE Plasma)"
+      "Cinnamon",
+      "KDE Plasma"
     ],
-    "url": "https://nxos.org/"
+    "url": "https://ferenos.weebly.com/help.html"
+  },
+  {
+    "name": "HackerOS",
+    "basedOn": "Debian (Testing)",
+    "categories": [
+      "Desktop",
+      "Gaming",
+      "Live Medium",
+      "Security"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://hackeros-linux-system.github.io/HackerOS-Website/download.html"
+  },
+  {
+    "name": "Chimera",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Raspberry Pi",
+      "Server"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma"
+    ],
+    "url": "https://chimera-linux.org/community/"
   },
   {
     "name": "Proxmox",
+    "basedOn": "Debian (Stable)",
     "categories": [
       "Clusters",
       "Server",
       "Specialist"
     ],
     "desktop": [
+      "WebUI"
+    ],
+    "url": "https://www.proxmox.com/proxmox-ve/support"
+  },
+  {
+    "name": "TrueNAS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "NAS"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "https://forums.truenas.com/"
+  },
+  {
+    "name": "Regata",
+    "basedOn": "openSUSE",
+    "categories": [
+      "Desktop",
+      "Gaming",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://regataos.forumeiros.com/"
+  },
+  {
+    "name": "BunsenLabs",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop"
+    ],
+    "desktop": [
       "Openbox"
     ],
-    "url": "https://www.proxmox.com/"
+    "url": "https://forums.bunsenlabs.org"
+  },
+  {
+    "name": "MakuluLinux",
+    "basedOn": "Debian (Testing)",
+    "categories": [
+      "Desktop",
+      "Gaming",
+      "Live Medium",
+      "LLM"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://www.makululinux.com/wp/forums/"
+  },
+  {
+    "name": "Oracle",
+    "basedOn": "Red Hat",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://oss.oracle.com/pipermail/el-errata/"
   },
   {
     "name": "Emmabuntüs",
+    "basedOn": "Debian (Stable)",
     "categories": [
       "Assistive",
       "Beginners",
@@ -1345,47 +1639,73 @@
       "LXQt",
       "Xfce"
     ],
-    "url": "https://emmabuntus.org/"
+    "url": "https://forum.emmabuntus.org/"
   },
   {
-    "name": "Oracle",
+    "name": "SDesk",
+    "basedOn": "Arch",
     "categories": [
-      "Server"
+      "Desktop",
+      "Live Medium"
     ],
     "desktop": [
       "GNOME"
     ],
-    "url": "https://www.oracle.com/linux/"
+    "url": "https://stevestudios.net/sdesk-user-guide"
   },
   {
-    "name": "MakuluLinux",
-    "categories": [
-      "Desktop",
-      "Gaming",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Cinnamon",
-      "GNOME",
-      "Xfce"
-    ],
-    "url": "https://www.makululinux.com/"
-  },
-  {
-    "name": "Ultimate",
+    "name": "Expirion",
+    "basedOn": "Devuan",
     "categories": [
       "Desktop",
       "Live Medium"
     ],
     "desktop": [
-      "KDE Plasma",
-      "MATE",
+      "LXQt",
       "Xfce"
     ],
-    "url": "https://sourceforge.net/projects/ultimateedition/"
+    "url": "https://sourceforge.net/projects/expirion-linux/files/"
   },
   {
-    "name": "Void",
+    "name": "Aurora",
+    "basedOn": "Fedora",
+    "categories": [
+      "Desktop",
+      "Immutable",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://universal-blue.discourse.group/c/aurora/11"
+  },
+  {
+    "name": "Murena",
+    "basedOn": "LineageOS",
+    "categories": [
+      "Immutable",
+      "Mobile"
+    ],
+    "desktop": [
+      "Bliss"
+    ],
+    "url": "https://community.e.foundation/"
+  },
+  {
+    "name": "RebornOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://rebornos.discourse.group/"
+  },
+  {
+    "name": "Rhino",
+    "basedOn": "Debian",
     "categories": [
       "Desktop",
       "Live Medium",
@@ -1394,45 +1714,64 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://voidlinux.org/"
+    "url": "https://forum.rhinolinux.org/"
   },
   {
-    "name": "Absolute",
+    "name": "GLF",
+    "basedOn": "NixOS",
     "categories": [
+      "Declarative",
       "Desktop",
-      "Old Computers"
-    ],
-    "desktop": [
-      "IceWM"
-    ],
-    "url": "https://www.absolutelinux.org/"
-  },
-  {
-    "name": "Kodachi",
-    "categories": [
-      "Live Medium",
-      "Privacy",
-      "Security"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://www.digi77.com/linux-kodachi/"
-  },
-  {
-    "name": "EuroLinux",
-    "categories": [
-      "Desktop",
-      "Server"
+      "Gaming",
+      "Live Medium"
     ],
     "desktop": [
       "GNOME",
       "KDE Plasma"
     ],
-    "url": "https://en.euro-linux.com/eurolinux/"
+    "url": "https://www.gaminglinux.fr/glf-os/"
   },
   {
-    "name": "Neptune",
+    "name": "TROMjaro",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://forum.tromjaro.com/"
+  },
+  {
+    "name": "Wifislax",
+    "basedOn": "Slackware",
+    "categories": [
+      "Security",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "url": "https://foro.seguridadwireless.net/live-wifislax/"
+  },
+  {
+    "name": "ChromeOS",
+    "basedOn": "Gentoo",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": [
+      "ChromeOS Desktop"
+    ],
+    "url": "https://support.google.com/chromeosflex/community"
+  },
+  {
+    "name": "VailuxOS",
+    "basedOn": "Debian",
     "categories": [
       "Desktop",
       "Live Medium"
@@ -1440,10 +1779,399 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://neptuneos.com/"
+    "url": "https://forum.vailux.de/"
+  },
+  {
+    "name": "Haiku",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Haiku"
+    ],
+    "url": "https://haiku-os.org/community/ml"
+  },
+  {
+    "name": "Porteus",
+    "basedOn": "Slackware",
+    "categories": [
+      "From RAM",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "KDE Plasma",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Openbox",
+      "Xfce"
+    ],
+    "url": "http://forum.porteus.org/"
+  },
+  {
+    "name": "Endless",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Immutable",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "EOS Shell (GNOME)"
+    ],
+    "url": "https://community.endlessm.com/"
+  },
+  {
+    "name": "Dr.Parted",
+    "basedOn": "Debian (Testing)",
+    "categories": [
+      "Data Rescue",
+      "Disk Management",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Openbox"
+    ],
+    "url": "https://sourceforge.net/p/dr-parted-live/wiki/Tools/"
+  },
+  {
+    "name": "Ubuntu MATE",
+    "basedOn": "Debian",
+    "categories": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "https://ubuntu-mate.community/"
+  },
+  {
+    "name": "Talos",
+    "basedOn": "Independent",
+    "categories": [
+      "Immutable",
+      "Kubernetes"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://github.com/siderolabs/talos/discussions"
+  },
+  {
+    "name": "Br OS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://br-os.com/dicas/"
+  },
+  {
+    "name": "Volumio",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Raspberry Pi",
+      "Multimedia"
+    ],
+    "desktop": [
+      "Openbox",
+      "WebUI"
+    ],
+    "url": "https://community.volumio.com/"
+  },
+  {
+    "name": "iDeal",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://ideal-os.xyz/download-en"
+  },
+  {
+    "name": "GXDE",
+    "basedOn": "Debian (Testing)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Deepin"
+    ],
+    "url": "https://bbs.spark-app.store/"
+  },
+  {
+    "name": "NebiOS",
+    "basedOn": "Ubuntu (LTS)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Gaming"
+    ],
+    "desktop": [
+      "NebiDE (Wayfire)"
+    ],
+    "url": "https://nebios.org/download/"
+  },
+  {
+    "name": "LinuxHub",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Openbox"
+    ],
+    "url": "https://forum.linuxhub.link/"
+  },
+  {
+    "name": "Oreon",
+    "basedOn": "AlmaLinux",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://community.oreonhq.com/"
+  },
+  {
+    "name": "DietPi",
+    "basedOn": "Debian",
+    "categories": [
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://dietpi.com/forum/"
+  },
+  {
+    "name": "Kicksecure",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Security"
+    ],
+    "desktop": [
+      "labwc",
+      "LXQt"
+    ],
+    "url": "https://forums.kicksecure.com/"
+  },
+  {
+    "name": "SliTaz",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "From RAM",
+      "Live Medium",
+      "Old Computers",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Openbox"
+    ],
+    "url": "http://www.slitaz.org/en/mailing-list.html"
+  },
+  {
+    "name": "DragonFly",
+    "basedOn": "FreeBSD",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "Awesome",
+      "Cinnamon",
+      "Fluxbox",
+      "JWM",
+      "KDE Plasma",
+      "labwc",
+      "Lumina",
+      "LXDE",
+      "MATE",
+      "Openbox",
+      "WMaker",
+      "Wayfire",
+      "Xfce"
+    ],
+    "url": "http://www.dragonflybsd.org/mailinglists/"
+  },
+  {
+    "name": "RasPiOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "labwc",
+      "PIXEL"
+    ],
+    "url": "https://www.raspberrypi.org/forums/"
+  },
+  {
+    "name": "Neptune",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://forum.neptuneos.com/"
+  },
+  {
+    "name": "openKylin",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Kylin",
+      "UKUI"
+    ],
+    "url": "https://mailweb.openkylin.top/postorius/lists/"
+  },
+  {
+    "name": "openmamba",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Raspberry Pi",
+      "Server"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "LXQt"
+    ],
+    "url": "https://www.openmamba.org/lists"
+  },
+  {
+    "name": "pearOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://pearos.xyz/install"
+  },
+  {
+    "name": "Security Onion",
+    "basedOn": "Fedora",
+    "categories": [
+      "Security"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://securityonion.net/discuss"
+  },
+  {
+    "name": "postmarketOS",
+    "basedOn": "Alpine",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Mobile"
+    ],
+    "desktop": [
+      "COSMIC",
+      "GNOME",
+      "GNOME Mobile",
+      "KDE Plasma",
+      "Phosh",
+      "Plasma Mobile",
+      "Sway",
+      "Sxmo"
+    ],
+    "url": "https://postmarketos.org/explore/#discussion-platforms"
+  },
+  {
+    "name": "Whonix",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Privacy",
+      "Security"
+    ],
+    "desktop": [
+      "labwc",
+      "LXQt",
+      "Sway"
+    ],
+    "url": "https://forums.whonix.org/"
+  },
+  {
+    "name": "AUSTRUMI",
+    "basedOn": "Slackware",
+    "categories": [
+      "Data Rescue",
+      "Desktop",
+      "From RAM",
+      "Live Medium"
+    ],
+    "desktop": [
+      "FVWM",
+      "labwc",
+      "Wayfire"
+    ],
+    "url": "https://ftp.linux.edu.lv/austrumi/"
+  },
+  {
+    "name": "Pardus",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "GNOME",
+      "Xfce"
+    ],
+    "url": "https://pardus.org.tr/en/"
+  },
+  {
+    "name": "OmegaLinux",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": [
+      "LXDE"
+    ],
+    "url": "https://github.com/omega-linux/page/releases"
   },
   {
     "name": "Athena",
+    "basedOn": "Arch",
     "categories": [
       "Desktop",
       "Forensics",
@@ -1453,10 +2181,1024 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://athenaos.org/"
+    "url": "https://github.com/Athena-OS/athena-iso/wiki"
+  },
+  {
+    "name": "Damn Small",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Old Computers",
+      "Live Medium"
+    ],
+    "desktop": [
+      "JWM",
+      "Fluxbox"
+    ],
+    "url": "https://damnsmalllinux.org/forums/"
+  },
+  {
+    "name": "MidnightBSD",
+    "basedOn": "FreeBSD",
+    "categories": [
+      "Desktop"
+    ],
+    "desktop": [
+      "Awesome",
+      "Blackbox",
+      "Cinnamon",
+      "Enlightenment",
+      "Fluxbox",
+      "GNOME",
+      "MATE",
+      "Openbox",
+      "WMaker",
+      "Xfce"
+    ],
+    "url": "https://www.midnightbsd.org/mailman/listinfo"
+  },
+  {
+    "name": "extrox",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Multimedia",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/projects/extrox/files/"
+  },
+  {
+    "name": "Ufficio Zero",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Data Rescue",
+      "Desktop",
+      "Education",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://forum.ufficiozero.org/"
+  },
+  {
+    "name": "Synex",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "GNOME",
+      "IceWM",
+      "LXDE",
+      "MATE",
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "url": "https://forum.synex.ar/"
+  },
+  {
+    "name": "Ubuntu Cinnamon",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://www.reddit.com/r/ubuntucinnamon/"
+  },
+  {
+    "name": "Liya",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "LLM"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://liyalinux.freeflarum.com/"
+  },
+  {
+    "name": "Genuen",
+    "basedOn": "Devuan",
+    "categories": [
+      "Desktop",
+      "Free Software",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "JWM",
+      "KDE Plasma",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Openbox",
+      "Xfce"
+    ],
+    "url": "https://www.genuen.org/mirror/"
+  },
+  {
+    "name": "Shanios",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Immutable"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma"
+    ],
+    "url": "https://wiki.shani.dev/"
+  },
+  {
+    "name": "GParted",
+    "basedOn": "Debian",
+    "categories": [
+      "Disk Management",
+      "Data Rescue",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Fluxbox"
+    ],
+    "url": "http://gparted-forum.surf4.info/"
+  },
+  {
+    "name": "Kiro",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/projects/kiro/files/"
+  },
+  {
+    "name": "Lingmo",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "LingmoUI"
+    ],
+    "url": "https://sourceforge.net/p/lingmo-os/mailman/"
+  },
+  {
+    "name": "ROSA",
+    "basedOn": "Independent (forked from Mandriva)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma"
+    ],
+    "url": "https://forum.rosa.ru/"
+  },
+  {
+    "name": "siduction",
+    "basedOn": "Debian (Unstable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "LXQt",
+      "Xfce"
+    ],
+    "url": "http://forum.siduction.org/"
+  },
+  {
+    "name": "Archman",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "i3",
+      "Xfce"
+    ],
+    "url": "https://archman.org/forum/"
+  },
+  {
+    "name": "Mauna",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "LXQt",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://forum.maunalinux.top/"
+  },
+  {
+    "name": "Nyarch",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://wiki.nyarchlinux.moe/"
+  },
+  {
+    "name": "XIVA Studio",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://xivastudio.org/download/"
+  },
+  {
+    "name": "StormOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://storm-os.freeforums.net/board/1/general-discussion"
+  },
+  {
+    "name": "Clonezilla",
+    "basedOn": "Debian",
+    "categories": [
+      "Data Rescue",
+      "Specialist"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://clonezilla.org/mailing-lists.php"
+  },
+  {
+    "name": "Redox",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "COSMIC"
+    ],
+    "url": "https://www.redox-os.org/community/"
+  },
+  {
+    "name": "Guix System",
+    "basedOn": "Independent",
+    "categories": [
+      "Declarative",
+      "Education",
+      "Free Software",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Awesome",
+      "Enlightenment",
+      "GNOME",
+      "i3",
+      "MATE",
+      "Openbox",
+      "KDE Plasma",
+      "Ratpoison",
+      "Sway",
+      "Xfce"
+    ],
+    "url": "http://lists.gnu.org/archive/html/help-guix/"
+  },
+  {
+    "name": "Ubuntu Budgie",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Budgie"
+    ],
+    "url": "https://discourse.ubuntubudgie.org/"
+  },
+  {
+    "name": "Vendefoul",
+    "basedOn": "Devuan",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Budgie",
+      "Cinnamon",
+      "Enlightenment",
+      "IceWM",
+      "KDE Plasma",
+      "LXQt",
+      "SonicDE",
+      "Trinity",
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/projects/vendefoul-wolf-linux/files/"
+  },
+  {
+    "name": "SystemRescue",
+    "basedOn": "Arch",
+    "categories": [
+      "Data Rescue",
+      "From RAM",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://lists.sourceforge.net/lists/listinfo/systemrescuecd-announce"
+  },
+  {
+    "name": "HeliumOS",
+    "basedOn": "AlmaLinux",
+    "categories": [
+      "Desktop",
+      "Immutable"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://www.heliumos.org/docs/"
+  },
+  {
+    "name": "LFS",
+    "basedOn": "Independent",
+    "categories": [
+      "Source-based",
+      "Education"
+    ],
+    "desktop": [
+      "Fluxbox",
+      "IceWM",
+      "KDE Plasma",
+      "LXDE",
+      "Openbox",
+      "Xfce"
+    ],
+    "url": "https://www.linuxfromscratch.org/support.html"
+  },
+  {
+    "name": "Loc-OS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": [
+      "LXDE"
+    ],
+    "url": "https://info.loc-os.com/index.php/guia/"
+  },
+  {
+    "name": "iodéOS",
+    "basedOn": "LineageOS",
+    "categories": [
+      "Immutable",
+      "Mobile"
+    ],
+    "desktop": [
+      "Trebuchet"
+    ],
+    "url": "https://community.iode.tech/"
+  },
+  {
+    "name": "Obarun",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "JWM"
+    ],
+    "url": "https://forum.obarun.org/"
+  },
+  {
+    "name": "RefreshOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://refreshos.org/downloads.html"
+  },
+  {
+    "name": "SUSE",
+    "basedOn": "openSUSE",
+    "categories": [
+      "Desktop",
+      "Raspberry Pi",
+      "Server"
+    ],
+    "desktop": [
+      "GNOME",
+      "IceWM"
+    ],
+    "url": "https://forums.suse.com/forum.php"
+  },
+  {
+    "name": "Asmi",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "From RAM",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://github.com/teejee2008/asmi-linux/releases"
+  },
+  {
+    "name": "ExTiX",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Budgie",
+      "Deepin",
+      "KDE Plasma",
+      "LXQt"
+    ],
+    "url": "https://sourceforge.net/projects/extix/files/"
+  },
+  {
+    "name": "Pearl",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop"
+    ],
+    "desktop": [
+      "MATE",
+      "PDE",
+      "Xfce"
+    ],
+    "url": "http://pearllinux.freeforums.net/"
+  },
+  {
+    "name": "CRUX",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Raspberry Pi",
+      "Server",
+      "Source-based"
+    ],
+    "desktop": [
+      "Openbox"
+    ],
+    "url": "https://crux.nu/Main/MailingLists"
+  },
+  {
+    "name": "LainOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Openbox",
+      "Sway"
+    ],
+    "url": "https://github.com/The-LainOS-Project/LainOS/wiki"
+  },
+  {
+    "name": "T2 Linux",
+    "basedOn": "ROCK",
+    "categories": [
+      "Source-based"
+    ],
+    "desktop": [
+      "AfterStep",
+      "Awesome",
+      "Blackbox",
+      "Enlightenment",
+      "Fluxbox",
+      "GNOME",
+      "IceWM",
+      "KDE",
+      "labwc",
+      "LXDE",
+      "Openbox",
+      "Sway",
+      "WMaker",
+      "Wayfire",
+      "Xfce"
+    ],
+    "url": "https://t2linux.com/contact/"
+  },
+  {
+    "name": "AgarimOS",
+    "basedOn": "Void",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "KDE Plasma",
+      "LXQt",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/p/agarimos/discussion/"
+  },
+  {
+    "name": "NetHydra",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Forensics",
+      "Live Medium",
+      "Security"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://nethydra.github.io/doc"
+  },
+  {
+    "name": "OpenMediaVault",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "NAS"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "https://forum.openmediavault.org/"
+  },
+  {
+    "name": "CuerdOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Budgie",
+      "Cinnamon",
+      "GNOME",
+      "LXQt",
+      "MATE",
+      "KDE Plasma",
+      "Sway",
+      "Xfce"
+    ],
+    "url": "https://cuerdoswiki.blogspot.com/"
+  },
+  {
+    "name": "Debian Edu",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Education",
+      "Thin Client"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "KDE",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://blends.debian.org/edu/"
+  },
+  {
+    "name": "Bluefin",
+    "basedOn": "CentOS",
+    "categories": [
+      "Desktop",
+      "Immutable"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://github.com/ublue-os/bluefin/discussions"
+  },
+  {
+    "name": "BlueOnyx",
+    "basedOn": "AlmaLinux",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "https://www.blueonyx.it/mailing-list"
+  },
+  {
+    "name": "GrapheneOS",
+    "basedOn": "Android",
+    "categories": [
+      "Immutable",
+      "Mobile"
+    ],
+    "desktop": [
+      "Launcher"
+    ],
+    "url": "https://discuss.grapheneos.org/"
+  },
+  {
+    "name": "NuTyX",
+    "basedOn": "LFS",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "url": "https://listengine.tuxfamily.org/nutyx.org/"
+  },
+  {
+    "name": "Soplos",
+    "basedOn": "Debian (Testing)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "url": "https://soplos.org/forums/"
+  },
+  {
+    "name": "OpenIndiana",
+    "basedOn": "OpenSolaris",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "UNIX"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "https://openindiana.org/mailman/listinfo"
+  },
+  {
+    "name": "Plop",
+    "basedOn": "Independent",
+    "categories": [
+      "Data Rescue",
+      "Desktop",
+      "Live Medium",
+      "Raspberry Pi",
+      "Server"
+    ],
+    "desktop": [
+      "Fluxbox",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://forum.plop.at/"
+  },
+  {
+    "name": "RELIANOID",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Firewall",
+      "Specialist"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "https://www.relianoid.com/community/support/"
+  },
+  {
+    "name": "SteamOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Gaming"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://steamcommunity.com/discussions/"
+  },
+  {
+    "name": "Ubuntu Unity",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Unity"
+    ],
+    "url": "https://discourse.ubuntuunity.org/"
+  },
+  {
+    "name": "Batocera",
+    "basedOn": "Independent",
+    "categories": [
+      "Gaming",
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "Openbox"
+    ],
+    "url": "https://forum.batocera.org/"
+  },
+  {
+    "name": "SysLinuxOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME",
+      "MATE"
+    ],
+    "url": "https://syslinuxos.com/community/"
+  },
+  {
+    "name": "Armbian",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Specialist"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "url": "https://forum.armbian.com/"
+  },
+  {
+    "name": "Grml",
+    "basedOn": "Debian (Testing)",
+    "categories": [
+      "From RAM",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Fluxbox"
+    ],
+    "url": "https://www.grml.org/mailinglist/"
+  },
+  {
+    "name": "IPFire",
+    "basedOn": "Independent (forked from IPCop)",
+    "categories": [
+      "Firewall"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "https://lists.ipfire.org/mailman/listinfo"
+  },
+  {
+    "name": "Peropesis",
+    "basedOn": "Independent",
+    "categories": [
+      "Live Medium"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://peropesis.org/mailing-list"
+  },
+  {
+    "name": "Univention",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "Openbox",
+      "WebUI"
+    ],
+    "url": "https://help.univention.com/"
+  },
+  {
+    "name": "VyOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Firewall"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://forum.vyos.io/"
+  },
+  {
+    "name": "Xray_OS",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "url": "https://xray-os.github.io/xray_os-website/index.html#download"
+  },
+  {
+    "name": "Edubuntu",
+    "basedOn": "Debian",
+    "categories": [
+      "Education",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://lists.ubuntu.com/mailman/listinfo/edubuntu-users"
+  },
+  {
+    "name": "ELEGANCE",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Gaming",
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://tuxnmix.org/telechargements/"
+  },
+  {
+    "name": "Exe",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Data Rescue",
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": [
+      "Openbox",
+      "Trinity"
+    ],
+    "url": "https://sourceforge.net/projects/exegnulinux/files/iso/"
+  },
+  {
+    "name": "FreedomBox",
+    "basedOn": "Debian",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "WebUI"
+    ],
+    "url": "https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/freedombox-discuss"
+  },
+  {
+    "name": "Tribblix",
+    "basedOn": "OpenSolaris",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://illumos.topicbox.com/groups/omnios-discuss"
+  },
+  {
+    "name": "Trisquel",
+    "basedOn": "Debian",
+    "categories": [
+      "Free Software",
+      "Desktop",
+      "Live Medium",
+      "Education"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "LXDE",
+      "MATE"
+    ],
+    "url": "https://listas.trisquel.info/cgi-bin/mailman/listinfo"
+  },
+  {
+    "name": "Alien-OS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Regolith"
+    ],
+    "url": "https://sourceforge.net/projects/alien-os-nano/files/"
+  },
+  {
+    "name": "d77void",
+    "basedOn": "Void",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Awesome",
+      "bspwm",
+      "COSMIC",
+      "DankMaterialShell",
+      "dwm",
+      "Fluxbox",
+      "GNOME",
+      "herbstluftwm",
+      "Hyprland",
+      "i3wm",
+      "JWM",
+      "labwc",
+      "LeftWM",
+      "LXQt",
+      "MangoWC",
+      "niri",
+      "Noctalia",
+      "Openbox",
+      "Qtile",
+      "River",
+      "Sway",
+      "Wayfire",
+      "Xfce"
+    ],
+    "url": "https://d77void.sourceforge.io/wiki/"
+  },
+  {
+    "name": "GoboLinux",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Source-based"
+    ],
+    "desktop": [
+      "Awesome"
+    ],
+    "url": "https://github.com/orgs/gobolinux/discussions"
   },
   {
     "name": "NetBSD",
+    "basedOn": "Independent",
     "categories": [
       "Desktop",
       "Raspberry Pi",
@@ -1474,107 +3216,661 @@
       "WMaker",
       "Xfce"
     ],
-    "url": "https://www.netbsd.org/"
+    "url": "https://www.netbsd.org/MailingLists/"
   },
   {
-    "name": "Liya",
+    "name": "Slimbook OS",
+    "basedOn": "Ubuntu (LTS)",
     "categories": [
       "Desktop",
       "Live Medium"
     ],
     "desktop": [
-      "Cinnamon",
-      "MATE"
+      "GNOME",
+      "KDE Plasma"
     ],
-    "url": "https://liyalinux.gitlab.io/"
+    "url": "https://slimbook.com/en/forum"
   },
   {
-    "name": "Dr.Parted",
+    "name": "Lakka",
+    "basedOn": "LibreELEC",
     "categories": [
-      "Data Rescue",
-      "Forensics",
-      "Live Medium",
-      "Specialist"
+      "Gaming",
+      "Multimedia",
+      "Raspberry Pi"
     ],
     "desktop": [
+      "RetroArch"
+    ],
+    "url": "https://forums.libretro.com/c/libretro/lakka-tv-general"
+  },
+  {
+    "name": "Slackel",
+    "basedOn": "Slackware",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "MATE",
       "Openbox"
     ],
-    "url": "https://dr-parted-live.sourceforge.io/"
+    "url": "http://www.slackel.gr/forum/"
   },
   {
-    "name": "ExTiX",
+    "name": "HardenedBSD",
+    "basedOn": "FreeBSD",
     "categories": [
-      "Desktop",
-      "Live Medium"
+      "Security"
     ],
     "desktop": [
-      "Budgie",
-      "Deepin",
-      "KDE Plasma",
-      "LXQt"
+      "No Desktop"
     ],
-    "url": "https://www.extix.se/"
+    "url": "https://hardenedbsd.org/content/mailing-lists"
   },
   {
-    "name": "NethSecurity",
+    "name": "OPNsense",
+    "basedOn": "FreeBSD",
     "categories": [
-      "Firewall"
+      "Firewall",
+      "Live Medium"
     ],
     "desktop": [
       "No Desktop",
       "WebUI"
     ],
-    "url": "https://nethsecurity.org/"
+    "url": "https://opnsense.org/support-overview/mailing-list/"
   },
   {
-    "name": "Redox",
+    "name": "Rescuezilla",
+    "basedOn": "Debian",
+    "categories": [
+      "Data Rescue",
+      "Live Medium"
+    ],
+    "desktop": [
+      "LXDE"
+    ],
+    "url": "https://rescuezilla.com/help.html"
+  },
+  {
+    "name": "umbrelOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Server",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "WebUI"
+    ],
+    "url": "https://community.umbrel.com/"
+  },
+  {
+    "name": "Venom",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Fluxbox",
+      "labwc",
+      "Sway",
+      "Xfce"
+    ],
+    "url": "https://venomlinux.org/wiki"
+  },
+  {
+    "name": "DESERT",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/projects/desert-os-linux/files/"
+  },
+  {
+    "name": "NomadBSD",
+    "basedOn": "FreeBSD",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://www.freelists.org/list/nomadbsddevs"
+  },
+  {
+    "name": "Ubuntu Kylin",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "UKUI"
+    ],
+    "url": "https://www.ubuntukylin.com/ukylin/forum.php"
+  },
+  {
+    "name": "BackBox",
+    "basedOn": "Debian",
+    "categories": [
+      "Data Rescue",
+      "Forensics",
+      "Security",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://forum.backbox.org/"
+  },
+  {
+    "name": "Drauger",
+    "basedOn": "Ubuntu (LTS)",
+    "categories": [
+      "Desktop",
+      "Gaming",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://draugeros.org/wiki"
+  },
+  {
+    "name": "KolibriOS",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Old Computers",
+      "Live Medium",
+      "Netbooks"
+    ],
+    "desktop": [
+      "KolibriOS"
+    ],
+    "url": "http://board.kolibrios.org/"
+  },
+  {
+    "name": "LibreELEC",
+    "basedOn": "Independent (forked from OpenELEC)",
+    "categories": [
+      "Multimedia",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Kodi"
+    ],
+    "url": "https://forum.libreelec.tv/"
+  },
+  {
+    "name": "ObsidianOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "COSMIC",
+      "KDE Plasma"
+    ],
+    "url": "https://wiki.obsidianos.xyz/"
+  },
+  {
+    "name": "UBports",
+    "basedOn": "Ubuntu",
+    "categories": [
+      "Immutable",
+      "Mobile"
+    ],
+    "desktop": [
+      "Lomiri"
+    ],
+    "url": "https://forums.ubports.com/"
+  },
+  {
+    "name": "Zephix",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "i3"
+    ],
+    "url": "https://zephix-linux.sourceforge.io/index.html#features06-9"
+  },
+  {
+    "name": "Canaima",
+    "basedOn": "Debian (Testing)",
+    "categories": [
+      "Desktop",
+      "Gaming",
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "KDE Plasma",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://foro-canaima.softwarelibre.gob.ve/"
+  },
+  {
+    "name": "Elive",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Live Medium"
+    ],
+    "desktop": [
+      "Enlightenment"
+    ],
+    "url": "https://forum.elivelinux.org/"
+  },
+  {
+    "name": "Melawy",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://melawy.ru/overview"
+  },
+  {
+    "name": "openEuler",
+    "basedOn": "Fedora",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "Deepin",
+      "GNOME",
+      "UKUI",
+      "Xfce"
+    ],
+    "url": "https://www.openeuler.org/en/community/mailing-list/"
+  },
+  {
+    "name": "Pisi",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://pisilinux.org/forum"
+  },
+  {
+    "name": "Arkane",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Immutable",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://docs.arkanelinux.org/"
+  },
+  {
+    "name": "MIRACLE",
+    "basedOn": "Red Hat",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://users.miraclelinux.com/user/user.html"
+  },
+  {
+    "name": "PakOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Security"
+    ],
+    "desktop": [
+      "LXQt"
+    ],
+    "url": "https://sourceforge.net/p/pakos/mailman/"
+  },
+  {
+    "name": "Sculpt",
+    "basedOn": "Independent",
+    "categories": [
+      "Live Medium"
+    ],
+    "desktop": [
+      "Leitzentrale"
+    ],
+    "url": "https://genode.org/community/mailing-lists"
+  },
+  {
+    "name": "WM Live",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "WMaker"
+    ],
+    "url": "https://sourceforge.net/p/wmlive/discussion/"
+  },
+  {
+    "name": "Calam",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/p/blue-arch-installer/discussion/"
+  },
+  {
+    "name": "Daphile",
+    "basedOn": "Gentoo",
+    "categories": [
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "https://www.daphile.com/download/FAQ.txt"
+  },
+  {
+    "name": "Mobian",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Mobile"
+    ],
+    "desktop": [
+      "Plasma Mobile",
+      "Phosh"
+    ],
+    "url": "https://wiki.debian.org/Mobian"
+  },
+  {
+    "name": "spirit OS",
+    "basedOn": "Tiny Core",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": [
+      "IceWM"
+    ],
+    "url": "https://sourceforge.net/projects/spirit-os/files/"
+  },
+  {
+    "name": "Berry",
+    "basedOn": "Fedora",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "LXDE"
+    ],
+    "url": "http://berry-lab.net/edownload.html"
+  },
+  {
+    "name": "NethServer",
+    "basedOn": "Rocky",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "https://www.nethserver.org/community/"
+  },
+  {
+    "name": "Redcore",
+    "basedOn": "Gentoo",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Source-based"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "LXQt",
+      "Qtile"
+    ],
+    "url": "https://forum.redcorelinux.org/"
+  },
+  {
+    "name": "Vinari",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://vinarios.me/downloads"
+  },
+  {
+    "name": "Vipnix",
+    "basedOn": "Funtoo",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "LXQt"
+    ],
+    "url": "https://github.com/vipnix/livecd"
+  },
+  {
+    "name": "Aeon",
+    "basedOn": "openSUSE",
+    "categories": [
+      "Desktop",
+      "Immutable",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://aeondesktop.org/docs"
+  },
+  {
+    "name": "arcOS",
+    "basedOn": "Debian",
+    "categories": [
+      "Live Medium",
+      "Specialist"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://github.com/kg4vdk/arcos-linux-modules/discussions"
+  },
+  {
+    "name": "Luberri",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Education",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://luberrilinux.eus/gidak-eta-baliabideak/"
+  },
+  {
+    "name": "Plamo",
+    "basedOn": "Slackware",
+    "categories": [
+      "Desktop",
+      "Server"
+    ],
+    "desktop": [
+      "labwc",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://www.plamolinux.org/ml/"
+  },
+  {
+    "name": "Adélie",
+    "basedOn": "Independent",
     "categories": [
       "Desktop",
       "Live Medium",
       "Server"
     ],
     "desktop": [
-      "COSMIC"
+      "KDE Plasma",
+      "LXQt",
+      "MATE",
+      "Xfce"
     ],
-    "url": "https://www.redox-os.org/"
+    "url": "https://lists.adelielinux.org/archive/"
   },
   {
-    "name": "rlxos",
+    "name": "GuideOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://forum.linuxguides.de/"
+  },
+  {
+    "name": "Refracta",
+    "basedOn": "Debian",
     "categories": [
       "Desktop",
-      "Immutable"
+      "Live Medium"
     ],
     "desktop": [
       "Xfce"
     ],
-    "url": "https://rlxos.dev/"
+    "url": "https://dev1galaxy.org/viewforum.php?id=9"
   },
   {
-    "name": "Ubuntu Unity",
+    "name": "Tsurugi",
+    "basedOn": "Debian",
     "categories": [
-      "Desktop",
-      "Live Medium"
+      "Forensics",
+      "Live DVD",
+      "Security"
     ],
     "desktop": [
-      "Unity"
+      "MATE"
     ],
-    "url": "https://ubuntuunity.org/"
+    "url": "https://tsurugi-linux.org/documentation.php"
   },
   {
-    "name": "AUSTRUMI",
+    "name": "Unraid",
+    "basedOn": "Independent",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "WebUI"
+    ],
+    "url": "https://forums.unraid.net/"
+  },
+  {
+    "name": "BSDRP",
+    "basedOn": "FreeBSD",
+    "categories": [
+      "Firewall",
+      "Router"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "http://bsdrp.net/community/mailing_lists"
+  },
+  {
+    "name": "DynFi",
+    "basedOn": "FreeBSD",
+    "categories": [
+      "Firewall",
+      "Security"
+    ],
+    "desktop": [
+      "WebUI"
+    ],
+    "url": "https://dynfi.com/forum/"
+  },
+  {
+    "name": "Finnix",
+    "basedOn": "Debian (Testing)",
     "categories": [
       "Data Rescue",
-      "Desktop",
-      "From RAM",
       "Live Medium"
     ],
     "desktop": [
-      "FVWM"
+      "No Desktop"
     ],
-    "url": "http://cyti.latgola.lv/ruuni/"
+    "url": "https://github.com/orgs/finnix/discussions"
+  },
+  {
+    "name": "FuguIta",
+    "basedOn": "OpenBSD",
+    "categories": [
+      "Live Medium"
+    ],
+    "desktop": [
+      "Fvwm"
+    ],
+    "url": "https://fuguita.org/?FuguIta/BBS"
+  },
+  {
+    "name": "Kamarada",
+    "basedOn": "openSUSE",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://groups.google.com/g/linuxkamarada-ww"
   },
   {
     "name": "Parted Magic",
+    "basedOn": "Slackware",
     "categories": [
       "Data Rescue",
       "Disk Management",
@@ -1584,33 +3880,128 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://partedmagic.com/"
+    "url": "https://forums.partedmagic.com/"
   },
   {
-    "name": "Skudonet",
+    "name": "RED OS",
+    "basedOn": "Independent",
     "categories": [
-      "Server",
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma",
+      "MATE"
+    ],
+    "url": "https://redos.red-soft.ru/product/docs/"
+  },
+  {
+    "name": "ElysiaOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Hyprland"
+    ],
+    "url": "https://github.com/Matsko3/ElysiaOS"
+  },
+  {
+    "name": "Recalbox",
+    "basedOn": "Independent",
+    "categories": [
+      "Gaming",
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://forum.recalbox.com/"
+  },
+  {
+    "name": "Zenwalk",
+    "basedOn": "Slackware",
+    "categories": [
+      "Desktop"
+    ],
+    "desktop": [
+      "labwc",
+      "Xfce"
+    ],
+    "url": "http://support.zenwalk.org/"
+  },
+  {
+    "name": "Slint",
+    "basedOn": "Slackware",
+    "categories": [
+      "Assistive",
+      "Desktop"
+    ],
+    "desktop": [
+      "i3",
+      "LXQt",
+      "MATE",
+      "Openbox"
+    ],
+    "url": "https://slint.fr/en/support.html"
+  },
+  {
+    "name": "AOSC",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "MATE"
+    ],
+    "url": "https://bbs.aosc.io/"
+  },
+  {
+    "name": "Bedrock",
+    "basedOn": "Independent",
+    "categories": [
       "Specialist"
     ],
     "desktop": [
-      "No Desktop",
-      "WebUI"
+      "No Desktop"
     ],
-    "url": "https://www.skudonet.com/"
+    "url": "https://reddit.com/r/bedrocklinux"
   },
   {
-    "name": "DynFi",
+    "name": "Crunchbangplusplus",
+    "basedOn": "Debian",
     "categories": [
-      "Firewall",
-      "Security"
+      "Desktop",
+      "Live Medium"
     ],
     "desktop": [
-      "WebUI"
+      "Openbox"
     ],
-    "url": "https://dynfi.com/en/dynfi-firewall/"
+    "url": "http://crunchbanglinux.org/wiki/"
+  },
+  {
+    "name": "Lilidog",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": [
+      "labwc",
+      "Openbox",
+      "Sway"
+    ],
+    "url": "https://sourceforge.net/p/lilidog/discussion/"
   },
   {
     "name": "MAX",
+    "basedOn": "Debian",
     "categories": [
       "Desktop",
       "Education",
@@ -1619,42 +4010,126 @@
     "desktop": [
       "MATE"
     ],
-    "url": "https://www.educa2.madrid.org/web/max/inicio"
+    "url": "https://foros.educa.madrid.org/viewforum.php"
   },
   {
-    "name": "BlueOnyx",
+    "name": "PrismLinux",
+    "basedOn": "Arch",
     "categories": [
-      "Server"
-    ],
-    "desktop": [
-      "No Desktop",
-      "WebUI"
-    ],
-    "url": "https://www.blueonyx.it/"
-  },
-  {
-    "name": "UBports",
-    "categories": [
-      "Immutable",
-      "Mobile"
-    ],
-    "desktop": [
-      "Unity"
-    ],
-    "url": "https://ubports.com/"
-  },
-  {
-    "name": "Peropesis",
-    "categories": [
+      "Desktop",
       "Live Medium"
     ],
     "desktop": [
-      ""
+      "Cinnamon",
+      "COSMIC",
+      "GNOME",
+      "Hyprland",
+      "KDE Plasma",
+      "niri",
+      "River",
+      "Sway"
     ],
-    "url": "https://peropesis.org/"
+    "url": "https://www.prismlinux.org/wiki"
   },
   {
-    "name": "OpenMediaVault",
+    "name": "Shebang",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Openbox"
+    ],
+    "url": "https://github.com/shebang-linux/shebang/releases"
+  },
+  {
+    "name": "SolydXK",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE",
+      "Xfce"
+    ],
+    "url": "https://forums.solydxk.com/"
+  },
+  {
+    "name": "CAINE",
+    "basedOn": "Debian",
+    "categories": [
+      "Forensics",
+      "Live Medium"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "https://www.caine-live.net/page0/page0.html"
+  },
+  {
+    "name": "Netrunner",
+    "basedOn": "Debian",
+    "categories": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://support.blue-systems.com/"
+  },
+  {
+    "name": "Parch",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "url": "https://forum.parchlinux.com/"
+  },
+  {
+    "name": "RebeccaBlackOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma",
+      "labwc",
+      "LXQt",
+      "MATE",
+      "Sway",
+      "Wayfire",
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/p/rebeccablackos/discussion/general/"
+  },
+  {
+    "name": "StartOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Kiosk",
+      "Raspberry Pi",
+      "Server"
+    ],
+    "desktop": [
+      "Firefox"
+    ],
+    "url": "https://community.start9.com/"
+  },
+  {
+    "name": "XigmaNAS",
+    "basedOn": "FreeBSD",
     "categories": [
       "NAS"
     ],
@@ -1662,241 +4137,211 @@
       "No Desktop",
       "WebUI"
     ],
-    "url": "https://www.openmediavault.org/"
+    "url": "https://www.xigmanas.com/forums/"
   },
   {
-    "name": "Archman",
+    "name": "Flatcar",
+    "basedOn": "Gentoo",
+    "categories": [
+      "Container",
+      "Immutatable",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://www.flatcar.org/docs/"
+  },
+  {
+    "name": "3CX",
+    "basedOn": "Debian",
+    "categories": [
+      "Telephony"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://www.3cx.com/community/"
+  },
+  {
+    "name": "Kamuriki",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop"
+    ],
+    "desktop": [
+      "LXQt"
+    ],
+    "url": "https://kamurikilinux.sourceforge.io/"
+  },
+  {
+    "name": "Kumander",
+    "basedOn": "Debian (Stable)",
     "categories": [
       "Desktop",
       "Live Medium"
     ],
     "desktop": [
-      "i3",
       "Xfce"
     ],
-    "url": "https://archman.org/"
+    "url": "https://www.kumander.org/index.php"
   },
   {
-    "name": "Whonix",
+    "name": "Solaris",
+    "basedOn": "Independent",
+    "categories": [
+      "Server",
+      "UNIX"
+    ],
+    "desktop": [
+      "AfterStep",
+      "GNOME",
+      "KDE",
+      "WMaker",
+      "Xfce"
+    ],
+    "url": "https://www.oracle.com/technetwork/server-storage/solaris11/documentation/"
+  },
+  {
+    "name": "Accessible-Coconut",
+    "basedOn": "Debian",
+    "categories": [
+      "Live Medium",
+      "Specialist"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "https://groups.google.com/g/accessible-coconut"
+  },
+  {
+    "name": "ATZ Linux",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://www.atzlinux.com/yjaz.htm"
+  },
+  {
+    "name": "DebLight",
+    "basedOn": "Debian (Stable)",
     "categories": [
       "Desktop",
-      "Privacy",
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "LXDE"
+    ],
+    "url": "https://deblight.w31.fr/"
+  },
+  {
+    "name": "Live Raizo",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Live Medium",
+      "Specialist"
+    ],
+    "desktop": [
+      "Fluxbox"
+    ],
+    "url": "https://sourceforge.net/p/live-raizo/discussion/"
+  },
+  {
+    "name": "Pentoo",
+    "basedOn": "Gentoo",
+    "categories": [
+      "Forensics",
+      "Live Medium",
       "Security"
     ],
     "desktop": [
       "Xfce"
     ],
-    "url": "https://www.whonix.org/"
+    "url": "https://www.pentoo.ch/docs"
   },
   {
-    "name": "LibreELEC",
+    "name": "Predator-OS",
+    "basedOn": "Debian (Testing)",
     "categories": [
-      "Multimedia",
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "Kodi"
-    ],
-    "url": "https://libreelec.tv/"
-  },
-  {
-    "name": "Clonezilla",
-    "categories": [
-      "Data Rescue",
-      "Specialist"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "https://clonezilla.org/"
-  },
-  {
-    "name": "postmarketOS",
-    "categories": [
+      "Desktop",
+      "Forensics",
       "Live Medium",
-      "Mobile"
+      "Privacy",
+      "Security"
     ],
     "desktop": [
-      "GNOME",
-      "Phosh",
-      "Plasma Mobile",
-      "Sxmo"
-    ],
-    "url": "https://postmarketos.org/"
-  },
-  {
-    "name": "Slax",
-    "categories": [
-      "From RAM",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Fluxbox"
-    ],
-    "url": "https://www.slax.org/"
-  },
-  {
-    "name": "Clear",
-    "categories": [
-      "Cloud",
-      "Desktop",
-      "Server",
-      "Specialist"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "https://clearlinux.org/"
-  },
-  {
-    "name": "openmamba",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Raspberry Pi",
-      "Server"
-    ],
-    "desktop": [
-      "KDE Plasma",
-      "LXQt"
-    ],
-    "url": "https://openmamba.org/"
-  },
-  {
-    "name": "NomadBSD",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://nomadbsd.org/"
-  },
-  {
-    "name": "ROSA",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "GNOME",
-      "KDE Plasma",
-      "LXQt",
-      "Xfce"
-    ],
-    "url": "https://www.rosalinux.ru/"
-  },
-  {
-    "name": "SystemRescue",
-    "categories": [
-      "Data Rescue",
-      "From RAM",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://www.system-rescue.org/"
-  },
-  {
-    "name": "Ubuntu Budgie",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Budgie"
-    ],
-    "url": "https://ubuntubudgie.org/"
-  },
-  {
-    "name": "NuTyX",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "CDE",
-      "Cinnamon",
-      "Enlightenment",
-      "GNOME",
-      "JWM",
       "KDE Plasma",
       "LXDE",
       "LXQt",
-      "MATE",
-      "Openbox",
+      "MATE"
+    ],
+    "url": "https://predator-os.ir/download/"
+  },
+  {
+    "name": "Snal",
+    "basedOn": "Arch",
+    "categories": [
+      "Container",
+      "From RAM",
+      "Live Medium",
+      "Rescue"
+    ],
+    "desktop": [
+      "i3"
+    ],
+    "url": "https://sourceforge.net/p/snallinux/wiki/"
+  },
+  {
+    "name": "Clear NDR",
+    "basedOn": "Debian",
+    "categories": [
+      "Live Medium",
+      "Security"
+    ],
+    "desktop": [
       "Xfce"
     ],
-    "url": "https://www.nutyx.org/"
+    "url": "https://docs.clearndr.io/"
   },
   {
-    "name": "OSMC",
+    "name": "NST",
+    "basedOn": "Fedora",
     "categories": [
-      "Raspberry Pi"
+      "Forensics",
+      "Live Medium",
+      "Security"
     ],
     "desktop": [
-      "Kodi"
+      "Fluxbox",
+      "MATE",
+      "Openbox"
     ],
-    "url": "https://osmc.tv/"
+    "url": "https://sourceforge.net/forum/forum.php?forum_id=361524"
   },
   {
-    "name": "Redcore",
+    "name": "TeaLinux",
+    "basedOn": "Arch",
     "categories": [
       "Desktop",
-      "Live Medium",
-      "Source-based"
+      "Live Medium"
     ],
     "desktop": [
+      "COSMIC",
       "KDE Plasma"
     ],
-    "url": "https://redcorelinux.org/"
-  },
-  {
-    "name": "Fatdog64",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Openbox"
-    ],
-    "url": "https://distro.ibiblio.org/fatdog/web/"
-  },
-  {
-    "name": "MidnightBSD",
-    "categories": [
-      "Desktop"
-    ],
-    "desktop": [
-      "Awesome",
-      "Blackbox",
-      "Cinnamon",
-      "Enlightenment",
-      "Fluxbox",
-      "GNOME",
-      "MATE",
-      "Openbox",
-      "WMaker",
-      "Xfce"
-    ],
-    "url": "https://www.midnightbsd.org/"
-  },
-  {
-    "name": "Slackel",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "MATE",
-      "Openbox"
-    ],
-    "url": "http://www.slackel.gr/"
+    "url": "https://tealinuxos.org/documentation/welcome-to-tealinuxos/what-is-tealinux"
   },
   {
     "name": "Ubuntu Pack",
+    "basedOn": "Debian",
     "categories": [
       "Beginners",
       "Live Medium",
@@ -1913,113 +4358,169 @@
       "Unity",
       "Xfce"
     ],
-    "url": "https://ualinux.com/en/ubuntu-oem"
+    "url": "https://ualinux.com/forum"
   },
   {
-    "name": "siduction",
+    "name": "Zentyal",
+    "basedOn": "Debian",
     "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "KDE Plasma",
-      "LXQt",
-      "Xfce"
-    ],
-    "url": "https://siduction.org/"
-  },
-  {
-    "name": "Ubuntu Cinnamon",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Cinnamon"
-    ],
-    "url": "https://ubuntucinnamon.org/"
-  },
-  {
-    "name": "Pardus",
-    "categories": [
-      "Desktop",
-      "Live Medium",
+      "Security",
       "Server"
     ],
     "desktop": [
-      "GNOME",
-      "Xfce"
+      "WebUI"
     ],
-    "url": "https://www.pardus.org.tr/"
+    "url": "https://forum.zentyal.org/"
   },
   {
-    "name": "Porteus",
+    "name": "Asahi",
+    "basedOn": "Fedora",
     "categories": [
-      "From RAM",
+      "Desktop"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma"
+    ],
+    "url": "https://discussion.fedoraproject.org/c/neighbors/asahi/92"
+  },
+  {
+    "name": "LazyLinux",
+    "basedOn": "Void",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/p/lazylinux/discussion/"
+  },
+  {
+    "name": "LinuxConsole",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Gaming",
       "Live Medium",
       "Old Computers"
     ],
     "desktop": [
-      "Cinnamon",
-      "GNOME",
-      "KDE Plasma",
-      "LXDE",
-      "LXQt",
-      "MATE",
-      "Openbox",
-      "Xfce"
+      "MATE"
     ],
-    "url": "http://www.porteus.org/"
+    "url": "https://jukebox.linuxconsole.org/official/"
   },
   {
-    "name": "SUSE",
+    "name": "Skywave",
+    "basedOn": "Debian (Unstable)",
     "categories": [
       "Desktop",
-      "Raspberry Pi",
-      "Server"
-    ],
-    "desktop": [
-      "GNOME",
-      "IceWM"
-    ],
-    "url": "https://www.suse.com/"
-  },
-  {
-    "name": "Armbian",
-    "categories": [
-      "Desktop",
+      "Live Medium",
       "Specialist"
     ],
     "desktop": [
-      "GNOME",
-      "Xfce"
+      "dwm"
     ],
-    "url": "https://www.armbian.com/"
+    "url": "https://skywavelinux.com/skywavelinux-usage.html"
   },
   {
-    "name": "DragonFly",
+    "name": "XeroLinux",
+    "basedOn": "Arch",
     "categories": [
+      "Live Medium",
+      "Desktop"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://wiki.xerolinux.xyz/"
+  },
+  {
+    "name": "DEKUVE",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Dekstop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://forum.dekuve.top/"
+  },
+  {
+    "name": "LinuxCNC",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Live Medium",
+      "Raspberry Pi",
+      "Specialist"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/p/emc/mailman/"
+  },
+  {
+    "name": "LliureX",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Education",
+      "Live Medium",
+      "Server",
+      "Thin Client"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "http://mestreacasa.gva.es/web/lliurex/forums"
+  },
+  {
+    "name": "Macaroni",
+    "basedOn": "Funtoo",
+    "categories": [
+      "Container",
       "Desktop",
       "Live Medium",
       "Server"
     ],
     "desktop": [
-      "Awesome",
-      "Cinnamon",
-      "Fluxbox",
-      "JWM",
+      "GNOME",
+      "i3",
       "KDE Plasma",
-      "Lumina",
-      "LXDE",
-      "MATE",
-      "Openbox",
-      "WMaker",
+      "LXQt",
       "Xfce"
     ],
-    "url": "http://www.dragonflybsd.org/"
+    "url": "https://www.macaronios.org/docs"
+  },
+  {
+    "name": "Vine",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Server"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "http://www.vinelinux.org/ml.html"
+  },
+  {
+    "name": "AcreetionOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "GNOME"
+    ],
+    "url": "https://wiki.acreetionos.org/"
   },
   {
     "name": "KANOTIX",
+    "basedOn": "Debian",
     "categories": [
       "Desktop",
       "From RAM",
@@ -2029,55 +4530,529 @@
       "KDE",
       "LXDE"
     ],
-    "url": "http://kanotix.com/"
+    "url": "http://www.kanotix.com/PNphpBB2.html"
   },
   {
-    "name": "Daphile",
+    "name": "ML4W",
+    "basedOn": "Arch",
     "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Hyprland"
+    ],
+    "url": "https://ml4w.com/os/getting-started/overview"
+  },
+  {
+    "name": "OsoLinux",
+    "basedOn": "Fedora",
+    "categories": [
+      "Desktop",
       "Live Medium",
       "Multimedia"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://oso.sourceforge.io/doc.html"
+  },
+  {
+    "name": "pfSense",
+    "basedOn": "FreeBSD",
+    "categories": [
+      "Firewall",
+      "Live Medium"
     ],
     "desktop": [
       "No Desktop",
       "WebUI"
     ],
-    "url": "https://www.daphile.com/"
+    "url": "https://forum.netgate.com/"
   },
   {
-    "name": "GParted",
+    "name": "Runtu",
+    "basedOn": "Debian",
     "categories": [
-      "Disk Management",
-      "Data Rescue",
+      "Desktop",
+      "Live Medium",
+      "Netbooks"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "LXDE"
+    ],
+    "url": "http://forum.runtu.org/"
+  },
+  {
+    "name": "gabeeOSLinux",
+    "basedOn": "Void",
+    "categories": [
+      "Desktop",
       "Live Medium"
     ],
     "desktop": [
-      "Fluxbox"
+      "Hyprland",
+      "i3",
+      "Openbox",
+      "Qtile"
     ],
-    "url": "https://gparted.org/livecd.php"
+    "url": "https://sourceforge.net/p/gabeeoslinux/discussion/"
   },
   {
-    "name": "T2",
+    "name": "NethSecurity",
+    "basedOn": "OpenWRT",
     "categories": [
+      "Firewall"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "https://community.nethserver.org/c/nethsecurity/"
+  },
+  {
+    "name": "Quarkos",
+    "basedOn": "Ubuntu (LTS)",
+    "categories": [
+      "Live Medium",
+      "Desktop",
+      "Old Computers"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "Trinity"
+    ],
+    "url": "https://sourceforge.net/p/quark-os/discussion/"
+  },
+  {
+    "name": "Rockstor",
+    "basedOn": "openSUSE",
+    "categories": [
+      "NAS"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "http://forum.rockstor.com/"
+  },
+  {
+    "name": "UOS",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Deepin"
+    ],
+    "url": "https://uos.uniontech.com/"
+  },
+  {
+    "name": "Ximper",
+    "basedOn": "ALT",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME",
+      "Hyprland",
+      "Sway"
+    ],
+    "url": "https://wiki.ximperlinux.ru/"
+  },
+  {
+    "name": "Zenclora",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://zenclora.org/docs.html"
+  },
+  {
+    "name": "AlterOS",
+    "basedOn": "Red Hat",
+    "categories": [
+      "Desktop",
+      "Server"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://wiki.alter-os.ru/"
+  },
+  {
+    "name": "Fatdog64",
+    "basedOn": "LFS (formerly based on Puppy)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "labwc",
+      "Openbox"
+    ],
+    "url": "https://www.murga-linux.com/puppy/index.php"
+  },
+  {
+    "name": "PelicanHPC",
+    "basedOn": "Debian",
+    "categories": [
+      "Clusters",
+      "High Performance Computing",
+      "Live Medium"
+    ],
+    "desktop": [
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/projects/pelicanhpc/files/"
+  },
+  {
+    "name": "Planeta Tecno",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://planetatecno.com.uy/planeta/planeta-tecno-os-el-sistema-operativo-listo-para-usar/"
+  },
+  {
+    "name": "Porteus Kiosk",
+    "basedOn": "Gentoo",
+    "categories": [
+      "Live Medium",
+      "Specialist"
+    ],
+    "desktop": [
+      "Firefox"
+    ],
+    "url": "http://forum.porteus.org/viewforum.php?f=101"
+  },
+  {
+    "name": "secureblue",
+    "basedOn": "Fedora",
+    "categories": [
+      "Desktop",
+      "Immutable",
+      "Security",
+      "Server"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma",
+      "Sway"
+    ],
+    "url": "https://secureblue.dev/faq"
+  },
+  {
+    "name": "TileOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "miracle-wm",
+      "niri",
+      "Qtile",
+      "River",
+      "Sway"
+    ],
+    "url": "https://tile-os.com/"
+  },
+  {
+    "name": "Ventoy",
+    "basedOn": "Porteus Kiosk",
+    "categories": [
+      "Live Medium",
+      "Specialist"
+    ],
+    "desktop": [
+      "Openbox"
+    ],
+    "url": "https://www.ventoy.net/en/doc_news.html"
+  },
+  {
+    "name": "Berserk Arch",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Security"
+    ],
+    "desktop": [
+      "Openbox"
+    ],
+    "url": "https://wiki.berserkarch.xyz/"
+  },
+  {
+    "name": "Exherbo",
+    "basedOn": "Independent (forked from Gentoo)",
+    "categories": [
+      "Desktop",
+      "Server",
       "Source-based"
     ],
     "desktop": [
-      "AfterStep",
       "Awesome",
-      "Blackbox",
       "Enlightenment",
+      "Fluxbox",
+      "GNOME",
+      "KDE",
+      "Openbox",
+      "Wayfire",
+      "Xfce"
+    ],
+    "url": "https://www.exherbolinux.org/docs/index.html"
+  },
+  {
+    "name": "Noid",
+    "basedOn": "Void",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/projects/noid-linux/files/"
+  },
+  {
+    "name": "Origami",
+    "basedOn": "Fedora",
+    "categories": [
+      "Desktop",
+      "Immutable"
+    ],
+    "desktop": [
+      "COSMIC"
+    ],
+    "url": "https://wiki.origami.wf/"
+  },
+  {
+    "name": "PLD",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Server"
+    ],
+    "desktop": [
+      "Blackbox",
       "Fluxbox",
       "GNOME",
       "IceWM",
       "KDE",
-      "LXDE",
-      "Openbox",
+      "labwc",
       "WMaker",
+      "Wayfire",
       "Xfce"
     ],
-    "url": "http://www.t2-project.org/"
+    "url": "http://lists.pld-linux.org/"
+  },
+  {
+    "name": "StratOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME",
+      "Hyprland",
+      "niri"
+    ],
+    "url": "https://stratos-linux.org/intro/"
+  },
+  {
+    "name": "Zenned",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://zenned.flarum.cloud/"
+  },
+  {
+    "name": "Archriot",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop"
+    ],
+    "desktop": [
+      "Hyprland"
+    ],
+    "url": "https://archriot.org/"
+  },
+  {
+    "name": "Flora",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Free Software",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/p/flora-linux-libre/wiki/"
+  },
+  {
+    "name": "Secure-K",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Live Medium",
+      "Privacy",
+      "Security"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://github.com/LumIT-Labs/open-securekos/releases"
+  },
+  {
+    "name": "Astra",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Mobile",
+      "Server"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://astra.ru/info/"
+  },
+  {
+    "name": "Blade",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://bladeos.xyz/docs/"
+  },
+  {
+    "name": "Ditana",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Server"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://ditana.org/docs/"
+  },
+  {
+    "name": "HamoniKR",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://hamonikr.org/hamoni_board"
+  },
+  {
+    "name": "OSMC",
+    "basedOn": "Debian",
+    "categories": [
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Kodi"
+    ],
+    "url": "https://discourse.osmc.tv/"
+  },
+  {
+    "name": "Quirinux",
+    "basedOn": "Devuan",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://foro.quirinux.org/"
+  },
+  {
+    "name": "RISC",
+    "basedOn": "Independent",
+    "categories": [
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Pinboard"
+    ],
+    "url": "https://www.riscosopen.org/forum/"
+  },
+  {
+    "name": "Koozali",
+    "basedOn": "Fedora",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "https://lists.contribs.org/mailman/listinfo/"
+  },
+  {
+    "name": "OmniOS",
+    "basedOn": "OpenSolaris",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://illumos.topicbox.com/groups/omnios-discuss"
+  },
+  {
+    "name": "paldo",
+    "basedOn": "Independent",
+    "categories": [
+      "Data Rescue",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME",
+      "IceWM",
+      "Xfce"
+    ],
+    "url": "https://www.paldo.org/index-section-support-page-docs.html"
   },
   {
     "name": "Super Grub2",
+    "basedOn": "Independent",
     "categories": [
       "Data Rescue",
       "Live Medium",
@@ -2086,1119 +5061,39 @@
     "desktop": [
       ""
     ],
-    "url": "https://www.supergrubdisk.org/super-grub2-disk/"
+    "url": "https://www.supergrubdisk.org/mailing-list/"
   },
   {
-    "name": "Ubuntu Kylin",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "UKUI"
-    ],
-    "url": "https://www.ubuntukylin.com/"
-  },
-  {
-    "name": "Plop",
-    "categories": [
-      "Data Rescue",
-      "Desktop",
-      "Live Medium",
-      "Raspberry Pi",
-      "Server"
-    ],
-    "desktop": [
-      "Fluxbox",
-      "MATE",
-      "Xfce"
-    ],
-    "url": "https://www.plop.at/"
-  },
-  {
-    "name": "Lakka",
-    "categories": [
-      "Gaming",
-      "Multimedia",
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "RetroArch"
-    ],
-    "url": "http://www.lakka.tv/"
-  },
-  {
-    "name": "LFS",
-    "categories": [
-      "Source-based",
-      "Education"
-    ],
-    "desktop": [
-      "Fluxbox",
-      "IceWM",
-      "KDE Plasma",
-      "LXDE",
-      "Openbox",
-      "Xfce"
-    ],
-    "url": "http://www.linuxfromscratch.org"
-  },
-  {
-    "name": "ArchBang",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "i3"
-    ],
-    "url": "https://archbang.org/"
-  },
-  {
-    "name": "Pearl",
-    "categories": [
-      "Desktop"
-    ],
-    "desktop": [
-      "MATE",
-      "Xfce"
-    ],
-    "url": "https://www.pearllinux.net/"
-  },
-  {
-    "name": "RebeccaBlackOS",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Weston"
-    ],
-    "url": "https://sourceforge.net/projects/rebeccablackos/"
-  },
-  {
-    "name": "Finnix",
-    "categories": [
-      "Data Rescue",
-      "Live Medium"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "https://www.finnix.org/"
-  },
-  {
-    "name": "SELKS",
-    "categories": [
-      "Live Medium",
-      "Security"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://www.stamus-networks.com/open-source/#selks"
-  },
-  {
-    "name": "IPFire",
-    "categories": [
-      "Firewall"
-    ],
-    "desktop": [
-      "No Desktop",
-      "WebUI"
-    ],
-    "url": "https://www.ipfire.org/"
-  },
-  {
-    "name": "Debian Edu",
-    "categories": [
-      "Desktop",
-      "Education",
-      "Thin Client"
-    ],
-    "desktop": [
-      "Cinnamon",
-      "GNOME",
-      "KDE",
-      "LXDE",
-      "LXQt",
-      "MATE",
-      "Xfce"
-    ],
-    "url": "http://www.skolelinux.org/"
-  },
-  {
-    "name": "Elive",
-    "categories": [
-      "Live Medium"
-    ],
-    "desktop": [
-      "Enlightenment"
-    ],
-    "url": "https://www.elivecd.org/"
-  },
-  {
-    "name": "Canaima",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Server"
-    ],
-    "desktop": [
-      "Cinnamon",
-      "GNOME",
-      "KDE Plasma",
-      "LXDE",
-      "MATE",
-      "Xfce"
-    ],
-    "url": "https://canaima.softwarelibre.gob.ve/"
-  },
-  {
-    "name": "OPNsense",
-    "categories": [
-      "Firewall",
-      "Live Medium"
-    ],
-    "desktop": [
-      "No Desktop",
-      "WebUI"
-    ],
-    "url": "https://opnsense.org/"
-  },
-  {
-    "name": "DragonOS",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Specialist"
-    ],
-    "desktop": [
-      "",
-      "LXQt"
-    ],
-    "url": "https://sourceforge.net/projects/dragonos-focal/"
-  },
-  {
-    "name": "MIRACLE",
-    "categories": [
-      "Server"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "https://www.miraclelinux.com"
-  },
-  {
-    "name": "openKylin",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Kylin",
-      "UKUI"
-    ],
-    "url": "https://www.openkylin.top/"
-  },
-  {
-    "name": "LinuxConsole",
-    "categories": [
-      "Desktop",
-      "Gaming",
-      "Live Medium",
-      "Old Computers"
-    ],
-    "desktop": [
-      "MATE"
-    ],
-    "url": "https://www.linuxconsole.org/"
-  },
-  {
-    "name": "Live Raizo",
-    "categories": [
-      "Live Medium",
-      "Specialist"
-    ],
-    "desktop": [
-      "Fluxbox"
-    ],
-    "url": "https://sourceforge.net/projects/live-raizo/"
-  },
-  {
-    "name": "Edubuntu",
+    "name": "Escuelas",
+    "basedOn": "Debian",
     "categories": [
       "Education",
-      "Live Medium",
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "https://www.edubuntu.org/"
-  },
-  {
-    "name": "Commodore",
-    "categories": [
-      "Desktop",
       "Live Medium"
     ],
     "desktop": [
-      "MATE"
+      "Moksha (Enlightenment)"
     ],
-    "url": "https://www.commodoreusa.net/"
+    "url": "https://escuelaslinux.sourceforge.io/Descargas.html"
   },
   {
-    "name": "BlackArch",
-    "categories": [
-      "Live Medium",
-      "Security",
-      "Forensics"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "http://blackarch.org/"
-  },
-  {
-    "name": "KolibriOS",
-    "categories": [
-      "Desktop",
-      "Old Computers",
-      "Live Medium",
-      "Netbooks"
-    ],
-    "desktop": [
-      "KolibriOS"
-    ],
-    "url": "http://kolibrios.org/"
-  },
-  {
-    "name": "Rescuezilla",
-    "categories": [
-      "Data Rescue",
-      "Live Image"
-    ],
-    "desktop": [
-      "LXDE"
-    ],
-    "url": "https://rescuezilla.com/"
-  },
-  {
-    "name": "Ufficio Zero",
-    "categories": [
-      "Data Rescue",
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "MATE",
-      "Openbox",
-      "Xfce"
-    ],
-    "url": "https://www.ufficiozero.org/"
-  },
-  {
-    "name": "AnduinOS",
-    "categories": [
-      "",
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "https://www.anduinos.com/"
-  },
-  {
-    "name": "openEuler",
-    "categories": [
-      "Server"
-    ],
-    "desktop": [
-      "Deepin",
-      "GNOME",
-      "UKUI",
-      "Xfce"
-    ],
-    "url": "https://www.openeuler.org/"
-  },
-  {
-    "name": "Snal",
-    "categories": [
-      "Docker",
-      "From RAM",
-      "Live Medium",
-      "Rescue"
-    ],
-    "desktop": [
-      "i3"
-    ],
-    "url": "https://snallinux.sourceforge.io/"
-  },
-  {
-    "name": "Trisquel",
-    "categories": [
-      "Free Software",
-      "Desktop",
-      "Live Medium",
-      "Education"
-    ],
-    "desktop": [
-      "KDE Plasma",
-      "LXDE",
-      "MATE"
-    ],
-    "url": "https://trisquel.info/"
-  },
-  {
-    "name": "SliTaz",
-    "categories": [
-      "Desktop",
-      "From RAM",
-      "Live Medium",
-      "Old Computers",
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "Openbox"
-    ],
-    "url": "http://www.slitaz.org/"
-  },
-  {
-    "name": "Feren",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Cinnamon",
-      "KDE Plasma"
-    ],
-    "url": "http://ferenos.weebly.com/"
-  },
-  {
-    "name": "Parabola",
-    "categories": [
-      "Desktop",
-      "Free Software",
-      "Server"
-    ],
-    "desktop": [
-      "Blackbox",
-      "Fluxbox",
-      "GNOME",
-      "IceWM",
-      "KDE",
-      "LXDE",
-      "MATE",
-      "Openbox",
-      "WMaker",
-      "Xfce"
-    ],
-    "url": "https://parabola.nu/"
-  },
-  {
-    "name": "Salix",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "http://www.salixos.org/"
-  },
-  {
-    "name": "Guix System",
-    "categories": [
-      "Education",
-      "Free Software",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Awesome",
-      "Enlightenment",
-      "GNOME",
-      "i3",
-      "MATE",
-      "Openbox",
-      "KDE Plasma",
-      "Ratpoison",
-      "Xfce"
-    ],
-    "url": "https://www.gnu.org/software/guix/"
-  },
-  {
-    "name": "Exe",
-    "categories": [
-      "Data Rescue",
-      "Desktop",
-      "Live Medium",
-      "Old Computers"
-    ],
-    "desktop": [
-      "Openbox",
-      "Trinity"
-    ],
-    "url": "http://exegnulinux.net/"
-  },
-  {
-    "name": "Hyperbola",
-    "categories": [
-      "Desktop",
-      "Free Software",
-      "Server"
-    ],
-    "desktop": [
-      "Lumina",
-      "IceWM",
-      "JWM",
-      "Openbox"
-    ],
-    "url": "https://www.hyperbola.info/"
-  },
-  {
-    "name": "Legacy",
+    "name": "Essora",
+    "basedOn": "Debian (Stable)",
     "categories": [
       "Desktop",
       "Live Medium",
       "Old Computers"
     ],
     "desktop": [
-      "IceWM"
-    ],
-    "url": "https://legacyoslinux.net/"
-  },
-  {
-    "name": "Univention",
-    "categories": [
-      "Server"
-    ],
-    "desktop": [
-      "KDE"
-    ],
-    "url": "https://www.univention.com/products/ucs/"
-  },
-  {
-    "name": "Pentoo",
-    "categories": [
-      "Forensics",
-      "Live Medium",
-      "Security"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://www.pentoo.ch/"
-  },
-  {
-    "name": "Dynebolic",
-    "categories": [
-      "Desktop",
-      "Free Software",
-      "Live Medium",
-      "Multimedia"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "https://dynebolic.org"
-  },
-  {
-    "name": "Grml",
-    "categories": [
-      "From RAM",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Fluxbox"
-    ],
-    "url": "https://www.grml.org/"
-  },
-  {
-    "name": "RISC",
-    "categories": [
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "Pinboard"
-    ],
-    "url": "https://www.riscosopen.org/"
-  },
-  {
-    "name": "SolydXK",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "KDE",
-      "Xfce"
-    ],
-    "url": "https://solydxk.com/"
-  },
-  {
-    "name": "pfSense",
-    "categories": [
-      "Firewall",
-      "Live Medium"
-    ],
-    "desktop": [
-      "No Desktop",
-      "WebUI"
-    ],
-    "url": "https://www.pfsense.org/"
-  },
-  {
-    "name": "Batocera",
-    "categories": [
-      "Gaming",
-      "Live Medium",
-      "Multimedia"
-    ],
-    "desktop": [
-      "Openbox"
-    ],
-    "url": "https://batocera.org/"
-  },
-  {
-    "name": "hellosystem",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "helloDesktop"
-    ],
-    "url": "https://github.com/helloSystem/hello"
-  },
-  {
-    "name": "Runtu",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Netbooks"
-    ],
-    "desktop": [
-      "KDE Plasma",
-      "LXDE"
-    ],
-    "url": "http://www.runtu.org/"
-  },
-  {
-    "name": "3CX",
-    "categories": [
-      "Telephony"
-    ],
-    "desktop": [
-      "No desktop"
-    ],
-    "url": "http://www.3cx.com/"
-  },
-  {
-    "name": "Berry",
-    "categories": [
-      "Live Medium"
-    ],
-    "desktop": [
-      "LXDE",
-      "Maynard"
-    ],
-    "url": "http://berry-lab.net/berry.html"
-  },
-  {
-    "name": "Crunchbangplusplus",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Openbox"
-    ],
-    "url": "https://www.crunchbangplusplus.org/"
-  },
-  {
-    "name": "Kaisen",
-    "categories": [
-      "Data Rescue",
-      "Desktop",
-      "Live Medium",
-      "Specialist"
-    ],
-    "desktop": [
-      "KDE Plasma",
-      "LXQt",
-      "MATE",
-      "Xfce"
-    ],
-    "url": "https://kaisenlinux.org/"
-  },
-  {
-    "name": "Lernstick",
-    "categories": [
-      "Desktop",
-      "Education",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Cinnamon",
-      "Enlightenment",
-      "GNOME",
-      "KDE Plasma",
-      "LXDE",
-      "MATE",
-      "Xfce"
-    ],
-    "url": "https://www.lernstick.ch/"
-  },
-  {
-    "name": "PrimTux",
-    "categories": [
-      "Desktop",
-      "Education",
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://primtux.fr/"
-  },
-  {
-    "name": "Solaris",
-    "categories": [
-      "Server",
-      "UNIX"
-    ],
-    "desktop": [
-      "AfterStep",
-      "GNOME",
-      "KDE",
-      "WMaker",
-      "Xfce"
-    ],
-    "url": "https://www.oracle.com/technetwork/server-storage/solaris11/overview/"
-  },
-  {
-    "name": "Zenwalk",
-    "categories": [
-      "Desktop"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "http://zenwalk.org/"
-  },
-  {
-    "name": "Linux Schools",
-    "categories": [
-      "Education",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://www.linuxschools.com/"
-  },
-  {
-    "name": "Thinstation",
-    "categories": [
-      "Thin Client"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://www.thinstation.org/"
-  },
-  {
-    "name": "CRUX",
-    "categories": [
-      "Desktop",
-      "Raspberry Pi",
-      "Server",
-      "Source-based"
-    ],
-    "desktop": [
-      "Openbox"
-    ],
-    "url": "https://crux.nu/"
-  },
-  {
-    "name": "PakOS",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "LXQt"
-    ],
-    "url": "https://sourceforge.net/projects/pakos/"
-  },
-  {
-    "name": "Wifislax",
-    "categories": [
-      "Security",
-      "Live Medium"
-    ],
-    "desktop": [
-      "KDE"
-    ],
-    "url": "http://www.wifislax.com/"
-  },
-  {
-    "name": "Netrunner",
-    "categories": [
-      "Beginners",
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "http://www.netrunner.com/"
-  },
-  {
-    "name": "Robolinux",
-    "categories": [
-      "Beginners",
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Cinnamon",
-      "MATE",
-      "Xfce"
-    ],
-    "url": "http://www.robolinux.org/"
-  },
-  {
-    "name": "OpenIndiana",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "UNIX"
-    ],
-    "desktop": [
-      "MATE"
-    ],
-    "url": "https://openindiana.org/"
-  },
-  {
-    "name": "HardenedBSD",
-    "categories": [
-      "Security"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "https://hardenedbsd.org/"
-  },
-  {
-    "name": "Bedrock",
-    "categories": [
-      "Specialist"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "https://bedrocklinux.org/"
-  },
-  {
-    "name": "CAINE",
-    "categories": [
-      "Forensics",
-      "Live Medium"
-    ],
-    "desktop": [
-      "MATE"
-    ],
-    "url": "https://www.caine-live.net/"
-  },
-  {
-    "name": "Dragora",
-    "categories": [
-      "Free Software"
-    ],
-    "desktop": [
-      "Trinity"
-    ],
-    "url": "http://www.dragora.org/"
-  },
-  {
-    "name": "Chimera",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Server"
-    ],
-    "desktop": [
-      "GNOME",
-      "Plasma"
-    ],
-    "url": "https://chimera-linux.org/"
-  },
-  {
-    "name": "Obarun",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
       "JWM",
       "KDE Plasma",
-      "Openbox",
-      "Xfce"
-    ],
-    "url": "https://web.obarun.org/"
-  },
-  {
-    "name": "Venom",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Openbox"
-    ],
-    "url": "https://venomlinux.org/"
-  },
-  {
-    "name": "CROWZ",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Fluxbox",
-      "JWM",
-      "Openbox"
-    ],
-    "url": "https://sourceforge.net/projects/crowz/"
-  },
-  {
-    "name": "Freespire",
-    "categories": [
-      "Desktop"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://www.freespire.net/"
-  },
-  {
-    "name": "OviOS",
-    "categories": [
-      "Server"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "https://www.ovios.org/"
-  },
-  {
-    "name": "WM Live",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "WMaker"
-    ],
-    "url": "https://wmlive.sourceforge.net/"
-  },
-  {
-    "name": "Accessible-Coconut",
-    "categories": [
-      "Live Medium",
-      "Specialist"
-    ],
-    "desktop": [
-      "MATE"
-    ],
-    "url": "https://zendalona.com/accessible-coconut/"
-  },
-  {
-    "name": "BSDRP",
-    "categories": [
-      "Firewall",
-      "Router"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "http://bsdrp.net/"
-  },
-  {
-    "name": "XigmaNAS",
-    "categories": [
-      "NAS"
-    ],
-    "desktop": [
-      "No Desktop",
-      "WebUI"
-    ],
-    "url": "https://www.xigmanas.com/"
-  },
-  {
-    "name": "Zentyal",
-    "categories": [
-      "Security",
-      "Server"
-    ],
-    "desktop": [
       "LXDE",
-      "WebUI"
-    ],
-    "url": "https://www.zentyal.org/"
-  },
-  {
-    "name": "EasyNAS",
-    "categories": [
-      "NAS"
-    ],
-    "desktop": [
-      "No Desktop",
-      "WebUI"
-    ],
-    "url": "https://www.easynas.org/"
-  },
-  {
-    "name": "NST",
-    "categories": [
-      "Live Medium",
-      "Security"
-    ],
-    "desktop": [
-      "Fluxbox",
-      "MATE",
       "Openbox"
     ],
-    "url": "https://www.networksecuritytoolkit.org/"
+    "url": "https://sourceforge.net/p/essora/discussion/"
   },
   {
-    "name": "Untangle",
-    "categories": [
-      "Firewall",
-      "Server"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://www.untangle.com/"
-  },
-  {
-    "name": "Vine",
-    "categories": [
-      "Desktop",
-      "Server"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "http://www.vinelinux.org/"
-  },
-  {
-    "name": "Bicom",
-    "categories": [
-      "Server",
-      "Telephony"
-    ],
-    "desktop": [
-      "No Desktop",
-      "WebUI"
-    ],
-    "url": "http://www.bicomsystems.com/products/pbxware/"
-  },
-  {
-    "name": "FuguIta",
-    "categories": [
-      "Live Medium"
-    ],
-    "desktop": [
-      "Fvwm"
-    ],
-    "url": "https://fuguita.org/"
-  },
-  {
-    "name": "Ubuntu Christian",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Specialist"
-    ],
-    "desktop": [
-      "Unity"
-    ],
-    "url": "http://www.ubuntuce.com/"
-  },
-  {
-    "name": "Zephix",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Cinnamon",
-      "GNOME",
-      "KDE Plasma",
-      "LXDE",
-      "LXQt",
-      "MATE",
-      "Xfce"
-    ],
-    "url": "https://zephix-linux.sourceforge.io/"
-  },
-  {
-    "name": "Exherbo",
-    "categories": [
-      "Desktop",
-      "Server",
-      "Source-based"
-    ],
-    "desktop": [
-      "Awesome",
-      "Enlightenment",
-      "Fluxbox",
-      "GNOME",
-      "KDE",
-      "Openbox",
-      "Xfce"
-    ],
-    "url": "http://exherbo.org/"
-  },
-  {
-    "name": "Kumander",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://www.kumander.org/"
-  },
-  {
-    "name": "Navy",
-    "categories": [
-      "Server"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "https://navylinux.org/"
-  },
-  {
-    "name": "VyOS",
-    "categories": [
-      "Firewall"
-    ],
-    "desktop": [
-      "No desktop"
-    ],
-    "url": "https://vyos.io/"
-  },
-  {
-    "name": "Linspire",
+    "name": "Uncom",
+    "basedOn": "Debian",
     "categories": [
       "Desktop",
       "Live Medium"
@@ -3206,312 +5101,50 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "http://www.linspirelinux.com/"
+    "url": "https://wiki.uncom.tech/"
   },
   {
-    "name": "Recalbox",
-    "categories": [
-      "Gaming",
-      "Live Medium",
-      "Multimedia"
-    ],
-    "desktop": [
-      "No desktop"
-    ],
-    "url": "https://www.recalbox.com/"
-  },
-  {
-    "name": "Nova",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Server"
-    ],
-    "desktop": [
-      "GNOME",
-      "Guano",
-      "LXDE"
-    ],
-    "url": "https://www.nova.cu/"
-  },
-  {
-    "name": "Photon",
-    "categories": [
-      "Docker"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "https://vmware.github.io/photon/"
-  },
-  {
-    "name": "Refracta",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://refracta.org/"
-  },
-  {
-    "name": "risiOS",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "https://risi.io/"
-  },
-  {
-    "name": "Rockstor",
-    "categories": [
-      "NAS"
-    ],
-    "desktop": [
-      "No Desktop",
-      "WebUI"
-    ],
-    "url": "http://rockstor.com/"
-  },
-  {
-    "name": "DietPi",
-    "categories": [
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "https://dietpi.com/"
-  },
-  {
-    "name": "Endian",
-    "categories": [
-      "Firewall"
-    ],
-    "desktop": [
-      "No desktop"
-    ],
-    "url": "https://www.endian.com/community/"
-  },
-  {
-    "name": "Porteus Kiosk",
+    "name": "AnuBitux",
+    "basedOn": "Debian (Stable)",
     "categories": [
       "Live Medium",
       "Specialist"
-    ],
-    "desktop": [
-      "Firefox"
-    ],
-    "url": "http://porteus-kiosk.org/"
-  },
-  {
-    "name": "Diamond",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "https://www.linux-tt.com/"
-  },
-  {
-    "name": "LliureX",
-    "categories": [
-      "Desktop",
-      "Education",
-      "Live Medium",
-      "Server",
-      "Thin Client"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "http://www.lliurex.net/"
-  },
-  {
-    "name": "UBOS",
-    "categories": [
-      "Raspberry Pi",
-      "Server"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "http://ubos.net/"
-  },
-  {
-    "name": "Baruwa",
-    "categories": [
-      "Server"
-    ],
-    "desktop": [
-      "No Desktop",
-      "WebUI"
-    ],
-    "url": "https://www.baruwa.com/"
-  },
-  {
-    "name": "FreedomBox",
-    "categories": [
-      "Server"
-    ],
-    "desktop": [
-      "WebUI"
-    ],
-    "url": "https://freedombox.org/"
-  },
-  {
-    "name": "HamoniKR",
-    "categories": [
-      "Desktop",
-      "Live Medium"
     ],
     "desktop": [
       "Cinnamon"
     ],
-    "url": "https://hamonikr.org/"
+    "url": "https://anubitux-project.gitbook.io/the-anubitux-documentation"
   },
   {
-    "name": "Plamo",
+    "name": "Catbird",
+    "basedOn": "Debian (Unstable)",
     "categories": [
       "Desktop",
-      "Server"
+      "Live Medium"
     ],
     "desktop": [
-      "LXDE",
-      "LXQt",
-      "MATE",
-      "Xfce"
+      "dwm"
     ],
-    "url": "https://www.plamolinux.org/"
+    "url": "https://catbirdlinux.com/articles.html"
   },
   {
-    "name": "Springdale",
+    "name": "Helwan",
+    "basedOn": "Arch",
     "categories": [
       "Desktop",
-      "Server"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "http://springdale.math.ias.edu/"
-  },
-  {
-    "name": "Uruk",
-    "categories": [
-      "Free Software",
-      "Desktop",
+      "Education",
       "Live Medium"
     ],
     "desktop": [
       "Cinnamon",
-      "MATE"
-    ],
-    "url": "https://urukproject.org/dist/"
-  },
-  {
-    "name": "PLD",
-    "categories": [
-      "Desktop",
-      "Server"
-    ],
-    "desktop": [
-      "Blackbox",
-      "Fluxbox",
       "GNOME",
-      "IceWM",
-      "KDE",
-      "WMaker",
       "Xfce"
     ],
-    "url": "http://pld-linux.org/"
-  },
-  {
-    "name": "Slint",
-    "categories": [
-      "Assistive",
-      "Desktop"
-    ],
-    "desktop": [
-      "LXQt",
-      "MATE"
-    ],
-    "url": "https://slint.fr/en/home.html"
-  },
-  {
-    "name": "eLearnix",
-    "categories": [
-      "Education",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "http://freehumanity.live/"
-  },
-  {
-    "name": "NexentaStor",
-    "categories": [
-      "Specialist",
-      "UNIX"
-    ],
-    "desktop": [
-      "No desktop"
-    ],
-    "url": "https://nexenta.com/products/nexentastor"
-  },
-  {
-    "name": "OSGeoLive",
-    "categories": [
-      "Education",
-      "Live Medium"
-    ],
-    "desktop": [
-      "LXQt"
-    ],
-    "url": "https://live.osgeo.org/"
-  },
-  {
-    "name": "paldo",
-    "categories": [
-      "Data Rescue",
-      "Live Medium"
-    ],
-    "desktop": [
-      "GNOME",
-      "IceWM",
-      "Xfce"
-    ],
-    "url": "http://www.paldo.org/"
-  },
-  {
-    "name": "TurnKey",
-    "categories": [
-      "Server"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "http://www.turnkeylinux.org/"
-  },
-  {
-    "name": "YunoHost",
-    "categories": [
-      "Server"
-    ],
-    "desktop": [
-      "No Desktop",
-      "WebUI"
-    ],
-    "url": "https://yunohost.org/"
+    "url": "https://helwanlinux.createaforum.com/"
   },
   {
     "name": "mAid",
+    "basedOn": "Arch",
     "categories": [
       "Desktop",
       "Live Medium"
@@ -3519,40 +5152,148 @@
     "desktop": [
       "Budgie"
     ],
-    "url": "https://maid.binbash.rocks/"
+    "url": "https://forum.xda-developers.com/t/live-iso-maid-v4-0-manage-all-your-android-devices-without-driver-hassle.3526755/"
   },
   {
-    "name": "Volumio",
+    "name": "rlxos",
+    "basedOn": "Independent",
     "categories": [
-      "Raspberry Pi"
+      "Desktop",
+      "Immutable"
     ],
     "desktop": [
-      "No Desktop"
+      "labwc",
+      "Xfce"
     ],
-    "url": "https://volumio.org/"
+    "url": "https://rlxos.dev/community"
   },
   {
-    "name": "OB2D",
+    "name": "Salix",
+    "basedOn": "Slackware",
     "categories": [
-      "Server"
+      "Desktop",
+      "Live Medium"
     ],
     "desktop": [
       "Xfce"
     ],
-    "url": "http://b2d-linux.com/"
+    "url": "https://lists.sourceforge.net/lists/listinfo/salix-main"
   },
   {
-    "name": "Omoikane",
+    "name": "TTOS",
+    "basedOn": "Debian (Stable)",
     "categories": [
-      "Desktop"
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://sourceforge.net/p/ttos-linux/mailman/"
+  },
+  {
+    "name": "AfagOS",
+    "basedOn": "Void",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://sourceforge.net/projects/afagos/files/"
+  },
+  {
+    "name": "nakeDeb",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "i3",
+      "Fluxbox"
+    ],
+    "url": "https://nakedeb.arpinux.org/forum/"
+  },
+  {
+    "name": "AçorOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "LXQt",
+      "Openbox",
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/p/acor-os/mailman/"
+  },
+  {
+    "name": "Fluff",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://flufflinux.com/"
+  },
+  {
+    "name": "Milis",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "labwc"
+    ],
+    "url": "https://mls.akdeniz.edu.tr/belge/"
+  },
+  {
+    "name": "PelandukOS",
+    "basedOn": "Debian (Testing)",
+    "categories": [
+      "Desktop",
+      "Gaming",
+      "Live Medium"
     ],
     "desktop": [
       "GNOME"
     ],
-    "url": "http://www.omoikane.co.jp"
+    "url": "https://github.com/orgs/pelandukos/discussions"
   },
   {
-    "name": "SME Server",
+    "name": "Thinstation",
+    "basedOn": "CRUX",
+    "categories": [
+      "Thin Client"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://lists.sourceforge.net/lists/listinfo/thinstation-general"
+  },
+  {
+    "name": "Vincent",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://forum.v38armageddon.net/"
+  },
+  {
+    "name": "YunoHost",
+    "basedOn": "Debian",
     "categories": [
       "Server"
     ],
@@ -3560,998 +5301,1039 @@
       "No Desktop",
       "WebUI"
     ],
-    "url": "http://www.smeserver.org/"
+    "url": "https://forum.yunohost.org/"
   },
   {
-    "name": "PelicanHPC",
+    "name": "BRGV-OS",
+    "basedOn": "Void",
     "categories": [
-      "Clusters",
-      "High Performance Computing",
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://github.com/florintanasa/brgvos-void/discussions"
+  },
+  {
+    "name": "DAT",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Specialist"
+    ],
+    "desktop": [
+      "LXQt"
+    ],
+    "url": "https://github.com/dat-linux/community/discussions/"
+  },
+  {
+    "name": "Green",
+    "basedOn": "Debian",
+    "categories": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "Xfce"
+    ],
+    "url": "https://forum.linuxmint.su/"
+  },
+  {
+    "name": "Lernstick",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Education",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "Enlightenment",
+      "GNOME",
+      "KDE Plasma",
+      "LXDE",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://groups.google.com/g/lernstick"
+  },
+  {
+    "name": "Linux Schools",
+    "basedOn": "Debian",
+    "categories": [
+      "Education",
       "Live Medium"
     ],
     "desktop": [
       "Xfce"
     ],
-    "url": "https://sourceforge.net/projects/pelicanhpc/"
+    "url": "https://www.linuxschools.com/forum/"
   },
   {
-    "name": "RDS",
-    "categories": ["Raspberry Pi"],
-    "desktop": ["Chromium"],
-    "url": "https://www.binaryemotions.com/digital-signage/raspberry-digital-signage/"
-  },
-  {
-    "name": "RSS",
-    "categories": ["Raspberry Pi"],
-    "desktop": ["Omxplayer"],
-    "url": "https://www.binaryemotions.com/digital-signage/raspberry-slideshow/"
-  },
-  {
-    "name": "Ditana",
-    "categories": ["Desktop, Server"],
-    "desktop": ["Xfce"],
-    "url": "https://ditana.org/"
-  },
-  {
-    "name": "DAT",
-    "categories": ["Desktop, Live Medium, Specialist"],
-    "desktop": ["LXQt"],
-    "url": "https://datlinux.com/"
-  },
-  {
-    "name": "iodeOS",
-    "categories": ["Immutable, Mobile"],
-    "desktop": ["Trebuchet"],
-    "url": "https://iode.tech/"
-  },
-  {
-    "name": "Zenned",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://zenned.gitlab.io/"
-  },
-  {
-    "name": "NethServer",
-    "categories": ["Server"],
-    "desktop": ["No Desktop, WebUI"],
-    "url": "https://www.nethserver.org/"
-  },
-  {
-    "name": "ClonOS",
-    "categories": ["Server, Specialist"],
-    "desktop": ["No Desktop, WebUI"],
-    "url": "https://clonos.convectix.com/"
-  },
-  {
-    "name": "Secure-K",
-    "categories": ["Live Medium, Privacy, Security"],
-    "desktop": ["GNOME"],
-    "url": "https://github.com/LumIT-Labs/open-securekos"
-  },
-  {
-    "name": "Bazzite",
-    "categories": ["Desktop, Gaming"],
-    "desktop": ["GNOME, KDE Plasma"],
-    "url": "https://bazzite.gg/"
-  },
-  {
-    "name": "Smoothwall",
-    "categories": ["Firewall"],
-    "desktop": ["No Desktop, WebUI"],
-    "url": "https://www.smoothwall.org/"
-  },
-  {
-    "name": "GrapheneOS",
-    "categories": ["Immutable, Mobile"],
-    "desktop": ["Launcher"],
-    "url": "https://grapheneos.org/"
-  },
-  {
-    "name": "GoboLinux",
-    "categories": ["Desktop, Live Medium, Source-based"],
-    "desktop": ["Awesome"],
-    "url": "https://www.gobolinux.org/"
-  },
-  {
-    "name": "RefreshOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://refreshos.org/"
-  },
-  {
-    "name": "PikaOS",
-    "categories": ["Desktop, Gaming, Live Medium"],
-    "desktop": ["GNOME, Hyprland, KDE Plasma, Niri"],
-    "url": "http://pika-os.com/"
-  },
-  {
-    "name": "AxOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Hyprland, Sleex"],
-    "url": "https://www.axos-project.com/"
-  },
-  {
-    "name": "MODICIA",
-    "categories": ["Live Medium, Multimedia"],
-    "desktop": ["Cinnamon"],
-    "url": "https://www.modiciaos.cloud/"
-  },
-  {
-    "name": "Exton",
-    "categories": ["Desktop, Gaming, Live Medium, Multimedia"],
-    "desktop": [
-      "Budgie, Deepin, Enlightenment, GNOME, KDE Plasma, LXDE, LXQt, Xfce"
+    "name": "OSGeoLive",
+    "basedOn": "Debian",
+    "categories": [
+      "Education",
+      "Live Medium"
     ],
-    "url": "https://www.exton.se/"
-  },
-  {
-    "name": "Securonis",
-    "categories": ["Live Medium, Privacy, Security"],
-    "desktop": ["MATE"],
-    "url": "https://securonis.github.io/"
-  },
-  {
-    "name": "MocaccinoOS",
-    "categories": ["Desktop, Immutable, Live Medium"],
-    "desktop": ["GNOME, KDE Plasma, MATE, Xfce"],
-    "url": "https://www.mocaccino.org/"
-  },
-  {
-    "name": "LastOSLinux",
-    "categories": ["Beginners, Desktop, Live Medium"],
-    "desktop": ["Cinnamon, MATE"],
-    "url": "https://www.lastos.org/lastoslinux/"
-  },
-  {
-    "name": "GXDE",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Deepin"],
-    "url": "https://www.gxde.top/"
-  },
-  {
-    "name": "Expirion",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["LXQt, MATE, Xfce"],
-    "url": "https://expirion-linux.sourceforge.io/"
-  },
-  {
-    "name": "HeliumOS",
-    "categories": ["Desktop"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://www.heliumos.org/"
-  },
-  {
-    "name": "iDeal",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://ideal-os.xyz/"
-  },
-  {
-    "name": "MiniOS",
-    "categories": ["Data Rescue, Desktop, Live Image"],
-    "desktop": ["Xfce"],
-    "url": "https://minios.dev/"
-  },
-  {
-    "name": "MagOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["KDE Plasma, LXQt"],
-    "url": "https://magos-linux.ru/"
-  },
-  {
-    "name": "Soplos",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Xfce"],
-    "url": "https://soploslinux.com/"
-  },
-  {
-    "name": "GLF",
-    "categories": ["Declarative, Desktop, Gaming, Live Medium"],
-    "desktop": ["GNOME, KDE Plasma"],
-    "url": "https://www.gaminglinux.fr/glf-os/"
-  },
-  {
-    "name": "Nyarch",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["GNOME"],
-    "url": "https://nyarchlinux.moe/"
-  },
-  {
-    "name": "Lingmo",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["LingmoUI"],
-    "url": "https://lingmo.org/"
-  },
-  {
-    "name": "Mauna",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Cinnamon, LXQt, MATE, Xfce"],
-    "url": "https://maunalinux.top/"
-  },
-  {
-    "name": "TROMjaro",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Xfce"],
-    "url": "https://www.tromjaro.com/"
-  },
-  {
-    "name": "Gnuinos",
-    "categories": ["Desktop, Free Software, Live Medium, Server"],
-    "desktop": ["Cinnamon, GNOME, JWM, KDE Plasma, LXDE, LXQt, MATE, Openbox, Xfce"],
-    "url": "https://www.gnuinos.org/"
-  },
-  {
-    "name": "GNOME OS",
-    "categories": ["Desktop, Immutable, Live Medium"],
-    "desktop": ["GNOME"],
-    "url": "https://os.gnome.org/"
-  },
-  {
-    "name": "StormOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Xfce"],
-    "url": "https://techcafe757.wixsite.com/storm-os"
-  },
-  {
-    "name": "Security Onion",
-    "categories": ["Security"],
-    "desktop": ["GNOME"],
-    "url": "https://securityonionsolutions.com/software"
-  },
-  {
-    "name": "Melawy",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://melawy.ru/"
-  },
-  {
-    "name": "Kamarada",
-    "categories": ["Desktop, Live Medium, Server"],
-    "desktop": ["GNOME"],
-    "url": "https://linuxkamarada.com/"
-  },
-  {
-    "name": "Oreon",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["GNOME"],
-    "url": "https://oreonproject.org/"
-  },
-  {
-    "name": "Aurora",
-    "categories": ["Desktop, Immutable"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://getaurora.dev/"
-  },
-  {
-    "name": "Besgnulinux",
-    "categories": ["Desktop, Live Medium, Old Computers"],
-    "desktop": ["JWM"],
-    "url": "https://besgnulinux.blogspot.com/"
-  },
-  {
-    "name": "TileOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["River, Sway"],
-    "url": "https://tile-os.com/"
-  },
-  {
-    "name": "Bluefin",
-    "categories": ["Desktop, Immutable"],
-    "desktop": ["GNOME"],
-    "url": "https://projectbluefin.io/"
-  },
-  {
-    "name": "LangitKetujuh",
-    "categories": ["Desktop, Live Medium, Multimedia"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://langitketujuh.id/"
-  },
-  {
-    "name": "OmniOS",
-    "categories": ["Server"],
-    "desktop": ["No Desktop"],
-    "url": "https://omnios.org/"
-  },
-  {
-    "name": "Adélie",
-    "categories": ["Desktop, Live Medium, Server"],
-    "desktop": ["KDE Plasma, LXQt, MATE, Xfce"],
-    "url": "https://omnios.org/"
-  },
-  {
-    "name": "Tribblix",
-    "categories": ["Desktop, Live Medium, Server"],
-    "desktop": ["Xfce"],
-    "url": "http://tribblix.org/"
-  },
-  {
-    "name": "arcOS",
-    "categories": ["Live Medium, Specialist"],
-    "desktop": ["Cinnamon"],
-    "url": "https://arcos-linux.com/"
-  },
-  {
-    "name": "XIVA Studio",
-    "categories": ["Desktop, Live Medium, Multimedia"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://xivastudio.org/"
-  },
-  {
-    "name": "Parch",
-    "categories": ["Desktop, Live Medium, Raspberry Pi"],
-    "desktop": ["GNOME, KDE Plasma"],
-    "url": "https://parchlinux.com/"
-  },
-  {
-    "name": "AerynOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["GNOME"],
-    "url": "https://aerynos.com/"
-  },
-  {
-    "name": "Loc-OS",
-    "categories": ["Desktop, Live Medium, Old Computers"],
-    "desktop": ["LXDE"],
-    "url": "https://loc-os.com/"
-  },
-  {
-    "name": "DEKUVE",
-    "categories": ["Dekstop, Live Medium"],
-    "desktop": ["Xfce"],
-    "url": "https://dekuve.top/"
-  },
-  {
-    "name": "Kicksecure",
-    "categories": ["Desktop, Live Medium, Security"],
-    "desktop": ["Xfce"],
-    "url": "https://www.kicksecure.com/"
-  },
-  {
-    "name": "Arkane",
-    "categories": ["Desktop, Immutable, Live Medium"],
-    "desktop": ["GNOME"],
-    "url": "https://arkanelinux.org/"
-  },
-  {
-    "name": "Shebang",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Openbox"],
-    "url": "https://shebang-linux.github.io/"
-  },
-  {
-    "name": "RED OS",
-    "categories": ["Desktop, Live Medium, Server"],
-    "desktop": ["GNOME, KDE Plasma, MATE"],
-    "url": "https://redos.red-soft.ru/product/red-os/"
-  },
-  {
-    "name": "FydeOS",
-    "categories": ["Desktop"],
-    "desktop": ["Android"],
-    "url": "https://fydeos.io/"
-  },
-  {
-    "name": "spirit",
-    "categories": ["Desktop, Live Medium, Old Computers"],
-    "desktop": ["IceWM"],
-    "url": "https://spirit-os.sourceforge.io/"
-  },
-  {
-    "name": "LinuxHub",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Openbox"],
-    "url": "https://linuxhub.link/"
-  },
-  {
-    "name": "Vipnix",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["LXQt"],
-    "url": "https://vipnix.com.br/site/livecd-vipnix/"
-  },
-  {
-    "name": "Alien-OS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Regolith"],
-    "url": "https://www.alien-os.de/"
-  },
-  {
-    "name": "Escuelas",
-    "categories": ["Education, Live Medium"],
-    "desktop": ["Moksha (Enlightenment)"],
-    "url": "https://escuelaslinux.sourceforge.io/"
-  },
-  {
-    "name": "TTOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://www.ttoslinux.org/"
-  },
-  {
-    "name": "UOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Deepin"],
-    "url": "https://uos.uniontech.com/"
-  },
-  {
-    "name": "Drauger",
-    "categories": ["Desktop, Gaming, Live Medium"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://draugeros.org/"
-  },
-  {
-    "name": "Sculpt",
-    "categories": ["Live Medium"],
-    "desktop": ["Leitzentrale"],
-    "url": "https://genode.org/"
-  },
-  {
-    "name": "Archriot",
-    "categories": ["Desktop"],
-    "desktop": ["Hyprland"],
-    "url": "https://archriot.org/"
-  },
-  {
-    "name": "Asmi",
-    "categories": ["Desktop, From RAM, Live Medium"],
-    "desktop": ["Xfce"],
-    "url": "https://teejeetech.com/tags/asmi/"
-  },
-  {
-    "name": "ElysiaOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Hyprland"],
-    "url": "https://www.elysiaos.live/"
-  },
-  {
-    "name": "Ventoy",
-    "categories": ["Live Medium, Specialist"],
-    "desktop": ["Openbox"],
-    "url": "https://www.ventoy.net/en/doc_livecd.html"
-  },
-  {
-    "name": "GreenBANG",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Openbox"],
-    "url": "https://archbang.org"
-  },
-  {
-    "name": "Catbird",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["dwm"],
-    "url": "https://catbirdlinux.com/"
-  },
-  {
-    "name": "KDE Linux",
-    "categories": ["Desktop, Immutable, Live Medium"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://kde.org/linux/"
-  },
-  {
-    "name": "CuerdOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Sway, Xfce"],
-    "url": "https://cuerdos.github.io"
-  },
-  {
-    "name": "Ximper",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["GNOME, Hyprland"],
-    "url": "https://ximperlinux.ru"
-  },
-  {
-    "name": "TeaLinux",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["COSMIC, KDE Plasma"],
-    "url": "https://tealinuxos.org/"
-  },
-  {
-    "name": "AnuBitux",
-    "categories": ["Live Medium, Specialist"],
-    "desktop": ["Cinnamon"],
-    "url": "https://anubitux.org/"
-  },
-  {
-    "name": "Macaroni",
-    "categories": ["Container, Desktop, Live Medium, Server"],
-    "desktop": ["GNOME, i3, KDE Plasma, LXQt, Xfce"],
-    "url": "https://www.macaronios.org"
-  },
-  {
-    "name": "Xray_OS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://xray-os.github.io/xray_os-website/"
-  },
-  {
-    "name": "Predator-OS",
-    "categories": ["Desktop, Forensics, Live Medium, Privacy, Security"],
-    "desktop": ["KDE Plasma, LXDE, LXQt, MATE"],
-    "url": "https://predator-os.ir"
-  },
-  {
-    "name": "extrox",
-    "categories": ["Desktop, Multimedia, Live Medium"],
-    "desktop": ["Xfce"],
-    "url": "https://pi-a.co/"
-  },
-  {
-    "name": "XeroLinux",
-    "categories": ["Live Medium, Desktop"],
-    "desktop": ["GNOME, KDE Plasma"],
-    "url": "https://xerolinux.xyz/"
-  },
-  {
-    "name": "Skywave",
-    "categories": ["Desktop, Live Medium, Specialist"],
-    "desktop": ["dwm"],
-    "url": "https://skywavelinux.com/"
-  },
-  {
-    "name": "Kiro",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Xfce"],
-    "url": "https://github.com/kirodubes"
-  },
-  {
-    "name": "Kamuriki",
-    "categories": ["Desktop"],
-    "desktop": ["LXQt"],
-    "url": "https://kamurikilinux.sourceforge.io/"
-  },
-  {
-    "name": "DebLight",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["LXDE"],
-    "url": "https://deblight.infos.st"
-  },
-  {
-    "name": "secureblue",
-    "categories": ["Desktop, Immutable, Security, Server"],
-    "desktop": ["GNOME, KDE Plasma, Sway"],
-    "url": "https://secureblue.dev"
-  },
-  {
-    "name": "AcreetionOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Cinnamon, GNOME"],
-    "url": "https://acreetionos.org"
+    "desktop": [
+      "LXQt"
+    ],
+    "url": "https://lists.osgeo.org/mailman/listinfo/osgeolive"
+  },
+  {
+    "name": "PrimTux",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Education",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://forum.primtux.fr/"
+  },
+  {
+    "name": "UBOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Raspberry Pi",
+      "Server"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://groups.google.com/forum/#!forum/ubos-dev"
   },
   {
     "name": "Xebian",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Xfce"],
-    "url": "https://xebian.org"
+    "basedOn": "Debian (Unstable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://xebian.org/galleries/screenshots/"
   },
   {
-    "name": "ATZ Linux",
-    "categories": ["Desktop"],
-    "desktop": ["GNOME, KDE Plasma, MATE, Xfce"],
-    "url": "https://www.atzlinux.com"
+    "name": "LangitKetujuh",
+    "basedOn": "Void",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://wiki.langitketujuh.id/"
   },
   {
-    "name": "Shanios",
-    "categories": ["Desktop, Immutable"],
-    "desktop": ["GNOME, KDE Plasma"],
-    "url": "https://shani.dev"
+    "name": "NexentaStor",
+    "basedOn": "Solaris",
+    "categories": [
+      "Specialist",
+      "UNIX"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://community.nexenta.com/s/"
   },
   {
-    "name": "Luberri",
-    "categories": ["Desktop, Education, Live Medium"],
-    "desktop": ["Cinnamon"],
-    "url": "https://luberrilinux.eus"
+    "name": "Smoothwall",
+    "basedOn": "Independent",
+    "categories": [
+      "Firewall"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "http://www.smoothwall.org/about.html#extGallery3-15"
   },
   {
-    "name": "Clear NDR",
-    "categories": ["Live Medium, Security"],
-    "desktop": ["Xfce"],
-    "url": "https://www.stamus-networks.com/clear-ndr-community"
+    "name": "TobbeOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop"
+    ],
+    "desktop": [
+      "Qtile"
+    ],
+    "url": "https://tobbeos.lysakermoen.com/iso/"
   },
   {
-    "name": "StartOS",
-    "categories": ["Kiosk, Raspberry Pi, Server"],
-    "desktop": ["Firefox"],
-    "url": "https://github.com/Start9Labs/start-os"
-  },
-  {
-    "name": "HackerOS",
-    "categories": ["Desktop, Gaming, Live Medium, Security"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://hackeros-linux-system.github.io/HackerOS-Website/Home-page.html"
-  },
-  {
-    "name": "Omarchy",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Hyprland"],
-    "url": "https://omarchy.org/"
-  },
-  {
-    "name": "ZimaOS",
-    "categories": ["Server, NAS"],
-    "desktop": ["No Desktop, WebUI"],
-    "url": "https://www.zimaspace.com/docs/zimaos/#ZimaOS"
-  },
-  {
-    "name": "LxPup",
-    "categories": ["Desktop, Live Medium, Old Computers"],
-    "desktop": ["JWM, LXDE, Openbox"],
-    "url": "https://lx-pup.weebly.com"
-  },
-  {
-    "name": "HydraPWK",
-    "categories": ["Forensics, Live Medium, Security"],
-    "desktop": ["Xfce"],
-    "url": "https://hydrapwk.github.io"
-  },
-  {
-    "name": "Talos",
-    "categories": ["Immutable, Kubernetes"],
-    "desktop": ["No Desktop"],
-    "url": "https://www.talos.dev"
-  },
-  {
-    "name": "iodéOS",
-    "categories": ["Immutable, Mobile"],
-    "desktop": ["Trebuchet"],
-    "url": "https://iode.tech"
-  },
-  {
-    "name": "Tsurugi",
-    "categories": ["Forensics, Live DVD, Security"],
-    "desktop": ["MATE"],
-    "url": "https://tsurugi-linux.org"
-  },
-  {
-    "name": "Circle",
-    "categories": ["Desktop, Server"],
-    "desktop": ["GNOME"],
-    "url": "https://cclinux.org"
-  },
-  {
-    "name": "Vendefoul",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Trinity"],
-    "url": "https://vendefoul-wolf-linux.sourceforge.io"
-  },
-  {
-    "name": "Calam",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Xfce"],
-    "url": "https://calam-arch-installer.sourceforge.io"
-  },
-  {
-    "name": "AOSC",
-    "categories": ["KDE Plasma"],
-    "desktop": ["Desktop"],
-    "url": "https://aosc.io"
-  },
-  {
-    "name": "Vinari",
-    "categories": ["Beginners, Desktop, Live Medium"],
-    "desktop": ["GNOME"],
-    "url": "https://vinarios.me"
-  },
-  {
-    "name": "Astra",
-    "categories": ["Desktop, Live Medium, Mobile, Server"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://astralinux.ru"
-  },
-  {
-    "name": "Slimbook OS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["GNOME, KDE Plasma"],
-    "url": "https://slimbook.com/en/slimbook-os"
-  },
-  {
-    "name": "Asahi",
-    "categories": ["Desktop"],
-    "desktop": ["GNOME, KDE Plasma"],
-    "url": "https://asahilinux.org"
-  },
-  {
-    "name": "ChromeOS",
-    "categories": ["Desktop, Live Medium, Old Computers"],
-    "desktop": ["ChromeOS Desktop"],
-    "url": "https://chromeos.google/intl/en_ca/products/chromeos-flex"
-  },
-  {
-    "name": "Cyrethium",
-    "categories": ["Live Medium, Privacy, Security"],
-    "desktop": ["MATE"],
-    "url": "https://cyrethium.org"
-  },
-  {
-    "name": "T2 Linux",
-    "categories": ["Source-based"],
-    "desktop": ["AfterStep, Awesome, Blackbox, Enlightenment, Fluxbox, GNOME, IceWM, KDE, LXDE, Openbox, WMaker, Xfce"],
-    "url": "https://t2linux.com"
-  },
-  {
-    "name": "NebiOS",
-    "categories": ["Desktop, Live Medium, Gaming"],
-    "desktop": ["NebiOS (Wayfire)"],
-    "url": "https://nebios.org"
-  },
-  {
-    "name": "umbrelOS",
-    "categories": ["Server, Raspberry Pi"],
-    "desktop": ["WebUI"],
-    "url": "https://umbrel.com/umbrelos"
-  },
-  {
-    "name": "Mobian",
-    "categories": ["Desktop, Mobile"],
-    "desktop": ["Plasma Mobile, Phosh"],
-    "url": "https://umbrel.com/umbrelos"
-  },
-  {
-    "name": "spirit OS",
-    "categories": ["Desktop, Live Medium, Old Computers"],
-    "desktop": ["IceWM"],
-    "url": "https://spirit-os.sourceforge.io"
-  },
-  {
-    "name": "AlterOS",
-    "categories": ["Desktop, Server"],
-    "desktop": ["Cinnamon"],
-    "url": "https://alter-os.ru"
-  },
-  {
-    "name": "OmegaLinux",
-    "categories": ["Desktop, Live Medium, Old Computers"],
-    "desktop": ["LXDE"],
-    "url": "https://ohjhas.github.io/omega-linux-en/index.html"
-  },
-  {
-    "name": "CloudLinux",
-    "categories": ["Server"],
-    "desktop": ["GNOME"],
-    "url": "https://cloudlinux.com"
-  },
-  {
-    "name": "Fluxuan",
-    "categories": ["Desktop, Live Medium, Old Computers"],
-    "desktop": ["Fluxbox"],
-    "url": "https://fluxuan.org"
-  },
-  {
-    "name": "AgarimOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Cinnamon, GNOME, KDE Plasma, LXQt, MATE, Xfce"],
-    "url": "https://agarimos.sourceforge.io"
-  },
-  {
-    "name": "VailuxOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://www.vailux.de"
-  },
-  {
-    "name": "Unraid",
-    "categories": ["Server"],
-    "desktop": ["WebUI"],
-    "url": "https://unraid.net"
-  },
-  {
-    "name": "Planeta Tecno",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["MATE, Xfce"],
-    "url": "https://planetatecno.com.uy/planeta"
-  },
-  {
-    "name": "LainOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Hyprland, Openbox"],
-    "url": "https://lainos.dev"
-  },
-  {
-    "name": "ObsidianOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["COSMIC, KDE Plasma"],
-    "url": "https://obsidianos.xyz"
-  },
-  {
-    "name": "Synex",
-    "categories": ["Desktop, Live Medium, Server"],
-    "desktop": ["GNOME, LXDE, KDE Plasma, Xfce"],
-    "url": "https://synex.ar"
-  },
-  {
-    "name": "LazyLinux",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Xfce"],
-    "url": "https://lazylinuxos.github.io"
-  },
-  {
-    "name": "gabeeOSLinux",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Hyprland, i3, Openbox, Qtile"],
-    "url": "https://gabeeoslinux.sourceforge.io"
-  },
-  {
-    "name": "Blade",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["GNOME"],
-    "url": "https://bladeos.xyz"
-  },
-  {
-    "name": "LinuxCNC",
-    "categories": ["Live Medium, Raspberry Pi, Specialist"],
-    "desktop": ["Xfce"],
-    "url": "https://www.linuxcnc.org"
-  },
-  {
-    "name": "Aeon",
-    "categories": ["Desktop, Immutable, Live Medium"],
-    "desktop": ["GNOME"],
-    "url": "https://aeondesktop.org"
-  },
-  {
-    "name": "OsoLinux",
-    "categories": ["Desktop, Live Medium, Multimedia"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://oso.sourceforge.io"
+    "name": "TurnKey",
+    "basedOn": "Debian",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "http://www.turnkeylinux.org/forum"
   },
   {
     "name": "Vitalinux",
-    "categories": ["Desktop, Education, Live Medium"],
-    "desktop": ["Xfce"],
-    "url": "https://docs.vitalinux.educa.aragon.es"
+    "basedOn": "Ubuntu (LTS)",
+    "categories": [
+      "Desktop",
+      "Education",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://soporte.vitalinux.educa.aragon.es/projects/vitallinux-dga-soporte/boards"
   },
   {
-    "name": "Flora",
-    "categories": ["Desktop, Free Software, Live Medium"],
-    "desktop": ["MATE, Xfce"],
-    "url": "https://flora-linux-libre.sourceforge.io"
+    "name": "Bicom",
+    "basedOn": "Gentoo",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "https://wiki.bicomsystems.com/en/SERVERware"
   },
   {
-    "name": "Nemesis",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Cinnamon, LXDE, LXQt, Xfce"],
-    "url": "https://nemesis-linux.sourceforge.io"
+    "name": "BOSS",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Education",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://wiki.bosslinux.in/"
   },
   {
-    "name": "StratOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["GNOME, Hyprland, Niri"],
-    "url": "https://stratos-linux.org"
+    "name": "ENux",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://www.emirpasha.com/"
   },
   {
-    "name": "d77void",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Awesome, bspwm, COSMIC, dwm, Fluxbox, GNOME, herbstluftwm, Hyprland, i3wm, JWM, labwc, LeftWM, LXQt, Niri, Openbox, Qtile, River, Sway, Wayfire, Xfce"],
-    "url": "https://d77void.sourceforge.io"
+    "name": "LxPup",
+    "basedOn": "Puppy",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": [
+      "JWM",
+      "LXDE",
+      "Openbox"
+    ],
+    "url": "https://forum.puppylinux.com/viewforum.php?f=121"
   },
   {
-    "name": "Flatcar",
-    "categories": ["Container, Immutatable, Live Medium, Server"],
-    "desktop": ["No Desktop"],
-    "url": "https://www.flatcar.org"
+    "name": "Qlustar",
+    "basedOn": "Debian",
+    "categories": [
+      "Clusters"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://lists.qlustar.org/postorius/lists/"
   },
   {
-    "name": "Quarkos",
-    "categories": ["Live Medium, Desktop, Old Computers"],
-    "desktop": ["KDE Plasma, Trinity"],
-    "url": "https://quark-os.sourceforge.io"
-  },
-  {
-    "name": "DESERT",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Xfce"],
-    "url": "https://sites.google.com/view/desertoslinux"
-  },
-  {
-    "name": "Vincent",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://vincent-os.v38armageddon.net"
-  },
-  {
-    "name": "Uncom",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["GNOME"],
-    "url": "https://uncom.tech"
-  },
-  {
-    "name": "Side",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Openbox, SDE"],
-    "url": "https://side.codeberg.page"
-  },
-  {
-    "name": "pearOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://pearos.xyz"
-  },
-  {
-    "name": "Milis",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["labwc"],
-    "url": "https://mls.akdeniz.edu.tr"
-  },
-  {
-    "name": "AçorOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Cinnamon, LXQt, Openbox, Xfce"],
-    "url": "https://sourceforge.net/projects/acor-os"
-  },
-  {
-    "name": "MODOS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["Cinnamon"],
-    "url": "https://sourceforge.net/projects/g0ll0z-smollos/"
-  },
-  {
-    "name": "XCP-ng",
-    "categories": ["Server, Specialist"],
-    "desktop": ["No Desktop"],
-    "url": "https://xcp-ng.org"
-  },
-  {
-    "name": "OSINT VM",
-    "categories": ["Specialist"],
-    "desktop": ["Xfce"],
-    "url": "https://www.tracelabs.org/initiatives/osint-vm"
-  },
-  {
-    "name": "Quirinux",
-    "categories": ["Desktop, Live Medium, Multimedia"],
-    "desktop": ["Xfce"],
-    "url": "https://quirinux.org"
-  },
-  {
-    "name": "BRGV-OS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["GNOME"],
-    "url": "https://github.com/florintanasa/brgvos-void"
-  },
-  {
-    "name": "ELEGANCE",
-    "categories": ["Desktop, Gaming, Live Medium, Multimedia"],
-    "desktop": ["Cinnamon"],
-    "url": "https://tuxnmix.org/elegance"
-  },
-  {
-    "name": "GuideOS",
-    "categories": ["Beginners, Desktop, Live Medium"],
-    "desktop": ["Cinnamon"],
-    "url": "https://guideos.de"
-  },
-  {
-    "name": "Green",
-    "categories": ["Beginners, Desktop, Live Medium"],
-    "desktop": ["Cinnamon, Xfce"],
-    "url": "https://guideos.de"
-  },
-  {
-    "name": "SteamOS",
-    "categories": ["Gaming"],
-    "desktop": ["KDE Plasma"],
-    "url": "http://store.steampowered.com/steamos/"
+    "name": "UBLinux",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Education",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://wiki.ublinux.ru/"
   },
   {
     "name": "Ubuntu Sway",
-    "categories": ["Desktop, Live Medium, Raspberry Pi"],
-    "desktop": ["Sway"],
-    "url": "https://ubuntusway.com"
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Sway"
+    ],
+    "url": "https://github.com/Ubuntu-Sway/Ubuntu-Sway-Remix/wiki"
+  },
+  {
+    "name": "Fluxuan",
+    "basedOn": "Devuan",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": [
+      "Fluxbox"
+    ],
+    "url": "https://fluxuan.org/forum/"
+  },
+  {
+    "name": "FUSS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Education",
+      "Live Medium",
+      "Server",
+      "Thin Clients"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://fuss.bz.it/page/doc"
+  },
+  {
+    "name": "OviOS",
+    "basedOn": "Independent",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://groups.google.com/a/ovios.org/g/ovios-linux"
+  },
+  {
+    "name": "<<Hack|Track",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Forensics",
+      "Live Medium"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "https://github.com/orgs/hacktrackgnulinux/discussions"
+  },
+  {
+    "name": "Maple",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://maplelinux.ca/maple-linux-support/"
+  },
+  {
+    "name": "Nemesis",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "LXDE",
+      "LXQt",
+      "Xfce"
+    ],
+    "url": "https://forum.porteus.org/viewforum.php?f=137"
+  },
+  {
+    "name": "REMnux",
+    "basedOn": "Debian",
+    "categories": [
+      "Security",
+      "Specialist"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://docs.remnux.org/"
+  },
+  {
+    "name": "Senpai",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Budgie",
+      "Cinnamon",
+      "GNOME",
+      "LXDE",
+      "LXQt",
+      "MATE",
+      "Moksha"
+    ],
+    "url": "https://sourceforge.net/p/senpai-respins/discussion/"
+  },
+  {
+    "name": "AiO-SRT",
+    "basedOn": "Debian",
+    "categories": [
+      "Data Rescue",
+      "Live Medium"
+    ],
+    "desktop": [
+      "LXQt"
+    ],
+    "url": "https://paul.is-a-geek.org/aio-srt/community-support/"
+  },
+  {
+    "name": "CloudLinux",
+    "basedOn": "Red Hat",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://forum.cloudlinux.com/"
+  },
+  {
+    "name": "Ezarcher",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "COSMIC",
+      "GNOME",
+      "KDE Plasma",
+      "LXQt",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/p/ezarch/discussion/"
+  },
+  {
+    "name": "Side",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Openbox",
+      "SDE"
+    ],
+    "url": "https://side.codeberg.page/handbook-list.html"
+  },
+  {
+    "name": "Skudonet",
+    "basedOn": "Debian",
+    "categories": [
+      "Server",
+      "Specialist"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "https://groups.google.com/a/skudonet.com/g/skudonet-ce-users"
+  },
+  {
+    "name": "Circle",
+    "basedOn": "CentOS",
+    "categories": [
+      "Desktop",
+      "Server"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://talk.cclinux.org/"
+  },
+  {
+    "name": "FluxLinux",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://fluxlinux.xyz/help/"
+  },
+  {
+    "name": "LibraZiK",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "https://doc4.librazik.org/"
+  },
+  {
+    "name": "RDS",
+    "basedOn": "Raspbian",
+    "categories": [
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Chromium"
+    ],
+    "url": "https://www.binaryemotions.com/raspberry-digital-signage-faq/"
+  },
+  {
+    "name": "RSS",
+    "basedOn": "Raspbian",
+    "categories": [
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Omxplayer"
+    ],
+    "url": "https://www.binaryemotions.com/raspberry-slideshow-download"
+  },
+  {
+    "name": "XCP-ng",
+    "basedOn": "CentOS",
+    "categories": [
+      "Server",
+      "Specialist"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://xcp-ng.org/forum"
+  },
+  {
+    "name": "Argent",
+    "basedOn": "Gentoo",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://wiki.argentlinux.io/"
+  },
+  {
+    "name": "Eliza",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Enlightenment"
+    ],
+    "url": "https://eliza-linux.org/forum/"
   },
   {
     "name": "EN-OS",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["KDE Plasma"],
-    "url": "https://endscape-coding.github.io"
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://endscape-coding.github.io/"
   },
   {
-    "name": "Berserk Arch",
-    "categories": ["Desktop, Live Medium, Security"],
-    "desktop": ["Openbox"],
-    "url": "https://berserkarch.xyz"
+    "name": "MODOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://downtown1002.wixsite.com/dodos/wiki"
   },
   {
-    "name": "ArchBANG",
-    "categories": ["Desktop, Live Medium"],
-    "desktop": ["labwc"],
-    "url": "https://archbang.org"
+    "name": "EterTICs",
+    "basedOn": "Devuan",
+    "categories": [
+      "Live Medium",
+      "Specialist"
+    ],
+    "desktop": [
+      "LXQt"
+    ],
+    "url": "https://gnuetertics.org/descargar/"
+  },
+  {
+    "name": "PimersusOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/projects/pimersusos/files/"
+  },
+  {
+    "name": "Q83",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "COSMIC"
+    ],
+    "url": "https://sourceforge.net/p/linux-q83/mailman/"
+  },
+  {
+    "name": "Maemo Leste",
+    "basedOn": "Devuan",
+    "categories": [
+      "Desktop",
+      "Mobile"
+    ],
+    "desktop": [
+      "Matchbox"
+    ],
+    "url": "https://lists.dyne.org/lurker/list/maemo-leste.en.html"
+  },
+  {
+    "name": "Deblinux",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "https://sourceforge.net/p/deblinux/discussion/"
+  },
+  {
+    "name": "EcoOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/projects/seekers-adv-stormos/files/"
+  },
+  {
+    "name": "Fishy",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "LXQt"
+    ],
+    "url": "https://sourceforge.net/p/fishy-linux/wiki/"
+  },
+  {
+    "name": "GobMis",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://linux-gobmis.readthedocs.io/index.html"
+  },
+  {
+    "name": "KDu",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://www.linux-kdu.com.br/forum/"
+  },
+  {
+    "name": "OSINT VM",
+    "basedOn": "Debian (Testing)",
+    "categories": [
+      "Specialist"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://github.com/tracelabs/tlosint-vm"
+  },
+  {
+    "name": "Serbian",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "Openbox"
+    ],
+    "url": "https://www.debian-srbija.iz.rs/p/galerija.htmlDistroWatch"
+  },
+  {
+    "name": "Gooroom",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "GNOME Flashback"
+    ],
+    "url": "https://gooroom.kr/content/info/docs.php"
+  },
+  {
+    "name": "BashCore",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME",
+      "Xfce"
+    ],
+    "url": "https://www.bashcore.org/"
+  },
+  {
+    "name": "Coyote",
+    "basedOn": "Independent",
+    "categories": [
+      "Firewall"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://www.coyotelinux.com/documentation"
+  },
+  {
+    "name": "Kwort",
+    "basedOn": "CRUX",
+    "categories": [
+      "Desktop"
+    ],
+    "desktop": [
+      "Openbox"
+    ],
+    "url": "https://groups.google.com/group/kwort-linux"
+  },
+  {
+    "name": "RengeOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "niri"
+    ],
+    "url": "https://rengeos.github.io/rengeos-docs/introduction/overview/"
+  },
+  {
+    "name": "AbeirOS",
+    "basedOn": "Void",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://sourceforge.net/projects/abeiros/files/"
+  },
+  {
+    "name": "Freeduc",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Education"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://usb.freeduc.org/telecharge_utilise.html"
+  },
+  {
+    "name": "TigerOS",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://tigeros.com.br/introducao-ao-tigeros/"
+  },
+  {
+    "name": "Twister",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://twisteros.com/downloads/"
+  },
+  {
+    "name": "Evernight Vista",
+    "basedOn": "Fedora",
+    "categories": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://evernightfedora.github.io/evernight-vista/#download"
+  },
+  {
+    "name": "Mariposa",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Data Rescue",
+      "Disk Management",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://www.blueseal.eu/itguide/"
+  },
+  {
+    "name": "PluriOS",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://plurios.openit.dev/#download"
+  },
+  {
+    "name": "RakuOS",
+    "basedOn": "Fedora",
+    "categories": [
+      "Desktop",
+      "Gaming",
+      "Immutable"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma"
+    ],
+    "url": "https://rakuos.org/forum"
+  },
+  {
+    "name": "ShredOS",
+    "basedOn": "Independent",
+    "categories": [
+      "Live Medium",
+      "Disk Management"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://github.com/PartialVolume/shredos.x86_64/discussions"
+  },
+  {
+    "name": "Arcris",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://github.com/CodigoCristo/ArcrisGUI"
+  },
+  {
+    "name": "Ctlos",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://github.com/orgs/ctlos/discussions"
+  },
+  {
+    "name": "FLinux",
+    "basedOn": "Tiny Core",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": [
+      "flwm"
+    ],
+    "url": "https://sourceforge.net/projects/flinux-distro/files/"
+  },
+  {
+    "name": "EznixOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/p/eznixos/discussion/"
+  },
+  {
+    "name": "ShrikeLinux",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "spectrwm",
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/projects/shrikelinux/files/"
+  },
+  {
+    "name": "Freeloader",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "MATE"
+    ],
+    "url": "https://sourceforge.net/p/freeloaderlinux/mailman/"
+  },
+  {
+    "name": "Chimo",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://sourceforge.net/p/chimo/discussion/"
+  },
+  {
+    "name": "ZestISO",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Gaming",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "url": "https://sourceforge.net/projects/zestiso/files/"
+  },
+  {
+    "name": "GobLin",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://distro.misiones.gob.ar/#portfolio"
+  },
+  {
+    "name": "Neko-Void",
+    "basedOn": "Void",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "https://neko-void.sourceforge.io/#galeria"
+  },
+  {
+    "name": "T4n OS",
+    "basedOn": "Void",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://t4n-labs.github.io/t4n-os_docs/"
+  },
+  {
+    "name": "Netdeep",
+    "basedOn": "Independent",
+    "categories": [
+      "Firewall"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "https://netdeep.com.br/novo/category/documentacao/"
   }
 ]
