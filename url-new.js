@@ -32,7 +32,7 @@ async function scrapeDetails(browser, allDistros, concurrency = 5) {
         const urlMatches = fullText.match(
           /(?:(?:https?|ftp|file):\/\/|www\.|ftp\.)(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[-A-Z0-9+&@#\/%=~_|$?!:,.])*(?:\([-A-Z0-9+&@#\/%=~_|$?!:,.]*\)|[A-Z0-9+&@#\/%=~_|$])/gim,
         );
-        const url = urlMatches?.[1] ?? "";
+        const url = urlMatches?.[0] ?? "";
 
         const categories = await page2.$$eval(
           "a[href*='search.php?category=']",
