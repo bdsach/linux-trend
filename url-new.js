@@ -1,12 +1,45 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 const path = require("path");
+const http = require("http");
+const https = require("https");
 
 const distroUrl = "https://distrowatch.com/dwres.php?resource=popularity";
 const DATA_DIR = path.join(__dirname, "data");
 const OUTPUT_FILE = path.join(DATA_DIR, "distroName.json");
+const LOGO_DIR = path.join(__dirname, "public/logos");
 
 if (!fs.existsSync(DATA_DIR)) fs.mkdirSync(DATA_DIR, { recursive: true });
+if (!fs.existsSync(LOGO_DIR)) fs.mkdirSync(LOGO_DIR, { recursive: true });
+
+function downloadImage(url, filePath) {
+  return new Promise((resolve, reject) => {
+    if (fs.existsSync(filePath)) return resolve(filePath);
+
+    const proto = url.startsWith("https") ? https : http;
+    const file = fs.createWriteStream(filePath);
+
+    proto
+      .get(url, (res) => {
+        if (res.statusCode === 301 || res.statusCode === 302) {
+          file.close();
+          return downloadImage(res.headers.location, filePath).then(resolve).catch(reject);
+        }
+        if (res.statusCode !== 200) {
+          file.close();
+          fs.unlink(filePath, () => {});
+          return reject(new Error(`HTTP ${res.statusCode} for ${url}`));
+        }
+        res.pipe(file);
+        file.on("finish", () => file.close(() => resolve(filePath)));
+      })
+      .on("error", (err) => {
+        fs.unlink(filePath, () => {});
+        reject(err);
+      });
+  });
+}
+
 
 /**
  * Scrape หน้า detail แบบเร็ว (concurrent)
@@ -44,12 +77,6 @@ async function scrapeDetails(browser, allDistros, concurrency = 5) {
           (links) => links.map((link) => link.textContent.trim()),
         );
 
-        // const basedOnArray = await page2.$$eval(
-        //   "a[href*='search.php?basedon=']",
-        //   (links) => links.map((link) => link.textContent.trim()),
-        // );
-
-        // const basedOn = basedOnArray.length > 0 ? basedOnArray[0] : "";
         const basedOn = await page2.evaluate(() => {
           // 1. ลองหาลิงก์ก่อน (แบบ Debian, Ubuntu ...)
           const links = Array.from(
@@ -84,10 +111,29 @@ async function scrapeDetails(browser, allDistros, concurrency = 5) {
           return ""; // กรณีหาไม่เจอ
         });
 
+         // ====== ดึง URL logo อย่างเดียว ======
+        const logoSrc = await page2.$eval(
+          "img.logo",
+          (el) => el.getAttribute("src")
+        ).catch(() => null);
+
+        // ====== Download logo ======
+        let logoPath = null;
+        if (logoSrc) {
+          const logoUrl = `https://distrowatch.com/${logoSrc}`;
+          const logoFile = path.join(LOGO_DIR, `${distro.slug}.png`);
+          try {
+            await downloadImage(logoUrl, logoFile);
+            logoPath = logoFile;
+          } catch (e) {
+            console.warn(`  ⚠️  logo ดาวน์โหลดไม่ได้: ${e.message}`);
+          }
+        }
+
         processed++;
         console.log(`${processed}/${allDistros.length} ✅ ${distro.name}`);
 
-        return { name: distro.name, basedOn, categories, desktop, url };
+        return { name: distro.name, basedOn, categories, desktop, url, logo: logoPath };
       } catch (err) {
         console.error(`❌ Error ${distro.name}:`, err.message);
         return null;
