@@ -3,9 +3,18 @@ const fs = require("fs");
 const path = require("path");
 const url = "https://distrowatch.com/dwres.php?resource=popularity";
 const distroName = require("./data/distroName.json");
+const BASE_LOGO_URL = "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos";
+const svgLogoSet = new Set(
+  fs.readdirSync(path.join(__dirname, "public/logos"))
+    .filter(f => f.endsWith(".svg"))
+    .map(f => f.replace(".svg", ""))
+);
 
 function getLogo(name) {
-  return `https://linux-trend.vercel.app/logos/${name}.svg`.toLocaleLowerCase();
+  const nameLower = name.toLocaleLowerCase();
+  return svgLogoSet.has(nameLower)
+    ? `${BASE_LOGO_URL}/${nameLower}.svg`
+    : `${BASE_LOGO_URL}/${nameLower}.png`;
 }
 
 function getDesktop(name) {

@@ -26,7 +26,8 @@
       "Wayfire",
       "Xfce"
     ],
-    "url": "https://cachyos.org/"
+    "url": "https://cachyos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/cachyos.png"
   },
   {
     "name": "Mint",
@@ -41,7 +42,8 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://linuxmint.com/"
+    "url": "https://linuxmint.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/mint.png"
   },
   {
     "name": "MX Linux",
@@ -58,7 +60,8 @@
       "KDE Plasma",
       "Xfce"
     ],
-    "url": "https://mxlinux.org/"
+    "url": "https://mxlinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/mx.png"
   },
   {
     "name": "Debian",
@@ -102,7 +105,8 @@
       "WMaker",
       "Xfce"
     ],
-    "url": "https://www.debian.org/"
+    "url": "https://www.debian.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/debian.png"
   },
   {
     "name": "Pop!_OS",
@@ -116,7 +120,8 @@
       "COSMIC",
       "GNOME"
     ],
-    "url": "https://system76.com/pop"
+    "url": "https://system76.com/pop",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/popos.png"
   },
   {
     "name": "EndeavourOS",
@@ -136,7 +141,8 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://endeavouros.com/"
+    "url": "https://endeavouros.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/endeavour.png"
   },
   {
     "name": "Zorin",
@@ -150,7 +156,8 @@
       "GNOME",
       "Xfce"
     ],
-    "url": "https://zorin.com/os/"
+    "url": "https://zorin.com/os/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/zorin.png"
   },
   {
     "name": "Manjaro",
@@ -170,7 +177,8 @@
       "Sway",
       "Xfce"
     ],
-    "url": "https://manjaro.org/"
+    "url": "https://manjaro.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/manjaro.png"
   },
   {
     "name": "Fedora",
@@ -198,7 +206,8 @@
       "Wayfire",
       "Xfce"
     ],
-    "url": "https://fedoraproject.org/"
+    "url": "https://fedoraproject.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/fedora.png"
   },
   {
     "name": "Ubuntu",
@@ -214,7 +223,8 @@
       "GNOME",
       "Unity"
     ],
-    "url": "https://www.ubuntu.com/"
+    "url": "https://www.ubuntu.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ubuntu.png"
   },
   {
     "name": "AnduinOS",
@@ -226,7 +236,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://www.anduinos.com/"
+    "url": "https://www.anduinos.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/anduin.png"
   },
   {
     "name": "openSUSE",
@@ -251,7 +262,8 @@
       "Wayfire",
       "Xfce"
     ],
-    "url": "https://www.opensuse.org/"
+    "url": "https://www.opensuse.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/opensuse.png"
   },
   {
     "name": "Nobara",
@@ -265,7 +277,8 @@
       "GNOME",
       "KDE Plasma"
     ],
-    "url": "https://nobaraproject.org/"
+    "url": "https://nobaraproject.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/nobara.png"
   },
   {
     "name": "elementary",
@@ -278,7 +291,8 @@
     "desktop": [
       "Pantheon"
     ],
-    "url": "https://elementary.io/"
+    "url": "https://elementary.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/elementary.png"
   },
   {
     "name": "NixOS",
@@ -304,7 +318,8 @@
       "Wayfire",
       "Xfce"
     ],
-    "url": "https://nixos.org/"
+    "url": "https://nixos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/nixos.png"
   },
   {
     "name": "Bluestar",
@@ -316,7 +331,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://sourceforge.net/projects/bluestarlinux/"
+    "url": "https://sourceforge.net/projects/bluestarlinux/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/bluestar.png"
   },
   {
     "name": "antiX",
@@ -332,7 +348,8 @@
       "IceWM",
       "JWM"
     ],
-    "url": "https://antixlinux.com/"
+    "url": "https://antixlinux.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/antix.png"
   },
   {
     "name": "Bazzite",
@@ -347,31 +364,8 @@
       "GNOME",
       "KDE Plasma"
     ],
-    "url": "https://bazzite.gg/"
-  },
-  {
-    "name": "KDE neon",
-    "basedOn": "Debian",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "https://neon.kde.org/"
-  },
-  {
-    "name": "BigLinux",
-    "basedOn": "Arch",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "https://www.biglinux.com.br/"
+    "url": "https://bazzite.gg/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/bazzite.png"
   },
   {
     "name": "Arch",
@@ -390,7 +384,34 @@
       "MATE",
       "Xfce"
     ],
-    "url": "http://www.archlinux.org/"
+    "url": "http://www.archlinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/arch.png"
+  },
+  {
+    "name": "KDE neon",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://neon.kde.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/kdeneon.png"
+  },
+  {
+    "name": "BigLinux",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://www.biglinux.com.br/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/biglinux.png"
   },
   {
     "name": "Q4OS",
@@ -404,7 +425,8 @@
       "KDE Plasma",
       "Trinity"
     ],
-    "url": "https://q4os.org/"
+    "url": "https://q4os.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/q4os.png"
   },
   {
     "name": "Garuda",
@@ -423,7 +445,8 @@
       "Sway",
       "Xfce"
     ],
-    "url": "https://garudalinux.org/"
+    "url": "https://garudalinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/garuda.png"
   },
   {
     "name": "PikaOS",
@@ -440,7 +463,8 @@
       "KDE Plasma",
       "niri"
     ],
-    "url": "http://pika-os.com/"
+    "url": "http://pika-os.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/pikaos.png"
   },
   {
     "name": "TUXEDO",
@@ -453,7 +477,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://www.tuxedocomputers.com/os"
+    "url": "https://www.tuxedocomputers.com/os",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/tuxedo.png"
   },
   {
     "name": "FreeBSD",
@@ -474,7 +499,8 @@
       "Wayfire",
       "Xfce"
     ],
-    "url": "https://www.freebsd.org/"
+    "url": "https://www.freebsd.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/freebsd.png"
   },
   {
     "name": "SparkyLinux",
@@ -490,7 +516,8 @@
       "Openbox",
       "Xfce"
     ],
-    "url": "https://sparkylinux.org/"
+    "url": "https://sparkylinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/sparky.png"
   },
   {
     "name": "Kali",
@@ -507,7 +534,8 @@
       "KDE Plasma",
       "Xfce"
     ],
-    "url": "https://www.kali.org/"
+    "url": "https://www.kali.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/kali.png"
   },
   {
     "name": "AlmaLinux",
@@ -523,7 +551,8 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://almalinux.org/"
+    "url": "https://almalinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/alma.png"
   },
   {
     "name": "Puppy",
@@ -540,7 +569,8 @@
       "labwc",
       "Openbox"
     ],
-    "url": "https://puppylinux-woof-ce.github.io/"
+    "url": "https://puppylinux-woof-ce.github.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/puppy.png"
   },
   {
     "name": "Alpine",
@@ -561,7 +591,8 @@
       "Sway",
       "Xfce"
     ],
-    "url": "https://www.alpinelinux.org/"
+    "url": "https://www.alpinelinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/alpine.png"
   },
   {
     "name": "MiniOS",
@@ -574,7 +605,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://minios.dev/"
+    "url": "https://minios.dev/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/minios.png"
   },
   {
     "name": "CentOS",
@@ -587,7 +619,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://www.centos.org/"
+    "url": "https://www.centos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/centos.png"
   },
   {
     "name": "PCLinuxOS",
@@ -603,7 +636,8 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://www.pclinuxos.com/"
+    "url": "https://www.pclinuxos.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/pclinuxos.png"
   },
   {
     "name": "Tails",
@@ -617,7 +651,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://tails.net/"
+    "url": "https://tails.net/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/tails.png"
   },
   {
     "name": "Kubuntu",
@@ -629,7 +664,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://kubuntu.org/"
+    "url": "https://kubuntu.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/kubuntu.png"
   },
   {
     "name": "Voyager",
@@ -642,48 +678,8 @@
       "GNOME",
       "Xfce"
     ],
-    "url": "https://voyagerlive.org/"
-  },
-  {
-    "name": "Solus",
-    "basedOn": "Independent",
-    "categories": [
-      "Beginners",
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Budgie",
-      "GNOME",
-      "KDE Plasma",
-      "Xfce"
-    ],
-    "url": "https://getsol.us/"
-  },
-  {
-    "name": "EasyOS",
-    "basedOn": "Independent",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Specialist"
-    ],
-    "desktop": [
-      "JWM"
-    ],
-    "url": "https://easyos.org/"
-  },
-  {
-    "name": "Linuxfx",
-    "basedOn": "Ubuntu (LTS)",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "https://www.linuxfx.org/"
+    "url": "https://voyagerlive.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/voyager.png"
   },
   {
     "name": "Artix",
@@ -700,20 +696,52 @@
       "KDE Plasma",
       "Xfce"
     ],
-    "url": "https://artixlinux.org/"
+    "url": "https://artixlinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/artix.png"
   },
   {
-    "name": "Lite",
-    "basedOn": "Debian",
+    "name": "Solus",
+    "basedOn": "Independent",
     "categories": [
       "Beginners",
       "Desktop",
       "Live Medium"
     ],
     "desktop": [
+      "Budgie",
+      "GNOME",
+      "KDE Plasma",
       "Xfce"
     ],
-    "url": "https://www.linuxliteos.com/"
+    "url": "https://getsol.us/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/solus.png"
+  },
+  {
+    "name": "EasyOS",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Specialist"
+    ],
+    "desktop": [
+      "JWM"
+    ],
+    "url": "https://easyos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/easyos.png"
+  },
+  {
+    "name": "Linuxfx",
+    "basedOn": "Ubuntu (LTS)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://www.linuxfx.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/linuxfx.png"
   },
   {
     "name": "Devuan",
@@ -733,7 +761,22 @@
       "Wayfire",
       "Xfce"
     ],
-    "url": "https://devuan.org/"
+    "url": "https://devuan.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/devuan.png"
+  },
+  {
+    "name": "Lite",
+    "basedOn": "Debian",
+    "categories": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://www.linuxliteos.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/lite.png"
   },
   {
     "name": "Exton",
@@ -755,7 +798,8 @@
       "PIXEL",
       "Xfce"
     ],
-    "url": "https://www.exton.se/"
+    "url": "https://www.exton.se/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/exton.png"
   },
   {
     "name": "Void",
@@ -768,7 +812,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://voidlinux.org/"
+    "url": "https://voidlinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/void.png"
   },
   {
     "name": "AerynOS",
@@ -782,7 +827,8 @@
       "GNOME",
       "KDE Plasma"
     ],
-    "url": "https://aerynos.com/"
+    "url": "https://aerynos.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/aerynos.png"
   },
   {
     "name": "Parrot",
@@ -799,7 +845,8 @@
       "LXQt",
       "MATE"
     ],
-    "url": "https://parrotsec.org/"
+    "url": "https://parrotsec.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/parrot.png"
   },
   {
     "name": "Omarchy",
@@ -811,7 +858,8 @@
     "desktop": [
       "Hyprland"
     ],
-    "url": "https://omarchy.org/"
+    "url": "https://omarchy.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/omarchy.png"
   },
   {
     "name": "ALT",
@@ -844,7 +892,8 @@
       "Wayfire",
       "Xfce"
     ],
-    "url": "https://www.basealt.ru/"
+    "url": "https://www.basealt.ru/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/alt.png"
   },
   {
     "name": "Gentoo",
@@ -869,7 +918,8 @@
       "WMaker",
       "Xfce"
     ],
-    "url": "https://www.gentoo.org/"
+    "url": "https://www.gentoo.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/gentoo.png"
   },
   {
     "name": "DragonOS",
@@ -882,7 +932,8 @@
     "desktop": [
       "LXQt"
     ],
-    "url": "https://sourceforge.net/projects/dragonos-focal/"
+    "url": "https://sourceforge.net/projects/dragonos-focal/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/dragonos.png"
   },
   {
     "name": "FunOS",
@@ -895,7 +946,8 @@
     "desktop": [
       "JWM"
     ],
-    "url": "https://funos.org/"
+    "url": "https://funos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/funos.png"
   },
   {
     "name": "Rocky",
@@ -907,7 +959,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://rockylinux.org/"
+    "url": "https://rockylinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/rocky.png"
   },
   {
     "name": "Slackware",
@@ -925,7 +978,8 @@
       "WMaker",
       "Xfce"
     ],
-    "url": "http://www.slackware.com/"
+    "url": "http://www.slackware.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/slackware.png"
   },
   {
     "name": "Lubuntu",
@@ -938,26 +992,8 @@
     "desktop": [
       "LXQt"
     ],
-    "url": "https://lubuntu.me/"
-  },
-  {
-    "name": "OpenMandriva",
-    "basedOn": "Independent",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Server"
-    ],
-    "desktop": [
-      "COSMIC",
-      "GNOME",
-      "KDE Plasma",
-      "labwc",
-      "LXQt",
-      "Wayfire",
-      "Xfce"
-    ],
-    "url": "https://www.openmandriva.org/"
+    "url": "https://lubuntu.me/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/lubuntu.png"
   },
   {
     "name": "Mageia",
@@ -980,7 +1016,28 @@
       "WMaker",
       "Xfce"
     ],
-    "url": "https://www.mageia.org/"
+    "url": "https://www.mageia.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/mageia.png"
+  },
+  {
+    "name": "OpenMandriva",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "COSMIC",
+      "GNOME",
+      "KDE Plasma",
+      "labwc",
+      "LXQt",
+      "Wayfire",
+      "Xfce"
+    ],
+    "url": "https://www.openmandriva.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/openmandriva.png"
   },
   {
     "name": "Commodore",
@@ -992,7 +1049,8 @@
     "desktop": [
       "MATE"
     ],
-    "url": "https://www.commodoreusa.net/"
+    "url": "https://www.commodoreusa.net/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/commodore.png"
   },
   {
     "name": "Peppermint",
@@ -1005,7 +1063,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://peppermintos.com/"
+    "url": "https://peppermintos.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/peppermint.png"
   },
   {
     "name": "Ultimate",
@@ -1021,7 +1080,21 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://sourceforge.net/projects/ultimateedition/"
+    "url": "https://sourceforge.net/projects/ultimateedition/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ultimate.png"
+  },
+  {
+    "name": "Red Hat",
+    "basedOn": "Fedora",
+    "categories": [
+      "Desktop",
+      "Server"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "http://www.redhat.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/redhat.png"
   },
   {
     "name": "deepin",
@@ -1034,19 +1107,8 @@
     "desktop": [
       "Deepin"
     ],
-    "url": "https://deepin.org/"
-  },
-  {
-    "name": "Red Hat",
-    "basedOn": "Fedora",
-    "categories": [
-      "Desktop",
-      "Server"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "http://www.redhat.com/"
+    "url": "https://deepin.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/deepin.png"
   },
   {
     "name": "Xubuntu",
@@ -1057,7 +1119,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://www.xubuntu.org/"
+    "url": "https://www.xubuntu.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/xubuntu.png"
   },
   {
     "name": "AV Linux",
@@ -1071,7 +1134,8 @@
       "Enlightenment",
       "Moksha"
     ],
-    "url": "https://www.bandshed.net/avlinux/"
+    "url": "https://www.bandshed.net/avlinux/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/avlinux.png"
   },
   {
     "name": "MocaccinoOS",
@@ -1088,7 +1152,8 @@
       "Wayfire",
       "Xfce"
     ],
-    "url": "https://www.mocaccino.org/"
+    "url": "https://www.mocaccino.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/mocaccinoos.png"
   },
   {
     "name": "blendOS",
@@ -1102,7 +1167,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://blendos.co/"
+    "url": "https://blendos.co/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/blendos.png"
   },
   {
     "name": "Kodachi",
@@ -1115,7 +1181,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://www.kodachi.cloud/wiki/bina/desktop-debian.html"
+    "url": "https://www.kodachi.cloud/wiki/bina/desktop-debian.html",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/kodachi.png"
   },
   {
     "name": "MODICIA",
@@ -1127,7 +1194,8 @@
     "desktop": [
       "Cinnamon"
     ],
-    "url": "https://www.modiciaos.cloud/"
+    "url": "https://www.modiciaos.cloud/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/modicia.png"
   },
   {
     "name": "PorteuX",
@@ -1148,7 +1216,8 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://github.com/porteux/porteux/"
+    "url": "https://github.com/porteux/porteux/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/porteux.png"
   },
   {
     "name": "Archcraft",
@@ -1162,7 +1231,8 @@
       "MATE",
       "Openbox"
     ],
-    "url": "https://archcraft.io/"
+    "url": "https://archcraft.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/archcraft.png"
   },
   {
     "name": "Tiny Core",
@@ -1186,32 +1256,8 @@
       "Openbox",
       "WMFS"
     ],
-    "url": "http://www.tinycorelinux.net/"
-  },
-  {
-    "name": "ArchBANG",
-    "basedOn": "Arch",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "labwc"
-    ],
-    "url": "https://archbang.org/"
-  },
-  {
-    "name": "KaOS",
-    "basedOn": "Independent",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "niri",
-      "Noctalia"
-    ],
-    "url": "https://kaosx.us/"
+    "url": "http://www.tinycorelinux.net/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/tinycore.png"
   },
   {
     "name": "KDE Linux",
@@ -1224,7 +1270,35 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://kde.org/linux/"
+    "url": "https://kde.org/linux/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/kdelinux.png"
+  },
+  {
+    "name": "ArchBANG",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "labwc"
+    ],
+    "url": "https://archbang.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/archbang.png"
+  },
+  {
+    "name": "KaOS",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "niri",
+      "Noctalia"
+    ],
+    "url": "https://kaosx.us/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/kaos.png"
   },
   {
     "name": "ZimaOS",
@@ -1237,7 +1311,8 @@
       "No Desktop",
       "WebUI"
     ],
-    "url": "https://www.zimaspace.com/docs/zimaos/#ZimaOS"
+    "url": "https://www.zimaspace.com/docs/zimaos/#ZimaOS",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/zimaos.png"
   },
   {
     "name": "Bodhi",
@@ -1251,7 +1326,8 @@
     "desktop": [
       "Moksha (Enlightenment)"
     ],
-    "url": "https://www.bodhilinux.com/"
+    "url": "https://www.bodhilinux.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/bodhi.png"
   },
   {
     "name": "GhostBSD",
@@ -1265,7 +1341,8 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://www.ghostbsd.org/"
+    "url": "https://www.ghostbsd.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ghostbsd.png"
   },
   {
     "name": "FydeOS",
@@ -1279,7 +1356,8 @@
     "desktop": [
       "ChromeOS Desktop"
     ],
-    "url": "https://fydeos.io/"
+    "url": "https://fydeos.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/fydeos.png"
   },
   {
     "name": "Ultramarine",
@@ -1295,7 +1373,8 @@
       "KDE Plasma",
       "Xfce"
     ],
-    "url": "https://ultramarine-linux.org/"
+    "url": "https://ultramarine-linux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ultramarine.png"
   },
   {
     "name": "Gnoppix",
@@ -1310,7 +1389,8 @@
       "KDE Plasma",
       "Xfce"
     ],
-    "url": "https://gnoppix.org/"
+    "url": "https://gnoppix.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/gnoppix.png"
   },
   {
     "name": "MagOS",
@@ -1323,7 +1403,8 @@
       "KDE Plasma",
       "LXQt"
     ],
-    "url": "https://magos-linux.ru/"
+    "url": "https://magos-linux.ru/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/magos.png"
   },
   {
     "name": "SmartOS",
@@ -1335,7 +1416,8 @@
     "desktop": [
       "No Desktop"
     ],
-    "url": "https://www.tritondatacenter.com/smartos"
+    "url": "https://www.tritondatacenter.com/smartos",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/smartos.png"
   },
   {
     "name": "Vanilla",
@@ -1348,7 +1430,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://vanillaos.org/"
+    "url": "https://vanillaos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/vanilla.png"
   },
   {
     "name": "Mabox",
@@ -1360,7 +1443,8 @@
     "desktop": [
       "Openbox"
     ],
-    "url": "https://maboxlinux.org/"
+    "url": "https://maboxlinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/mabox.png"
   },
   {
     "name": "Calculate",
@@ -1378,7 +1462,8 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://www.calculate-linux.org/"
+    "url": "https://www.calculate-linux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/calculate.png"
   },
   {
     "name": "ReactOS",
@@ -1391,20 +1476,8 @@
     "desktop": [
       "ReactOS Explorer"
     ],
-    "url": "https://www.reactos.org/"
-  },
-  {
-    "name": "AxOS",
-    "basedOn": "Arch",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Hyprland",
-      "Sleex"
-    ],
-    "url": "https://www.axos-project.com/"
+    "url": "https://www.reactos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/reactos.png"
   },
   {
     "name": "4MLinux",
@@ -1417,19 +1490,22 @@
     "desktop": [
       "JWM"
     ],
-    "url": "https://4mlinux.com/"
+    "url": "https://4mlinux.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/4mlinux.png"
   },
   {
-    "name": "Qubes",
-    "basedOn": "Debian",
+    "name": "AxOS",
+    "basedOn": "Arch",
     "categories": [
       "Desktop",
-      "Security"
+      "Live Medium"
     ],
     "desktop": [
-      "Xfce"
+      "Hyprland",
+      "Sleex"
     ],
-    "url": "https://qubes-os.org/"
+    "url": "https://www.axos-project.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/axos.png"
   },
   {
     "name": "GNOME OS",
@@ -1442,7 +1518,21 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://os.gnome.org/"
+    "url": "https://os.gnome.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/gnomeos.png"
+  },
+  {
+    "name": "Qubes",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Security"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://qubes-os.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/qubes.png"
   },
   {
     "name": "Nitrux",
@@ -1455,7 +1545,8 @@
     "desktop": [
       "Hyprland"
     ],
-    "url": "https://nxos.org/"
+    "url": "https://nxos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/nitrux.png"
   },
   {
     "name": "OpenBSD",
@@ -1479,7 +1570,8 @@
       "WMaker",
       "Xfce"
     ],
-    "url": "https://www.openbsd.org/"
+    "url": "https://www.openbsd.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/openbsd.png"
   },
   {
     "name": "HackerOS",
@@ -1493,7 +1585,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://hackeros-linux-system.github.io/HackerOS-Website/Home-page.html"
+    "url": "https://hackeros-linux-system.github.io/HackerOS-Website/Home-page.html",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/hackeros.png"
   },
   {
     "name": "Besgnulinux",
@@ -1506,7 +1599,8 @@
     "desktop": [
       "JWM"
     ],
-    "url": "https://besgnulinux.blogspot.com/"
+    "url": "https://besgnulinux.blogspot.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/besgnulinux.png"
   },
   {
     "name": "Ubuntu Studio",
@@ -1519,7 +1613,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://ubuntustudio.org/"
+    "url": "https://ubuntustudio.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ubuntustudio.png"
   },
   {
     "name": "Feren",
@@ -1532,7 +1627,8 @@
       "Cinnamon",
       "KDE Plasma"
     ],
-    "url": "http://ferenos.weebly.com/"
+    "url": "http://ferenos.weebly.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ferenos.png"
   },
   {
     "name": "Chimera",
@@ -1547,7 +1643,8 @@
       "GNOME",
       "KDE Plasma"
     ],
-    "url": "https://chimera-linux.org/"
+    "url": "https://chimera-linux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/chimera.png"
   },
   {
     "name": "Proxmox",
@@ -1560,7 +1657,8 @@
     "desktop": [
       "WebUI"
     ],
-    "url": "https://www.proxmox.com/"
+    "url": "https://www.proxmox.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/proxmox.png"
   },
   {
     "name": "TrueNAS",
@@ -1572,7 +1670,8 @@
       "No Desktop",
       "WebUI"
     ],
-    "url": "https://www.truenas.com/"
+    "url": "https://www.truenas.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/truenas.png"
   },
   {
     "name": "Regata",
@@ -1585,7 +1684,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://www.regataos.com.br/"
+    "url": "https://www.regataos.com.br/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/regata.png"
   },
   {
     "name": "BunsenLabs",
@@ -1596,7 +1696,8 @@
     "desktop": [
       "Openbox"
     ],
-    "url": "https://www.bunsenlabs.org/"
+    "url": "https://www.bunsenlabs.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/bunsenlabs.png"
   },
   {
     "name": "MakuluLinux",
@@ -1612,7 +1713,8 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://www.makululinux.com/"
+    "url": "https://www.makululinux.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/makulu.png"
   },
   {
     "name": "Oracle",
@@ -1623,7 +1725,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://www.oracle.com/linux/"
+    "url": "https://www.oracle.com/linux/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/oracle.png"
   },
   {
     "name": "Emmabuntüs",
@@ -1639,32 +1742,8 @@
       "LXQt",
       "Xfce"
     ],
-    "url": "https://emmabuntus.org/"
-  },
-  {
-    "name": "Expirion",
-    "basedOn": "Devuan",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "LXQt",
-      "Xfce"
-    ],
-    "url": "https://expirion-linux.sourceforge.io/"
-  },
-  {
-    "name": "SDesk",
-    "basedOn": "Arch",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "https://stevestudios.net/sdesk"
+    "url": "https://emmabuntus.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/emmabuntus.png"
   },
   {
     "name": "Aurora",
@@ -1677,7 +1756,35 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://getaurora.dev/"
+    "url": "https://getaurora.dev/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/aurora.png"
+  },
+  {
+    "name": "Expirion",
+    "basedOn": "Devuan",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "LXQt",
+      "Xfce"
+    ],
+    "url": "https://expirion-linux.sourceforge.io/",
+    "logo": null
+  },
+  {
+    "name": "SDesk",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://stevestudios.net/sdesk",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/sdesk.png"
   },
   {
     "name": "Murena",
@@ -1689,7 +1796,21 @@
     "desktop": [
       "Bliss"
     ],
-    "url": "https://murena.com/"
+    "url": "https://murena.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/murena.png"
+  },
+  {
+    "name": "TROMjaro",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://www.tromjaro.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/tromjaro.png"
   },
   {
     "name": "GLF",
@@ -1704,7 +1825,8 @@
       "GNOME",
       "KDE Plasma"
     ],
-    "url": "https://www.gaminglinux.fr/glf-os/"
+    "url": "https://www.gaminglinux.fr/glf-os/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/glf.png"
   },
   {
     "name": "RebornOS",
@@ -1716,32 +1838,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://rebornos.org/"
-  },
-  {
-    "name": "TROMjaro",
-    "basedOn": "Arch",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://www.tromjaro.com/"
-  },
-  {
-    "name": "Rhino",
-    "basedOn": "Debian",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://rhinolinux.org/"
+    "url": "https://rebornos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/rebornos.png"
   },
   {
     "name": "ChromeOS",
@@ -1754,7 +1852,22 @@
     "desktop": [
       "ChromeOS Desktop"
     ],
-    "url": "https://chromeos.google/intl/en_ca/products/chromeos-flex/"
+    "url": "https://chromeos.google/intl/en_ca/products/chromeos-flex/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/chromeos.png"
+  },
+  {
+    "name": "Rhino",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://rhinolinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/rhino.png"
   },
   {
     "name": "Wifislax",
@@ -1767,7 +1880,8 @@
       "KDE Plasma",
       "Xfce"
     ],
-    "url": "https://www.wifislax.com/"
+    "url": "https://www.wifislax.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/wifislax.png"
   },
   {
     "name": "VailuxOS",
@@ -1779,7 +1893,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://www.vailux.de/"
+    "url": "https://www.vailux.de/",
+    "logo": null
   },
   {
     "name": "Haiku",
@@ -1791,7 +1906,8 @@
     "desktop": [
       "Haiku"
     ],
-    "url": "https://haiku-os.org/"
+    "url": "https://haiku-os.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/haiku.png"
   },
   {
     "name": "Endless",
@@ -1805,7 +1921,49 @@
     "desktop": [
       "EOS Shell (GNOME)"
     ],
-    "url": "https://endlessos.com/"
+    "url": "https://endlessos.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/endless.png"
+  },
+  {
+    "name": "Talos",
+    "basedOn": "Independent",
+    "categories": [
+      "Immutable",
+      "Kubernetes"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://www.talos.dev/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/talos.png"
+  },
+  {
+    "name": "Ubuntu MATE",
+    "basedOn": "Debian",
+    "categories": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "https://ubuntu-mate.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ubuntumate.png"
+  },
+  {
+    "name": "Dr.Parted",
+    "basedOn": "Debian (Testing)",
+    "categories": [
+      "Data Rescue",
+      "Disk Management",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Openbox"
+    ],
+    "url": "https://dr-parted-live.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/drparted.png"
   },
   {
     "name": "Porteus",
@@ -1825,45 +1983,8 @@
       "Openbox",
       "Xfce"
     ],
-    "url": "http://www.porteus.org/"
-  },
-  {
-    "name": "Talos",
-    "basedOn": "Independent",
-    "categories": [
-      "Immutable",
-      "Kubernetes"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "https://www.talos.dev/"
-  },
-  {
-    "name": "Ubuntu MATE",
-    "basedOn": "Debian",
-    "categories": [
-      "Beginners",
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "MATE"
-    ],
-    "url": "https://ubuntu-mate.org/"
-  },
-  {
-    "name": "Dr.Parted",
-    "basedOn": "Debian (Testing)",
-    "categories": [
-      "Data Rescue",
-      "Disk Management",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Openbox"
-    ],
-    "url": "https://dr-parted-live.sourceforge.io/"
+    "url": "http://www.porteus.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/porteus.png"
   },
   {
     "name": "Volumio",
@@ -1876,7 +1997,8 @@
       "Openbox",
       "WebUI"
     ],
-    "url": "https://volumio.org/"
+    "url": "https://volumio.org/",
+    "logo": null
   },
   {
     "name": "Br OS",
@@ -1888,7 +2010,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://br-os.com/"
+    "url": "https://br-os.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/bros.png"
   },
   {
     "name": "iDeal",
@@ -1900,7 +2023,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://ideal-os.xyz/"
+    "url": "https://ideal-os.xyz/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ideal.png"
   },
   {
     "name": "GXDE",
@@ -1912,7 +2036,8 @@
     "desktop": [
       "Deepin"
     ],
-    "url": "https://www.gxde.top/"
+    "url": "https://www.gxde.top/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/gxde.png"
   },
   {
     "name": "NebiOS",
@@ -1925,7 +2050,8 @@
     "desktop": [
       "NebiDE (Wayfire)"
     ],
-    "url": "https://nebios.org/"
+    "url": "https://nebios.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/nebios.png"
   },
   {
     "name": "LinuxHub",
@@ -1937,7 +2063,8 @@
     "desktop": [
       "Openbox"
     ],
-    "url": "https://linuxhub.link/"
+    "url": "https://linuxhub.link/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/linuxhub.png"
   },
   {
     "name": "Kicksecure",
@@ -1951,7 +2078,8 @@
       "labwc",
       "LXQt"
     ],
-    "url": "https://www.kicksecure.com/"
+    "url": "https://www.kicksecure.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/kicksecure.png"
   },
   {
     "name": "Oreon",
@@ -1963,7 +2091,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://oreonhq.com/"
+    "url": "https://oreonhq.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/oreon.png"
   },
   {
     "name": "DietPi",
@@ -1974,7 +2103,8 @@
     "desktop": [
       "No Desktop"
     ],
-    "url": "https://dietpi.com/"
+    "url": "https://dietpi.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/dietpi.png"
   },
   {
     "name": "SliTaz",
@@ -1989,7 +2119,8 @@
     "desktop": [
       "Openbox"
     ],
-    "url": "http://www.slitaz.org/"
+    "url": "http://www.slitaz.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/slitaz.png"
   },
   {
     "name": "DragonFly",
@@ -2014,7 +2145,8 @@
       "Wayfire",
       "Xfce"
     ],
-    "url": "http://www.dragonflybsd.org/"
+    "url": "http://www.dragonflybsd.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/dragonflybsd.png"
   },
   {
     "name": "pearOS",
@@ -2026,7 +2158,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://pearos.xyz/"
+    "url": "https://pearos.xyz/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/pearos.png"
   },
   {
     "name": "RasPiOS",
@@ -2038,7 +2171,8 @@
       "labwc",
       "PIXEL"
     ],
-    "url": "https://www.raspberrypi.com/software/"
+    "url": "https://www.raspberrypi.com/software/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/raspios.png"
   },
   {
     "name": "Security Onion",
@@ -2049,7 +2183,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://securityonionsolutions.com/software"
+    "url": "https://securityonionsolutions.com/software",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/securityonion.png"
   },
   {
     "name": "Whonix",
@@ -2064,7 +2199,8 @@
       "LXQt",
       "Sway"
     ],
-    "url": "https://www.whonix.org/"
+    "url": "https://www.whonix.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/whonix.png"
   },
   {
     "name": "Neptune",
@@ -2076,7 +2212,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://neptuneos.com/"
+    "url": "https://neptuneos.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/neptune.png"
   },
   {
     "name": "Athena",
@@ -2090,7 +2227,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://athenaos.org/"
+    "url": "https://athenaos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/athena.png"
   },
   {
     "name": "openKylin",
@@ -2103,7 +2241,8 @@
       "Kylin",
       "UKUI"
     ],
-    "url": "https://www.openkylin.top/"
+    "url": "https://www.openkylin.top/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/openkylin.png"
   },
   {
     "name": "openmamba",
@@ -2118,7 +2257,8 @@
       "KDE Plasma",
       "LXQt"
     ],
-    "url": "https://openmamba.org/"
+    "url": "https://openmamba.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/openmamba.png"
   },
   {
     "name": "Pardus",
@@ -2132,7 +2272,8 @@
       "GNOME",
       "Xfce"
     ],
-    "url": "https://pardus.org.tr/"
+    "url": "https://pardus.org.tr/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/pardus.png"
   },
   {
     "name": "postmarketOS",
@@ -2152,7 +2293,8 @@
       "Sway",
       "Sxmo"
     ],
-    "url": "https://postmarketos.org/"
+    "url": "https://postmarketos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/postmarketos.png"
   },
   {
     "name": "OmegaLinux",
@@ -2165,23 +2307,8 @@
     "desktop": [
       "LXDE"
     ],
-    "url": "https://omega-linux.github.io/page/"
-  },
-  {
-    "name": "AUSTRUMI",
-    "basedOn": "Slackware",
-    "categories": [
-      "Data Rescue",
-      "Desktop",
-      "From RAM",
-      "Live Medium"
-    ],
-    "desktop": [
-      "FVWM",
-      "labwc",
-      "Wayfire"
-    ],
-    "url": "http://cyti.latgola.lv/ruuni/"
+    "url": "https://omega-linux.github.io/page/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/omegalinux.png"
   },
   {
     "name": "MidnightBSD",
@@ -2202,7 +2329,39 @@
       "WMaker",
       "Xfce"
     ],
-    "url": "https://www.midnightbsd.org/"
+    "url": "https://www.midnightbsd.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/midnightbsd.png"
+  },
+  {
+    "name": "AUSTRUMI",
+    "basedOn": "Slackware",
+    "categories": [
+      "Data Rescue",
+      "Desktop",
+      "From RAM",
+      "Live Medium"
+    ],
+    "desktop": [
+      "FVWM",
+      "labwc",
+      "Wayfire"
+    ],
+    "url": "http://cyti.latgola.lv/ruuni/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/austrumi.png"
+  },
+  {
+    "name": "extrox",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Multimedia",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://extrox.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/extrox.png"
   },
   {
     "name": "Damn Small",
@@ -2216,36 +2375,8 @@
       "JWM",
       "Fluxbox"
     ],
-    "url": "https://www.damnsmalllinux.org/"
-  },
-  {
-    "name": "extrox",
-    "basedOn": "Arch",
-    "categories": [
-      "Desktop",
-      "Multimedia",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://extrox.com/"
-  },
-  {
-    "name": "Ufficio Zero",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Data Rescue",
-      "Desktop",
-      "Education",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Cinnamon",
-      "MATE",
-      "Xfce"
-    ],
-    "url": "https://www.ufficiozero.org/"
+    "url": "https://www.damnsmalllinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/damnsmall.png"
   },
   {
     "name": "Synex",
@@ -2263,7 +2394,38 @@
       "KDE Plasma",
       "Xfce"
     ],
-    "url": "https://synex.ar/"
+    "url": "https://synex.ar/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/synex.png"
+  },
+  {
+    "name": "Ufficio Zero",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Data Rescue",
+      "Desktop",
+      "Education",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://www.ufficiozero.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ufficiozero.png"
+  },
+  {
+    "name": "Kiro",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://github.com/kirodubes",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/kiro.png"
   },
   {
     "name": "Ubuntu Cinnamon",
@@ -2275,7 +2437,24 @@
     "desktop": [
       "Cinnamon"
     ],
-    "url": "https://ubuntucinnamon.org/"
+    "url": "https://ubuntucinnamon.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ubuntucinnamon.png"
+  },
+  {
+    "name": "CuerdOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "labwc",
+      "Sway",
+      "Xfce"
+    ],
+    "url": "https://cuerdos.github.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/cuerdos.png"
   },
   {
     "name": "Genuen",
@@ -2297,19 +2476,8 @@
       "Openbox",
       "Xfce"
     ],
-    "url": "https://www.genuen.org/"
-  },
-  {
-    "name": "Kiro",
-    "basedOn": "Arch",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://github.com/kirodubes"
+    "url": "https://www.genuen.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/genuen.png"
   },
   {
     "name": "Liya",
@@ -2322,7 +2490,8 @@
     "desktop": [
       "Cinnamon"
     ],
-    "url": "https://liyalinux.gitlab.io/"
+    "url": "https://liyalinux.gitlab.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/liya.png"
   },
   {
     "name": "ROSA",
@@ -2336,7 +2505,8 @@
       "GNOME",
       "KDE Plasma"
     ],
-    "url": "https://www.rosalinux.ru/"
+    "url": "https://www.rosalinux.ru/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/rosa.png"
   },
   {
     "name": "Shanios",
@@ -2349,20 +2519,8 @@
       "GNOME",
       "KDE Plasma"
     ],
-    "url": "https://shani.dev/"
-  },
-  {
-    "name": "GParted",
-    "basedOn": "Debian",
-    "categories": [
-      "Disk Management",
-      "Data Rescue",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Fluxbox"
-    ],
-    "url": "https://gparted.org/livecd.php"
+    "url": "https://shani.dev/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/shanios.png"
   },
   {
     "name": "SystemRescue",
@@ -2375,7 +2533,22 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://www.system-rescue.org/"
+    "url": "https://www.system-rescue.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/systemrescue.png"
+  },
+  {
+    "name": "GParted",
+    "basedOn": "Debian",
+    "categories": [
+      "Disk Management",
+      "Data Rescue",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Fluxbox"
+    ],
+    "url": "https://gparted.org/livecd.php",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/gparted.png"
   },
   {
     "name": "Lingmo",
@@ -2387,7 +2560,8 @@
     "desktop": [
       "LingmoUI"
     ],
-    "url": "https://lingmo.org/"
+    "url": "https://lingmo.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/lingmo.png"
   },
   {
     "name": "Mauna",
@@ -2403,7 +2577,8 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://maunalinux.top/"
+    "url": "https://maunalinux.top/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/mauna.png"
   },
   {
     "name": "Nyarch",
@@ -2415,7 +2590,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://nyarchlinux.moe/"
+    "url": "https://nyarchlinux.moe/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/nyarch.png"
   },
   {
     "name": "XIVA Studio",
@@ -2428,7 +2604,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://xivastudio.org/"
+    "url": "https://xivastudio.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/xivastudio.png"
   },
   {
     "name": "Archman",
@@ -2441,7 +2618,8 @@
       "i3",
       "Xfce"
     ],
-    "url": "https://archman.org/"
+    "url": "https://archman.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/archman.png"
   },
   {
     "name": "siduction",
@@ -2455,7 +2633,8 @@
       "LXQt",
       "Xfce"
     ],
-    "url": "https://siduction.org/"
+    "url": "https://siduction.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/siduction.png"
   },
   {
     "name": "StormOS",
@@ -2467,20 +2646,29 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://techcafe757.wixsite.com/storm-os"
+    "url": "https://techcafe757.wixsite.com/storm-os",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/stormos.png"
   },
   {
-    "name": "Redox",
-    "basedOn": "Independent",
+    "name": "Vendefoul",
+    "basedOn": "Devuan",
     "categories": [
       "Desktop",
-      "Live Medium",
-      "Server"
+      "Live Medium"
     ],
     "desktop": [
-      "COSMIC"
+      "Budgie",
+      "Cinnamon",
+      "Enlightenment",
+      "IceWM",
+      "KDE Plasma",
+      "LXQt",
+      "SonicDE",
+      "Trinity",
+      "Xfce"
     ],
-    "url": "https://www.redox-os.org/"
+    "url": "https://vendefoul-wolf-linux.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/vendefoul.png"
   },
   {
     "name": "Clonezilla",
@@ -2492,26 +2680,8 @@
     "desktop": [
       "No Desktop"
     ],
-    "url": "https://clonezilla.org/"
-  },
-  {
-    "name": "CuerdOS",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Budgie",
-      "Cinnamon",
-      "GNOME",
-      "LXQt",
-      "MATE",
-      "KDE Plasma",
-      "Sway",
-      "Xfce"
-    ],
-    "url": "https://cuerdos.github.io/"
+    "url": "https://clonezilla.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/clonezilla.png"
   },
   {
     "name": "Guix System",
@@ -2534,27 +2704,22 @@
       "Sway",
       "Xfce"
     ],
-    "url": "https://www.gnu.org/software/guix/"
+    "url": "https://www.gnu.org/software/guix/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/guixsd.png"
   },
   {
-    "name": "Vendefoul",
-    "basedOn": "Devuan",
+    "name": "Redox",
+    "basedOn": "Independent",
     "categories": [
       "Desktop",
-      "Live Medium"
+      "Live Medium",
+      "Server"
     ],
     "desktop": [
-      "Budgie",
-      "Cinnamon",
-      "Enlightenment",
-      "IceWM",
-      "KDE Plasma",
-      "LXQt",
-      "SonicDE",
-      "Trinity",
-      "Xfce"
+      "COSMIC"
     ],
-    "url": "https://vendefoul-wolf-linux.sourceforge.io/"
+    "url": "https://www.redox-os.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/redox.png"
   },
   {
     "name": "Ubuntu Budgie",
@@ -2566,7 +2731,8 @@
     "desktop": [
       "Budgie"
     ],
-    "url": "https://ubuntubudgie.org/"
+    "url": "https://ubuntubudgie.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ubuntubudgie.png"
   },
   {
     "name": "HeliumOS",
@@ -2578,7 +2744,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://www.heliumos.org/"
+    "url": "https://www.heliumos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/heliumos.png"
   },
   {
     "name": "LFS",
@@ -2595,7 +2762,8 @@
       "Openbox",
       "Xfce"
     ],
-    "url": "https://www.linuxfromscratch.org"
+    "url": "https://www.linuxfromscratch.org",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/lfs.png"
   },
   {
     "name": "Loc-OS",
@@ -2608,32 +2776,8 @@
     "desktop": [
       "LXDE"
     ],
-    "url": "https://loc-os.com/"
-  },
-  {
-    "name": "Asmi",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Desktop",
-      "From RAM",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://teejeetech.com/tags/asmi/"
-  },
-  {
-    "name": "Obarun",
-    "basedOn": "Arch",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "JWM"
-    ],
-    "url": "https://web.obarun.org/"
+    "url": "https://loc-os.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/locos.png"
   },
   {
     "name": "Plop",
@@ -2650,7 +2794,48 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://www.plop.at/"
+    "url": "https://www.plop.at/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/plop.png"
+  },
+  {
+    "name": "Asmi",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "From RAM",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://teejeetech.com/tags/asmi/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/asmi.png"
+  },
+  {
+    "name": "Elive",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Enlightenment"
+    ],
+    "url": "https://www.elivecd.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/elive.png"
+  },
+  {
+    "name": "Obarun",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "JWM"
+    ],
+    "url": "https://web.obarun.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/obarun.png"
   },
   {
     "name": "SUSE",
@@ -2664,7 +2849,8 @@
       "GNOME",
       "IceWM"
     ],
-    "url": "https://www.suse.com/"
+    "url": "https://www.suse.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/sle.png"
   },
   {
     "name": "CRUX",
@@ -2678,7 +2864,8 @@
     "desktop": [
       "Openbox"
     ],
-    "url": "https://crux.nu/"
+    "url": "https://crux.nu/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/crux.png"
   },
   {
     "name": "iodéOS",
@@ -2690,7 +2877,8 @@
     "desktop": [
       "Trebuchet"
     ],
-    "url": "https://iode.tech/"
+    "url": "https://iode.tech/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/iode.png"
   },
   {
     "name": "Pearl",
@@ -2703,7 +2891,8 @@
       "PDE",
       "Xfce"
     ],
-    "url": "https://www.pearllinux.net/"
+    "url": "https://www.pearllinux.net/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/pearl.png"
   },
   {
     "name": "RefreshOS",
@@ -2715,19 +2904,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://refreshos.org/"
-  },
-  {
-    "name": "Elive",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Enlightenment"
-    ],
-    "url": "https://www.elivecd.org/"
+    "url": "https://refreshos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/refreshos.png"
   },
   {
     "name": "ExTiX",
@@ -2742,7 +2920,8 @@
       "KDE Plasma",
       "LXQt"
     ],
-    "url": "https://www.extix.se/"
+    "url": "https://www.extix.se/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/extix.png"
   },
   {
     "name": "LainOS",
@@ -2755,7 +2934,8 @@
       "Openbox",
       "Sway"
     ],
-    "url": "https://lainos.net/"
+    "url": "https://lainos.net/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/lainos.png"
   },
   {
     "name": "AgarimOS",
@@ -2772,7 +2952,8 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://agarimos.sourceforge.io/"
+    "url": "https://agarimos.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/agarimos.png"
   },
   {
     "name": "T2 Linux",
@@ -2797,7 +2978,8 @@
       "Wayfire",
       "Xfce"
     ],
-    "url": "https://t2linux.com/"
+    "url": "https://t2linux.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/t2.png"
   },
   {
     "name": "NetHydra",
@@ -2810,7 +2992,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://nethydra.github.io"
+    "url": "https://nethydra.github.io",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/nethydra.png"
   },
   {
     "name": "OpenMediaVault",
@@ -2822,7 +3005,34 @@
       "No Desktop",
       "WebUI"
     ],
-    "url": "https://www.openmediavault.org/"
+    "url": "https://www.openmediavault.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/openmediavault.png"
+  },
+  {
+    "name": "Alien-OS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Regolith"
+    ],
+    "url": "https://sourceforge.net/projects/alien-os-nano/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/alienos.png"
+  },
+  {
+    "name": "Bluefin",
+    "basedOn": "CentOS",
+    "categories": [
+      "Desktop",
+      "Immutable"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://projectbluefin.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/bluefin.png"
   },
   {
     "name": "Debian Edu",
@@ -2841,45 +3051,8 @@
       "MATE",
       "Xfce"
     ],
-    "url": "http://www.skolelinux.org/"
-  },
-  {
-    "name": "Bluefin",
-    "basedOn": "CentOS",
-    "categories": [
-      "Desktop",
-      "Immutable"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "https://projectbluefin.io/"
-  },
-  {
-    "name": "BlueOnyx",
-    "basedOn": "AlmaLinux",
-    "categories": [
-      "Server"
-    ],
-    "desktop": [
-      "No Desktop",
-      "WebUI"
-    ],
-    "url": "https://www.blueonyx.it/"
-  },
-  {
-    "name": "NuTyX",
-    "basedOn": "LFS",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "GNOME",
-      "KDE Plasma",
-      "Xfce"
-    ],
-    "url": "https://www.nutyx.org/"
+    "url": "http://www.skolelinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/debianedu.png"
   },
   {
     "name": "Soplos",
@@ -2893,119 +3066,8 @@
       "KDE Plasma",
       "Xfce"
     ],
-    "url": "https://soplos.org/"
-  },
-  {
-    "name": "OpenIndiana",
-    "basedOn": "OpenSolaris",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "UNIX"
-    ],
-    "desktop": [
-      "MATE"
-    ],
-    "url": "https://openindiana.org/"
-  },
-  {
-    "name": "RELIANOID",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Firewall",
-      "Specialist"
-    ],
-    "desktop": [
-      "No Desktop",
-      "WebUI"
-    ],
-    "url": "https://www.relianoid.com/"
-  },
-  {
-    "name": "SteamOS",
-    "basedOn": "Arch",
-    "categories": [
-      "Gaming"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "http://store.steampowered.com/steamos/"
-  },
-  {
-    "name": "Ubuntu Unity",
-    "basedOn": "Debian",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Unity"
-    ],
-    "url": "https://ubuntuunity.org/"
-  },
-  {
-    "name": "Alien-OS",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Regolith"
-    ],
-    "url": "https://sourceforge.net/projects/alien-os-nano/"
-  },
-  {
-    "name": "Batocera",
-    "basedOn": "Independent",
-    "categories": [
-      "Gaming",
-      "Live Medium",
-      "Multimedia"
-    ],
-    "desktop": [
-      "Openbox"
-    ],
-    "url": "https://batocera.org/"
-  },
-  {
-    "name": "Edubuntu",
-    "basedOn": "Debian",
-    "categories": [
-      "Education",
-      "Live Medium",
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "https://www.edubuntu.org/"
-  },
-  {
-    "name": "GrapheneOS",
-    "basedOn": "Android",
-    "categories": [
-      "Immutable",
-      "Mobile"
-    ],
-    "desktop": [
-      "Launcher"
-    ],
-    "url": "https://grapheneos.org/"
-  },
-  {
-    "name": "SysLinuxOS",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "GNOME",
-      "MATE"
-    ],
-    "url": "https://syslinuxos.com/"
+    "url": "https://soplos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/soplos.png"
   },
   {
     "name": "Xray_OS",
@@ -3018,7 +3080,145 @@
       "KDE Plasma",
       "Xfce"
     ],
-    "url": "https://xray-os.github.io/xray_os-website/"
+    "url": "https://xray-os.github.io/xray_os-website/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/xray.png"
+  },
+  {
+    "name": "BlueOnyx",
+    "basedOn": "AlmaLinux",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "https://www.blueonyx.it/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/blueonyx.png"
+  },
+  {
+    "name": "NuTyX",
+    "basedOn": "LFS",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "url": "https://www.nutyx.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/nutyx.png"
+  },
+  {
+    "name": "Edubuntu",
+    "basedOn": "Debian",
+    "categories": [
+      "Education",
+      "Live Medium",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://www.edubuntu.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/edubuntu.png"
+  },
+  {
+    "name": "OpenIndiana",
+    "basedOn": "OpenSolaris",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "UNIX"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "https://openindiana.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/openindiana.png"
+  },
+  {
+    "name": "RELIANOID",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Firewall",
+      "Specialist"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "https://www.relianoid.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/relianoid.png"
+  },
+  {
+    "name": "SteamOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Gaming"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "http://store.steampowered.com/steamos/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/steamos.png"
+  },
+  {
+    "name": "Ubuntu Unity",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Unity"
+    ],
+    "url": "https://ubuntuunity.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ubuntuunity.png"
+  },
+  {
+    "name": "Batocera",
+    "basedOn": "Independent",
+    "categories": [
+      "Gaming",
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "Openbox"
+    ],
+    "url": "https://batocera.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/batocera.png"
+  },
+  {
+    "name": "ObsidianOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "COSMIC",
+      "KDE Plasma"
+    ],
+    "url": "https://obsidianos.xyz/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/obsidianos.png"
+  },
+  {
+    "name": "SysLinuxOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME",
+      "MATE"
+    ],
+    "url": "https://syslinuxos.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/syslinuxos.png"
   },
   {
     "name": "Armbian",
@@ -3033,92 +3233,8 @@
       "KDE Plasma",
       "Xfce"
     ],
-    "url": "https://www.armbian.com/"
-  },
-  {
-    "name": "ELEGANCE",
-    "basedOn": "Arch",
-    "categories": [
-      "Desktop",
-      "Gaming",
-      "Live Medium",
-      "Multimedia"
-    ],
-    "desktop": [
-      "Cinnamon"
-    ],
-    "url": "https://tuxnmix.org/elegance/"
-  },
-  {
-    "name": "Grml",
-    "basedOn": "Debian (Testing)",
-    "categories": [
-      "From RAM",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Fluxbox"
-    ],
-    "url": "https://www.grml.org/"
-  },
-  {
-    "name": "IPFire",
-    "basedOn": "Independent (forked from IPCop)",
-    "categories": [
-      "Firewall"
-    ],
-    "desktop": [
-      "No Desktop",
-      "WebUI"
-    ],
-    "url": "https://www.ipfire.org/"
-  },
-  {
-    "name": "ObsidianOS",
-    "basedOn": "Arch",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "COSMIC",
-      "KDE Plasma"
-    ],
-    "url": "https://obsidianos.xyz/"
-  },
-  {
-    "name": "Peropesis",
-    "basedOn": "Independent",
-    "categories": [
-      "Live Medium"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "https://peropesis.org/"
-  },
-  {
-    "name": "Univention",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Server"
-    ],
-    "desktop": [
-      "Openbox",
-      "WebUI"
-    ],
-    "url": "https://www.univention.com/products/ucs/"
-  },
-  {
-    "name": "VyOS",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Firewall"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "https://vyos.io/"
+    "url": "https://www.armbian.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/armbian.png"
   },
   {
     "name": "d77void",
@@ -3152,7 +3268,113 @@
       "Wayfire",
       "Xfce"
     ],
-    "url": "https://d77void.sourceforge.io/"
+    "url": "https://d77void.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/d77void.png"
+  },
+  {
+    "name": "ELEGANCE",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Gaming",
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://tuxnmix.org/elegance/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/elegance.png"
+  },
+  {
+    "name": "GrapheneOS",
+    "basedOn": "Android",
+    "categories": [
+      "Immutable",
+      "Mobile"
+    ],
+    "desktop": [
+      "Launcher"
+    ],
+    "url": "https://grapheneos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/grapheneos.png"
+  },
+  {
+    "name": "Grml",
+    "basedOn": "Debian (Testing)",
+    "categories": [
+      "From RAM",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Fluxbox"
+    ],
+    "url": "https://www.grml.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/grml.png"
+  },
+  {
+    "name": "IPFire",
+    "basedOn": "Independent (forked from IPCop)",
+    "categories": [
+      "Firewall"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "https://www.ipfire.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ipfire.png"
+  },
+  {
+    "name": "Peropesis",
+    "basedOn": "Independent",
+    "categories": [
+      "Live Medium"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://peropesis.org/",
+    "logo": null
+  },
+  {
+    "name": "Tribblix",
+    "basedOn": "OpenSolaris",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://tribblix.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/tribblix.png"
+  },
+  {
+    "name": "Univention",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "Openbox",
+      "WebUI"
+    ],
+    "url": "https://www.univention.com/products/ucs/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/univention.png"
+  },
+  {
+    "name": "VyOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Firewall"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://vyos.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/vyos.png"
   },
   {
     "name": "Exe",
@@ -3167,7 +3389,8 @@
       "Openbox",
       "Trinity"
     ],
-    "url": "http://exegnulinux.net/"
+    "url": "http://exegnulinux.net/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/exe.png"
   },
   {
     "name": "FreedomBox",
@@ -3178,20 +3401,22 @@
     "desktop": [
       "WebUI"
     ],
-    "url": "https://freedombox.org/"
+    "url": "https://freedombox.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/freedombox.png"
   },
   {
-    "name": "Tribblix",
-    "basedOn": "OpenSolaris",
+    "name": "Slimbook OS",
+    "basedOn": "Ubuntu (LTS)",
     "categories": [
       "Desktop",
-      "Live Medium",
-      "Server"
+      "Live Medium"
     ],
     "desktop": [
-      "Xfce"
+      "GNOME",
+      "KDE Plasma"
     ],
-    "url": "https://tribblix.org/"
+    "url": "https://slimbook.com/en/slimbook-os",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/slimbookos.png"
   },
   {
     "name": "Trisquel",
@@ -3207,7 +3432,8 @@
       "LXDE",
       "MATE"
     ],
-    "url": "https://trisquel.info/"
+    "url": "https://trisquel.info/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/trisquel.png"
   },
   {
     "name": "NetBSD",
@@ -3229,20 +3455,8 @@
       "WMaker",
       "Xfce"
     ],
-    "url": "https://www.netbsd.org/"
-  },
-  {
-    "name": "Slimbook OS",
-    "basedOn": "Ubuntu (LTS)",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "GNOME",
-      "KDE Plasma"
-    ],
-    "url": "https://slimbook.com/en/slimbook-os"
+    "url": "https://www.netbsd.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/netbsd.png"
   },
   {
     "name": "Lakka",
@@ -3255,7 +3469,8 @@
     "desktop": [
       "RetroArch"
     ],
-    "url": "http://www.lakka.tv/"
+    "url": "http://www.lakka.tv/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/lakka.png"
   },
   {
     "name": "Slackel",
@@ -3268,7 +3483,21 @@
       "MATE",
       "Openbox"
     ],
-    "url": "http://www.slackel.gr/"
+    "url": "http://www.slackel.gr/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/slackel.png"
+  },
+  {
+    "name": "umbrelOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Server",
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "WebUI"
+    ],
+    "url": "https://umbrel.com/umbrelos",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/umbrelos.png"
   },
   {
     "name": "DESERT",
@@ -3280,7 +3509,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://sites.google.com/view/desertoslinux"
+    "url": "https://sites.google.com/view/desertoslinux",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/desert.png"
   },
   {
     "name": "HardenedBSD",
@@ -3291,7 +3521,8 @@
     "desktop": [
       "No Desktop"
     ],
-    "url": "https://hardenedbsd.org/"
+    "url": "https://hardenedbsd.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/hardenedbsd.png"
   },
   {
     "name": "OPNsense",
@@ -3304,19 +3535,8 @@
       "No Desktop",
       "WebUI"
     ],
-    "url": "https://opnsense.org/"
-  },
-  {
-    "name": "umbrelOS",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Server",
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "WebUI"
-    ],
-    "url": "https://umbrel.com/umbrelos"
+    "url": "https://opnsense.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/opnsense.png"
   },
   {
     "name": "Venom",
@@ -3331,7 +3551,8 @@
       "Sway",
       "Xfce"
     ],
-    "url": "https://venomlinux.org/"
+    "url": "https://venomlinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/venom.png"
   },
   {
     "name": "NomadBSD",
@@ -3343,7 +3564,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://nomadbsd.org/"
+    "url": "https://nomadbsd.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/nomadbsd.png"
   },
   {
     "name": "Ubuntu Kylin",
@@ -3355,7 +3577,8 @@
     "desktop": [
       "UKUI"
     ],
-    "url": "https://www.ubuntukylin.com/"
+    "url": "https://www.ubuntukylin.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ubuntukylin.png"
   },
   {
     "name": "BackBox",
@@ -3369,7 +3592,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://www.backbox.org/"
+    "url": "https://www.backbox.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/backbox.png"
   },
   {
     "name": "Calam",
@@ -3381,7 +3605,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://calam-arch-installer.sourceforge.io/"
+    "url": "https://calam-arch-installer.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/calam.png"
   },
   {
     "name": "Drauger",
@@ -3394,7 +3619,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://draugeros.org/"
+    "url": "https://draugeros.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/drauger.png"
   },
   {
     "name": "KolibriOS",
@@ -3408,7 +3634,8 @@
     "desktop": [
       "KolibriOS"
     ],
-    "url": "http://kolibrios.org/"
+    "url": "http://kolibrios.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/kolibri.png"
   },
   {
     "name": "LibreELEC",
@@ -3420,7 +3647,8 @@
     "desktop": [
       "Kodi"
     ],
-    "url": "https://libreelec.tv/"
+    "url": "https://libreelec.tv/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/libreelec.png"
   },
   {
     "name": "Rescuezilla",
@@ -3432,19 +3660,8 @@
     "desktop": [
       "LXDE"
     ],
-    "url": "https://rescuezilla.com/"
-  },
-  {
-    "name": "UBports",
-    "basedOn": "Ubuntu",
-    "categories": [
-      "Immutable",
-      "Mobile"
-    ],
-    "desktop": [
-      "Lomiri"
-    ],
-    "url": "https://ubports.com/"
+    "url": "https://rescuezilla.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/rescuezilla.png"
   },
   {
     "name": "Zephix",
@@ -3456,7 +3673,8 @@
     "desktop": [
       "i3"
     ],
-    "url": "https://zephix-linux.sourceforge.io/"
+    "url": "https://zephix-linux.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/zephix.png"
   },
   {
     "name": "Arkane",
@@ -3469,7 +3687,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://arkanelinux.org/"
+    "url": "https://arkanelinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/arkane.png"
   },
   {
     "name": "Canaima",
@@ -3489,7 +3708,8 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://canaima.softwarelibre.gob.ve/"
+    "url": "https://canaima.softwarelibre.gob.ve/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/canaima.png"
   },
   {
     "name": "Melawy",
@@ -3501,7 +3721,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://melawy.ru/"
+    "url": "https://melawy.ru/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/melawy.png"
   },
   {
     "name": "openEuler",
@@ -3515,7 +3736,8 @@
       "UKUI",
       "Xfce"
     ],
-    "url": "https://www.openeuler.org/"
+    "url": "https://www.openeuler.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/openeuler.png"
   },
   {
     "name": "Pisi",
@@ -3526,7 +3748,21 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://www.pisilinux.org/"
+    "url": "https://www.pisilinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/pisi.png"
+  },
+  {
+    "name": "UBports",
+    "basedOn": "Ubuntu",
+    "categories": [
+      "Immutable",
+      "Mobile"
+    ],
+    "desktop": [
+      "Lomiri"
+    ],
+    "url": "https://ubports.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ubports.png"
   },
   {
     "name": "MIRACLE",
@@ -3537,7 +3773,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://www.miraclelinux.com"
+    "url": "https://www.miraclelinux.com",
+    "logo": null
   },
   {
     "name": "PakOS",
@@ -3550,7 +3787,8 @@
     "desktop": [
       "LXQt"
     ],
-    "url": "https://axitechnologies.ai/pak-os-linux/"
+    "url": "https://axitechnologies.ai/pak-os-linux/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/pakos.png"
   },
   {
     "name": "Sculpt",
@@ -3561,7 +3799,8 @@
     "desktop": [
       "Leitzentrale"
     ],
-    "url": "https://genode.org/"
+    "url": "https://genode.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/sculpt.png"
   },
   {
     "name": "WM Live",
@@ -3573,7 +3812,8 @@
     "desktop": [
       "WMaker"
     ],
-    "url": "https://wmlive.sourceforge.net/"
+    "url": "https://wmlive.sourceforge.net/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/wmlive.png"
   },
   {
     "name": "Mobian",
@@ -3586,33 +3826,8 @@
       "Plasma Mobile",
       "Phosh"
     ],
-    "url": "https://mobian-project.org/"
-  },
-  {
-    "name": "spirit OS",
-    "basedOn": "Tiny Core",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Old Computers"
-    ],
-    "desktop": [
-      "IceWM"
-    ],
-    "url": "https://spirit-os.sourceforge.io/"
-  },
-  {
-    "name": "Daphile",
-    "basedOn": "Gentoo",
-    "categories": [
-      "Live Medium",
-      "Multimedia"
-    ],
-    "desktop": [
-      "No Desktop",
-      "WebUI"
-    ],
-    "url": "https://www.daphile.com/"
+    "url": "https://mobian-project.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/mobian.png"
   },
   {
     "name": "Redcore",
@@ -3627,7 +3842,49 @@
       "LXQt",
       "Qtile"
     ],
-    "url": "https://redcorelinux.org/"
+    "url": "https://redcorelinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/redcore.png"
+  },
+  {
+    "name": "spirit OS",
+    "basedOn": "Tiny Core",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": [
+      "IceWM"
+    ],
+    "url": "https://spirit-os.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/spirit.png"
+  },
+  {
+    "name": "Daphile",
+    "basedOn": "Gentoo",
+    "categories": [
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "No Desktop",
+      "WebUI"
+    ],
+    "url": "https://www.daphile.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/daphile.png"
+  },
+  {
+    "name": "Netrunner",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://www.netrunner.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/netrunner.png"
   },
   {
     "name": "Vinari",
@@ -3640,7 +3897,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://vinarios.me/"
+    "url": "https://vinarios.me/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/vinari.png"
   },
   {
     "name": "Aeon",
@@ -3653,7 +3911,21 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://aeondesktop.org/"
+    "url": "https://aeondesktop.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/aeon.png"
+  },
+  {
+    "name": "arcOS",
+    "basedOn": "Debian",
+    "categories": [
+      "Live Medium",
+      "Specialist"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://arcos-linux.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/arcos.png"
   },
   {
     "name": "Berry",
@@ -3665,7 +3937,8 @@
     "desktop": [
       "LXDE"
     ],
-    "url": "http://berry-lab.net/berry.html"
+    "url": "http://berry-lab.net/berry.html",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/berry.png"
   },
   {
     "name": "NethServer",
@@ -3677,7 +3950,8 @@
       "No Desktop",
       "WebUI"
     ],
-    "url": "https://www.nethserver.org/"
+    "url": "https://www.nethserver.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/nethserver.png"
   },
   {
     "name": "Vipnix",
@@ -3689,7 +3963,8 @@
     "desktop": [
       "LXQt"
     ],
-    "url": "https://vipnix.com.br/site/livecd-vipnix/"
+    "url": "https://vipnix.com.br/site/livecd-vipnix/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/vipnix.png"
   },
   {
     "name": "Adélie",
@@ -3705,19 +3980,8 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://www.adelielinux.org/"
-  },
-  {
-    "name": "arcOS",
-    "basedOn": "Debian",
-    "categories": [
-      "Live Medium",
-      "Specialist"
-    ],
-    "desktop": [
-      "Cinnamon"
-    ],
-    "url": "https://arcos-linux.com/"
+    "url": "https://www.adelielinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/adelie.png"
   },
   {
     "name": "GuideOS",
@@ -3730,7 +3994,8 @@
     "desktop": [
       "Cinnamon"
     ],
-    "url": "https://guideos.de/"
+    "url": "https://guideos.de/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/guideos.png"
   },
   {
     "name": "Luberri",
@@ -3743,7 +4008,8 @@
     "desktop": [
       "Cinnamon"
     ],
-    "url": "https://luberrilinux.eus/"
+    "url": "https://luberrilinux.eus/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/luberri.png"
   },
   {
     "name": "Plamo",
@@ -3759,7 +4025,36 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://www.plamolinux.org/"
+    "url": "https://www.plamolinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/plamo.png"
+  },
+  {
+    "name": "Recalbox",
+    "basedOn": "Independent",
+    "categories": [
+      "Gaming",
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://www.recalbox.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/recalbox.png"
+  },
+  {
+    "name": "Tsurugi",
+    "basedOn": "Debian",
+    "categories": [
+      "Forensics",
+      "Live DVD",
+      "Security"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "https://tsurugi-linux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/tsurugi.png"
   },
   {
     "name": "Parted Magic",
@@ -3773,104 +4068,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://partedmagic.com/"
-  },
-  {
-    "name": "Recalbox",
-    "basedOn": "Independent",
-    "categories": [
-      "Gaming",
-      "Live Medium",
-      "Multimedia"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "https://www.recalbox.com/"
-  },
-  {
-    "name": "Refracta",
-    "basedOn": "Debian",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://refracta.org/"
-  },
-  {
-    "name": "Tsurugi",
-    "basedOn": "Debian",
-    "categories": [
-      "Forensics",
-      "Live DVD",
-      "Security"
-    ],
-    "desktop": [
-      "MATE"
-    ],
-    "url": "https://tsurugi-linux.org/"
-  },
-  {
-    "name": "Unraid",
-    "basedOn": "Independent",
-    "categories": [
-      "Server"
-    ],
-    "desktop": [
-      "WebUI"
-    ],
-    "url": "https://unraid.net/"
-  },
-  {
-    "name": "BSDRP",
-    "basedOn": "FreeBSD",
-    "categories": [
-      "Firewall",
-      "Router"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "http://bsdrp.net/"
-  },
-  {
-    "name": "ElysiaOS",
-    "basedOn": "Arch",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Hyprland"
-    ],
-    "url": "https://www.elysiaos.live/"
-  },
-  {
-    "name": "FuguIta",
-    "basedOn": "OpenBSD",
-    "categories": [
-      "Live Medium"
-    ],
-    "desktop": [
-      "Fvwm"
-    ],
-    "url": "https://fuguita.org/"
-  },
-  {
-    "name": "Kamarada",
-    "basedOn": "openSUSE",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Server"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "https://linuxkamarada.com/"
+    "url": "https://partedmagic.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/partedmagic.png"
   },
   {
     "name": "RED OS",
@@ -3885,7 +4084,99 @@
       "KDE Plasma",
       "MATE"
     ],
-    "url": "https://redos.red-soft.ru/product/red-os/"
+    "url": "https://redos.red-soft.ru/product/red-os/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/redos.png"
+  },
+  {
+    "name": "Refracta",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://refracta.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/refracta.png"
+  },
+  {
+    "name": "Unraid",
+    "basedOn": "Independent",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "WebUI"
+    ],
+    "url": "https://unraid.net/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/unraid.png"
+  },
+  {
+    "name": "BSDRP",
+    "basedOn": "FreeBSD",
+    "categories": [
+      "Firewall",
+      "Router"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "http://bsdrp.net/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/bsdrp.png"
+  },
+  {
+    "name": "ElysiaOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Hyprland"
+    ],
+    "url": "https://www.elysiaos.live/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/elysiaos.png"
+  },
+  {
+    "name": "FuguIta",
+    "basedOn": "OpenBSD",
+    "categories": [
+      "Live Medium"
+    ],
+    "desktop": [
+      "Fvwm"
+    ],
+    "url": "https://fuguita.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/fuguita.png"
+  },
+  {
+    "name": "Kamarada",
+    "basedOn": "openSUSE",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://linuxkamarada.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/kamarada.png"
+  },
+  {
+    "name": "StartOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Kiosk",
+      "Raspberry Pi",
+      "Server"
+    ],
+    "desktop": [
+      "Firefox"
+    ],
+    "url": "https://github.com/Start9Labs/start-os",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/startos.png"
   },
   {
     "name": "Finnix",
@@ -3897,20 +4188,8 @@
     "desktop": [
       "No Desktop"
     ],
-    "url": "https://www.finnix.org/"
-  },
-  {
-    "name": "GoboLinux",
-    "basedOn": "Independent",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Source-based"
-    ],
-    "desktop": [
-      "Awesome"
-    ],
-    "url": "https://www.gobolinux.org/"
+    "url": "https://www.finnix.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/finnix.png"
   },
   {
     "name": "Zenwalk",
@@ -3922,7 +4201,8 @@
       "labwc",
       "Xfce"
     ],
-    "url": "http://www.zenwalk.org/"
+    "url": "http://www.zenwalk.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/zenwalk.png"
   },
   {
     "name": "AOSC",
@@ -3934,7 +4214,8 @@
       "KDE Plasma",
       "MATE"
     ],
-    "url": "https://aosc.io/"
+    "url": "https://aosc.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/aosc.png"
   },
   {
     "name": "Lilidog",
@@ -3949,7 +4230,8 @@
       "Openbox",
       "Sway"
     ],
-    "url": "https://sourceforge.net/projects/lilidog/"
+    "url": "https://sourceforge.net/projects/lilidog/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/lilidog.png"
   },
   {
     "name": "PrismLinux",
@@ -3968,7 +4250,8 @@
       "River",
       "Sway"
     ],
-    "url": "https://www.prismlinux.org/"
+    "url": "https://www.prismlinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/prismlinux.png"
   },
   {
     "name": "Slint",
@@ -3983,20 +4266,8 @@
       "MATE",
       "Openbox"
     ],
-    "url": "https://slint.fr/en/home.html"
-  },
-  {
-    "name": "StartOS",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Kiosk",
-      "Raspberry Pi",
-      "Server"
-    ],
-    "desktop": [
-      "Firefox"
-    ],
-    "url": "https://github.com/Start9Labs/start-os"
+    "url": "https://slint.fr/en/home.html",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/slint.png"
   },
   {
     "name": "Bedrock",
@@ -4007,7 +4278,8 @@
     "desktop": [
       "No Desktop"
     ],
-    "url": "https://bedrocklinux.org/"
+    "url": "https://bedrocklinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/bedrock.png"
   },
   {
     "name": "Crunchbangplusplus",
@@ -4019,7 +4291,22 @@
     "desktop": [
       "Openbox"
     ],
-    "url": "https://www.crunchbangplusplus.org/"
+    "url": "https://www.crunchbangplusplus.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/cbpp.png"
+  },
+  {
+    "name": "GoboLinux",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Source-based"
+    ],
+    "desktop": [
+      "Awesome"
+    ],
+    "url": "https://www.gobolinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/gobo.png"
   },
   {
     "name": "MAX",
@@ -4032,7 +4319,8 @@
     "desktop": [
       "MATE"
     ],
-    "url": "https://www.educa2.madrid.org/web/max/inicio"
+    "url": "https://www.educa2.madrid.org/web/max/inicio",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/max.png"
   },
   {
     "name": "Parch",
@@ -4046,7 +4334,8 @@
       "KDE Plasma",
       "Xfce"
     ],
-    "url": "https://parchlinux.com/"
+    "url": "https://parchlinux.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/parch.png"
   },
   {
     "name": "Shebang",
@@ -4058,7 +4347,8 @@
     "desktop": [
       "Openbox"
     ],
-    "url": "https://shebang-linux.github.io/"
+    "url": "https://shebang-linux.github.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/shebang.png"
   },
   {
     "name": "SolydXK",
@@ -4071,7 +4361,8 @@
       "KDE",
       "Xfce"
     ],
-    "url": "https://solydxk.com/"
+    "url": "https://solydxk.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/solydxk.png"
   },
   {
     "name": "CAINE",
@@ -4083,7 +4374,8 @@
     "desktop": [
       "MATE"
     ],
-    "url": "https://www.caine-live.net/"
+    "url": "https://www.caine-live.net/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/caine.png"
   },
   {
     "name": "Flatcar",
@@ -4097,20 +4389,8 @@
     "desktop": [
       "No Desktop"
     ],
-    "url": "https://www.flatcar.org/"
-  },
-  {
-    "name": "Netrunner",
-    "basedOn": "Debian",
-    "categories": [
-      "Beginners",
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "https://www.netrunner.com/"
+    "url": "https://www.flatcar.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/flatcar.png"
   },
   {
     "name": "RebeccaBlackOS",
@@ -4129,7 +4409,8 @@
       "Wayfire",
       "Xfce"
     ],
-    "url": "https://sourceforge.net/projects/rebeccablackos/"
+    "url": "https://sourceforge.net/projects/rebeccablackos/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/rebeccablackos.png"
   },
   {
     "name": "XigmaNAS",
@@ -4141,7 +4422,32 @@
       "No Desktop",
       "WebUI"
     ],
-    "url": "https://www.xigmanas.com/"
+    "url": "https://www.xigmanas.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/xigmanas.png"
+  },
+  {
+    "name": "Kamuriki",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop"
+    ],
+    "desktop": [
+      "LXQt"
+    ],
+    "url": "https://w.atwiki.jp/kamurikilinux/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/kamuriki.png"
+  },
+  {
+    "name": "3CX",
+    "basedOn": "Debian",
+    "categories": [
+      "Telephony"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "http://www.3cx.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/3cx.png"
   },
   {
     "name": "DynFi",
@@ -4153,29 +4459,8 @@
     "desktop": [
       "WebUI"
     ],
-    "url": "https://dynfi.com/en/dynfi-firewall/"
-  },
-  {
-    "name": "3CX",
-    "basedOn": "Debian",
-    "categories": [
-      "Telephony"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "http://www.3cx.com/"
-  },
-  {
-    "name": "Kamuriki",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Desktop"
-    ],
-    "desktop": [
-      "LXQt"
-    ],
-    "url": "https://w.atwiki.jp/kamurikilinux/"
+    "url": "https://dynfi.com/en/dynfi-firewall/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/dynfi.png"
   },
   {
     "name": "LazyLinux",
@@ -4187,113 +4472,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://lazylinuxos.github.io/"
-  },
-  {
-    "name": "Quarkos",
-    "basedOn": "Ubuntu (LTS)",
-    "categories": [
-      "Live Medium",
-      "Desktop",
-      "Old Computers"
-    ],
-    "desktop": [
-      "KDE Plasma",
-      "Trinity"
-    ],
-    "url": "https://quark-os.sourceforge.io/"
-  },
-  {
-    "name": "Solaris",
-    "basedOn": "Independent",
-    "categories": [
-      "Server",
-      "UNIX"
-    ],
-    "desktop": [
-      "AfterStep",
-      "GNOME",
-      "KDE",
-      "WMaker",
-      "Xfce"
-    ],
-    "url": "https://www.oracle.com/technetwork/server-storage/solaris11/overview/"
-  },
-  {
-    "name": "Accessible-Coconut",
-    "basedOn": "Debian",
-    "categories": [
-      "Live Medium",
-      "Specialist"
-    ],
-    "desktop": [
-      "MATE"
-    ],
-    "url": "https://zendalona.com/accessible-coconut/"
-  },
-  {
-    "name": "ATZ Linux",
-    "basedOn": "Debian",
-    "categories": [
-      "Desktop"
-    ],
-    "desktop": [
-      "GNOME",
-      "KDE Plasma",
-      "MATE",
-      "Xfce"
-    ],
-    "url": "https://www.atzlinux.com/"
-  },
-  {
-    "name": "DebLight",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Multimedia"
-    ],
-    "desktop": [
-      "LXDE"
-    ],
-    "url": "https://deblight.infos.st/"
-  },
-  {
-    "name": "Kumander",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://www.kumander.org/"
-  },
-  {
-    "name": "Live Raizo",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Live Medium",
-      "Specialist"
-    ],
-    "desktop": [
-      "Fluxbox"
-    ],
-    "url": "https://sourceforge.net/projects/live-raizo/"
-  },
-  {
-    "name": "Pentoo",
-    "basedOn": "Gentoo",
-    "categories": [
-      "Forensics",
-      "Live Medium",
-      "Security"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://www.pentoo.ch/"
+    "url": "https://lazylinuxos.github.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/lazylinux.png"
   },
   {
     "name": "Predator-OS",
@@ -4311,7 +4491,122 @@
       "LXQt",
       "MATE"
     ],
-    "url": "https://predator-os.ir/"
+    "url": "https://predator-os.ir/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/predator.png"
+  },
+  {
+    "name": "Quarkos",
+    "basedOn": "Ubuntu (LTS)",
+    "categories": [
+      "Live Medium",
+      "Desktop",
+      "Old Computers"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "Trinity"
+    ],
+    "url": "https://quark-os.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/quarkos.png"
+  },
+  {
+    "name": "Solaris",
+    "basedOn": "Independent",
+    "categories": [
+      "Server",
+      "UNIX"
+    ],
+    "desktop": [
+      "AfterStep",
+      "GNOME",
+      "KDE",
+      "WMaker",
+      "Xfce"
+    ],
+    "url": "https://www.oracle.com/technetwork/server-storage/solaris11/overview/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/solaris.png"
+  },
+  {
+    "name": "Accessible-Coconut",
+    "basedOn": "Debian",
+    "categories": [
+      "Live Medium",
+      "Specialist"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "https://zendalona.com/accessible-coconut/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ac.png"
+  },
+  {
+    "name": "ATZ Linux",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://www.atzlinux.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/atz.png"
+  },
+  {
+    "name": "DebLight",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "LXDE"
+    ],
+    "url": "https://deblight.infos.st/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/deblight.png"
+  },
+  {
+    "name": "Kumander",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://www.kumander.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/kumander.png"
+  },
+  {
+    "name": "Live Raizo",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Live Medium",
+      "Specialist"
+    ],
+    "desktop": [
+      "Fluxbox"
+    ],
+    "url": "https://sourceforge.net/projects/live-raizo/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/liveraizo.png"
+  },
+  {
+    "name": "Pentoo",
+    "basedOn": "Gentoo",
+    "categories": [
+      "Forensics",
+      "Live Medium",
+      "Security"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://www.pentoo.ch/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/pentoo.png"
   },
   {
     "name": "Snal",
@@ -4325,7 +4620,8 @@
     "desktop": [
       "i3"
     ],
-    "url": "https://snallinux.sourceforge.io/"
+    "url": "https://snallinux.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/snal.png"
   },
   {
     "name": "Asahi",
@@ -4337,7 +4633,8 @@
       "GNOME",
       "KDE Plasma"
     ],
-    "url": "https://asahilinux.org/"
+    "url": "https://asahilinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/asahi.png"
   },
   {
     "name": "Clear NDR",
@@ -4349,7 +4646,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://www.stamus-networks.com/clear-ndr-community"
+    "url": "https://www.stamus-networks.com/clear-ndr-community",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/clearndr.png"
   },
   {
     "name": "ML4W",
@@ -4361,7 +4659,8 @@
     "desktop": [
       "Hyprland"
     ],
-    "url": "https://ml4w.com/os/"
+    "url": "https://ml4w.com/os/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ml4w.png"
   },
   {
     "name": "NST",
@@ -4376,7 +4675,8 @@
       "MATE",
       "Openbox"
     ],
-    "url": "https://www.networksecuritytoolkit.org/"
+    "url": "https://www.networksecuritytoolkit.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/nst.png"
   },
   {
     "name": "Skywave",
@@ -4389,7 +4689,8 @@
     "desktop": [
       "dwm"
     ],
-    "url": "https://skywavelinux.com/"
+    "url": "https://skywavelinux.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/skywave.png"
   },
   {
     "name": "TeaLinux",
@@ -4402,7 +4703,8 @@
       "COSMIC",
       "KDE Plasma"
     ],
-    "url": "https://tealinuxos.org/"
+    "url": "https://tealinuxos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/tealinux.png"
   },
   {
     "name": "Ubuntu Pack",
@@ -4423,7 +4725,8 @@
       "Unity",
       "Xfce"
     ],
-    "url": "https://ualinux.com/en/ubuntu-oem"
+    "url": "https://ualinux.com/en/ubuntu-oem",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ubuntudp.png"
   },
   {
     "name": "Zentyal",
@@ -4435,7 +4738,8 @@
     "desktop": [
       "WebUI"
     ],
-    "url": "https://www.zentyal.org/"
+    "url": "https://www.zentyal.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/zentyal.png"
   },
   {
     "name": "DEKUVE",
@@ -4447,7 +4751,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://dekuve.top/"
+    "url": "https://dekuve.top/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/dekuve.png"
   },
   {
     "name": "XeroLinux",
@@ -4459,7 +4764,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://xerolinux.xyz/"
+    "url": "https://xerolinux.xyz/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/xero.png"
   },
   {
     "name": "LinuxCNC",
@@ -4472,7 +4778,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://www.linuxcnc.org/"
+    "url": "https://www.linuxcnc.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/linuxcnc.png"
   },
   {
     "name": "LinuxConsole",
@@ -4486,7 +4793,8 @@
     "desktop": [
       "MATE"
     ],
-    "url": "https://www.linuxconsole.org/"
+    "url": "https://www.linuxconsole.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/linuxconsole.png"
   },
   {
     "name": "LliureX",
@@ -4501,7 +4809,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "http://www.lliurex.net/"
+    "url": "http://www.lliurex.net/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/lliurex.png"
   },
   {
     "name": "Macaroni",
@@ -4519,7 +4828,8 @@
       "LXQt",
       "Xfce"
     ],
-    "url": "https://www.macaronios.org/"
+    "url": "https://www.macaronios.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/macaroni.png"
   },
   {
     "name": "Vine",
@@ -4531,7 +4841,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "http://www.vinelinux.org/"
+    "url": "http://www.vinelinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/vine.png"
   },
   {
     "name": "AcreetionOS",
@@ -4544,7 +4855,8 @@
       "Cinnamon",
       "GNOME"
     ],
-    "url": "https://acreetionos.org/"
+    "url": "https://acreetionos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/acreetionos.png"
   },
   {
     "name": "KANOTIX",
@@ -4558,46 +4870,25 @@
       "KDE",
       "LXDE"
     ],
-    "url": "http://kanotix.com/"
+    "url": "http://kanotix.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/kanotix.png"
   },
   {
-    "name": "OsoLinux",
-    "basedOn": "Fedora",
+    "name": "Flora",
+    "basedOn": "Debian (Stable)",
     "categories": [
       "Desktop",
-      "Live Medium",
-      "Multimedia"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "https://oso.sourceforge.io/"
-  },
-  {
-    "name": "Runtu",
-    "basedOn": "Debian",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Netbooks"
-    ],
-    "desktop": [
-      "KDE Plasma",
-      "LXDE"
-    ],
-    "url": "http://www.runtu.org/"
-  },
-  {
-    "name": "UOS",
-    "basedOn": "Debian",
-    "categories": [
-      "Desktop",
+      "Free Software",
       "Live Medium"
     ],
     "desktop": [
-      "Deepin"
+      "Cinnamon",
+      "GNOME",
+      "MATE",
+      "Xfce"
     ],
-    "url": "https://www.chinauos.com/"
+    "url": "https://flora-linux-libre.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/flora.png"
   },
   {
     "name": "gabeeOSLinux",
@@ -4612,7 +4903,50 @@
       "Openbox",
       "Qtile"
     ],
-    "url": "https://gabeeoslinux.sourceforge.io/"
+    "url": "https://gabeeoslinux.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/gabee.png"
+  },
+  {
+    "name": "OsoLinux",
+    "basedOn": "Fedora",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Multimedia"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://oso.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/osolinux.png"
+  },
+  {
+    "name": "Runtu",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Netbooks"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "LXDE"
+    ],
+    "url": "http://www.runtu.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/runtu.png"
+  },
+  {
+    "name": "UOS",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Deepin"
+    ],
+    "url": "https://www.chinauos.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/uos.png"
   },
   {
     "name": "NethSecurity",
@@ -4624,7 +4958,8 @@
       "No Desktop",
       "WebUI"
     ],
-    "url": "https://nethsecurity.org/"
+    "url": "https://nethsecurity.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/nethsecurity.png"
   },
   {
     "name": "pfSense",
@@ -4637,7 +4972,8 @@
       "No Desktop",
       "WebUI"
     ],
-    "url": "https://www.pfsense.org/"
+    "url": "https://www.pfsense.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/pfsense.png"
   },
   {
     "name": "Rockstor",
@@ -4649,7 +4985,8 @@
       "No Desktop",
       "WebUI"
     ],
-    "url": "http://rockstor.com/"
+    "url": "http://rockstor.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/rockstor.png"
   },
   {
     "name": "secureblue",
@@ -4665,7 +5002,8 @@
       "KDE Plasma",
       "Sway"
     ],
-    "url": "https://secureblue.dev/"
+    "url": "https://secureblue.dev/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/secureblue.png"
   },
   {
     "name": "TileOS",
@@ -4681,7 +5019,8 @@
       "River",
       "Sway"
     ],
-    "url": "https://tile-os.com/"
+    "url": "https://tile-os.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/tileos.png"
   },
   {
     "name": "Ximper",
@@ -4695,7 +5034,8 @@
       "Hyprland",
       "Sway"
     ],
-    "url": "https://ximperlinux.ru/"
+    "url": "https://ximperlinux.ru/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ximper.png"
   },
   {
     "name": "Zenclora",
@@ -4707,7 +5047,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://zenclora.org/"
+    "url": "https://zenclora.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/zenclora.png"
   },
   {
     "name": "AlterOS",
@@ -4719,7 +5060,8 @@
     "desktop": [
       "Cinnamon"
     ],
-    "url": "https://alter-os.ru/"
+    "url": "https://alter-os.ru/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/alteros.png"
   },
   {
     "name": "Fatdog64",
@@ -4732,7 +5074,8 @@
       "labwc",
       "Openbox"
     ],
-    "url": "https://distro.ibiblio.org/fatdog/web/"
+    "url": "https://distro.ibiblio.org/fatdog/web/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/fatdog.png"
   },
   {
     "name": "Noid",
@@ -4746,7 +5089,8 @@
       "KDE Plasma",
       "Xfce"
     ],
-    "url": "https://sourceforge.net/projects/noid-linux/"
+    "url": "https://sourceforge.net/projects/noid-linux/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/noid.png"
   },
   {
     "name": "PelicanHPC",
@@ -4760,7 +5104,8 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://sourceforge.net/projects/pelicanhpc/"
+    "url": "https://sourceforge.net/projects/pelicanhpc/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/pelicanhpc.png"
   },
   {
     "name": "Planeta Tecno",
@@ -4773,7 +5118,8 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://planetatecno.com.uy/planeta/"
+    "url": "https://planetatecno.com.uy/planeta/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/planetatecno.png"
   },
   {
     "name": "Porteus Kiosk",
@@ -4785,7 +5131,8 @@
     "desktop": [
       "Firefox"
     ],
-    "url": "http://porteus-kiosk.org/"
+    "url": "http://porteus-kiosk.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/porteuskiosk.png"
   },
   {
     "name": "StratOS",
@@ -4799,7 +5146,8 @@
       "Hyprland",
       "niri"
     ],
-    "url": "https://stratos-linux.org/"
+    "url": "https://stratos-linux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/stratos.png"
   },
   {
     "name": "Ventoy",
@@ -4811,7 +5159,8 @@
     "desktop": [
       "Openbox"
     ],
-    "url": "https://www.ventoy.net/en/doc_livecd.html"
+    "url": "https://www.ventoy.net/en/doc_livecd.html",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ventoy.png"
   },
   {
     "name": "Berserk Arch",
@@ -4824,7 +5173,8 @@
     "desktop": [
       "Openbox"
     ],
-    "url": "https://berserkarch.xyz/"
+    "url": "https://berserkarch.xyz/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/berserkarch.png"
   },
   {
     "name": "Exherbo",
@@ -4844,7 +5194,8 @@
       "Wayfire",
       "Xfce"
     ],
-    "url": "https://exherbolinux.org/"
+    "url": "https://exherbolinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/exherbo.png"
   },
   {
     "name": "Origami",
@@ -4856,7 +5207,8 @@
     "desktop": [
       "COSMIC"
     ],
-    "url": "https://origami.wf/"
+    "url": "https://origami.wf/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/origami.png"
   },
   {
     "name": "PLD",
@@ -4876,7 +5228,8 @@
       "Wayfire",
       "Xfce"
     ],
-    "url": "http://pld-linux.org/"
+    "url": "http://pld-linux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/pld.png"
   },
   {
     "name": "Zenned",
@@ -4888,7 +5241,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://zenned.gitlab.io/"
+    "url": "https://zenned.gitlab.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/zenned.png"
   },
   {
     "name": "Archriot",
@@ -4899,7 +5253,8 @@
     "desktop": [
       "Hyprland"
     ],
-    "url": "https://archriot.org/"
+    "url": "https://archriot.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/archriot.png"
   },
   {
     "name": "Astra",
@@ -4913,23 +5268,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://astralinux.ru/"
-  },
-  {
-    "name": "Flora",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Desktop",
-      "Free Software",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Cinnamon",
-      "GNOME",
-      "MATE",
-      "Xfce"
-    ],
-    "url": "https://flora-linux-libre.sourceforge.io/"
+    "url": "https://astralinux.ru/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/astra.png"
   },
   {
     "name": "Quirinux",
@@ -4942,7 +5282,83 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://quirinux.org/"
+    "url": "https://quirinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/quirinux.png"
+  },
+  {
+    "name": "Blade",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://bladeos.xyz/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/blade.png"
+  },
+  {
+    "name": "Ditana",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Server"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://ditana.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ditana.png"
+  },
+  {
+    "name": "HamoniKR",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://hamonikr.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/hamonikr.png"
+  },
+  {
+    "name": "OmniOS",
+    "basedOn": "OpenSolaris",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://omnios.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/omnios.png"
+  },
+  {
+    "name": "OSMC",
+    "basedOn": "Debian",
+    "categories": [
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Kodi"
+    ],
+    "url": "https://osmc.tv/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/osmc.png"
+  },
+  {
+    "name": "RISC",
+    "basedOn": "Independent",
+    "categories": [
+      "Raspberry Pi"
+    ],
+    "desktop": [
+      "Pinboard"
+    ],
+    "url": "https://www.riscosopen.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/risc.png"
   },
   {
     "name": "Secure-K",
@@ -4955,65 +5371,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://github.com/LumIT-Labs/open-securekos"
-  },
-  {
-    "name": "Blade",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "GNOME"
-    ],
-    "url": "https://bladeos.xyz/"
-  },
-  {
-    "name": "Ditana",
-    "basedOn": "Arch",
-    "categories": [
-      "Desktop",
-      "Server"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://ditana.org/"
-  },
-  {
-    "name": "HamoniKR",
-    "basedOn": "Debian",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Cinnamon"
-    ],
-    "url": "https://hamonikr.org/"
-  },
-  {
-    "name": "OSMC",
-    "basedOn": "Debian",
-    "categories": [
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "Kodi"
-    ],
-    "url": "https://osmc.tv/"
-  },
-  {
-    "name": "RISC",
-    "basedOn": "Independent",
-    "categories": [
-      "Raspberry Pi"
-    ],
-    "desktop": [
-      "Pinboard"
-    ],
-    "url": "https://www.riscosopen.org/"
+    "url": "https://github.com/LumIT-Labs/open-securekos",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/securek.png"
   },
   {
     "name": "Super Grub2",
@@ -5026,7 +5385,8 @@
     "desktop": [
       ""
     ],
-    "url": "https://www.supergrubdisk.org/super-grub2-disk/"
+    "url": "https://www.supergrubdisk.org/super-grub2-disk/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/supergrub.png"
   },
   {
     "name": "Koozali",
@@ -5038,18 +5398,8 @@
       "No Desktop",
       "WebUI"
     ],
-    "url": "https://www.koozali.org/"
-  },
-  {
-    "name": "OmniOS",
-    "basedOn": "OpenSolaris",
-    "categories": [
-      "Server"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "https://omnios.org/"
+    "url": "https://www.koozali.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/koozali.png"
   },
   {
     "name": "paldo",
@@ -5063,7 +5413,8 @@
       "IceWM",
       "Xfce"
     ],
-    "url": "https://www.paldo.org/"
+    "url": "https://www.paldo.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/paldo.png"
   },
   {
     "name": "Escuelas",
@@ -5075,7 +5426,8 @@
     "desktop": [
       "Moksha (Enlightenment)"
     ],
-    "url": "https://escuelaslinux.sourceforge.io/"
+    "url": "https://escuelaslinux.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/escuelas.png"
   },
   {
     "name": "Essora",
@@ -5091,7 +5443,8 @@
       "LXDE",
       "Openbox"
     ],
-    "url": "https://essora.sourceforge.io/"
+    "url": "https://essora.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/essora.png"
   },
   {
     "name": "Helwan",
@@ -5106,7 +5459,8 @@
       "GNOME",
       "Xfce"
     ],
-    "url": "https://helwan-linux.github.io/helwanlinux/"
+    "url": "https://helwan-linux.github.io/helwanlinux/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/helwan.png"
   },
   {
     "name": "Uncom",
@@ -5118,7 +5472,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://uncom.tech/"
+    "url": "https://uncom.tech/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/uncom.png"
   },
   {
     "name": "AnuBitux",
@@ -5130,7 +5485,8 @@
     "desktop": [
       "Cinnamon"
     ],
-    "url": "https://anubitux.org/"
+    "url": "https://anubitux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/anubitux.png"
   },
   {
     "name": "Catbird",
@@ -5142,7 +5498,8 @@
     "desktop": [
       "dwm"
     ],
-    "url": "https://catbirdlinux.com/"
+    "url": "https://catbirdlinux.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/catbird.png"
   },
   {
     "name": "mAid",
@@ -5154,7 +5511,8 @@
     "desktop": [
       "Budgie"
     ],
-    "url": "https://maid.binbash.rocks/"
+    "url": "https://maid.binbash.rocks/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/maid.png"
   },
   {
     "name": "nakeDeb",
@@ -5167,7 +5525,8 @@
       "i3",
       "Fluxbox"
     ],
-    "url": "https://nakedeb.arpinux.org/"
+    "url": "https://nakedeb.arpinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/nakedeb.png"
   },
   {
     "name": "rlxos",
@@ -5180,7 +5539,8 @@
       "labwc",
       "Xfce"
     ],
-    "url": "https://rlxos.dev/"
+    "url": "https://rlxos.dev/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/rlxos.png"
   },
   {
     "name": "Salix",
@@ -5192,7 +5552,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "http://www.salixos.org/"
+    "url": "http://www.salixos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/salix.png"
   },
   {
     "name": "TTOS",
@@ -5204,7 +5565,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://www.ttoslinux.org/"
+    "url": "https://www.ttoslinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ttos.png"
   },
   {
     "name": "AçorOS",
@@ -5219,7 +5581,8 @@
       "Openbox",
       "Xfce"
     ],
-    "url": "https://sourceforge.net/projects/acor-os/"
+    "url": "https://sourceforge.net/projects/acor-os/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/acoros.png"
   },
   {
     "name": "AfagOS",
@@ -5231,7 +5594,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://sourceforge.net/projects/afagos/"
+    "url": "https://sourceforge.net/projects/afagos/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/afagos.png"
   },
   {
     "name": "Fluff",
@@ -5243,7 +5607,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://flufflinux.com/"
+    "url": "https://flufflinux.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/fluff.png"
   },
   {
     "name": "Milis",
@@ -5255,7 +5620,8 @@
     "desktop": [
       "labwc"
     ],
-    "url": "https://mls.akdeniz.edu.tr/"
+    "url": "https://mls.akdeniz.edu.tr/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/milis.png"
   },
   {
     "name": "PelandukOS",
@@ -5268,7 +5634,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://pelandukos.tunnelbiz.com/"
+    "url": "https://pelandukos.tunnelbiz.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/pelandukos.png"
   },
   {
     "name": "Thinstation",
@@ -5279,7 +5646,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://www.thinstation.org/"
+    "url": "https://www.thinstation.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/thinstation.png"
   },
   {
     "name": "Vincent",
@@ -5291,7 +5659,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://vincent-os.v38armageddon.net/"
+    "url": "https://vincent-os.v38armageddon.net/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/vincent.png"
   },
   {
     "name": "YunoHost",
@@ -5303,7 +5672,8 @@
       "No Desktop",
       "WebUI"
     ],
-    "url": "https://yunohost.org/"
+    "url": "https://yunohost.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/yunohost.png"
   },
   {
     "name": "BRGV-OS",
@@ -5315,7 +5685,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://github.com/florintanasa/brgvos-void/"
+    "url": "https://github.com/florintanasa/brgvos-void/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/brgv.png"
   },
   {
     "name": "DAT",
@@ -5328,7 +5699,8 @@
     "desktop": [
       "LXQt"
     ],
-    "url": "https://datlinux.com/"
+    "url": "https://datlinux.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/datlinux.png"
   },
   {
     "name": "Green",
@@ -5342,7 +5714,8 @@
       "Cinnamon",
       "Xfce"
     ],
-    "url": "https://greenlinux.ru/"
+    "url": "https://greenlinux.ru/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/green.png"
   },
   {
     "name": "Lernstick",
@@ -5361,7 +5734,8 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://www.lernstick.ch/"
+    "url": "https://www.lernstick.ch/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/lernstick.png"
   },
   {
     "name": "Xebian",
@@ -5373,7 +5747,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://xebian.org/"
+    "url": "https://xebian.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/xebian.png"
   },
   {
     "name": "Linux Schools",
@@ -5385,7 +5760,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://www.linuxschools.com/"
+    "url": "https://www.linuxschools.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/linuxschools.png"
   },
   {
     "name": "OSGeoLive",
@@ -5397,7 +5773,8 @@
     "desktop": [
       "LXQt"
     ],
-    "url": "https://live.osgeo.org/"
+    "url": "https://live.osgeo.org/",
+    "logo": null
   },
   {
     "name": "PrimTux",
@@ -5410,18 +5787,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://primtux.fr/"
-  },
-  {
-    "name": "TurnKey",
-    "basedOn": "Debian",
-    "categories": [
-      "Server"
-    ],
-    "desktop": [
-      "No Desktop"
-    ],
-    "url": "http://www.turnkeylinux.org/"
+    "url": "https://primtux.fr/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/primtux.png"
   },
   {
     "name": "UBOS",
@@ -5433,7 +5800,8 @@
     "desktop": [
       "No Desktop"
     ],
-    "url": "http://ubos.net/"
+    "url": "http://ubos.net/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ubos.png"
   },
   {
     "name": "LangitKetujuh",
@@ -5446,7 +5814,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://langitketujuh.id/"
+    "url": "https://langitketujuh.id/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/langitketujuh.png"
   },
   {
     "name": "LxPup",
@@ -5461,7 +5830,8 @@
       "LXDE",
       "Openbox"
     ],
-    "url": "https://lx-pup.weebly.com/"
+    "url": "https://lx-pup.weebly.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/lxpup.png"
   },
   {
     "name": "NexentaStor",
@@ -5473,7 +5843,8 @@
     "desktop": [
       "No Desktop"
     ],
-    "url": "https://nexenta.com/products/nexentastor"
+    "url": "https://nexenta.com/products/nexentastor",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/nexentastor.png"
   },
   {
     "name": "Smoothwall",
@@ -5485,7 +5856,8 @@
       "No Desktop",
       "WebUI"
     ],
-    "url": "http://community.smoothwall.org/forum/"
+    "url": "http://community.smoothwall.org/forum/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/smoothwall.png"
   },
   {
     "name": "TobbeOS",
@@ -5496,7 +5868,20 @@
     "desktop": [
       "Qtile"
     ],
-    "url": "https://tobbeos.lysakermoen.com/"
+    "url": "https://tobbeos.lysakermoen.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/tobbeos.png"
+  },
+  {
+    "name": "TurnKey",
+    "basedOn": "Debian",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "http://www.turnkeylinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/turnkey.png"
   },
   {
     "name": "Ubuntu Sway",
@@ -5509,7 +5894,8 @@
     "desktop": [
       "Sway"
     ],
-    "url": "https://ubuntusway.com/"
+    "url": "https://ubuntusway.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ubuntusway.png"
   },
   {
     "name": "Vitalinux",
@@ -5522,7 +5908,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://docs.vitalinux.educa.aragon.es/"
+    "url": "https://docs.vitalinux.educa.aragon.es/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/vitalinux.png"
   },
   {
     "name": "Bicom",
@@ -5534,7 +5921,8 @@
       "No Desktop",
       "WebUI"
     ],
-    "url": "https://www.bicomsystems.com/products/serverware/"
+    "url": "https://www.bicomsystems.com/products/serverware/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/bicom.png"
   },
   {
     "name": "BOSS",
@@ -5547,7 +5935,8 @@
     "desktop": [
       "Cinnamon"
     ],
-    "url": "https://bosslinux.in/"
+    "url": "https://bosslinux.in/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/boss.png"
   },
   {
     "name": "ENux",
@@ -5559,7 +5948,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://www.emirpasha.com/"
+    "url": "https://www.emirpasha.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/enux.png"
   },
   {
     "name": "Fluxuan",
@@ -5572,7 +5962,8 @@
     "desktop": [
       "Fluxbox"
     ],
-    "url": "https://fluxuan.org/"
+    "url": "https://fluxuan.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/fluxuan.png"
   },
   {
     "name": "Qlustar",
@@ -5583,7 +5974,8 @@
     "desktop": [
       "No Desktop"
     ],
-    "url": "https://qlustar.com/"
+    "url": "https://qlustar.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/qlustar.png"
   },
   {
     "name": "UBLinux",
@@ -5597,7 +5989,21 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://ublinux.ru/"
+    "url": "https://ublinux.ru/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ublinux.png"
+  },
+  {
+    "name": "<<Hack|Track",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Forensics",
+      "Live Medium"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "https://www.hacktrack-linux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/hacktrack.png"
   },
   {
     "name": "FUSS",
@@ -5612,7 +6018,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://fuss.bz.it/"
+    "url": "https://fuss.bz.it/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/fuss.png"
   },
   {
     "name": "OviOS",
@@ -5623,19 +6030,8 @@
     "desktop": [
       "No Desktop"
     ],
-    "url": "https://www.ovios.org/"
-  },
-  {
-    "name": "<<Hack|Track",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Forensics",
-      "Live Medium"
-    ],
-    "desktop": [
-      "MATE"
-    ],
-    "url": "https://www.hacktrack-linux.org/"
+    "url": "https://www.ovios.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ovios.png"
   },
   {
     "name": "AiO-SRT",
@@ -5647,7 +6043,8 @@
     "desktop": [
       "LXQt"
     ],
-    "url": "https://paul.is-a-geek.org/aio-srt/"
+    "url": "https://paul.is-a-geek.org/aio-srt/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/aio.png"
   },
   {
     "name": "Maple",
@@ -5659,7 +6056,8 @@
     "desktop": [
       "Cinnamon"
     ],
-    "url": "https://maplelinux.ca/"
+    "url": "https://maplelinux.ca/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/maple.png"
   },
   {
     "name": "Nemesis",
@@ -5674,7 +6072,8 @@
       "LXQt",
       "Xfce"
     ],
-    "url": "https://nemesis-linux.sourceforge.io/"
+    "url": "https://nemesis-linux.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/nemesis.png"
   },
   {
     "name": "REMnux",
@@ -5686,7 +6085,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://remnux.org/"
+    "url": "https://remnux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/remnux.png"
   },
   {
     "name": "Senpai",
@@ -5705,7 +6105,8 @@
       "MATE",
       "Moksha"
     ],
-    "url": "https://senpai-respins.sourceforge.io/"
+    "url": "https://senpai-respins.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/senpai.png"
   },
   {
     "name": "CloudLinux",
@@ -5716,7 +6117,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://cloudlinux.com/"
+    "url": "https://cloudlinux.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/cloudlinux.png"
   },
   {
     "name": "Ezarcher",
@@ -5734,7 +6136,8 @@
       "MATE",
       "Xfce"
     ],
-    "url": "https://ezarch.sourceforge.io/"
+    "url": "https://ezarch.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ezarcher.png"
   },
   {
     "name": "Side",
@@ -5747,7 +6150,8 @@
       "Openbox",
       "SDE"
     ],
-    "url": "https://side.codeberg.page/"
+    "url": "https://side.codeberg.page/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/side.png"
   },
   {
     "name": "Skudonet",
@@ -5760,7 +6164,8 @@
       "No Desktop",
       "WebUI"
     ],
-    "url": "https://www.skudonet.com/"
+    "url": "https://www.skudonet.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/skudonet.png"
   },
   {
     "name": "XCP-ng",
@@ -5772,7 +6177,8 @@
     "desktop": [
       "No Desktop"
     ],
-    "url": "https://xcp-ng.org/"
+    "url": "https://xcp-ng.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/xcpng.png"
   },
   {
     "name": "Circle",
@@ -5784,7 +6190,8 @@
     "desktop": [
       "GNOME"
     ],
-    "url": "https://cclinux.org/"
+    "url": "https://cclinux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/circle.png"
   },
   {
     "name": "FluxLinux",
@@ -5797,7 +6204,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://fluxlinux.xyz/"
+    "url": "https://fluxlinux.xyz/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/fluxlinux.png"
   },
   {
     "name": "LibraZiK",
@@ -5809,7 +6217,21 @@
     "desktop": [
       "MATE"
     ],
-    "url": "https://librazik.org/"
+    "url": "https://librazik.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/librazik.png"
+  },
+  {
+    "name": "MODOS",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon"
+    ],
+    "url": "https://sourceforge.net/projects/g0ll0z-smollos/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/modos.png"
   },
   {
     "name": "Q83",
@@ -5823,7 +6245,8 @@
       "Cinnamon",
       "COSMIC"
     ],
-    "url": "https://linux-q83.sourceforge.net/"
+    "url": "https://linux-q83.sourceforge.net/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/q83.png"
   },
   {
     "name": "RDS",
@@ -5834,7 +6257,8 @@
     "desktop": [
       "Chromium"
     ],
-    "url": "https://www.binaryemotions.com/digital-signage/raspberry-digital-signage/"
+    "url": "https://www.binaryemotions.com/digital-signage/raspberry-digital-signage/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/rds.png"
   },
   {
     "name": "RSS",
@@ -5845,7 +6269,8 @@
     "desktop": [
       "Omxplayer"
     ],
-    "url": "https://www.binaryemotions.com/digital-signage/raspberry-slideshow/"
+    "url": "https://www.binaryemotions.com/digital-signage/raspberry-slideshow/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/rss.png"
   },
   {
     "name": "Argent",
@@ -5858,7 +6283,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://argentlinux.io/"
+    "url": "https://argentlinux.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/argent.png"
   },
   {
     "name": "Eliza",
@@ -5870,7 +6296,8 @@
     "desktop": [
       "Enlightenment"
     ],
-    "url": "https://eliza-linux.org/"
+    "url": "https://eliza-linux.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/eliza.png"
   },
   {
     "name": "EN-OS",
@@ -5882,19 +6309,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://en-os.ru/"
-  },
-  {
-    "name": "MODOS",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Cinnamon"
-    ],
-    "url": "https://sourceforge.net/projects/g0ll0z-smollos/"
+    "url": "https://en-os.ru/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/enos.png"
   },
   {
     "name": "EterTICs",
@@ -5906,7 +6322,8 @@
     "desktop": [
       "LXQt"
     ],
-    "url": "https://gnuetertics.org/"
+    "url": "https://gnuetertics.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/etertics.png"
   },
   {
     "name": "Maemo Leste",
@@ -5918,7 +6335,8 @@
     "desktop": [
       "Matchbox"
     ],
-    "url": "https://maemo-leste.github.io/"
+    "url": "https://maemo-leste.github.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/maemoleste.png"
   },
   {
     "name": "PimersusOS",
@@ -5931,7 +6349,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://pimersusos.sourceforge.io/"
+    "url": "https://pimersusos.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/pimersusos.png"
   },
   {
     "name": "EcoOS",
@@ -5943,7 +6362,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://seekers-adv-stormos.sourceforge.io/"
+    "url": "https://seekers-adv-stormos.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ecoos.png"
   },
   {
     "name": "Fishy",
@@ -5955,7 +6375,8 @@
     "desktop": [
       "LXQt"
     ],
-    "url": "https://fishy-linux.sourceforge.io/"
+    "url": "https://fishy-linux.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/fishy.png"
   },
   {
     "name": "OSINT VM",
@@ -5966,7 +6387,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://www.tracelabs.org/initiatives/osint-vm"
+    "url": "https://www.tracelabs.org/initiatives/osint-vm",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/osintvm.png"
   },
   {
     "name": "Deblinux",
@@ -5978,7 +6400,8 @@
     "desktop": [
       "MATE"
     ],
-    "url": "https://www.andrealinux.it/deblinux6/"
+    "url": "https://www.andrealinux.it/deblinux6/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/deblinux.png"
   },
   {
     "name": "GobMis",
@@ -5990,7 +6413,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://distro.misiones.gob.ar/"
+    "url": "https://distro.misiones.gob.ar/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/gobmis.png"
   },
   {
     "name": "KDu",
@@ -6002,7 +6426,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://www.linux-kdu.com.br/"
+    "url": "https://www.linux-kdu.com.br/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/kdu.png"
   },
   {
     "name": "Serbian",
@@ -6015,7 +6440,8 @@
       "KDE Plasma",
       "Openbox"
     ],
-    "url": "https://www.debian-srbija.iz.rs/p/serbian.html"
+    "url": "https://www.debian-srbija.iz.rs/p/serbian.html",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/serbian.png"
   },
   {
     "name": "Coyote",
@@ -6026,7 +6452,8 @@
     "desktop": [
       "No Desktop"
     ],
-    "url": "https://www.coyotelinux.com/"
+    "url": "https://www.coyotelinux.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/coyote.png"
   },
   {
     "name": "Gooroom",
@@ -6038,7 +6465,8 @@
     "desktop": [
       "GNOME Flashback"
     ],
-    "url": "https://gooroom.kr/"
+    "url": "https://gooroom.kr/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/gooroom.png"
   },
   {
     "name": "BashCore",
@@ -6051,42 +6479,8 @@
       "GNOME",
       "Xfce"
     ],
-    "url": "https://www.bashcore.org/"
-  },
-  {
-    "name": "Kwort",
-    "basedOn": "CRUX",
-    "categories": [
-      "Desktop"
-    ],
-    "desktop": [
-      "Openbox"
-    ],
-    "url": "https://kwort.org/"
-  },
-  {
-    "name": "RengeOS",
-    "basedOn": "Arch",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "niri"
-    ],
-    "url": "https://rengeos.github.io/rengeos-docs/"
-  },
-  {
-    "name": "AbeirOS",
-    "basedOn": "Void",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "KDE Plasma"
-    ],
-    "url": "https://abeiros.sourceforge.io/"
+    "url": "https://www.bashcore.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/bashcore.png"
   },
   {
     "name": "EznixOS",
@@ -6099,7 +6493,46 @@
       "KDE Plasma",
       "Xfce"
     ],
-    "url": "https://eznixos.sourceforge.io/"
+    "url": "https://eznixos.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/eznixos.png"
+  },
+  {
+    "name": "Kwort",
+    "basedOn": "CRUX",
+    "categories": [
+      "Desktop"
+    ],
+    "desktop": [
+      "Openbox"
+    ],
+    "url": "https://kwort.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/kwort.png"
+  },
+  {
+    "name": "RengeOS",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "niri"
+    ],
+    "url": "https://rengeos.github.io/rengeos-docs/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/rengeos.png"
+  },
+  {
+    "name": "AbeirOS",
+    "basedOn": "Void",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://abeiros.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/abeiros.png"
   },
   {
     "name": "Freeduc",
@@ -6111,7 +6544,8 @@
     "desktop": [
       "Cinnamon"
     ],
-    "url": "https://usb.freeduc.org/"
+    "url": "https://usb.freeduc.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/freeduc.png"
   },
   {
     "name": "Mariposa",
@@ -6124,7 +6558,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://www.blueseal.eu/mariposa/"
+    "url": "https://www.blueseal.eu/mariposa/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/mariposa.png"
   },
   {
     "name": "RakuOS",
@@ -6138,7 +6573,8 @@
       "GNOME",
       "KDE Plasma"
     ],
-    "url": "https://rakuos.org/"
+    "url": "https://rakuos.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/rakuos.png"
   },
   {
     "name": "TigerOS",
@@ -6150,7 +6586,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://tigeros.com.br/"
+    "url": "https://tigeros.com.br/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/tigeros.png"
   },
   {
     "name": "Twister",
@@ -6161,7 +6598,34 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://twisteros.com/"
+    "url": "https://twisteros.com/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/twister.png"
+  },
+  {
+    "name": "Arcris",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://github.com/CodigoCristo/ArcrisGUI",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/arcris.png"
+  },
+  {
+    "name": "Ctlos",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://ctlos.github.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/ctlos.png"
   },
   {
     "name": "Evernight Vista",
@@ -6174,7 +6638,8 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://evernightfedora.github.io/evernight-vista/"
+    "url": "https://evernightfedora.github.io/evernight-vista/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/evernight.png"
   },
   {
     "name": "PluriOS",
@@ -6186,7 +6651,8 @@
     "desktop": [
       "Cinnamon"
     ],
-    "url": "https://plurios.openit.dev/"
+    "url": "https://plurios.openit.dev/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/plurios.png"
   },
   {
     "name": "ShredOS",
@@ -6198,19 +6664,8 @@
     "desktop": [
       "No Desktop"
     ],
-    "url": "https://github.com/PartialVolume/shredos.x86_64"
-  },
-  {
-    "name": "Ctlos",
-    "basedOn": "Arch",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Xfce"
-    ],
-    "url": "https://ctlos.github.io/"
+    "url": "https://github.com/PartialVolume/shredos.x86_64",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/shredos.png"
   },
   {
     "name": "FLinux",
@@ -6223,19 +6678,24 @@
     "desktop": [
       "flwm"
     ],
-    "url": "https://flinux-distro.sourceforge.io/"
+    "url": "https://flinux-distro.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/flinux.png"
   },
   {
-    "name": "Arcris",
+    "name": "ShrikeLinux",
     "basedOn": "Arch",
     "categories": [
       "Desktop",
       "Live Medium"
     ],
     "desktop": [
+      "dk",
+      "i3",
+      "spectrwm",
       "Xfce"
     ],
-    "url": "https://github.com/CodigoCristo/ArcrisGUI"
+    "url": "https://shrikelinuxug.org/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/shrikelinux.png"
   },
   {
     "name": "ZestISO",
@@ -6249,7 +6709,8 @@
       "KDE Plasma",
       "Xfce"
     ],
-    "url": "https://github.com/SuperSonic65535/zestiso-archiso/"
+    "url": "https://github.com/SuperSonic65535/zestiso-archiso/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/zestiso.png"
   },
   {
     "name": "Freeloader",
@@ -6262,20 +6723,8 @@
       "Cinnamon",
       "MATE"
     ],
-    "url": "http://freeloaderlinux.live/"
-  },
-  {
-    "name": "ShrikeLinux",
-    "basedOn": "Arch",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "spectrwm",
-      "Xfce"
-    ],
-    "url": "https://shrikelinuxug.org/"
+    "url": "http://freeloaderlinux.live/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/freeloader.png"
   },
   {
     "name": "Chimo",
@@ -6288,7 +6737,21 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://chimoinc.webnode.page/"
+    "url": "https://chimoinc.webnode.page/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/chimo.png"
+  },
+  {
+    "name": "Neko-Void",
+    "basedOn": "Void",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "https://neko-void.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/nekovoid.png"
   },
   {
     "name": "recovery",
@@ -6302,7 +6765,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://recovery.sourceforge.io/"
+    "url": "https://recovery.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/recovery.png"
   },
   {
     "name": "GobLin",
@@ -6314,19 +6778,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://distro.misiones.gob.ar/goblin/"
-  },
-  {
-    "name": "Neko-Void",
-    "basedOn": "Void",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "MATE"
-    ],
-    "url": "https://neko-void.sourceforge.io/"
+    "url": "https://distro.misiones.gob.ar/goblin/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/goblin.png"
   },
   {
     "name": "T4n OS",
@@ -6338,7 +6791,8 @@
     "desktop": [
       "Xfce"
     ],
-    "url": "https://t4n-labs.github.io/t4n-os/"
+    "url": "https://t4n-labs.github.io/t4n-os/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/t4n.png"
   },
   {
     "name": "Netdeep",
@@ -6350,7 +6804,8 @@
       "No Desktop",
       "WebUI"
     ],
-    "url": "https://netdeep.com.br/novo/firewall/"
+    "url": "https://netdeep.com.br/novo/firewall/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/netdeep.png"
   },
   {
     "name": "XPQ4",
@@ -6363,7 +6818,23 @@
       "KDE Plasma",
       "Trinity"
     ],
-    "url": "https://xpq4.sourceforge.io/"
+    "url": "https://xpq4.sourceforge.io/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/xpq4.png"
+  },
+  {
+    "name": "CalamaroOS",
+    "basedOn": "Gentoo",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://calamaroos-site.resorno.workers.dev/",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/calamaroos.png"
   },
   {
     "name": "Abalinux",
@@ -6376,19 +6847,7 @@
     "desktop": [
       "KDE Plasma"
     ],
-    "url": "https://espazoabalar.edu.xunta.gal/maqueta-abalar-libre"
-  },
-  {
-    "name": "CalamaroOS",
-    "basedOn": "Gentoo",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "KDE Plasma",
-      "Xfce"
-    ],
-    "url": "https://calamaroos-site.resorno.workers.dev/"
+    "url": "https://espazoabalar.edu.xunta.gal/maqueta-abalar-libre",
+    "logo": "/Users/bandit/Development/linux-trend/public/logos/abalinux.png"
   }
 ]
