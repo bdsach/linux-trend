@@ -71,7 +71,7 @@ const scrap = async (childNum = 2) => {
       const nameSelector = `body > table.NavLogo > tbody > tr > td:nth-child(1) > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(${childNum}) > table > tbody > tr:nth-child(${i}) > td.phr2 > a`;
       const rankSelector = `body > table.NavLogo > tbody > tr > td:nth-child(1) > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(${childNum}) > table > tbody > tr:nth-child(${i}) > td.phr3`;
       const trendSelector = `body > table.NavLogo > tbody > tr > td:nth-child(1) > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(${childNum}) > table > tbody > tr:nth-child(${i}) > td.phr3 > img`;
-      const yesterdaySelector = `body > table.NavLogo > tbody > tr > td:nth-child(1) > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(4) > table > tbody > tr:nth-child(2) > td.phr3`;
+      const yesterdaySelector = `body > table.NavLogo > tbody > tr > td:nth-child(1) > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(${childNum}) > table > tbody > tr:nth-child(${i}) > td.phr3`;
 
       const nameEvaluate = await page.$eval(nameSelector, el => el.textContent.trim());
       const rankEvaluate = await page.$eval(rankSelector, el => el.textContent.trim());
