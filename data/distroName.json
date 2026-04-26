@@ -414,6 +414,23 @@
     "logo": "/logos/archcraft.png"
   },
   {
+    "name": "ArchEZ",
+    "slug": "archez",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Gaming",
+      "Live Medium"
+    ],
+    "desktop": [
+      "IceWM",
+      "KDE Plasma",
+      "Xfce"
+    ],
+    "url": "https://github.com/SuperSonic65535/archez-linux-archiso",
+    "logo": "/logos/archez.png"
+  },
+  {
     "name": "Archman",
     "slug": "archman",
     "basedOn": "Arch",
@@ -986,6 +1003,20 @@
     ],
     "url": "https://www.bunsenlabs.org/",
     "logo": "/logos/bunsenlabs.png"
+  },
+  {
+    "name": "Butterbian",
+    "slug": "butterbian",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://www.butterbian.org/",
+    "logo": "/logos/butterbian.png"
   },
   {
     "name": "CachyOS",
@@ -2502,6 +2533,21 @@
     "logo": "/logos/ghostbsd.png"
   },
   {
+    "name": "Glacia",
+    "slug": "glacia",
+    "basedOn": "Ubuntu",
+    "categories": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Unity"
+    ],
+    "url": "https://glaciaos.com/",
+    "logo": "/logos/glacia.png"
+  },
+  {
     "name": "GLF",
     "slug": "glf",
     "basedOn": "NixOS",
@@ -2881,6 +2927,20 @@
     "logo": "/logos/ipfire.png"
   },
   {
+    "name": "Kader⁴²",
+    "slug": "kader42",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://kader42.de/",
+    "logo": "/logos/kader42.png"
+  },
+  {
     "name": "Kali",
     "slug": "kali",
     "basedOn": "Debian (Testing)",
@@ -3177,6 +3237,21 @@
     "logo": "/logos/lazylinux.png"
   },
   {
+    "name": "LengToolkit",
+    "slug": "lengtoolkit",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Data Rescue",
+      "Disk Management",
+      "Live Medium"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "https://nixovena.org/lengtoolkit/",
+    "logo": "/logos/lengtoolkit.png"
+  },
+  {
     "name": "Lernstick",
     "slug": "lernstick",
     "basedOn": "Debian",
@@ -3243,6 +3318,22 @@
     ],
     "url": "https://libreelec.tv/",
     "logo": "/logos/libreelec.png"
+  },
+  {
+    "name": "Li-f-e",
+    "slug": "life",
+    "basedOn": "Ubuntu (LTS)",
+    "categories": [
+      "Desktop",
+      "Education",
+      "Live Medium",
+      "Server"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "https://sourceforge.net/projects/cyberorg-home/",
+    "logo": "/logos/life.png"
   },
   {
     "name": "Lilidog",
@@ -5874,6 +5965,19 @@
     "logo": "/logos/slackware.png"
   },
   {
+    "name": "Slarpx",
+    "slug": "slarpx",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Security"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://nixovena.org/slarpx/",
+    "logo": "/logos/slarpx.png"
+  },
+  {
     "name": "SUSE",
     "slug": "sle",
     "basedOn": "openSUSE",
@@ -7243,6 +7347,21 @@
     ],
     "url": "https://yunohost.org/",
     "logo": "/logos/yunohost.png"
+  },
+  {
+    "name": "ZelixOS",
+    "slug": "zelixos",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Gaming",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://zelixos.com/",
+    "logo": "/logos/zelixos.png"
   },
   {
     "name": "Zenclora",
