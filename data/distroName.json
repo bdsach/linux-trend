@@ -1599,6 +1599,20 @@
     "logo": "/logos/devuan.png"
   },
   {
+    "name": "Dharma",
+    "slug": "dharma",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "MATE"
+    ],
+    "url": "http://dharmalinux.com.ar/",
+    "logo": "/logos/dharma.png"
+  },
+  {
     "name": "DietPi",
     "slug": "dietpi",
     "basedOn": "Debian",
@@ -3544,6 +3558,21 @@
     ],
     "url": "https://lubuntu.me/",
     "logo": "/logos/lubuntu.png"
+  },
+  {
+    "name": "Ludora",
+    "slug": "ludora",
+    "basedOn": "Fedora",
+    "categories": [
+      "Desktop",
+      "Gaming",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://ludora.org/",
+    "logo": "/logos/ludora.png"
   },
   {
     "name": "LxPup",
@@ -6497,6 +6526,20 @@
     ],
     "url": "http://www.tinycorelinux.net/",
     "logo": "/logos/tinycore.png"
+  },
+  {
+    "name": "ToaruOS",
+    "slug": "toaruos",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Yutani"
+    ],
+    "url": "https://toaruos.org/",
+    "logo": "/logos/toaruos.png"
   },
   {
     "name": "TobbeOS",
