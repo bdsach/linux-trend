@@ -1,10 +1,10 @@
 {
-  "createAt": "2026-05-13T06:31:08.905Z",
+  "createAt": "2026-05-24T02:29:46.712Z",
   "data": [
     {
       "no": 1,
       "name": "CachyOS",
-      "rank": 3608,
+      "rank": 3470,
       "trend": "down",
       "url": "https://cachyos.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/cachyos.svg",
@@ -32,12 +32,12 @@
         "Wayfire",
         "Xfce"
       ],
-      "yesterday": 3614
+      "yesterday": 3482
     },
     {
       "no": 2,
       "name": "Mint",
-      "rank": 2095,
+      "rank": 2021,
       "trend": "down",
       "url": "https://linuxmint.com/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/mint.svg",
@@ -51,12 +51,12 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 2099
+      "yesterday": 2027
     },
     {
       "no": 3,
       "name": "MX Linux",
-      "rank": 1879,
+      "rank": 1809,
       "trend": "down",
       "url": "https://mxlinux.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/mx linux.svg",
@@ -72,12 +72,12 @@
         "KDE Plasma",
         "Xfce"
       ],
-      "yesterday": 1883
+      "yesterday": 1817
     },
     {
       "no": 4,
       "name": "Pop!_OS",
-      "rank": 1496,
+      "rank": 1419,
       "trend": "down",
       "url": "https://system76.com/pop",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/pop!_os.svg",
@@ -90,30 +90,12 @@
         "COSMIC",
         "GNOME"
       ],
-      "yesterday": 1500
+      "yesterday": 1425
     },
     {
       "no": 5,
-      "name": "Zorin",
-      "rank": 1419,
-      "trend": "up",
-      "url": "https://zorin.com/os/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/zorin.svg",
-      "category": [
-        "Beginners",
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME",
-        "Xfce"
-      ],
-      "yesterday": 1418
-    },
-    {
-      "no": 6,
       "name": "Debian",
-      "rank": 1391,
+      "rank": 1377,
       "trend": "down",
       "url": "https://www.debian.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/debian.svg",
@@ -156,13 +138,31 @@
         "WMaker",
         "Xfce"
       ],
-      "yesterday": 1393
+      "yesterday": 1380
+    },
+    {
+      "no": 6,
+      "name": "Zorin",
+      "rank": 1365,
+      "trend": "down",
+      "url": "https://zorin.com/os/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/zorin.svg",
+      "category": [
+        "Beginners",
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "GNOME",
+        "Xfce"
+      ],
+      "yesterday": 1369
     },
     {
       "no": 7,
       "name": "Fedora",
-      "rank": 1352,
-      "trend": "up",
+      "rank": 1351,
+      "trend": "down",
       "url": "https://fedoraproject.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/fedora.svg",
       "category": [
@@ -188,13 +188,13 @@
         "Wayfire",
         "Xfce"
       ],
-      "yesterday": 1349
+      "yesterday": 1354
     },
     {
       "no": 8,
       "name": "Ubuntu",
-      "rank": 1204,
-      "trend": "up",
+      "rank": 1148,
+      "trend": "down",
       "url": "https://www.ubuntu.com/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ubuntu.svg",
       "category": [
@@ -208,12 +208,12 @@
         "GNOME",
         "Unity"
       ],
-      "yesterday": 1203
+      "yesterday": 1151
     },
     {
       "no": 9,
       "name": "EndeavourOS",
-      "rank": 1138,
+      "rank": 1103,
       "trend": "down",
       "url": "https://endeavouros.com/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/endeavouros.svg",
@@ -232,12 +232,31 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 1141
+      "yesterday": 1106
     },
     {
       "no": 10,
+      "name": "Bazzite",
+      "rank": 1020,
+      "trend": "up",
+      "url": "https://bazzite.gg/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/bazzite.svg",
+      "category": [
+        "Desktop",
+        "Gaming",
+        "Immutable",
+        "Live Medium"
+      ],
+      "desktop": [
+        "GNOME",
+        "KDE Plasma"
+      ],
+      "yesterday": 1019
+    },
+    {
+      "no": 11,
       "name": "Manjaro",
-      "rank": 1007,
+      "rank": 955,
       "trend": "up",
       "url": "https://manjaro.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/manjaro.svg",
@@ -256,32 +275,13 @@
         "Sway",
         "Xfce"
       ],
-      "yesterday": 1004
-    },
-    {
-      "no": 11,
-      "name": "Bazzite",
-      "rank": 993,
-      "trend": "up",
-      "url": "https://bazzite.gg/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/bazzite.svg",
-      "category": [
-        "Desktop",
-        "Gaming",
-        "Immutable",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME",
-        "KDE Plasma"
-      ],
-      "yesterday": 990
+      "yesterday": 948
     },
     {
       "no": 12,
       "name": "Arch",
-      "rank": 894,
-      "trend": "up",
+      "rank": 880,
+      "trend": "down",
       "url": "http://www.archlinux.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/arch.svg",
       "category": [
@@ -298,12 +298,12 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 889
+      "yesterday": 882
     },
     {
       "no": 13,
       "name": "openSUSE",
-      "rank": 712,
+      "rank": 685,
       "trend": "down",
       "url": "https://www.opensuse.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/opensuse.svg",
@@ -327,12 +327,12 @@
         "Wayfire",
         "Xfce"
       ],
-      "yesterday": 713
+      "yesterday": 687
     },
     {
       "no": 14,
       "name": "antiX",
-      "rank": 681,
+      "rank": 670,
       "trend": "level",
       "url": "https://antixlinux.com/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/antix.png",
@@ -347,63 +347,13 @@
         "IceWM",
         "JWM"
       ],
-      "yesterday": 681
+      "yesterday": 670
     },
     {
       "no": 15,
-      "name": "AnduinOS",
-      "rank": 676,
-      "trend": "down",
-      "url": "https://www.anduinos.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/anduinos.svg",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME"
-      ],
-      "yesterday": 679
-    },
-    {
-      "no": 16,
-      "name": "Nobara",
-      "rank": 645,
-      "trend": "down",
-      "url": "https://nobaraproject.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/nobara.png",
-      "category": [
-        "Desktop",
-        "Gaming",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME",
-        "KDE Plasma"
-      ],
-      "yesterday": 647
-    },
-    {
-      "no": 17,
-      "name": "BigLinux",
-      "rank": 638,
-      "trend": "up",
-      "url": "https://www.biglinux.com.br/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/biglinux.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 636
-    },
-    {
-      "no": 18,
       "name": "PikaOS",
-      "rank": 621,
-      "trend": "down",
+      "rank": 655,
+      "trend": "up",
       "url": "http://pika-os.com/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/pikaos.png",
       "category": [
@@ -418,12 +368,62 @@
         "KDE Plasma",
         "niri"
       ],
-      "yesterday": 629
+      "yesterday": 654
+    },
+    {
+      "no": 16,
+      "name": "AnduinOS",
+      "rank": 643,
+      "trend": "down",
+      "url": "https://www.anduinos.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/anduinos.svg",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "GNOME"
+      ],
+      "yesterday": 646
+    },
+    {
+      "no": 17,
+      "name": "BigLinux",
+      "rank": 618,
+      "trend": "down",
+      "url": "https://www.biglinux.com.br/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/biglinux.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 619
+    },
+    {
+      "no": 18,
+      "name": "Nobara",
+      "rank": 601,
+      "trend": "down",
+      "url": "https://nobaraproject.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/nobara.png",
+      "category": [
+        "Desktop",
+        "Gaming",
+        "Live Medium"
+      ],
+      "desktop": [
+        "GNOME",
+        "KDE Plasma"
+      ],
+      "yesterday": 604
     },
     {
       "no": 19,
       "name": "Artix",
-      "rank": 571,
+      "rank": 597,
       "trend": "up",
       "url": "https://artixlinux.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/artix.png",
@@ -439,12 +439,28 @@
         "KDE Plasma",
         "Xfce"
       ],
-      "yesterday": 566
+      "yesterday": 585
     },
     {
       "no": 20,
+      "name": "Omarchy",
+      "rank": 554,
+      "trend": "down",
+      "url": "https://omarchy.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/omarchy.png",
+      "category": [
+        "Desktop",
+        "Immutable"
+      ],
+      "desktop": [
+        "Hyprland"
+      ],
+      "yesterday": 555
+    },
+    {
+      "no": 21,
       "name": "elementary",
-      "rank": 546,
+      "rank": 519,
       "trend": "down",
       "url": "https://elementary.io/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/elementary.svg",
@@ -456,12 +472,47 @@
       "desktop": [
         "Pantheon"
       ],
-      "yesterday": 547
+      "yesterday": 522
     },
     {
-      "no": 21,
+      "no": 22,
+      "name": "Q4OS",
+      "rank": 509,
+      "trend": "up",
+      "url": "https://q4os.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/q4os.svg",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Old Computers"
+      ],
+      "desktop": [
+        "KDE Plasma",
+        "Trinity"
+      ],
+      "yesterday": 508
+    },
+    {
+      "no": 23,
+      "name": "Void",
+      "rank": 503,
+      "trend": "up",
+      "url": "https://voidlinux.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/void.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Raspberry Pi"
+      ],
+      "desktop": [
+        "Xfce"
+      ],
+      "yesterday": 500
+    },
+    {
+      "no": 24,
       "name": "NixOS",
-      "rank": 527,
+      "rank": 499,
       "trend": "down",
       "url": "https://nixos.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/nixos.svg",
@@ -486,64 +537,13 @@
         "Wayfire",
         "Xfce"
       ],
-      "yesterday": 528
-    },
-    {
-      "no": 22,
-      "name": "Omarchy",
-      "rank": 513,
-      "trend": "up",
-      "url": "https://omarchy.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/omarchy.png",
-      "category": [
-        "Desktop",
-        "Immutable"
-      ],
-      "desktop": [
-        "Hyprland"
-      ],
-      "yesterday": 500
-    },
-    {
-      "no": 23,
-      "name": "Q4OS",
-      "rank": 487,
-      "trend": "level",
-      "url": "https://q4os.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/q4os.svg",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Old Computers"
-      ],
-      "desktop": [
-        "KDE Plasma",
-        "Trinity"
-      ],
-      "yesterday": 487
-    },
-    {
-      "no": 24,
-      "name": "Void",
-      "rank": 483,
-      "trend": "down",
-      "url": "https://voidlinux.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/void.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Raspberry Pi"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 484
+      "yesterday": 502
     },
     {
       "no": 25,
       "name": "FreeBSD",
-      "rank": 438,
-      "trend": "up",
+      "rank": 444,
+      "trend": "down",
       "url": "https://www.freebsd.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/freebsd.svg",
       "category": [
@@ -562,12 +562,12 @@
         "Wayfire",
         "Xfce"
       ],
-      "yesterday": 437
+      "yesterday": 446
     },
     {
       "no": 26,
       "name": "KDE neon",
-      "rank": 434,
+      "rank": 407,
       "trend": "down",
       "url": "https://neon.kde.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/kde neon.svg",
@@ -578,46 +578,12 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 435
+      "yesterday": 409
     },
     {
       "no": 27,
-      "name": "AerynOS",
-      "rank": 400,
-      "trend": "down",
-      "url": "https://aerynos.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/aerynos.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "COSMIC",
-        "GNOME",
-        "KDE Plasma"
-      ],
-      "yesterday": 405
-    },
-    {
-      "no": 28,
-      "name": "Bluestar",
-      "rank": 400,
-      "trend": "down",
-      "url": "https://sourceforge.net/projects/bluestarlinux/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/bluestar.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 402
-    },
-    {
-      "no": 29,
       "name": "MiniOS",
-      "rank": 398,
+      "rank": 378,
       "trend": "down",
       "url": "https://minios.dev/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/minios.png",
@@ -629,13 +595,13 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 399
+      "yesterday": 380
     },
     {
-      "no": 30,
+      "no": 28,
       "name": "pearOS",
-      "rank": 385,
-      "trend": "up",
+      "rank": 367,
+      "trend": "level",
       "url": "https://pearos.xyz/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/pearos.png",
       "category": [
@@ -645,12 +611,33 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 383
+      "yesterday": 367
     },
     {
-      "no": 31,
+      "no": 29,
+      "name": "Kali",
+      "rank": 365,
+      "trend": "down",
+      "url": "https://www.kali.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/kali.png",
+      "category": [
+        "Data Rescue",
+        "Forensics",
+        "Live Medium",
+        "Raspberry Pi",
+        "Security"
+      ],
+      "desktop": [
+        "GNOME",
+        "KDE Plasma",
+        "Xfce"
+      ],
+      "yesterday": 366
+    },
+    {
+      "no": 30,
       "name": "Garuda",
-      "rank": 378,
+      "rank": 362,
       "trend": "down",
       "url": "https://garudalinux.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/garuda.svg",
@@ -668,92 +655,40 @@
         "Sway",
         "Xfce"
       ],
-      "yesterday": 379
+      "yesterday": 364
+    },
+    {
+      "no": 31,
+      "name": "Mageia",
+      "rank": 362,
+      "trend": "up",
+      "url": "https://www.mageia.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/mageia.svg",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Server"
+      ],
+      "desktop": [
+        "Cinnamon",
+        "GNOME",
+        "IceWM",
+        "KDE",
+        "MATE",
+        "labwc",
+        "LXDE",
+        "LXQt",
+        "Openbox",
+        "WMaker",
+        "Xfce"
+      ],
+      "yesterday": 359
     },
     {
       "no": 32,
-      "name": "SparkyLinux",
-      "rank": 375,
-      "trend": "level",
-      "url": "https://sparkylinux.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/sparkylinux.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma",
-        "LXQt",
-        "MATE",
-        "Openbox",
-        "Xfce"
-      ],
-      "yesterday": 375
-    },
-    {
-      "no": 33,
-      "name": "Kali",
-      "rank": 374,
-      "trend": "level",
-      "url": "https://www.kali.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/kali.png",
-      "category": [
-        "Data Rescue",
-        "Forensics",
-        "Live Medium",
-        "Raspberry Pi",
-        "Security"
-      ],
-      "desktop": [
-        "GNOME",
-        "KDE Plasma",
-        "Xfce"
-      ],
-      "yesterday": 374
-    },
-    {
-      "no": 34,
-      "name": "Puppy",
-      "rank": 360,
-      "trend": "down",
-      "url": "https://puppylinux-woof-ce.github.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/puppy.svg",
-      "category": [
-        "Desktop",
-        "From RAM",
-        "Old Computers",
-        "Live Medium",
-        "Netbooks"
-      ],
-      "desktop": [
-        "JWM",
-        "labwc",
-        "Openbox"
-      ],
-      "yesterday": 361
-    },
-    {
-      "no": 35,
-      "name": "ChromeOS",
-      "rank": 356,
-      "trend": "up",
-      "url": "https://chromeos.google/intl/en_ca/products/chromeos-flex/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/chromeos.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Old Computers"
-      ],
-      "desktop": [
-        "ChromeOS Desktop"
-      ],
-      "yesterday": 354
-    },
-    {
-      "no": 36,
       "name": "Devuan",
-      "rank": 355,
-      "trend": "up",
+      "rank": 361,
+      "trend": "down",
       "url": "https://devuan.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/devuan.svg",
       "category": [
@@ -771,27 +706,64 @@
         "Wayfire",
         "Xfce"
       ],
-      "yesterday": 354
+      "yesterday": 362
     },
     {
-      "no": 37,
-      "name": "ZimaOS",
-      "rank": 346,
+      "no": 33,
+      "name": "Bluestar",
+      "rank": 350,
       "trend": "down",
-      "url": "https://www.zimaspace.com/docs/zimaos/#ZimaOS",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/zimaos.png",
+      "url": "https://sourceforge.net/projects/bluestarlinux/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/bluestar.png",
       "category": [
-        "Server",
-        "NAS"
+        "Desktop",
+        "Live Medium"
       ],
       "desktop": [
-        "No Desktop",
-        "WebUI"
+        "KDE Plasma"
       ],
       "yesterday": 353
     },
     {
-      "no": 38,
+      "no": 34,
+      "name": "ChromeOS",
+      "rank": 347,
+      "trend": "level",
+      "url": "https://chromeos.google/intl/en_ca/products/chromeos-flex/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/chromeos.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Old Computers"
+      ],
+      "desktop": [
+        "ChromeOS Desktop"
+      ],
+      "yesterday": 347
+    },
+    {
+      "no": 35,
+      "name": "Puppy",
+      "rank": 346,
+      "trend": "down",
+      "url": "https://puppylinux-woof-ce.github.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/puppy.svg",
+      "category": [
+        "Desktop",
+        "From RAM",
+        "Old Computers",
+        "Live Medium",
+        "Netbooks"
+      ],
+      "desktop": [
+        "JWM",
+        "labwc",
+        "Openbox"
+      ],
+      "yesterday": 347
+    },
+    {
+      "no": 36,
       "name": "Tails",
       "rank": 342,
       "trend": "down",
@@ -809,9 +781,9 @@
       "yesterday": 343
     },
     {
-      "no": 39,
+      "no": 37,
       "name": "Solus",
-      "rank": 338,
+      "rank": 341,
       "trend": "level",
       "url": "https://getsol.us/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/solus.svg",
@@ -826,13 +798,68 @@
         "KDE Plasma",
         "Xfce"
       ],
+      "yesterday": 341
+    },
+    {
+      "no": 38,
+      "name": "AerynOS",
+      "rank": 336,
+      "trend": "down",
+      "url": "https://aerynos.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/aerynos.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "COSMIC",
+        "GNOME",
+        "KDE Plasma"
+      ],
       "yesterday": 338
     },
     {
+      "no": 39,
+      "name": "SparkyLinux",
+      "rank": 334,
+      "trend": "down",
+      "url": "https://sparkylinux.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/sparkylinux.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma",
+        "LXQt",
+        "MATE",
+        "Openbox",
+        "Xfce"
+      ],
+      "yesterday": 339
+    },
+    {
       "no": 40,
-      "name": "Kubuntu",
-      "rank": 336,
+      "name": "ZimaOS",
+      "rank": 328,
       "trend": "level",
+      "url": "https://www.zimaspace.com/docs/zimaos/#ZimaOS",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/zimaos.png",
+      "category": [
+        "Server",
+        "NAS"
+      ],
+      "desktop": [
+        "No Desktop",
+        "WebUI"
+      ],
+      "yesterday": 328
+    },
+    {
+      "no": 41,
+      "name": "Kubuntu",
+      "rank": 319,
+      "trend": "down",
       "url": "https://kubuntu.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/kubuntu.svg",
       "category": [
@@ -842,30 +869,13 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 336
-    },
-    {
-      "no": 41,
-      "name": "CentOS",
-      "rank": 329,
-      "trend": "down",
-      "url": "https://www.centos.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/centos.svg",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Server"
-      ],
-      "desktop": [
-        "GNOME"
-      ],
-      "yesterday": 330
+      "yesterday": 320
     },
     {
       "no": 42,
       "name": "Alpine",
-      "rank": 325,
-      "trend": "down",
+      "rank": 316,
+      "trend": "level",
       "url": "https://www.alpinelinux.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/alpine.svg",
       "category": [
@@ -884,30 +894,30 @@
         "Sway",
         "Xfce"
       ],
-      "yesterday": 326
+      "yesterday": 316
     },
     {
       "no": 43,
-      "name": "Voyager",
-      "rank": 319,
-      "trend": "level",
-      "url": "https://voyagerlive.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/voyager.png",
+      "name": "Lite",
+      "rank": 316,
+      "trend": "down",
+      "url": "https://www.linuxliteos.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/lite.png",
       "category": [
+        "Beginners",
         "Desktop",
         "Live Medium"
       ],
       "desktop": [
-        "GNOME",
         "Xfce"
       ],
-      "yesterday": 319
+      "yesterday": 317
     },
     {
       "no": 44,
       "name": "HackerOS",
-      "rank": 318,
-      "trend": "up",
+      "rank": 305,
+      "trend": "down",
       "url": "https://hackeros-linux-system.github.io/HackerOS-Website/Home-page.html",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/hackeros.png",
       "category": [
@@ -921,13 +931,30 @@
         "KDE Plasma",
         "Xfce"
       ],
-      "yesterday": 301
+      "yesterday": 306
     },
     {
       "no": 45,
+      "name": "CentOS",
+      "rank": 302,
+      "trend": "down",
+      "url": "https://www.centos.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/centos.svg",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Server"
+      ],
+      "desktop": [
+        "GNOME"
+      ],
+      "yesterday": 304
+    },
+    {
+      "no": 46,
       "name": "PCLinuxOS",
-      "rank": 313,
-      "trend": "level",
+      "rank": 302,
+      "trend": "down",
       "url": "https://www.pclinuxos.com/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/pclinuxos.png",
       "category": [
@@ -941,64 +968,13 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 313
-    },
-    {
-      "no": 46,
-      "name": "KDE Linux",
-      "rank": 310,
-      "trend": "down",
-      "url": "https://kde.org/linux/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/kde linux.svg",
-      "category": [
-        "Desktop",
-        "Immutable",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 314
+      "yesterday": 304
     },
     {
       "no": 47,
-      "name": "OmegaLinux",
-      "rank": 310,
-      "trend": "up",
-      "url": "https://omega-linux.github.io/page/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/omegalinux.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Old Computers"
-      ],
-      "desktop": [
-        "LXDE"
-      ],
-      "yesterday": 309
-    },
-    {
-      "no": 48,
-      "name": "TUXEDO",
-      "rank": 309,
-      "trend": "down",
-      "url": "https://www.tuxedocomputers.com/os",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/tuxedo.png",
-      "category": [
-        "Beginners",
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 310
-    },
-    {
-      "no": 49,
       "name": "Exton",
-      "rank": 308,
-      "trend": "level",
+      "rank": 300,
+      "trend": "down",
       "url": "https://www.exton.se/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/exton.png",
       "category": [
@@ -1018,62 +994,29 @@
         "PIXEL",
         "Xfce"
       ],
-      "yesterday": 308
+      "yesterday": 301
     },
     {
-      "no": 50,
-      "name": "Lite",
-      "rank": 306,
+      "no": 48,
+      "name": "TUXEDO",
+      "rank": 294,
       "trend": "down",
-      "url": "https://www.linuxliteos.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/lite.png",
+      "url": "https://www.tuxedocomputers.com/os",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/tuxedo.png",
       "category": [
         "Beginners",
         "Desktop",
         "Live Medium"
       ],
       "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 307
-    },
-    {
-      "no": 51,
-      "name": "Linuxfx",
-      "rank": 304,
-      "trend": "down",
-      "url": "https://www.linuxfx.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/linuxfx.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 306
+      "yesterday": 295
     },
     {
-      "no": 52,
-      "name": "GNOME OS",
-      "rank": 302,
-      "trend": "down",
-      "url": "https://os.gnome.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/gnome os.png",
-      "category": [
-        "Desktop",
-        "Immutable",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME"
-      ],
-      "yesterday": 319
-    },
-    {
-      "no": 53,
+      "no": 49,
       "name": "Gentoo",
-      "rank": 298,
+      "rank": 292,
       "trend": "down",
       "url": "https://www.gentoo.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/gentoo.svg",
@@ -1097,40 +1040,47 @@
         "WMaker",
         "Xfce"
       ],
-      "yesterday": 299
+      "yesterday": 293
     },
     {
-      "no": 54,
-      "name": "Mageia",
-      "rank": 296,
+      "no": 50,
+      "name": "KDE Linux",
+      "rank": 291,
+      "trend": "down",
+      "url": "https://kde.org/linux/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/kde linux.svg",
+      "category": [
+        "Desktop",
+        "Immutable",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 293
+    },
+    {
+      "no": 51,
+      "name": "OmegaLinux",
+      "rank": 287,
       "trend": "up",
-      "url": "https://www.mageia.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/mageia.svg",
+      "url": "https://omega-linux.github.io/page/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/omegalinux.png",
       "category": [
         "Desktop",
         "Live Medium",
-        "Server"
+        "Old Computers"
       ],
       "desktop": [
-        "Cinnamon",
-        "GNOME",
-        "IceWM",
-        "KDE",
-        "MATE",
-        "labwc",
-        "LXDE",
-        "LXQt",
-        "Openbox",
-        "WMaker",
-        "Xfce"
+        "LXDE"
       ],
-      "yesterday": 295
+      "yesterday": 286
     },
     {
-      "no": 55,
+      "no": 52,
       "name": "Parrot",
-      "rank": 287,
-      "trend": "level",
+      "rank": 283,
+      "trend": "down",
       "url": "https://parrotsec.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/parrot.png",
       "category": [
@@ -1145,30 +1095,63 @@
         "LXQt",
         "MATE"
       ],
-      "yesterday": 287
+      "yesterday": 285
+    },
+    {
+      "no": 53,
+      "name": "GNOME OS",
+      "rank": 280,
+      "trend": "down",
+      "url": "https://os.gnome.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/gnome os.png",
+      "category": [
+        "Desktop",
+        "Immutable",
+        "Live Medium"
+      ],
+      "desktop": [
+        "GNOME"
+      ],
+      "yesterday": 281
+    },
+    {
+      "no": 54,
+      "name": "Linuxfx",
+      "rank": 278,
+      "trend": "level",
+      "url": "https://www.linuxfx.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/linuxfx.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 278
+    },
+    {
+      "no": 55,
+      "name": "Voyager",
+      "rank": 274,
+      "trend": "level",
+      "url": "https://voyagerlive.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/voyager.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "GNOME",
+        "Xfce"
+      ],
+      "yesterday": 274
     },
     {
       "no": 56,
-      "name": "FunOS",
-      "rank": 272,
-      "trend": "down",
-      "url": "https://funos.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/funos.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Old Computers"
-      ],
-      "desktop": [
-        "JWM"
-      ],
-      "yesterday": 273
-    },
-    {
-      "no": 57,
       "name": "NebiOS",
-      "rank": 271,
-      "trend": "up",
+      "rank": 273,
+      "trend": "level",
       "url": "https://nebios.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/nebios.png",
       "category": [
@@ -1179,30 +1162,13 @@
       "desktop": [
         "NebiDE (Wayfire)"
       ],
-      "yesterday": 270
+      "yesterday": 273
     },
     {
-      "no": 58,
-      "name": "KaOS",
-      "rank": 264,
-      "trend": "level",
-      "url": "https://kaosx.us/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/kaos.svg",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "niri",
-        "Noctalia"
-      ],
-      "yesterday": 264
-    },
-    {
-      "no": 59,
+      "no": 57,
       "name": "AlmaLinux",
-      "rank": 260,
-      "trend": "up",
+      "rank": 263,
+      "trend": "level",
       "url": "https://almalinux.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/almalinux.svg",
       "category": [
@@ -1216,13 +1182,550 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 258
+      "yesterday": 263
+    },
+    {
+      "no": 58,
+      "name": "Commodore",
+      "rank": 256,
+      "trend": "level",
+      "url": "https://www.commodoreusa.net/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/commodore.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "MATE"
+      ],
+      "yesterday": 256
+    },
+    {
+      "no": 59,
+      "name": "FydeOS",
+      "rank": 242,
+      "trend": "up",
+      "url": "https://fydeos.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/fydeos.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Old Computers",
+        "Raspberry Pi"
+      ],
+      "desktop": [
+        "ChromeOS Desktop"
+      ],
+      "yesterday": 234
     },
     {
       "no": 60,
-      "name": "Tiny Core",
-      "rank": 256,
+      "name": "GhostBSD",
+      "rank": 239,
+      "trend": "down",
+      "url": "https://www.ghostbsd.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ghostbsd.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Gershwin",
+        "MATE",
+        "Xfce"
+      ],
+      "yesterday": 240
+    },
+    {
+      "no": 61,
+      "name": "Lubuntu",
+      "rank": 233,
       "trend": "level",
+      "url": "https://lubuntu.me/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/lubuntu.svg",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Netbooks"
+      ],
+      "desktop": [
+        "LXQt"
+      ],
+      "yesterday": 233
+    },
+    {
+      "no": 62,
+      "name": "RakuOS",
+      "rank": 233,
+      "trend": "up",
+      "url": "https://rakuos.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/rakuos.png",
+      "category": [
+        "Desktop",
+        "Gaming",
+        "Immutable"
+      ],
+      "desktop": [
+        "GNOME",
+        "KDE Plasma"
+      ],
+      "yesterday": 232
+    },
+    {
+      "no": 63,
+      "name": "MocaccinoOS",
+      "rank": 231,
+      "trend": "down",
+      "url": "https://www.mocaccino.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/mocaccinoos.png",
+      "category": [
+        "Desktop",
+        "Immutable",
+        "Live Medium"
+      ],
+      "desktop": [
+        "GNOME",
+        "KDE Plasma",
+        "MATE",
+        "Wayfire",
+        "Xfce"
+      ],
+      "yesterday": 232
+    },
+    {
+      "no": 64,
+      "name": "PrismLinux",
+      "rank": 229,
+      "trend": "level",
+      "url": "https://www.prismlinux.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/prismlinux.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Cinnamon",
+        "COSMIC",
+        "GNOME",
+        "Hyprland",
+        "KDE Plasma",
+        "niri",
+        "River",
+        "Sway"
+      ],
+      "yesterday": 229
+    },
+    {
+      "no": 65,
+      "name": "FunOS",
+      "rank": 226,
+      "trend": "level",
+      "url": "https://funos.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/funos.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Old Computers"
+      ],
+      "desktop": [
+        "JWM"
+      ],
+      "yesterday": 226
+    },
+    {
+      "no": 66,
+      "name": "CuerdOS",
+      "rank": 222,
+      "trend": "level",
+      "url": "https://cuerdos.github.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/cuerdos.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma",
+        "labwc",
+        "Sway",
+        "Xfce"
+      ],
+      "yesterday": 222
+    },
+    {
+      "no": 67,
+      "name": "Slackware",
+      "rank": 219,
+      "trend": "level",
+      "url": "http://www.slackware.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/slackware.svg",
+      "category": [
+        "Desktop",
+        "Server"
+      ],
+      "desktop": [
+        "Blackbox",
+        "Fluxbox",
+        "FVWM",
+        "KDE",
+        "labwc",
+        "WMaker",
+        "Xfce"
+      ],
+      "yesterday": 219
+    },
+    {
+      "no": 68,
+      "name": "Peppermint",
+      "rank": 218,
+      "trend": "down",
+      "url": "https://peppermintos.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/peppermint.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Raspberry Pi"
+      ],
+      "desktop": [
+        "Xfce"
+      ],
+      "yesterday": 219
+    },
+    {
+      "no": 69,
+      "name": "Ultimate",
+      "rank": 217,
+      "trend": "down",
+      "url": "https://sourceforge.net/projects/ultimateedition/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ultimate.png",
+      "category": [
+        "Desktop",
+        "Gaming",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Cinnamon",
+        "KDE Plasma",
+        "MATE",
+        "Xfce"
+      ],
+      "yesterday": 218
+    },
+    {
+      "no": 70,
+      "name": "VailuxOS",
+      "rank": 216,
+      "trend": "down",
+      "url": "https://www.vailux.de/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/vailuxos.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 217
+    },
+    {
+      "no": 71,
+      "name": "TROMjaro",
+      "rank": 215,
+      "trend": "up",
+      "url": "https://www.tromjaro.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/tromjaro.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Xfce"
+      ],
+      "yesterday": 210
+    },
+    {
+      "no": 72,
+      "name": "Xubuntu",
+      "rank": 213,
+      "trend": "level",
+      "url": "https://www.xubuntu.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/xubuntu.svg",
+      "category": [
+        "Desktop"
+      ],
+      "desktop": [
+        "Xfce"
+      ],
+      "yesterday": 213
+    },
+    {
+      "no": 73,
+      "name": "Zenclora",
+      "rank": 212,
+      "trend": "up",
+      "url": "https://zenclora.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/zenclora.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "GNOME"
+      ],
+      "yesterday": 210
+    },
+    {
+      "no": 74,
+      "name": "Aurora",
+      "rank": 208,
+      "trend": "down",
+      "url": "https://getaurora.dev/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/aurora.png",
+      "category": [
+        "Desktop",
+        "Immutable",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 209
+    },
+    {
+      "no": 75,
+      "name": "EasyOS",
+      "rank": 206,
+      "trend": "down",
+      "url": "https://easyos.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/easyos.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Specialist"
+      ],
+      "desktop": [
+        "JWM"
+      ],
+      "yesterday": 209
+    },
+    {
+      "no": 76,
+      "name": "deepin",
+      "rank": 205,
+      "trend": "level",
+      "url": "https://deepin.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/deepin.svg",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Large Language Model"
+      ],
+      "desktop": [
+        "Deepin"
+      ],
+      "yesterday": 205
+    },
+    {
+      "no": 77,
+      "name": "Red Hat",
+      "rank": 205,
+      "trend": "up",
+      "url": "http://www.redhat.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/red hat.svg",
+      "category": [
+        "Desktop",
+        "Server"
+      ],
+      "desktop": [
+        "GNOME"
+      ],
+      "yesterday": 203
+    },
+    {
+      "no": 78,
+      "name": "Archcraft",
+      "rank": 204,
+      "trend": "down",
+      "url": "https://archcraft.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/archcraft.svg",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "bspwm",
+        "MATE",
+        "Openbox"
+      ],
+      "yesterday": 205
+    },
+    {
+      "no": 79,
+      "name": "KaOS",
+      "rank": 198,
+      "trend": "down",
+      "url": "https://kaosx.us/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/kaos.svg",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "niri",
+        "Noctalia"
+      ],
+      "yesterday": 202
+    },
+    {
+      "no": 80,
+      "name": "Vendefoul",
+      "rank": 198,
+      "trend": "level",
+      "url": "https://vendefoul-wolf-linux.sourceforge.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/vendefoul.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Budgie",
+        "Cinnamon",
+        "Enlightenment",
+        "IceWM",
+        "KDE Plasma",
+        "LXQt",
+        "SonicDE",
+        "Trinity",
+        "Xfce"
+      ],
+      "yesterday": 198
+    },
+    {
+      "no": 81,
+      "name": "Kodachi",
+      "rank": 197,
+      "trend": "down",
+      "url": "https://www.kodachi.cloud/wiki/bina/desktop-debian.html",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/kodachi.png",
+      "category": [
+        "Live Medium",
+        "Privacy",
+        "Security"
+      ],
+      "desktop": [
+        "Xfce"
+      ],
+      "yesterday": 198
+    },
+    {
+      "no": 82,
+      "name": "MagOS",
+      "rank": 197,
+      "trend": "down",
+      "url": "https://magos-linux.ru/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/magos.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma",
+        "LXQt"
+      ],
+      "yesterday": 198
+    },
+    {
+      "no": 83,
+      "name": "ML4W",
+      "rank": 197,
+      "trend": "down",
+      "url": "https://ml4w.com/os/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ml4w.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Hyprland"
+      ],
+      "yesterday": 198
+    },
+    {
+      "no": 84,
+      "name": "SmartOS",
+      "rank": 196,
+      "trend": "down",
+      "url": "https://www.tritondatacenter.com/smartos",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/smartos.png",
+      "category": [
+        "Specialist",
+        "Live Medium"
+      ],
+      "desktop": [
+        "No Desktop"
+      ],
+      "yesterday": 198
+    },
+    {
+      "no": 85,
+      "name": "Synex",
+      "rank": 194,
+      "trend": "level",
+      "url": "https://synex.ar/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/synex.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Server"
+      ],
+      "desktop": [
+        "GNOME",
+        "IceWM",
+        "LXDE",
+        "MATE",
+        "KDE Plasma",
+        "Xfce"
+      ],
+      "yesterday": 194
+    },
+    {
+      "no": 86,
+      "name": "AV Linux",
+      "rank": 190,
+      "trend": "level",
+      "url": "https://www.bandshed.net/avlinux/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/av linux.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Multimedia"
+      ],
+      "desktop": [
+        "Enlightenment",
+        "Moksha"
+      ],
+      "yesterday": 190
+    },
+    {
+      "no": 87,
+      "name": "Talos",
+      "rank": 190,
+      "trend": "level",
+      "url": "https://www.talos.dev/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/talos.png",
+      "category": [
+        "Immutable",
+        "Kubernetes"
+      ],
+      "desktop": [
+        "No Desktop"
+      ],
+      "yesterday": 190
+    },
+    {
+      "no": 88,
+      "name": "Tiny Core",
+      "rank": 183,
+      "trend": "down",
       "url": "http://www.tinycorelinux.net/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/tiny core.png",
       "category": [
@@ -1244,457 +1747,12 @@
         "Openbox",
         "WMFS"
       ],
-      "yesterday": 256
+      "yesterday": 185
     },
     {
-      "no": 61,
-      "name": "VailuxOS",
-      "rank": 253,
-      "trend": "level",
-      "url": "https://www.vailux.de/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/vailuxos.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 253
-    },
-    {
-      "no": 62,
-      "name": "Commodore",
-      "rank": 246,
-      "trend": "up",
-      "url": "https://www.commodoreusa.net/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/commodore.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "MATE"
-      ],
-      "yesterday": 240
-    },
-    {
-      "no": 63,
-      "name": "EasyOS",
-      "rank": 246,
-      "trend": "level",
-      "url": "https://easyos.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/easyos.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Specialist"
-      ],
-      "desktop": [
-        "JWM"
-      ],
-      "yesterday": 246
-    },
-    {
-      "no": 64,
-      "name": "Lubuntu",
-      "rank": 244,
-      "trend": "level",
-      "url": "https://lubuntu.me/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/lubuntu.svg",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Netbooks"
-      ],
-      "desktop": [
-        "LXQt"
-      ],
-      "yesterday": 244
-    },
-    {
-      "no": 65,
-      "name": "GhostBSD",
-      "rank": 241,
-      "trend": "level",
-      "url": "https://www.ghostbsd.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ghostbsd.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Gershwin",
-        "MATE",
-        "Xfce"
-      ],
-      "yesterday": 241
-    },
-    {
-      "no": 66,
-      "name": "FydeOS",
-      "rank": 239,
-      "trend": "down",
-      "url": "https://fydeos.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/fydeos.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Old Computers",
-        "Raspberry Pi"
-      ],
-      "desktop": [
-        "ChromeOS Desktop"
-      ],
-      "yesterday": 242
-    },
-    {
-      "no": 67,
-      "name": "MocaccinoOS",
-      "rank": 234,
-      "trend": "up",
-      "url": "https://www.mocaccino.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/mocaccinoos.png",
-      "category": [
-        "Desktop",
-        "Immutable",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME",
-        "KDE Plasma",
-        "MATE",
-        "Wayfire",
-        "Xfce"
-      ],
-      "yesterday": 228
-    },
-    {
-      "no": 68,
-      "name": "Xubuntu",
-      "rank": 230,
-      "trend": "up",
-      "url": "https://www.xubuntu.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/xubuntu.svg",
-      "category": [
-        "Desktop"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 229
-    },
-    {
-      "no": 69,
-      "name": "Lilidog",
-      "rank": 228,
-      "trend": "level",
-      "url": "https://sourceforge.net/projects/lilidog/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/lilidog.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Old Computers"
-      ],
-      "desktop": [
-        "labwc",
-        "Openbox",
-        "Sway"
-      ],
-      "yesterday": 228
-    },
-    {
-      "no": 70,
-      "name": "Peppermint",
-      "rank": 225,
-      "trend": "down",
-      "url": "https://peppermintos.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/peppermint.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Raspberry Pi"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 226
-    },
-    {
-      "no": 71,
-      "name": "PrismLinux",
-      "rank": 225,
-      "trend": "down",
-      "url": "https://www.prismlinux.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/prismlinux.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Cinnamon",
-        "COSMIC",
-        "GNOME",
-        "Hyprland",
-        "KDE Plasma",
-        "niri",
-        "River",
-        "Sway"
-      ],
-      "yesterday": 231
-    },
-    {
-      "no": 72,
-      "name": "Slackware",
-      "rank": 224,
-      "trend": "level",
-      "url": "http://www.slackware.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/slackware.svg",
-      "category": [
-        "Desktop",
-        "Server"
-      ],
-      "desktop": [
-        "Blackbox",
-        "Fluxbox",
-        "FVWM",
-        "KDE",
-        "labwc",
-        "WMaker",
-        "Xfce"
-      ],
-      "yesterday": 224
-    },
-    {
-      "no": 73,
-      "name": "ML4W",
-      "rank": 216,
-      "trend": "up",
-      "url": "https://ml4w.com/os/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ml4w.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Hyprland"
-      ],
-      "yesterday": 215
-    },
-    {
-      "no": 74,
-      "name": "iDeal",
-      "rank": 213,
-      "trend": "down",
-      "url": "https://ideal-os.xyz/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ideal.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 219
-    },
-    {
-      "no": 75,
-      "name": "CuerdOS",
-      "rank": 211,
-      "trend": "up",
-      "url": "https://cuerdos.github.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/cuerdos.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma",
-        "labwc",
-        "Sway",
-        "Xfce"
-      ],
-      "yesterday": 210
-    },
-    {
-      "no": 76,
-      "name": "Kodachi",
-      "rank": 211,
-      "trend": "down",
-      "url": "https://www.kodachi.cloud/wiki/bina/desktop-debian.html",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/kodachi.png",
-      "category": [
-        "Live Medium",
-        "Privacy",
-        "Security"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 212
-    },
-    {
-      "no": 77,
-      "name": "SmartOS",
-      "rank": 210,
-      "trend": "level",
-      "url": "https://www.tritondatacenter.com/smartos",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/smartos.png",
-      "category": [
-        "Specialist",
-        "Live Medium"
-      ],
-      "desktop": [
-        "No Desktop"
-      ],
-      "yesterday": 210
-    },
-    {
-      "no": 78,
-      "name": "Talos",
-      "rank": 208,
-      "trend": "level",
-      "url": "https://www.talos.dev/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/talos.png",
-      "category": [
-        "Immutable",
-        "Kubernetes"
-      ],
-      "desktop": [
-        "No Desktop"
-      ],
-      "yesterday": 208
-    },
-    {
-      "no": 79,
-      "name": "MagOS",
-      "rank": 201,
-      "trend": "level",
-      "url": "https://magos-linux.ru/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/magos.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma",
-        "LXQt"
-      ],
-      "yesterday": 201
-    },
-    {
-      "no": 80,
-      "name": "deepin",
-      "rank": 199,
-      "trend": "level",
-      "url": "https://deepin.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/deepin.svg",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Large Language Model"
-      ],
-      "desktop": [
-        "Deepin"
-      ],
-      "yesterday": 199
-    },
-    {
-      "no": 81,
-      "name": "AV Linux",
-      "rank": 195,
-      "trend": "level",
-      "url": "https://www.bandshed.net/avlinux/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/av linux.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Multimedia"
-      ],
-      "desktop": [
-        "Enlightenment",
-        "Moksha"
-      ],
-      "yesterday": 195
-    },
-    {
-      "no": 82,
-      "name": "ENux",
-      "rank": 193,
-      "trend": "up",
-      "url": "https://www.emirpasha.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/enux.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 191
-    },
-    {
-      "no": 83,
-      "name": "Ultimate",
-      "rank": 192,
-      "trend": "level",
-      "url": "https://sourceforge.net/projects/ultimateedition/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ultimate.png",
-      "category": [
-        "Desktop",
-        "Gaming",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Cinnamon",
-        "KDE Plasma",
-        "MATE",
-        "Xfce"
-      ],
-      "yesterday": 192
-    },
-    {
-      "no": 84,
-      "name": "Synex",
-      "rank": 191,
-      "trend": "up",
-      "url": "https://synex.ar/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/synex.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Server"
-      ],
-      "desktop": [
-        "GNOME",
-        "IceWM",
-        "LXDE",
-        "MATE",
-        "KDE Plasma",
-        "Xfce"
-      ],
-      "yesterday": 190
-    },
-    {
-      "no": 85,
-      "name": "Red Hat",
-      "rank": 190,
-      "trend": "level",
-      "url": "http://www.redhat.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/red hat.svg",
-      "category": [
-        "Desktop",
-        "Server"
-      ],
-      "desktop": [
-        "GNOME"
-      ],
-      "yesterday": 190
-    },
-    {
-      "no": 86,
+      "no": 89,
       "name": "AgarimOS",
-      "rank": 188,
+      "rank": 181,
       "trend": "down",
       "url": "https://agarimos.sourceforge.io/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/agarimos.png",
@@ -1710,71 +1768,31 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 189
-    },
-    {
-      "no": 87,
-      "name": "OpenMandriva",
-      "rank": 186,
-      "trend": "level",
-      "url": "https://www.openmandriva.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/openmandriva.svg",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Server"
-      ],
-      "desktop": [
-        "COSMIC",
-        "GNOME",
-        "KDE Plasma",
-        "labwc",
-        "LXQt",
-        "Wayfire",
-        "Xfce"
-      ],
-      "yesterday": 186
-    },
-    {
-      "no": 88,
-      "name": "Bodhi",
-      "rank": 185,
-      "trend": "level",
-      "url": "https://www.bodhilinux.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/bodhi.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Netbooks",
-        "Old Computers"
-      ],
-      "desktop": [
-        "Moksha (Enlightenment)"
-      ],
-      "yesterday": 185
-    },
-    {
-      "no": 89,
-      "name": "DragonOS",
-      "rank": 183,
-      "trend": "down",
-      "url": "https://sourceforge.net/projects/dragonos-focal/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/dragonos.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Specialist"
-      ],
-      "desktop": [
-        "LXQt"
-      ],
-      "yesterday": 184
+      "yesterday": 182
     },
     {
       "no": 90,
-      "name": "blendOS",
+      "name": "Q83",
       "rank": 181,
-      "trend": "level",
+      "trend": "up",
+      "url": "https://linux-q83.sourceforge.net/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/q83.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Raspberry Pi"
+      ],
+      "desktop": [
+        "Cinnamon",
+        "COSMIC"
+      ],
+      "yesterday": 179
+    },
+    {
+      "no": 91,
+      "name": "blendOS",
+      "rank": 177,
+      "trend": "down",
       "url": "https://blendos.co/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/blendos.png",
       "category": [
@@ -1786,15 +1804,32 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 181
+      "yesterday": 178
     },
     {
-      "no": 91,
-      "name": "Fluff",
-      "rank": 175,
-      "trend": "up",
-      "url": "https://flufflinux.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/fluff.png",
+      "no": 92,
+      "name": "DragonOS",
+      "rank": 177,
+      "trend": "level",
+      "url": "https://sourceforge.net/projects/dragonos-focal/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/dragonos.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Specialist"
+      ],
+      "desktop": [
+        "LXQt"
+      ],
+      "yesterday": 177
+    },
+    {
+      "no": 93,
+      "name": "iDeal",
+      "rank": 177,
+      "trend": "level",
+      "url": "https://ideal-os.xyz/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ideal.png",
       "category": [
         "Desktop",
         "Live Medium"
@@ -1802,12 +1837,79 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 173
+      "yesterday": 177
     },
     {
-      "no": 92,
-      "name": "Vanilla",
+      "no": 94,
+      "name": "Rocky",
       "rank": 175,
+      "trend": "level",
+      "url": "https://rockylinux.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/rocky.svg",
+      "category": [
+        "Desktop",
+        "Server"
+      ],
+      "desktop": [
+        "GNOME"
+      ],
+      "yesterday": 175
+    },
+    {
+      "no": 95,
+      "name": "Bodhi",
+      "rank": 174,
+      "trend": "down",
+      "url": "https://www.bodhilinux.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/bodhi.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Netbooks",
+        "Old Computers"
+      ],
+      "desktop": [
+        "Moksha (Enlightenment)"
+      ],
+      "yesterday": 175
+    },
+    {
+      "no": 96,
+      "name": "umbrelOS",
+      "rank": 171,
+      "trend": "level",
+      "url": "https://umbrel.com/umbrelos",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/umbrelos.png",
+      "category": [
+        "Server",
+        "Raspberry Pi"
+      ],
+      "desktop": [
+        "WebUI"
+      ],
+      "yesterday": 171
+    },
+    {
+      "no": 97,
+      "name": "4MLinux",
+      "rank": 170,
+      "trend": "up",
+      "url": "https://4mlinux.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/4mlinux.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Server"
+      ],
+      "desktop": [
+        "JWM"
+      ],
+      "yesterday": 169
+    },
+    {
+      "no": 98,
+      "name": "Vanilla",
+      "rank": 168,
       "trend": "down",
       "url": "https://vanillaos.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/vanilla.svg",
@@ -1819,83 +1921,29 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 176
+      "yesterday": 169
     },
     {
-      "no": 93,
-      "name": "Rocky",
-      "rank": 174,
-      "trend": "level",
-      "url": "https://rockylinux.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/rocky.svg",
+      "no": 99,
+      "name": "Nitrux",
+      "rank": 166,
+      "trend": "up",
+      "url": "https://nxos.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/nitrux.png",
       "category": [
         "Desktop",
-        "Server"
-      ],
-      "desktop": [
-        "GNOME"
-      ],
-      "yesterday": 174
-    },
-    {
-      "no": 94,
-      "name": "BunsenLabs",
-      "rank": 173,
-      "trend": "down",
-      "url": "https://www.bunsenlabs.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/bunsenlabs.png",
-      "category": [
-        "Desktop"
-      ],
-      "desktop": [
-        "Openbox"
-      ],
-      "yesterday": 178
-    },
-    {
-      "no": 95,
-      "name": "Oreon",
-      "rank": 172,
-      "trend": "level",
-      "url": "https://oreonhq.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/oreon.png",
-      "category": [
-        "Desktop",
+        "Immutable",
         "Live Medium"
       ],
       "desktop": [
-        "GNOME"
+        "Hyprland"
       ],
-      "yesterday": 172
+      "yesterday": 164
     },
     {
-      "no": 96,
-      "name": "Vendefoul",
-      "rank": 171,
-      "trend": "down",
-      "url": "https://vendefoul-wolf-linux.sourceforge.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/vendefoul.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Budgie",
-        "Cinnamon",
-        "Enlightenment",
-        "IceWM",
-        "KDE Plasma",
-        "LXQt",
-        "SonicDE",
-        "Trinity",
-        "Xfce"
-      ],
-      "yesterday": 184
-    },
-    {
-      "no": 97,
+      "no": 100,
       "name": "ALT",
-      "rank": 170,
+      "rank": 164,
       "trend": "level",
       "url": "https://www.basealt.ru/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/alt.png",
@@ -1927,347 +1975,29 @@
         "Wayfire",
         "Xfce"
       ],
-      "yesterday": 170
-    },
-    {
-      "no": 98,
-      "name": "RakuOS",
-      "rank": 170,
-      "trend": "level",
-      "url": "https://rakuos.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/rakuos.png",
-      "category": [
-        "Desktop",
-        "Gaming",
-        "Immutable"
-      ],
-      "desktop": [
-        "GNOME",
-        "KDE Plasma"
-      ],
-      "yesterday": 170
-    },
-    {
-      "no": 99,
-      "name": "Aurora",
-      "rank": 169,
-      "trend": "down",
-      "url": "https://getaurora.dev/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/aurora.png",
-      "category": [
-        "Desktop",
-        "Immutable",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 170
-    },
-    {
-      "no": 100,
-      "name": "Zenclora",
-      "rank": 169,
-      "trend": "level",
-      "url": "https://zenclora.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/zenclora.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME"
-      ],
-      "yesterday": 169
+      "yesterday": 164
     },
     {
       "no": 101,
-      "name": "Archcraft",
-      "rank": 168,
-      "trend": "down",
-      "url": "https://archcraft.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/archcraft.svg",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "bspwm",
-        "MATE",
-        "Openbox"
-      ],
-      "yesterday": 182
-    },
-    {
-      "no": 102,
-      "name": "MODICIA",
-      "rank": 168,
-      "trend": "up",
-      "url": "https://www.modiciaos.cloud/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/modicia.png",
-      "category": [
-        "Live Medium",
-        "Multimedia"
-      ],
-      "desktop": [
-        "Cinnamon"
-      ],
-      "yesterday": 167
-    },
-    {
-      "no": 103,
-      "name": "ArchBANG",
-      "rank": 167,
-      "trend": "down",
-      "url": "https://archbang.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/archbang.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "labwc"
-      ],
-      "yesterday": 168
-    },
-    {
-      "no": 104,
-      "name": "Origami",
+      "name": "LinuxHub",
       "rank": 164,
       "trend": "down",
-      "url": "https://origami.wf/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/origami.png",
+      "url": "https://linuxhub.link/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/linuxhub.png",
       "category": [
         "Desktop",
-        "Immutable"
+        "Live Medium"
       ],
       "desktop": [
-        "COSMIC"
+        "Openbox"
       ],
       "yesterday": 165
     },
     {
-      "no": 105,
-      "name": "Berserk Arch",
-      "rank": 162,
-      "trend": "up",
-      "url": "https://berserkarch.xyz/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/berserk arch.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Security"
-      ],
-      "desktop": [
-        "Openbox"
-      ],
-      "yesterday": 160
-    },
-    {
-      "no": 106,
-      "name": "4MLinux",
-      "rank": 161,
-      "trend": "level",
-      "url": "https://4mlinux.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/4mlinux.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Server"
-      ],
-      "desktop": [
-        "JWM"
-      ],
-      "yesterday": 161
-    },
-    {
-      "no": 107,
-      "name": "Calculate",
-      "rank": 161,
-      "trend": "up",
-      "url": "https://www.calculate-linux.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/calculate.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Server",
-        "Source-based"
-      ],
-      "desktop": [
-        "Cinnamon",
-        "KDE Plasma",
-        "LXQt",
-        "MATE",
-        "Xfce"
-      ],
-      "yesterday": 160
-    },
-    {
-      "no": 108,
-      "name": "umbrelOS",
-      "rank": 161,
-      "trend": "up",
-      "url": "https://umbrel.com/umbrelos",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/umbrelos.png",
-      "category": [
-        "Server",
-        "Raspberry Pi"
-      ],
-      "desktop": [
-        "WebUI"
-      ],
-      "yesterday": 149
-    },
-    {
-      "no": 109,
-      "name": "Ultramarine",
-      "rank": 159,
-      "trend": "level",
-      "url": "https://ultramarine-linux.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ultramarine.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Raspberry Pi"
-      ],
-      "desktop": [
-        "Budgie",
-        "GNOME",
-        "KDE Plasma",
-        "Xfce"
-      ],
-      "yesterday": 159
-    },
-    {
-      "no": 110,
-      "name": "Mabox",
-      "rank": 158,
-      "trend": "level",
-      "url": "https://maboxlinux.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/mabox.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Openbox"
-      ],
-      "yesterday": 158
-    },
-    {
-      "no": 111,
-      "name": "NuTyX",
-      "rank": 156,
-      "trend": "level",
-      "url": "https://www.nutyx.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/nutyx.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME",
-        "KDE Plasma",
-        "Xfce"
-      ],
-      "yesterday": 156
-    },
-    {
-      "no": 112,
-      "name": "Plop",
-      "rank": 155,
-      "trend": "level",
-      "url": "https://www.plop.at/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/plop.png",
-      "category": [
-        "Data Rescue",
-        "Desktop",
-        "Live Medium",
-        "Raspberry Pi",
-        "Server"
-      ],
-      "desktop": [
-        "Fluxbox",
-        "MATE",
-        "Xfce"
-      ],
-      "yesterday": 155
-    },
-    {
-      "no": 113,
-      "name": "Trisquel",
-      "rank": 153,
-      "trend": "level",
-      "url": "https://trisquel.info/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/trisquel.png",
-      "category": [
-        "Free Software",
-        "Desktop",
-        "Live Medium",
-        "Education"
-      ],
-      "desktop": [
-        "KDE Plasma",
-        "LXDE",
-        "MATE"
-      ],
-      "yesterday": 153
-    },
-    {
-      "no": 114,
-      "name": "Nyarch",
-      "rank": 150,
-      "trend": "up",
-      "url": "https://nyarchlinux.moe/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/nyarch.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME"
-      ],
-      "yesterday": 148
-    },
-    {
-      "no": 115,
-      "name": "Ubuntu Studio",
-      "rank": 150,
-      "trend": "level",
-      "url": "https://ubuntustudio.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ubuntu studio.svg",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Multimedia"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 150
-    },
-    {
-      "no": 116,
-      "name": "Besgnulinux",
-      "rank": 149,
-      "trend": "level",
-      "url": "https://besgnulinux.blogspot.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/besgnulinux.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Old Computers"
-      ],
-      "desktop": [
-        "JWM"
-      ],
-      "yesterday": 149
-    },
-    {
-      "no": 117,
+      "no": 102,
       "name": "OpenBSD",
-      "rank": 149,
-      "trend": "down",
+      "rank": 163,
+      "trend": "up",
       "url": "https://www.openbsd.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/openbsd.svg",
       "category": [
@@ -2289,79 +2019,223 @@
         "WMaker",
         "Xfce"
       ],
-      "yesterday": 150
+      "yesterday": 161
     },
     {
-      "no": 118,
-      "name": "Nitrux",
-      "rank": 148,
+      "no": 103,
+      "name": "BunsenLabs",
+      "rank": 161,
       "trend": "level",
-      "url": "https://nxos.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/nitrux.png",
+      "url": "https://www.bunsenlabs.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/bunsenlabs.png",
       "category": [
-        "Desktop",
-        "Immutable",
-        "Live Medium"
+        "Desktop"
       ],
       "desktop": [
-        "Hyprland"
+        "Openbox"
       ],
-      "yesterday": 148
+      "yesterday": 161
     },
     {
-      "no": 119,
-      "name": "ReactOS",
-      "rank": 148,
+      "no": 104,
+      "name": "Origami",
+      "rank": 160,
+      "trend": "level",
+      "url": "https://origami.wf/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/origami.png",
+      "category": [
+        "Desktop",
+        "Immutable"
+      ],
+      "desktop": [
+        "COSMIC"
+      ],
+      "yesterday": 160
+    },
+    {
+      "no": 105,
+      "name": "OpenMandriva",
+      "rank": 159,
       "trend": "down",
-      "url": "https://www.reactos.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/reactos.svg",
+      "url": "https://www.openmandriva.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/openmandriva.svg",
       "category": [
         "Desktop",
-        "Old Computers",
-        "Live Medium"
-      ],
-      "desktop": [
-        "ReactOS Explorer"
-      ],
-      "yesterday": 149
-    },
-    {
-      "no": 120,
-      "name": "ObsidianOS",
-      "rank": 146,
-      "trend": "up",
-      "url": "https://obsidianos.xyz/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/obsidianos.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
+        "Live Medium",
+        "Server"
       ],
       "desktop": [
         "COSMIC",
-        "KDE Plasma"
+        "GNOME",
+        "KDE Plasma",
+        "labwc",
+        "LXQt",
+        "Wayfire",
+        "Xfce"
       ],
-      "yesterday": 145
+      "yesterday": 160
     },
     {
-      "no": 121,
-      "name": "Q83",
-      "rank": 142,
-      "trend": "up",
-      "url": "https://linux-q83.sourceforge.net/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/q83.png",
+      "no": 106,
+      "name": "Ultramarine",
+      "rank": 158,
+      "trend": "level",
+      "url": "https://ultramarine-linux.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ultramarine.png",
       "category": [
         "Desktop",
         "Live Medium",
         "Raspberry Pi"
       ],
       "desktop": [
-        "Cinnamon",
-        "COSMIC"
+        "Budgie",
+        "GNOME",
+        "KDE Plasma",
+        "Xfce"
+      ],
+      "yesterday": 158
+    },
+    {
+      "no": 107,
+      "name": "Nyarch",
+      "rank": 156,
+      "trend": "down",
+      "url": "https://nyarchlinux.moe/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/nyarch.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "GNOME"
+      ],
+      "yesterday": 157
+    },
+    {
+      "no": 108,
+      "name": "Plop",
+      "rank": 156,
+      "trend": "level",
+      "url": "https://www.plop.at/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/plop.png",
+      "category": [
+        "Data Rescue",
+        "Desktop",
+        "Live Medium",
+        "Raspberry Pi",
+        "Server"
+      ],
+      "desktop": [
+        "Fluxbox",
+        "MATE",
+        "Xfce"
+      ],
+      "yesterday": 156
+    },
+    {
+      "no": 109,
+      "name": "Trisquel",
+      "rank": 152,
+      "trend": "level",
+      "url": "https://trisquel.info/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/trisquel.png",
+      "category": [
+        "Free Software",
+        "Desktop",
+        "Live Medium",
+        "Education"
+      ],
+      "desktop": [
+        "KDE Plasma",
+        "LXDE",
+        "MATE"
+      ],
+      "yesterday": 152
+    },
+    {
+      "no": 110,
+      "name": "ENux",
+      "rank": 148,
+      "trend": "down",
+      "url": "https://www.emirpasha.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/enux.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Xfce"
+      ],
+      "yesterday": 149
+    },
+    {
+      "no": 111,
+      "name": "Mabox",
+      "rank": 148,
+      "trend": "down",
+      "url": "https://maboxlinux.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/mabox.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Openbox"
+      ],
+      "yesterday": 149
+    },
+    {
+      "no": 112,
+      "name": "MODICIA",
+      "rank": 147,
+      "trend": "down",
+      "url": "https://www.modiciaos.cloud/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/modicia.png",
+      "category": [
+        "Live Medium",
+        "Multimedia"
+      ],
+      "desktop": [
+        "Cinnamon"
+      ],
+      "yesterday": 149
+    },
+    {
+      "no": 113,
+      "name": "extrox",
+      "rank": 143,
+      "trend": "level",
+      "url": "https://extrox.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/extrox.png",
+      "category": [
+        "Desktop",
+        "Multimedia",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Xfce"
+      ],
+      "yesterday": 143
+    },
+    {
+      "no": 114,
+      "name": "Berserk Arch",
+      "rank": 141,
+      "trend": "level",
+      "url": "https://berserkarch.xyz/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/berserk arch.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Security"
+      ],
+      "desktop": [
+        "Openbox"
       ],
       "yesterday": 141
     },
     {
-      "no": 122,
+      "no": 115,
       "name": "Elive",
       "rank": 141,
       "trend": "level",
@@ -2377,10 +2251,126 @@
       "yesterday": 141
     },
     {
-      "no": 123,
-      "name": "d77void",
+      "no": 116,
+      "name": "Qubes",
+      "rank": 141,
+      "trend": "down",
+      "url": "https://qubes-os.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/qubes.png",
+      "category": [
+        "Desktop",
+        "Security"
+      ],
+      "desktop": [
+        "Xfce"
+      ],
+      "yesterday": 142
+    },
+    {
+      "no": 117,
+      "name": "ToaruOS",
+      "rank": 141,
+      "trend": "level",
+      "url": "https://toaruos.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/toaruos.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Yutani"
+      ],
+      "yesterday": 141
+    },
+    {
+      "no": 118,
+      "name": "Besgnulinux",
       "rank": 140,
       "trend": "down",
+      "url": "https://besgnulinux.blogspot.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/besgnulinux.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Old Computers"
+      ],
+      "desktop": [
+        "JWM"
+      ],
+      "yesterday": 141
+    },
+    {
+      "no": 119,
+      "name": "ArchBANG",
+      "rank": 139,
+      "trend": "down",
+      "url": "https://archbang.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/archbang.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "labwc"
+      ],
+      "yesterday": 140
+    },
+    {
+      "no": 120,
+      "name": "Fishy",
+      "rank": 139,
+      "trend": "level",
+      "url": "https://fishy-linux.sourceforge.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/fishy.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "LXQt"
+      ],
+      "yesterday": 139
+    },
+    {
+      "no": 121,
+      "name": "Lilidog",
+      "rank": 139,
+      "trend": "down",
+      "url": "https://sourceforge.net/projects/lilidog/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/lilidog.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Old Computers"
+      ],
+      "desktop": [
+        "labwc",
+        "Openbox",
+        "Sway"
+      ],
+      "yesterday": 141
+    },
+    {
+      "no": 122,
+      "name": "Oreon",
+      "rank": 135,
+      "trend": "down",
+      "url": "https://oreonhq.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/oreon.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "GNOME"
+      ],
+      "yesterday": 136
+    },
+    {
+      "no": 123,
+      "name": "d77void",
+      "rank": 134,
+      "trend": "level",
       "url": "https://d77void.sourceforge.io/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/d77void.png",
       "category": [
@@ -2412,45 +2402,328 @@
         "Wayfire",
         "Xfce"
       ],
-      "yesterday": 141
+      "yesterday": 134
     },
     {
       "no": 124,
-      "name": "LinuxHub",
-      "rank": 140,
+      "name": "Essora",
+      "rank": 134,
+      "trend": "level",
+      "url": "https://essora.sourceforge.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/essora.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Old Computers"
+      ],
+      "desktop": [
+        "JWM",
+        "KDE Plasma",
+        "LXDE",
+        "Openbox"
+      ],
+      "yesterday": 134
+    },
+    {
+      "no": 125,
+      "name": "ReactOS",
+      "rank": 132,
       "trend": "down",
-      "url": "https://linuxhub.link/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/linuxhub.png",
+      "url": "https://www.reactos.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/reactos.svg",
+      "category": [
+        "Desktop",
+        "Old Computers",
+        "Live Medium"
+      ],
+      "desktop": [
+        "ReactOS Explorer"
+      ],
+      "yesterday": 133
+    },
+    {
+      "no": 126,
+      "name": "Unraid",
+      "rank": 132,
+      "trend": "level",
+      "url": "https://unraid.net/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/unraid.png",
+      "category": [
+        "Server"
+      ],
+      "desktop": [
+        "WebUI"
+      ],
+      "yesterday": 132
+    },
+    {
+      "no": 127,
+      "name": "Butterbian",
+      "rank": 130,
+      "trend": "up",
+      "url": "https://www.butterbian.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/butterbian.png",
       "category": [
         "Desktop",
         "Live Medium"
       ],
       "desktop": [
-        "Openbox"
-      ],
-      "yesterday": 141
-    },
-    {
-      "no": 125,
-      "name": "Qubes",
-      "rank": 140,
-      "trend": "up",
-      "url": "https://qubes-os.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/qubes.png",
-      "category": [
-        "Desktop",
-        "Security"
-      ],
-      "desktop": [
         "Xfce"
       ],
-      "yesterday": 139
+      "yesterday": 129
     },
     {
-      "no": 126,
-      "name": "NetBSD",
-      "rank": 139,
+      "no": 128,
+      "name": "VyOS",
+      "rank": 129,
       "trend": "level",
+      "url": "https://vyos.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/vyos.png",
+      "category": [
+        "Firewall"
+      ],
+      "desktop": [
+        "No Desktop"
+      ],
+      "yesterday": 129
+    },
+    {
+      "no": 129,
+      "name": "Fluff",
+      "rank": 128,
+      "trend": "down",
+      "url": "https://flufflinux.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/fluff.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 138
+    },
+    {
+      "no": 130,
+      "name": "CalamaroOS",
+      "rank": 127,
+      "trend": "level",
+      "url": "https://calamaroos-site.resorno.workers.dev/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/calamaroos.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma",
+        "LXQt",
+        "MATE",
+        "Xfce"
+      ],
+      "yesterday": 127
+    },
+    {
+      "no": 131,
+      "name": "GLF",
+      "rank": 127,
+      "trend": "level",
+      "url": "https://www.gaminglinux.fr/glf-os/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/glf.png",
+      "category": [
+        "Declarative",
+        "Desktop",
+        "Gaming",
+        "Live Medium"
+      ],
+      "desktop": [
+        "GNOME",
+        "KDE Plasma"
+      ],
+      "yesterday": 127
+    },
+    {
+      "no": 132,
+      "name": "Expirion",
+      "rank": 126,
+      "trend": "level",
+      "url": "https://expirion-linux.sourceforge.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/expirion.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Cinnamon",
+        "LXQt",
+        "Xfce"
+      ],
+      "yesterday": 126
+    },
+    {
+      "no": 133,
+      "name": "Ubuntu Studio",
+      "rank": 126,
+      "trend": "down",
+      "url": "https://ubuntustudio.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ubuntu studio.svg",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Multimedia"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 127
+    },
+    {
+      "no": 134,
+      "name": "Netrunner",
+      "rank": 125,
+      "trend": "level",
+      "url": "https://www.netrunner.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/netrunner.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 125
+    },
+    {
+      "no": 135,
+      "name": "Noid",
+      "rank": 124,
+      "trend": "level",
+      "url": "https://sourceforge.net/projects/noid-linux/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/noid.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "GNOME",
+        "KDE Plasma",
+        "Xfce"
+      ],
+      "yesterday": 124
+    },
+    {
+      "no": 136,
+      "name": "Quarkos",
+      "rank": 124,
+      "trend": "up",
+      "url": "https://quark-os.sourceforge.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/quarkos.png",
+      "category": [
+        "Live Medium",
+        "Desktop",
+        "Old Computers"
+      ],
+      "desktop": [
+        "KDE Plasma",
+        "Trinity"
+      ],
+      "yesterday": 116
+    },
+    {
+      "no": 137,
+      "name": "AbeirOS",
+      "rank": 123,
+      "trend": "level",
+      "url": "https://abeiros.sourceforge.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/abeiros.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 123
+    },
+    {
+      "no": 138,
+      "name": "Calculate",
+      "rank": 121,
+      "trend": "down",
+      "url": "https://www.calculate-linux.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/calculate.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Server",
+        "Source-based"
+      ],
+      "desktop": [
+        "Cinnamon",
+        "KDE Plasma",
+        "LXQt",
+        "MATE",
+        "Xfce"
+      ],
+      "yesterday": 124
+    },
+    {
+      "no": 139,
+      "name": "Venom",
+      "rank": 121,
+      "trend": "level",
+      "url": "https://venomlinux.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/venom.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Fluxbox",
+        "labwc",
+        "Sway",
+        "Xfce"
+      ],
+      "yesterday": 121
+    },
+    {
+      "no": 140,
+      "name": "Aeon",
+      "rank": 120,
+      "trend": "level",
+      "url": "https://aeondesktop.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/aeon.png",
+      "category": [
+        "Desktop",
+        "Immutable",
+        "Live Medium"
+      ],
+      "desktop": [
+        "GNOME"
+      ],
+      "yesterday": 120
+    },
+    {
+      "no": 141,
+      "name": "Lakka",
+      "rank": 118,
+      "trend": "down",
+      "url": "http://www.lakka.tv/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/lakka.png",
+      "category": [
+        "Gaming",
+        "Multimedia",
+        "Raspberry Pi"
+      ],
+      "desktop": [
+        "RetroArch"
+      ],
+      "yesterday": 128
+    },
+    {
+      "no": 142,
+      "name": "NetBSD",
+      "rank": 116,
+      "trend": "down",
       "url": "https://www.netbsd.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/netbsd.png",
       "category": [
@@ -2470,250 +2743,12 @@
         "WMaker",
         "Xfce"
       ],
-      "yesterday": 139
-    },
-    {
-      "no": 127,
-      "name": "TROMjaro",
-      "rank": 139,
-      "trend": "up",
-      "url": "https://www.tromjaro.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/tromjaro.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 138
-    },
-    {
-      "no": 128,
-      "name": "DESERT",
-      "rank": 138,
-      "trend": "level",
-      "url": "https://sites.google.com/view/desertoslinux",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/desert.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 138
-    },
-    {
-      "no": 129,
-      "name": "Ezarcher",
-      "rank": 138,
-      "trend": "down",
-      "url": "https://ezarch.sourceforge.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ezarcher.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Cinnamon",
-        "COSMIC",
-        "GNOME",
-        "KDE Plasma",
-        "LXQt",
-        "MATE",
-        "Xfce"
-      ],
-      "yesterday": 139
-    },
-    {
-      "no": 130,
-      "name": "Fishy",
-      "rank": 133,
-      "trend": "up",
-      "url": "https://fishy-linux.sourceforge.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/fishy.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "LXQt"
-      ],
-      "yesterday": 132
-    },
-    {
-      "no": 131,
-      "name": "extrox",
-      "rank": 130,
-      "trend": "up",
-      "url": "https://extrox.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/extrox.png",
-      "category": [
-        "Desktop",
-        "Multimedia",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
       "yesterday": 117
     },
     {
-      "no": 132,
-      "name": "Lakka",
-      "rank": 129,
-      "trend": "level",
-      "url": "http://www.lakka.tv/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/lakka.png",
-      "category": [
-        "Gaming",
-        "Multimedia",
-        "Raspberry Pi"
-      ],
-      "desktop": [
-        "RetroArch"
-      ],
-      "yesterday": 129
-    },
-    {
-      "no": 133,
-      "name": "Noid",
-      "rank": 129,
-      "trend": "up",
-      "url": "https://sourceforge.net/projects/noid-linux/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/noid.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME",
-        "KDE Plasma",
-        "Xfce"
-      ],
-      "yesterday": 127
-    },
-    {
-      "no": 134,
-      "name": "VyOS",
-      "rank": 129,
-      "trend": "level",
-      "url": "https://vyos.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/vyos.png",
-      "category": [
-        "Firewall"
-      ],
-      "desktop": [
-        "No Desktop"
-      ],
-      "yesterday": 129
-    },
-    {
-      "no": 135,
-      "name": "KDu",
-      "rank": 128,
-      "trend": "up",
-      "url": "https://www.linux-kdu.com.br/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/kdu.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 127
-    },
-    {
-      "no": 136,
-      "name": "Asmi",
-      "rank": 127,
-      "trend": "level",
-      "url": "https://teejeetech.com/tags/asmi/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/asmi.png",
-      "category": [
-        "Desktop",
-        "From RAM",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 127
-    },
-    {
-      "no": 137,
-      "name": "Recalbox",
-      "rank": 127,
-      "trend": "level",
-      "url": "https://www.recalbox.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/recalbox.png",
-      "category": [
-        "Gaming",
-        "Live Medium",
-        "Multimedia"
-      ],
-      "desktop": [
-        "No Desktop"
-      ],
-      "yesterday": 127
-    },
-    {
-      "no": 138,
-      "name": "GLF",
-      "rank": 126,
-      "trend": "down",
-      "url": "https://www.gaminglinux.fr/glf-os/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/glf.png",
-      "category": [
-        "Declarative",
-        "Desktop",
-        "Gaming",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME",
-        "KDE Plasma"
-      ],
-      "yesterday": 127
-    },
-    {
-      "no": 139,
-      "name": "Netrunner",
-      "rank": 126,
-      "trend": "level",
-      "url": "https://www.netrunner.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/netrunner.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 126
-    },
-    {
-      "no": 140,
-      "name": "Maple",
-      "rank": 125,
-      "trend": "down",
-      "url": "https://maplelinux.ca/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/maple.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Cinnamon"
-      ],
-      "yesterday": 126
-    },
-    {
-      "no": 141,
+      "no": 143,
       "name": "PorteuX",
-      "rank": 124,
+      "rank": 116,
       "trend": "down",
       "url": "https://github.com/porteux/porteux/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/porteux.png",
@@ -2733,191 +2768,62 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 125
-    },
-    {
-      "no": 142,
-      "name": "Wifislax",
-      "rank": 124,
-      "trend": "down",
-      "url": "https://www.wifislax.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/wifislax.png",
-      "category": [
-        "Security",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma",
-        "Xfce"
-      ],
-      "yesterday": 125
-    },
-    {
-      "no": 143,
-      "name": "Aeon",
-      "rank": 122,
-      "trend": "down",
-      "url": "https://aeondesktop.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/aeon.png",
-      "category": [
-        "Desktop",
-        "Immutable",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME"
-      ],
-      "yesterday": 124
+      "yesterday": 117
     },
     {
       "no": 144,
-      "name": "AxOS",
-      "rank": 122,
-      "trend": "down",
-      "url": "https://www.axos-project.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/axos.png",
+      "name": "Murena",
+      "rank": 115,
+      "trend": "level",
+      "url": "https://murena.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/murena.png",
       "category": [
-        "Desktop",
-        "Live Medium"
+        "Immutable",
+        "Mobile"
       ],
       "desktop": [
-        "Hyprland",
-        "Sleex"
+        "Bliss"
       ],
-      "yesterday": 124
+      "yesterday": 115
     },
     {
       "no": 145,
-      "name": "Venom",
-      "rank": 120,
-      "trend": "level",
-      "url": "https://venomlinux.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/venom.png",
+      "name": "NetHydra",
+      "rank": 115,
+      "trend": "up",
+      "url": "https://nethydra.github.io",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/nethydra.png",
       "category": [
-        "Desktop",
-        "Live Medium"
+        "Forensics",
+        "Live Medium",
+        "Security"
       ],
       "desktop": [
-        "Fluxbox",
-        "labwc",
-        "Sway",
         "Xfce"
       ],
-      "yesterday": 120
+      "yesterday": 113
     },
     {
       "no": 146,
-      "name": "Emmabuntüs",
-      "rank": 119,
-      "trend": "down",
-      "url": "https://emmabuntus.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/emmabuntüs.png",
+      "name": "Redcore",
+      "rank": 115,
+      "trend": "level",
+      "url": "https://redcorelinux.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/redcore.png",
       "category": [
-        "Assistive",
-        "Beginners",
         "Desktop",
         "Live Medium",
-        "Old Computers"
+        "Source-based"
       ],
       "desktop": [
+        "KDE Plasma",
         "LXQt",
-        "Xfce"
+        "Qtile"
       ],
-      "yesterday": 120
+      "yesterday": 115
     },
     {
       "no": 147,
-      "name": "LainOS",
-      "rank": 118,
-      "trend": "level",
-      "url": "https://lainos.net/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/lainos.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Openbox",
-        "Sway"
-      ],
-      "yesterday": 118
-    },
-    {
-      "no": 148,
-      "name": "TrueNAS",
-      "rank": 117,
-      "trend": "up",
-      "url": "https://www.truenas.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/truenas.png",
-      "category": [
-        "NAS"
-      ],
-      "desktop": [
-        "No Desktop",
-        "WebUI"
-      ],
-      "yesterday": 114
-    },
-    {
-      "no": 149,
-      "name": "SystemRescue",
-      "rank": 116,
-      "trend": "level",
-      "url": "https://www.system-rescue.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/systemrescue.png",
-      "category": [
-        "Data Rescue",
-        "From RAM",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 116
-    },
-    {
-      "no": 150,
-      "name": "AbeirOS",
-      "rank": 115,
-      "trend": "level",
-      "url": "https://abeiros.sourceforge.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/abeiros.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 115
-    },
-    {
-      "no": 151,
-      "name": "MidnightBSD",
-      "rank": 115,
-      "trend": "level",
-      "url": "https://www.midnightbsd.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/midnightbsd.png",
-      "category": [
-        "Age Declaration (Passive)",
-        "Desktop"
-      ],
-      "desktop": [
-        "Awesome",
-        "Blackbox",
-        "Cinnamon",
-        "Enlightenment",
-        "Fluxbox",
-        "GNOME",
-        "MATE",
-        "Openbox",
-        "WMaker",
-        "Xfce"
-      ],
-      "yesterday": 115
-    },
-    {
-      "no": 152,
       "name": "Ufficio Zero",
       "rank": 115,
       "trend": "level",
@@ -2937,235 +2843,209 @@
       "yesterday": 115
     },
     {
-      "no": 153,
-      "name": "Murena",
+      "no": 148,
+      "name": "OmniOS",
       "rank": 114,
-      "trend": "level",
-      "url": "https://murena.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/murena.png",
+      "trend": "up",
+      "url": "https://omnios.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/omnios.png",
       "category": [
-        "Immutable",
-        "Mobile"
+        "Server"
       ],
       "desktop": [
-        "Bliss"
+        "No Desktop"
       ],
-      "yesterday": 114
+      "yesterday": 113
     },
     {
-      "no": 154,
-      "name": "Redcore",
+      "no": 149,
+      "name": "stillOS",
       "rank": 114,
-      "trend": "level",
-      "url": "https://redcorelinux.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/redcore.png",
+      "trend": "up",
+      "url": "https://stillhq.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/stillos.png",
       "category": [
+        "Beginners",
         "Desktop",
-        "Live Medium",
-        "Source-based"
+        "Immutable"
       ],
       "desktop": [
-        "KDE Plasma",
-        "LXQt",
-        "Qtile"
+        "GNOME"
       ],
-      "yesterday": 114
+      "yesterday": 113
     },
     {
-      "no": 155,
-      "name": "CalamaroOS",
+      "no": 150,
+      "name": "Emmabuntüs",
       "rank": 113,
       "trend": "up",
-      "url": "https://calamaroos-site.resorno.workers.dev/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/calamaroos.png",
+      "url": "https://emmabuntus.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/emmabuntüs.png",
+      "category": [
+        "Assistive",
+        "Beginners",
+        "Desktop",
+        "Live Medium",
+        "Old Computers"
+      ],
+      "desktop": [
+        "LXQt",
+        "Xfce"
+      ],
+      "yesterday": 112
+    },
+    {
+      "no": 151,
+      "name": "Flatcar",
+      "rank": 113,
+      "trend": "level",
+      "url": "https://www.flatcar.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/flatcar.png",
+      "category": [
+        "Container",
+        "Immutatable",
+        "Live Medium",
+        "Server"
+      ],
+      "desktop": [
+        "No Desktop"
+      ],
+      "yesterday": 113
+    },
+    {
+      "no": 152,
+      "name": "KDu",
+      "rank": 113,
+      "trend": "down",
+      "url": "https://www.linux-kdu.com.br/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/kdu.png",
       "category": [
         "Desktop",
         "Live Medium"
       ],
       "desktop": [
-        "KDE Plasma",
-        "LXQt",
-        "MATE",
+        "KDE Plasma"
+      ],
+      "yesterday": 114
+    },
+    {
+      "no": 153,
+      "name": "SystemRescue",
+      "rank": 113,
+      "trend": "level",
+      "url": "https://www.system-rescue.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/systemrescue.png",
+      "category": [
+        "Data Rescue",
+        "From RAM",
+        "Live Medium"
+      ],
+      "desktop": [
         "Xfce"
+      ],
+      "yesterday": 113
+    },
+    {
+      "no": 154,
+      "name": "ObsidianOS",
+      "rank": 112,
+      "trend": "level",
+      "url": "https://obsidianos.xyz/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/obsidianos.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "COSMIC",
+        "KDE Plasma"
+      ],
+      "yesterday": 112
+    },
+    {
+      "no": 155,
+      "name": "Bluefin",
+      "rank": 111,
+      "trend": "level",
+      "url": "https://projectbluefin.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/bluefin.png",
+      "category": [
+        "Desktop",
+        "Immutable"
+      ],
+      "desktop": [
+        "GNOME"
       ],
       "yesterday": 111
     },
     {
       "no": 156,
-      "name": "XIVA Studio",
-      "rank": 113,
+      "name": "Br OS",
+      "rank": 111,
       "trend": "up",
-      "url": "https://xivastudio.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/xiva studio.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Multimedia"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 112
-    },
-    {
-      "no": 157,
-      "name": "Argent",
-      "rank": 112,
-      "trend": "up",
-      "url": "https://argentlinux.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/argent.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Server"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 96
-    },
-    {
-      "no": 158,
-      "name": "ToaruOS",
-      "rank": 112,
-      "trend": "up",
-      "url": "https://toaruos.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/toaruos.png",
+      "url": "https://br-os.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/br os.png",
       "category": [
         "Desktop",
         "Live Medium"
       ],
       "desktop": [
-        "Yutani"
-      ],
-      "yesterday": 105
-    },
-    {
-      "no": 159,
-      "name": "StratOS",
-      "rank": 111,
-      "trend": "level",
-      "url": "https://stratos-linux.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/stratos.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME",
-        "Hyprland",
-        "niri"
-      ],
-      "yesterday": 111
-    },
-    {
-      "no": 160,
-      "name": "Volumio",
-      "rank": 111,
-      "trend": "level",
-      "url": "https://volumio.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/volumio.png",
-      "category": [
-        "Raspberry Pi",
-        "Multimedia"
-      ],
-      "desktop": [
-        "Openbox",
-        "WebUI"
-      ],
-      "yesterday": 111
-    },
-    {
-      "no": 161,
-      "name": "Whonix",
-      "rank": 111,
-      "trend": "down",
-      "url": "https://www.whonix.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/whonix.png",
-      "category": [
-        "Desktop",
-        "Privacy",
-        "Security"
-      ],
-      "desktop": [
-        "labwc",
-        "LXQt",
-        "Sway"
-      ],
-      "yesterday": 112
-    },
-    {
-      "no": 162,
-      "name": "AfagOS",
-      "rank": 110,
-      "trend": "down",
-      "url": "https://sourceforge.net/projects/afagos/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/afagos.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 111
-    },
-    {
-      "no": 163,
-      "name": "Asahi",
-      "rank": 110,
-      "trend": "level",
-      "url": "https://asahilinux.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/asahi.png",
-      "category": [
-        "Desktop"
-      ],
-      "desktop": [
-        "GNOME",
         "KDE Plasma"
       ],
       "yesterday": 110
     },
     {
-      "no": 164,
-      "name": "AUSTRUMI",
+      "no": 157,
+      "name": "Security Onion",
+      "rank": 111,
+      "trend": "up",
+      "url": "https://securityonionsolutions.com/software",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/security onion.png",
+      "category": [
+        "Security"
+      ],
+      "desktop": [
+        "GNOME"
+      ],
+      "yesterday": 108
+    },
+    {
+      "no": 158,
+      "name": "DietPi",
       "rank": 110,
       "trend": "up",
-      "url": "http://cyti.latgola.lv/ruuni/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/austrumi.png",
+      "url": "https://dietpi.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/dietpi.png",
       "category": [
-        "Data Rescue",
-        "Desktop",
-        "From RAM",
-        "Live Medium"
+        "Raspberry Pi"
       ],
       "desktop": [
-        "FVWM",
-        "labwc",
-        "Wayfire"
+        "No Desktop"
       ],
       "yesterday": 109
     },
     {
-      "no": 165,
-      "name": "Calam",
-      "rank": 109,
-      "trend": "level",
-      "url": "https://calam-arch-installer.sourceforge.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/calam.png",
+      "no": 159,
+      "name": "Endless",
+      "rank": 110,
+      "trend": "down",
+      "url": "https://endlessos.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/endless.png",
       "category": [
         "Desktop",
-        "Live Medium"
+        "Immutable",
+        "Live Medium",
+        "Raspberry Pi"
       ],
       "desktop": [
-        "Xfce"
+        "EOS Shell (GNOME)"
       ],
-      "yesterday": 109
+      "yesterday": 111
     },
     {
-      "no": 166,
+      "no": 160,
       "name": "Quirinux",
-      "rank": 109,
+      "rank": 110,
       "trend": "level",
       "url": "https://quirinux.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/quirinux.png",
@@ -3177,83 +3057,331 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 109
+      "yesterday": 110
     },
     {
-      "no": 167,
-      "name": "Essora",
-      "rank": 107,
+      "no": 161,
+      "name": "Wifislax",
+      "rank": 110,
       "trend": "down",
-      "url": "https://essora.sourceforge.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/essora.png",
+      "url": "https://www.wifislax.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/wifislax.png",
       "category": [
-        "Desktop",
-        "Live Medium",
-        "Old Computers"
-      ],
-      "desktop": [
-        "JWM",
-        "KDE Plasma",
-        "LXDE",
-        "Openbox"
-      ],
-      "yesterday": 109
-    },
-    {
-      "no": 168,
-      "name": "Ubuntu Unity",
-      "rank": 106,
-      "trend": "level",
-      "url": "https://ubuntuunity.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ubuntu unity.png",
-      "category": [
-        "Desktop",
+        "Security",
         "Live Medium"
       ],
       "desktop": [
-        "Unity"
+        "KDE Plasma",
+        "Xfce"
       ],
-      "yesterday": 106
+      "yesterday": 111
     },
     {
-      "no": 169,
-      "name": "Expirion",
-      "rank": 105,
+      "no": 162,
+      "name": "Ezarcher",
+      "rank": 109,
       "trend": "down",
-      "url": "https://expirion-linux.sourceforge.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/expirion.png",
+      "url": "https://ezarch.sourceforge.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ezarcher.png",
       "category": [
         "Desktop",
         "Live Medium"
       ],
       "desktop": [
         "Cinnamon",
+        "COSMIC",
+        "GNOME",
+        "KDE Plasma",
         "LXQt",
+        "MATE",
         "Xfce"
       ],
-      "yesterday": 106
+      "yesterday": 110
     },
     {
-      "no": 170,
-      "name": "GParted",
-      "rank": 104,
-      "trend": "down",
-      "url": "https://gparted.org/livecd.php",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/gparted.png",
+      "no": 163,
+      "name": "MidnightBSD",
+      "rank": 109,
+      "trend": "level",
+      "url": "https://www.midnightbsd.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/midnightbsd.png",
       "category": [
-        "Disk Management",
-        "Data Rescue",
+        "Age Declaration (Passive)",
+        "Desktop"
+      ],
+      "desktop": [
+        "Awesome",
+        "Blackbox",
+        "Cinnamon",
+        "Enlightenment",
+        "Fluxbox",
+        "GNOME",
+        "MATE",
+        "Openbox",
+        "WMaker",
+        "Xfce"
+      ],
+      "yesterday": 109
+    },
+    {
+      "no": 164,
+      "name": "Asahi",
+      "rank": 108,
+      "trend": "level",
+      "url": "https://asahilinux.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/asahi.png",
+      "category": [
+        "Desktop"
+      ],
+      "desktop": [
+        "GNOME",
+        "KDE Plasma"
+      ],
+      "yesterday": 108
+    },
+    {
+      "no": 165,
+      "name": "StartOS",
+      "rank": 108,
+      "trend": "down",
+      "url": "https://github.com/Start9Labs/start-os",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/startos.png",
+      "category": [
+        "Kiosk",
+        "Raspberry Pi",
+        "Server"
+      ],
+      "desktop": [
+        "Firefox"
+      ],
+      "yesterday": 109
+    },
+    {
+      "no": 166,
+      "name": "nakeDeb",
+      "rank": 107,
+      "trend": "up",
+      "url": "https://nakedeb.arpinux.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/nakedeb.png",
+      "category": [
+        "Desktop",
         "Live Medium"
       ],
       "desktop": [
+        "i3",
         "Fluxbox"
       ],
       "yesterday": 105
     },
     {
+      "no": 167,
+      "name": "TrueNAS",
+      "rank": 106,
+      "trend": "down",
+      "url": "https://www.truenas.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/truenas.png",
+      "category": [
+        "NAS"
+      ],
+      "desktop": [
+        "No Desktop",
+        "WebUI"
+      ],
+      "yesterday": 109
+    },
+    {
+      "no": 168,
+      "name": "ZenLake",
+      "rank": 106,
+      "trend": "up",
+      "url": "",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/zenlake.png",
+      "category": null,
+      "desktop": null,
+      "yesterday": 105
+    },
+    {
+      "no": 169,
+      "name": "AfagOS",
+      "rank": 105,
+      "trend": "level",
+      "url": "https://sourceforge.net/projects/afagos/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/afagos.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 105
+    },
+    {
+      "no": 170,
+      "name": "Calam",
+      "rank": 105,
+      "trend": "level",
+      "url": "https://calam-arch-installer.sourceforge.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/calam.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Xfce"
+      ],
+      "yesterday": 105
+    },
+    {
       "no": 171,
-      "name": "RasPiOS",
+      "name": "Sculpt",
       "rank": 104,
+      "trend": "level",
+      "url": "https://genode.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/sculpt.png",
+      "category": [
+        "Live Medium"
+      ],
+      "desktop": [
+        "Leitzentrale"
+      ],
+      "yesterday": 104
+    },
+    {
+      "no": 172,
+      "name": "HAOS",
+      "rank": 103,
+      "trend": "level",
+      "url": "https://www.home-assistant.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/haos.png",
+      "category": [
+        "Container",
+        "Server"
+      ],
+      "desktop": [
+        "WebUI"
+      ],
+      "yesterday": 103
+    },
+    {
+      "no": 173,
+      "name": "SolydXK",
+      "rank": 103,
+      "trend": "level",
+      "url": "https://solydxk.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/solydxk.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE",
+        "Xfce"
+      ],
+      "yesterday": 103
+    },
+    {
+      "no": 174,
+      "name": "Maple",
+      "rank": 102,
+      "trend": "level",
+      "url": "https://maplelinux.ca/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/maple.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Cinnamon"
+      ],
+      "yesterday": 102
+    },
+    {
+      "no": 175,
+      "name": "PureOS",
+      "rank": 102,
+      "trend": "up",
+      "url": "",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/pureos.png",
+      "category": null,
+      "desktop": null,
+      "yesterday": 82
+    },
+    {
+      "no": 176,
+      "name": "TileOS",
+      "rank": 102,
+      "trend": "up",
+      "url": "https://tile-os.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/tileos.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "miracle-wm",
+        "niri",
+        "Qtile",
+        "River",
+        "Sway"
+      ],
+      "yesterday": 98
+    },
+    {
+      "no": 177,
+      "name": "LazyLinux",
+      "rank": 101,
+      "trend": "up",
+      "url": "https://lazylinuxos.github.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/lazylinux.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Xfce"
+      ],
+      "yesterday": 98
+    },
+    {
+      "no": 178,
+      "name": "ShrikeLinux",
+      "rank": 101,
+      "trend": "level",
+      "url": "https://shrikelinuxug.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/shrikelinux.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "dk",
+        "i3",
+        "spectrwm",
+        "Xfce"
+      ],
+      "yesterday": 101
+    },
+    {
+      "no": 179,
+      "name": "DESERT",
+      "rank": 100,
+      "trend": "level",
+      "url": "https://sites.google.com/view/desertoslinux",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/desert.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Xfce"
+      ],
+      "yesterday": 100
+    },
+    {
+      "no": 180,
+      "name": "RasPiOS",
+      "rank": 100,
       "trend": "level",
       "url": "https://www.raspberrypi.com/software/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/raspios.png",
@@ -3264,76 +3392,48 @@
         "labwc",
         "PIXEL"
       ],
-      "yesterday": 104
-    },
-    {
-      "no": 172,
-      "name": "Edubuntu",
-      "rank": 101,
-      "trend": "level",
-      "url": "https://www.edubuntu.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/edubuntu.png",
-      "category": [
-        "Education",
-        "Live Medium",
-        "Raspberry Pi"
-      ],
-      "desktop": [
-        "GNOME"
-      ],
-      "yesterday": 101
-    },
-    {
-      "no": 173,
-      "name": "DietPi",
-      "rank": 100,
-      "trend": "down",
-      "url": "https://dietpi.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/dietpi.png",
-      "category": [
-        "Raspberry Pi"
-      ],
-      "desktop": [
-        "No Desktop"
-      ],
-      "yesterday": 101
-    },
-    {
-      "no": 174,
-      "name": "Kiro",
-      "rank": 100,
-      "trend": "level",
-      "url": "https://github.com/kirodubes",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/kiro.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
       "yesterday": 100
     },
     {
-      "no": 175,
-      "name": "Ubuntu Cinnamon",
-      "rank": 100,
-      "trend": "level",
-      "url": "https://ubuntucinnamon.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ubuntu cinnamon.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Cinnamon"
-      ],
-      "yesterday": 100
-    },
-    {
-      "no": 176,
-      "name": "BRGV-OS",
+      "no": 181,
+      "name": "openmamba",
       "rank": 99,
+      "trend": "level",
+      "url": "https://openmamba.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/openmamba.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Raspberry Pi",
+        "Server"
+      ],
+      "desktop": [
+        "KDE Plasma",
+        "LXQt"
+      ],
+      "yesterday": 99
+    },
+    {
+      "no": 182,
+      "name": "Argent",
+      "rank": 98,
+      "trend": "down",
+      "url": "https://argentlinux.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/argent.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Server"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 114
+    },
+    {
+      "no": 183,
+      "name": "BRGV-OS",
+      "rank": 98,
       "trend": "level",
       "url": "https://github.com/florintanasa/brgvos-void/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/brgv-os.png",
@@ -3344,121 +3444,139 @@
       "desktop": [
         "GNOME"
       ],
-      "yesterday": 99
-    },
-    {
-      "no": 177,
-      "name": "LazyLinux",
-      "rank": 99,
-      "trend": "level",
-      "url": "https://lazylinuxos.github.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/lazylinux.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 99
-    },
-    {
-      "no": 178,
-      "name": "<<Hack|Track",
-      "rank": 98,
-      "trend": "level",
-      "url": "",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/<<hack|track.png",
-      "category": null,
-      "desktop": null,
       "yesterday": 98
     },
     {
-      "no": 179,
-      "name": "Sculpt",
+      "no": 184,
+      "name": "Ctlos",
       "rank": 98,
       "trend": "up",
-      "url": "https://genode.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/sculpt.png",
-      "category": [
-        "Live Medium"
-      ],
-      "desktop": [
-        "Leitzentrale"
-      ],
-      "yesterday": 96
-    },
-    {
-      "no": 180,
-      "name": "Br OS",
-      "rank": 96,
-      "trend": "level",
-      "url": "https://br-os.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/br os.png",
+      "url": "https://ctlos.github.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ctlos.png",
       "category": [
         "Desktop",
         "Live Medium"
       ],
       "desktop": [
-        "KDE Plasma"
+        "Xfce"
       ],
-      "yesterday": 96
+      "yesterday": 97
     },
     {
-      "no": 181,
-      "name": "Feren",
-      "rank": 96,
-      "trend": "level",
-      "url": "http://ferenos.weebly.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/feren.png",
+      "no": 185,
+      "name": "Asmi",
+      "rank": 97,
+      "trend": "down",
+      "url": "https://teejeetech.com/tags/asmi/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/asmi.png",
+      "category": [
+        "Desktop",
+        "From RAM",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Xfce"
+      ],
+      "yesterday": 98
+    },
+    {
+      "no": 186,
+      "name": "Neko-Void",
+      "rank": 97,
+      "trend": "up",
+      "url": "https://neko-void.sourceforge.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/neko-void.png",
       "category": [
         "Desktop",
         "Live Medium"
       ],
       "desktop": [
-        "Cinnamon",
-        "KDE Plasma"
+        "MATE"
       ],
       "yesterday": 96
     },
     {
-      "no": 182,
-      "name": "LFS",
+      "no": 187,
+      "name": "Kiro",
       "rank": 96,
       "trend": "level",
-      "url": "https://www.linuxfromscratch.org",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/lfs.png",
+      "url": "https://github.com/kirodubes",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/kiro.png",
       "category": [
-        "Source-based",
-        "Education"
+        "Desktop",
+        "Live Medium"
       ],
       "desktop": [
-        "Fluxbox",
-        "IceWM",
-        "KDE Plasma",
-        "LXDE",
-        "Openbox",
         "Xfce"
       ],
       "yesterday": 96
     },
     {
-      "no": 183,
-      "name": "SteamOS",
+      "no": 188,
+      "name": "Ludora",
       "rank": 96,
-      "trend": "level",
-      "url": "http://store.steampowered.com/steamos/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/steamos.png",
+      "trend": "up",
+      "url": "https://ludora.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ludora.png",
       "category": [
-        "Gaming"
+        "Desktop",
+        "Gaming",
+        "Live Medium"
       ],
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 96
+      "yesterday": 94
     },
     {
-      "no": 184,
+      "no": 189,
+      "name": "ArchEZ",
+      "rank": 95,
+      "trend": "up",
+      "url": "https://github.com/SuperSonic65535/archez-linux-archiso",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/archez.png",
+      "category": [
+        "Desktop",
+        "Gaming",
+        "Live Medium"
+      ],
+      "desktop": [
+        "IceWM",
+        "KDE Plasma",
+        "Xfce"
+      ],
+      "yesterday": 94
+    },
+    {
+      "no": 190,
+      "name": "GParted",
+      "rank": 95,
+      "trend": "level",
+      "url": "https://gparted.org/livecd.php",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/gparted.png",
+      "category": [
+        "Disk Management",
+        "Data Rescue",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Fluxbox"
+      ],
+      "yesterday": 95
+    },
+    {
+      "no": 191,
+      "name": "Hardenwing",
+      "rank": 95,
+      "trend": "up",
+      "url": "",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/hardenwing.png",
+      "category": null,
+      "desktop": null,
+      "yesterday": 93
+    },
+    {
+      "no": 192,
       "name": "Pardus",
       "rank": 95,
       "trend": "level",
@@ -3476,43 +3594,174 @@
       "yesterday": 95
     },
     {
-      "no": 185,
-      "name": "Security Onion",
+      "no": 193,
+      "name": "Ubuntu Unity",
       "rank": 95,
       "trend": "level",
-      "url": "https://securityonionsolutions.com/software",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/security onion.png",
-      "category": [
-        "Security"
-      ],
-      "desktop": [
-        "GNOME"
-      ],
-      "yesterday": 95
-    },
-    {
-      "no": 186,
-      "name": "ShrikeLinux",
-      "rank": 95,
-      "trend": "up",
-      "url": "https://shrikelinuxug.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/shrikelinux.png",
+      "url": "https://ubuntuunity.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ubuntu unity.png",
       "category": [
         "Desktop",
         "Live Medium"
       ],
       "desktop": [
-        "dk",
-        "i3",
-        "spectrwm",
+        "Unity"
+      ],
+      "yesterday": 95
+    },
+    {
+      "no": 194,
+      "name": "Alien-OS",
+      "rank": 94,
+      "trend": "up",
+      "url": "https://sourceforge.net/projects/alien-os-nano/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/alien-os.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Regolith"
+      ],
+      "yesterday": 86
+    },
+    {
+      "no": 195,
+      "name": "Edubuntu",
+      "rank": 94,
+      "trend": "level",
+      "url": "https://www.edubuntu.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/edubuntu.png",
+      "category": [
+        "Education",
+        "Live Medium",
+        "Raspberry Pi"
+      ],
+      "desktop": [
+        "GNOME"
+      ],
+      "yesterday": 94
+    },
+    {
+      "no": 196,
+      "name": "Peropesis",
+      "rank": 94,
+      "trend": "level",
+      "url": "https://peropesis.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/peropesis.png",
+      "category": [
+        "Live Medium"
+      ],
+      "desktop": [
+        "No Desktop"
+      ],
+      "yesterday": 94
+    },
+    {
+      "no": 197,
+      "name": "Arcris",
+      "rank": 93,
+      "trend": "up",
+      "url": "https://github.com/CodigoCristo/ArcrisGUI",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/arcris.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Xfce"
+      ],
+      "yesterday": 89
+    },
+    {
+      "no": 198,
+      "name": "Xray_OS",
+      "rank": 93,
+      "trend": "level",
+      "url": "https://xray-os.github.io/xray_os-website/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/xray_os.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma",
         "Xfce"
       ],
       "yesterday": 93
     },
     {
-      "no": 187,
+      "no": 199,
+      "name": "AUSTRUMI",
+      "rank": 92,
+      "trend": "down",
+      "url": "http://cyti.latgola.lv/ruuni/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/austrumi.png",
+      "category": [
+        "Data Rescue",
+        "Desktop",
+        "From RAM",
+        "Live Medium"
+      ],
+      "desktop": [
+        "FVWM",
+        "labwc",
+        "Wayfire"
+      ],
+      "yesterday": 96
+    },
+    {
+      "no": 200,
+      "name": "iodéOS",
+      "rank": 92,
+      "trend": "level",
+      "url": "https://iode.tech/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/iodéos.png",
+      "category": [
+        "Immutable",
+        "Mobile"
+      ],
+      "desktop": [
+        "Trebuchet"
+      ],
+      "yesterday": 92
+    },
+    {
+      "no": 201,
+      "name": "SteamOS",
+      "rank": 92,
+      "trend": "level",
+      "url": "http://store.steampowered.com/steamos/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/steamos.png",
+      "category": [
+        "Gaming"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 92
+    },
+    {
+      "no": 202,
+      "name": "XIVA Studio",
+      "rank": 92,
+      "trend": "level",
+      "url": "https://xivastudio.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/xiva studio.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Multimedia"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 92
+    },
+    {
+      "no": 203,
       "name": "Athena",
-      "rank": 94,
+      "rank": 91,
       "trend": "level",
       "url": "https://athenaos.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/athena.png",
@@ -3530,84 +3779,15 @@
         "MATE",
         "Xfce"
       ],
-      "yesterday": 94
+      "yesterday": 91
     },
     {
-      "no": 188,
-      "name": "Helwan",
-      "rank": 94,
-      "trend": "down",
-      "url": "https://helwan-linux.github.io/helwanlinux/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/helwan.png",
-      "category": [
-        "Desktop",
-        "Education",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Cinnamon",
-        "GNOME",
-        "Xfce"
-      ],
-      "yesterday": 113
-    },
-    {
-      "no": 189,
-      "name": "Kicksecure",
-      "rank": 94,
-      "trend": "down",
-      "url": "https://www.kicksecure.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/kicksecure.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Security"
-      ],
-      "desktop": [
-        "labwc",
-        "LXQt"
-      ],
-      "yesterday": 95
-    },
-    {
-      "no": 190,
-      "name": "Peropesis",
-      "rank": 94,
-      "trend": "level",
-      "url": "https://peropesis.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/peropesis.png",
-      "category": [
-        "Live Medium"
-      ],
-      "desktop": [
-        "No Desktop"
-      ],
-      "yesterday": 94
-    },
-    {
-      "no": 191,
-      "name": "SolydXK",
-      "rank": 94,
+      "no": 204,
+      "name": "EznixOS",
+      "rank": 91,
       "trend": "up",
-      "url": "https://solydxk.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/solydxk.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE",
-        "Xfce"
-      ],
-      "yesterday": 89
-    },
-    {
-      "no": 192,
-      "name": "Xray_OS",
-      "rank": 94,
-      "trend": "level",
-      "url": "https://xray-os.github.io/xray_os-website/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/xray_os.png",
+      "url": "https://eznixos.sourceforge.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/eznixos.png",
       "category": [
         "Desktop",
         "Live Medium"
@@ -3616,77 +3796,67 @@
         "KDE Plasma",
         "Xfce"
       ],
-      "yesterday": 94
+      "yesterday": 90
     },
     {
-      "no": 193,
-      "name": "Eliza",
-      "rank": 93,
-      "trend": "level",
-      "url": "https://eliza-linux.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/eliza.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Enlightenment"
-      ],
-      "yesterday": 93
-    },
-    {
-      "no": 194,
-      "name": "GXDE",
-      "rank": 93,
+      "no": 205,
+      "name": "Flora",
+      "rank": 91,
       "trend": "up",
-      "url": "https://www.gxde.top/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/gxde.png",
+      "url": "https://flora-linux-libre.sourceforge.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/flora.png",
       "category": [
         "Desktop",
+        "Free Software",
         "Live Medium"
       ],
       "desktop": [
-        "Deepin"
+        "Cinnamon",
+        "GNOME",
+        "MATE",
+        "Xfce"
       ],
-      "yesterday": 91
+      "yesterday": 88
     },
     {
-      "no": 195,
-      "name": "REMnux",
-      "rank": 93,
-      "trend": "level",
-      "url": "https://remnux.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/remnux.png",
-      "category": [
-        "Security",
-        "Specialist"
-      ],
-      "desktop": [
-        "GNOME"
-      ],
-      "yesterday": 93
-    },
-    {
-      "no": 196,
-      "name": "Ctlos",
-      "rank": 92,
-      "trend": "level",
-      "url": "https://ctlos.github.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ctlos.png",
+      "no": 206,
+      "name": "Gnoppix",
+      "rank": 91,
+      "trend": "down",
+      "url": "https://gnoppix.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/gnoppix.png",
       "category": [
         "Desktop",
-        "Live Medium"
+        "Live Medium",
+        "Large Language Model"
       ],
       "desktop": [
+        "GNOME",
+        "KDE Plasma",
         "Xfce"
       ],
       "yesterday": 92
     },
     {
-      "no": 197,
+      "no": 207,
+      "name": "Coyote",
+      "rank": 90,
+      "trend": "level",
+      "url": "https://www.coyotelinux.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/coyote.png",
+      "category": [
+        "Firewall"
+      ],
+      "desktop": [
+        "No Desktop"
+      ],
+      "yesterday": 90
+    },
+    {
+      "no": 208,
       "name": "Drauger",
-      "rank": 91,
-      "trend": "down",
+      "rank": 90,
+      "trend": "level",
       "url": "https://draugeros.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/drauger.png",
       "category": [
@@ -3697,93 +3867,69 @@
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 92
+      "yesterday": 90
     },
     {
-      "no": 198,
-      "name": "iodéOS",
-      "rank": 91,
-      "trend": "level",
-      "url": "https://iode.tech/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/iodéos.png",
+      "no": 209,
+      "name": "Kamuriki",
+      "rank": 90,
+      "trend": "up",
+      "url": "https://w.atwiki.jp/kamurikilinux/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/kamuriki.png",
       "category": [
-        "Immutable",
-        "Mobile"
+        "Desktop"
       ],
       "desktop": [
-        "Trebuchet"
+        "LXQt"
+      ],
+      "yesterday": 89
+    },
+    {
+      "no": 210,
+      "name": "LFS",
+      "rank": 90,
+      "trend": "down",
+      "url": "https://www.linuxfromscratch.org",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/lfs.png",
+      "category": [
+        "Source-based",
+        "Education"
+      ],
+      "desktop": [
+        "Fluxbox",
+        "IceWM",
+        "KDE Plasma",
+        "LXDE",
+        "Openbox",
+        "Xfce"
       ],
       "yesterday": 91
     },
     {
-      "no": 199,
-      "name": "Ubuntu Budgie",
-      "rank": 91,
+      "no": 211,
+      "name": "RebeccaBlackOS",
+      "rank": 90,
       "trend": "level",
-      "url": "https://ubuntubudgie.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ubuntu budgie.svg",
+      "url": "https://sourceforge.net/projects/rebeccablackos/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/rebeccablackos.png",
       "category": [
         "Desktop",
         "Live Medium"
       ],
       "desktop": [
-        "Budgie"
-      ],
-      "yesterday": 91
-    },
-    {
-      "no": 200,
-      "name": "Coyote",
-      "rank": 90,
-      "trend": "up",
-      "url": "https://www.coyotelinux.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/coyote.png",
-      "category": [
-        "Firewall"
-      ],
-      "desktop": [
-        "No Desktop"
-      ],
-      "yesterday": 89
-    },
-    {
-      "no": 201,
-      "name": "FluxLinux",
-      "rank": 90,
-      "trend": "down",
-      "url": "https://fluxlinux.xyz/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/fluxlinux.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Old Computers"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 93
-    },
-    {
-      "no": 202,
-      "name": "openmamba",
-      "rank": 90,
-      "trend": "level",
-      "url": "https://openmamba.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/openmamba.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Raspberry Pi",
-        "Server"
-      ],
-      "desktop": [
+        "GNOME",
         "KDE Plasma",
-        "LXQt"
+        "labwc",
+        "LXQt",
+        "MATE",
+        "Sway",
+        "Wayfire",
+        "Xfce"
       ],
       "yesterday": 90
     },
     {
-      "no": 203,
+      "no": 212,
       "name": "Shanios",
       "rank": 90,
       "trend": "level",
@@ -3800,10 +3946,10 @@
       "yesterday": 90
     },
     {
-      "no": 204,
+      "no": 213,
       "name": "ShredOS",
       "rank": 90,
-      "trend": "level",
+      "trend": "up",
       "url": "https://github.com/PartialVolume/shredos.x86_64",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/shredos.png",
       "category": [
@@ -3813,45 +3959,28 @@
       "desktop": [
         "No Desktop"
       ],
-      "yesterday": 90
+      "yesterday": 87
     },
     {
-      "no": 205,
-      "name": "Archman",
-      "rank": 89,
-      "trend": "down",
-      "url": "https://archman.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/archman.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "i3",
-        "Xfce"
-      ],
-      "yesterday": 90
-    },
-    {
-      "no": 206,
-      "name": "Alien-OS",
-      "rank": 88,
+      "no": 214,
+      "name": "Ubuntu Cinnamon",
+      "rank": 90,
       "trend": "level",
-      "url": "https://sourceforge.net/projects/alien-os-nano/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/alien-os.png",
+      "url": "https://ubuntucinnamon.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ubuntu cinnamon.png",
       "category": [
         "Desktop",
         "Live Medium"
       ],
       "desktop": [
-        "Regolith"
+        "Cinnamon"
       ],
-      "yesterday": 88
+      "yesterday": 90
     },
     {
-      "no": 207,
+      "no": 215,
       "name": "Guix System",
-      "rank": 88,
+      "rank": 89,
       "trend": "level",
       "url": "https://www.gnu.org/software/guix/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/guix system.png",
@@ -3873,67 +4002,106 @@
         "Sway",
         "Xfce"
       ],
+      "yesterday": 89
+    },
+    {
+      "no": 216,
+      "name": "Super Lite",
+      "rank": 89,
+      "trend": "up",
+      "url": "https://gnu-super-lite-linux.sourceforge.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/super lite.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Old Computers"
+      ],
+      "desktop": [
+        "Fluxbox",
+        "IceWM",
+        "JWM"
+      ],
       "yesterday": 88
     },
     {
-      "no": 208,
-      "name": "Neko-Void",
-      "rank": 88,
-      "trend": "up",
-      "url": "https://neko-void.sourceforge.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/neko-void.png",
+      "no": 217,
+      "name": "Archman",
+      "rank": 87,
+      "trend": "level",
+      "url": "https://archman.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/archman.png",
       "category": [
         "Desktop",
         "Live Medium"
       ],
       "desktop": [
-        "MATE"
+        "i3",
+        "Xfce"
       ],
       "yesterday": 87
     },
     {
-      "no": 209,
-      "name": "RebeccaBlackOS",
-      "rank": 88,
+      "no": 218,
+      "name": "LainOS",
+      "rank": 87,
       "trend": "level",
-      "url": "https://sourceforge.net/projects/rebeccablackos/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/rebeccablackos.png",
+      "url": "https://lainos.net/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/lainos.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Openbox",
+        "Sway"
+      ],
+      "yesterday": 87
+    },
+    {
+      "no": 219,
+      "name": "Porteus",
+      "rank": 87,
+      "trend": "up",
+      "url": "http://www.porteus.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/porteus.png",
+      "category": [
+        "From RAM",
+        "Live Medium",
+        "Old Computers"
+      ],
+      "desktop": [
+        "Cinnamon",
+        "GNOME",
+        "KDE Plasma",
+        "LXDE",
+        "LXQt",
+        "MATE",
+        "Openbox",
+        "Xfce"
+      ],
+      "yesterday": 86
+    },
+    {
+      "no": 220,
+      "name": "Slimbook OS",
+      "rank": 87,
+      "trend": "up",
+      "url": "https://slimbook.com/en/slimbook-os",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/slimbook os.png",
       "category": [
         "Desktop",
         "Live Medium"
       ],
       "desktop": [
         "GNOME",
-        "KDE Plasma",
-        "labwc",
-        "LXQt",
-        "MATE",
-        "Sway",
-        "Wayfire",
-        "Xfce"
+        "KDE Plasma"
       ],
-      "yesterday": 88
+      "yesterday": 84
     },
     {
-      "no": 210,
-      "name": "StormOS",
-      "rank": 88,
-      "trend": "down",
-      "url": "https://techcafe757.wixsite.com/storm-os",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/stormos.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 89
-    },
-    {
-      "no": 211,
+      "no": 221,
       "name": "Ventoy",
-      "rank": 88,
+      "rank": 87,
       "trend": "level",
       "url": "https://www.ventoy.net/en/doc_livecd.html",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ventoy.png",
@@ -3944,31 +4112,79 @@
       "desktop": [
         "Openbox"
       ],
+      "yesterday": 87
+    },
+    {
+      "no": 222,
+      "name": "Recalbox",
+      "rank": 86,
+      "trend": "down",
+      "url": "https://www.recalbox.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/recalbox.png",
+      "category": [
+        "Gaming",
+        "Live Medium",
+        "Multimedia"
+      ],
+      "desktop": [
+        "No Desktop"
+      ],
       "yesterday": 88
     },
     {
-      "no": 212,
-      "name": "ArchEZ",
-      "rank": 87,
-      "trend": "up",
-      "url": "https://github.com/SuperSonic65535/archez-linux-archiso",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/archez.png",
+      "no": 223,
+      "name": "Feren",
+      "rank": 85,
+      "trend": "level",
+      "url": "http://ferenos.weebly.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/feren.png",
       "category": [
         "Desktop",
-        "Gaming",
         "Live Medium"
       ],
       "desktop": [
-        "IceWM",
-        "KDE Plasma",
-        "Xfce"
+        "Cinnamon",
+        "KDE Plasma"
       ],
-      "yesterday": 86
+      "yesterday": 85
     },
     {
-      "no": 213,
+      "no": 224,
+      "name": "Proxmox",
+      "rank": 85,
+      "trend": "up",
+      "url": "https://www.proxmox.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/proxmox.png",
+      "category": [
+        "Clusters",
+        "Server",
+        "Specialist"
+      ],
+      "desktop": [
+        "WebUI"
+      ],
+      "yesterday": 81
+    },
+    {
+      "no": 225,
+      "name": "StormOS",
+      "rank": 85,
+      "trend": "level",
+      "url": "https://techcafe757.wixsite.com/storm-os",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/stormos.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Xfce"
+      ],
+      "yesterday": 85
+    },
+    {
+      "no": 226,
       "name": "ELEGANCE",
-      "rank": 86,
+      "rank": 84,
       "trend": "level",
       "url": "https://tuxnmix.org/elegance/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/elegance.png",
@@ -3981,111 +4197,10 @@
       "desktop": [
         "Cinnamon"
       ],
-      "yesterday": 86
-    },
-    {
-      "no": 214,
-      "name": "Flatcar",
-      "rank": 86,
-      "trend": "level",
-      "url": "https://www.flatcar.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/flatcar.png",
-      "category": [
-        "Container",
-        "Immutatable",
-        "Live Medium",
-        "Server"
-      ],
-      "desktop": [
-        "No Desktop"
-      ],
-      "yesterday": 86
-    },
-    {
-      "no": 215,
-      "name": "Gnoppix",
-      "rank": 86,
-      "trend": "down",
-      "url": "https://gnoppix.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/gnoppix.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Large Language Model"
-      ],
-      "desktop": [
-        "GNOME",
-        "KDE Plasma",
-        "Xfce"
-      ],
-      "yesterday": 87
-    },
-    {
-      "no": 216,
-      "name": "Evernight Vista",
-      "rank": 85,
-      "trend": "up",
-      "url": "https://evernightfedora.github.io/evernight-vista/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/evernight vista.png",
-      "category": [
-        "Beginners",
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
       "yesterday": 84
     },
     {
-      "no": 217,
-      "name": "OmniOS",
-      "rank": 85,
-      "trend": "up",
-      "url": "https://omnios.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/omnios.png",
-      "category": [
-        "Server"
-      ],
-      "desktop": [
-        "No Desktop"
-      ],
-      "yesterday": 77
-    },
-    {
-      "no": 218,
-      "name": "Butterbian",
-      "rank": 84,
-      "trend": "up",
-      "url": "https://www.butterbian.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/butterbian.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 80
-    },
-    {
-      "no": 219,
-      "name": "Neptune",
-      "rank": 84,
-      "trend": "level",
-      "url": "https://neptuneos.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/neptune.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 84
-    },
-    {
-      "no": 220,
+      "no": 227,
       "name": "Genuen",
       "rank": 83,
       "trend": "level",
@@ -4111,7 +4226,23 @@
       "yesterday": 83
     },
     {
-      "no": 221,
+      "no": 228,
+      "name": "Kader⁴²",
+      "rank": 83,
+      "trend": "level",
+      "url": "https://kader42.de/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/kader⁴².png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 83
+    },
+    {
+      "no": 229,
       "name": "openKylin",
       "rank": 83,
       "trend": "level",
@@ -4128,10 +4259,10 @@
       "yesterday": 83
     },
     {
-      "no": 222,
+      "no": 230,
       "name": "ROSA",
       "rank": 83,
-      "trend": "up",
+      "trend": "level",
       "url": "https://www.rosalinux.ru/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/rosa.png",
       "category": [
@@ -4143,29 +4274,162 @@
         "GNOME",
         "KDE Plasma"
       ],
-      "yesterday": 82
+      "yesterday": 83
     },
     {
-      "no": 223,
-      "name": "Regata",
-      "rank": 82,
-      "trend": "down",
-      "url": "https://www.regataos.com.br/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/regata.png",
+      "no": 231,
+      "name": "Neptune",
+      "rank": 81,
+      "trend": "level",
+      "url": "https://neptuneos.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/neptune.png",
       "category": [
         "Desktop",
-        "Gaming",
         "Live Medium"
       ],
       "desktop": [
         "KDE Plasma"
       ],
-      "yesterday": 84
+      "yesterday": 81
     },
     {
-      "no": 224,
-      "name": "T2 Linux",
+      "no": 232,
+      "name": "RengeOS",
       "rank": 81,
+      "trend": "level",
+      "url": "https://rengeos.github.io/rengeos-docs/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/rengeos.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "niri"
+      ],
+      "yesterday": 81
+    },
+    {
+      "no": 233,
+      "name": "Whonix",
+      "rank": 81,
+      "trend": "level",
+      "url": "https://www.whonix.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/whonix.png",
+      "category": [
+        "Desktop",
+        "Privacy",
+        "Security"
+      ],
+      "desktop": [
+        "labwc",
+        "LXQt",
+        "Sway"
+      ],
+      "yesterday": 81
+    },
+    {
+      "no": 234,
+      "name": "Ditana",
+      "rank": 80,
+      "trend": "up",
+      "url": "https://ditana.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ditana.png",
+      "category": [
+        "Desktop",
+        "Server"
+      ],
+      "desktop": [
+        "Xfce"
+      ],
+      "yesterday": 69
+    },
+    {
+      "no": 235,
+      "name": "Ubuntu Budgie",
+      "rank": 80,
+      "trend": "down",
+      "url": "https://ubuntubudgie.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ubuntu budgie.svg",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Budgie"
+      ],
+      "yesterday": 81
+    },
+    {
+      "no": 236,
+      "name": "Zentyal",
+      "rank": 80,
+      "trend": "level",
+      "url": "https://www.zentyal.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/zentyal.png",
+      "category": [
+        "Security",
+        "Server"
+      ],
+      "desktop": [
+        "WebUI"
+      ],
+      "yesterday": 80
+    },
+    {
+      "no": 237,
+      "name": "arcOS",
+      "rank": 79,
+      "trend": "down",
+      "url": "https://arcos-linux.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/arcos.png",
+      "category": [
+        "Live Medium",
+        "Specialist"
+      ],
+      "desktop": [
+        "Cinnamon"
+      ],
+      "yesterday": 80
+    },
+    {
+      "no": 238,
+      "name": "Glacia",
+      "rank": 79,
+      "trend": "level",
+      "url": "https://glaciaos.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/glacia.png",
+      "category": [
+        "Beginners",
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Unity"
+      ],
+      "yesterday": 79
+    },
+    {
+      "no": 239,
+      "name": "Soplos",
+      "rank": 79,
+      "trend": "level",
+      "url": "https://soplos.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/soplos.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "GNOME",
+        "KDE Plasma",
+        "Xfce"
+      ],
+      "yesterday": 79
+    },
+    {
+      "no": 240,
+      "name": "T2 Linux",
+      "rank": 79,
       "trend": "level",
       "url": "https://t2linux.com/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/t2 linux.png",
@@ -4189,60 +4453,27 @@
         "Wayfire",
         "Xfce"
       ],
-      "yesterday": 81
+      "yesterday": 79
     },
     {
-      "no": 225,
-      "name": "Zentyal",
-      "rank": 81,
-      "trend": "level",
-      "url": "https://www.zentyal.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/zentyal.png",
-      "category": [
-        "Security",
-        "Server"
-      ],
-      "desktop": [
-        "WebUI"
-      ],
-      "yesterday": 81
-    },
-    {
-      "no": 226,
-      "name": "arcOS",
-      "rank": 80,
-      "trend": "level",
-      "url": "https://arcos-linux.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/arcos.png",
-      "category": [
-        "Live Medium",
-        "Specialist"
-      ],
-      "desktop": [
-        "Cinnamon"
-      ],
-      "yesterday": 80
-    },
-    {
-      "no": 227,
-      "name": "HAOS",
-      "rank": 80,
+      "no": 241,
+      "name": "TobbeOS",
+      "rank": 79,
       "trend": "up",
-      "url": "https://www.home-assistant.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/haos.png",
+      "url": "https://tobbeos.lysakermoen.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/tobbeos.png",
       "category": [
-        "Container",
-        "Server"
+        "Desktop"
       ],
       "desktop": [
-        "WebUI"
+        "Qtile"
       ],
-      "yesterday": 65
+      "yesterday": 59
     },
     {
-      "no": 228,
+      "no": 242,
       "name": "Univention",
-      "rank": 80,
+      "rank": 79,
       "trend": "level",
       "url": "https://www.univention.com/products/ucs/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/univention.png",
@@ -4253,114 +4484,30 @@
         "Openbox",
         "WebUI"
       ],
-      "yesterday": 80
-    },
-    {
-      "no": 229,
-      "name": "Clonezilla",
-      "rank": 79,
-      "trend": "level",
-      "url": "https://clonezilla.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/clonezilla.png",
-      "category": [
-        "Data Rescue",
-        "Specialist"
-      ],
-      "desktop": [
-        "No Desktop"
-      ],
       "yesterday": 79
     },
     {
-      "no": 230,
-      "name": "GobMis",
-      "rank": 79,
+      "no": 243,
+      "name": "Volumio",
+      "rank": 78,
       "trend": "level",
-      "url": "https://distro.misiones.gob.ar/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/gobmis.png",
+      "url": "https://volumio.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/volumio.png",
       "category": [
-        "Desktop",
-        "Live Medium"
+        "Raspberry Pi",
+        "Multimedia"
       ],
       "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 79
-    },
-    {
-      "no": 231,
-      "name": "Obarun",
-      "rank": 79,
-      "trend": "up",
-      "url": "https://web.obarun.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/obarun.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "JWM"
+        "Openbox",
+        "WebUI"
       ],
       "yesterday": 78
     },
     {
-      "no": 232,
-      "name": "Soplos",
-      "rank": 79,
-      "trend": "level",
-      "url": "https://soplos.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/soplos.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME",
-        "KDE Plasma",
-        "Xfce"
-      ],
-      "yesterday": 79
-    },
-    {
-      "no": 233,
-      "name": "Super Lite",
-      "rank": 79,
-      "trend": "up",
-      "url": "https://gnu-super-lite-linux.sourceforge.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/super lite.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Old Computers"
-      ],
-      "desktop": [
-        "Fluxbox",
-        "IceWM",
-        "JWM"
-      ],
-      "yesterday": 78
-    },
-    {
-      "no": 234,
-      "name": "Bluefin",
-      "rank": 77,
-      "trend": "level",
-      "url": "https://projectbluefin.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/bluefin.png",
-      "category": [
-        "Desktop",
-        "Immutable"
-      ],
-      "desktop": [
-        "GNOME"
-      ],
-      "yesterday": 77
-    },
-    {
-      "no": 235,
+      "no": 244,
       "name": "Chimera",
       "rank": 77,
-      "trend": "up",
+      "trend": "level",
       "url": "https://chimera-linux.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/chimera.png",
       "category": [
@@ -4373,102 +4520,61 @@
         "GNOME",
         "KDE Plasma"
       ],
-      "yesterday": 74
+      "yesterday": 77
     },
     {
-      "no": 236,
-      "name": "Endless",
+      "no": 245,
+      "name": "Clonezilla",
       "rank": 77,
       "trend": "level",
-      "url": "https://endlessos.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/endless.png",
+      "url": "https://clonezilla.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/clonezilla.png",
       "category": [
-        "Desktop",
-        "Immutable",
-        "Live Medium",
-        "Raspberry Pi"
+        "Data Rescue",
+        "Specialist"
       ],
       "desktop": [
-        "EOS Shell (GNOME)"
+        "No Desktop"
       ],
       "yesterday": 77
     },
     {
-      "no": 237,
-      "name": "Redox",
+      "no": 246,
+      "name": "StratOS",
       "rank": 77,
       "trend": "level",
-      "url": "https://www.redox-os.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/redox.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Server"
-      ],
-      "desktop": [
-        "COSMIC"
-      ],
-      "yesterday": 77
-    },
-    {
-      "no": 238,
-      "name": "Senpai",
-      "rank": 77,
-      "trend": "down",
-      "url": "https://senpai-respins.sourceforge.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/senpai.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Raspberry Pi"
-      ],
-      "desktop": [
-        "Budgie",
-        "Cinnamon",
-        "GNOME",
-        "LXDE",
-        "LXQt",
-        "MATE",
-        "Moksha"
-      ],
-      "yesterday": 78
-    },
-    {
-      "no": 239,
-      "name": "StartOS",
-      "rank": 77,
-      "trend": "level",
-      "url": "https://github.com/Start9Labs/start-os",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/startos.png",
-      "category": [
-        "Kiosk",
-        "Raspberry Pi",
-        "Server"
-      ],
-      "desktop": [
-        "Firefox"
-      ],
-      "yesterday": 77
-    },
-    {
-      "no": 240,
-      "name": "EznixOS",
-      "rank": 76,
-      "trend": "level",
-      "url": "https://eznixos.sourceforge.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/eznixos.png",
+      "url": "https://stratos-linux.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/stratos.png",
       "category": [
         "Desktop",
         "Live Medium"
       ],
       "desktop": [
-        "KDE Plasma",
+        "GNOME",
+        "Hyprland",
+        "niri"
+      ],
+      "yesterday": 77
+    },
+    {
+      "no": 247,
+      "name": "BashCore",
+      "rank": 76,
+      "trend": "level",
+      "url": "https://www.bashcore.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/bashcore.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "GNOME",
         "Xfce"
       ],
       "yesterday": 76
     },
     {
-      "no": 241,
+      "no": 248,
       "name": "Mauna",
       "rank": 76,
       "trend": "level",
@@ -4488,42 +4594,82 @@
       "yesterday": 76
     },
     {
-      "no": 242,
-      "name": "Quarkos",
-      "rank": 76,
-      "trend": "level",
-      "url": "https://quark-os.sourceforge.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/quarkos.png",
-      "category": [
-        "Live Medium",
-        "Desktop",
-        "Old Computers"
-      ],
-      "desktop": [
-        "KDE Plasma",
-        "Trinity"
-      ],
-      "yesterday": 76
-    },
-    {
-      "no": 243,
-      "name": "Unraid",
-      "rank": 76,
-      "trend": "level",
-      "url": "https://unraid.net/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/unraid.png",
-      "category": [
-        "Server"
-      ],
-      "desktop": [
-        "WebUI"
-      ],
-      "yesterday": 76
-    },
-    {
-      "no": 244,
-      "name": "Parted Magic",
+      "no": 249,
+      "name": "Evernight Vista",
       "rank": 75,
+      "trend": "down",
+      "url": "https://evernightfedora.github.io/evernight-vista/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/evernight vista.png",
+      "category": [
+        "Beginners",
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 77
+    },
+    {
+      "no": 250,
+      "name": "Regata",
+      "rank": 75,
+      "trend": "level",
+      "url": "https://www.regataos.com.br/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/regata.png",
+      "category": [
+        "Desktop",
+        "Gaming",
+        "Live Medium"
+      ],
+      "desktop": [
+        "KDE Plasma"
+      ],
+      "yesterday": 75
+    },
+    {
+      "no": 251,
+      "name": "Rescuezilla",
+      "rank": 75,
+      "trend": "up",
+      "url": "https://rescuezilla.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/rescuezilla.png",
+      "category": [
+        "Data Rescue",
+        "Live Medium"
+      ],
+      "desktop": [
+        "LXDE"
+      ],
+      "yesterday": 74
+    },
+    {
+      "no": 252,
+      "name": "Senpai",
+      "rank": 75,
+      "trend": "level",
+      "url": "https://senpai-respins.sourceforge.io/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/senpai.png",
+      "category": [
+        "Desktop",
+        "Live Medium",
+        "Raspberry Pi"
+      ],
+      "desktop": [
+        "Budgie",
+        "Cinnamon",
+        "GNOME",
+        "LXDE",
+        "LXQt",
+        "MATE",
+        "Moksha"
+      ],
+      "yesterday": 75
+    },
+    {
+      "no": 253,
+      "name": "Parted Magic",
+      "rank": 74,
       "trend": "level",
       "url": "https://partedmagic.com/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/parted magic.png",
@@ -4536,226 +4682,12 @@
       "desktop": [
         "Xfce"
       ],
-      "yesterday": 75
-    },
-    {
-      "no": 245,
-      "name": "RengeOS",
-      "rank": 75,
-      "trend": "up",
-      "url": "https://rengeos.github.io/rengeos-docs/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/rengeos.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "niri"
-      ],
-      "yesterday": 74
-    },
-    {
-      "no": 246,
-      "name": "SliTaz",
-      "rank": 75,
-      "trend": "level",
-      "url": "http://www.slitaz.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/slitaz.png",
-      "category": [
-        "Desktop",
-        "From RAM",
-        "Live Medium",
-        "Old Computers",
-        "Raspberry Pi"
-      ],
-      "desktop": [
-        "Openbox"
-      ],
-      "yesterday": 75
-    },
-    {
-      "no": 247,
-      "name": "MODOS",
-      "rank": 74,
-      "trend": "level",
-      "url": "https://sourceforge.net/projects/g0ll0z-smollos/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/modos.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Cinnamon"
-      ],
-      "yesterday": 74
-    },
-    {
-      "no": 248,
-      "name": "Proxmox",
-      "rank": 73,
-      "trend": "level",
-      "url": "https://www.proxmox.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/proxmox.png",
-      "category": [
-        "Clusters",
-        "Server",
-        "Specialist"
-      ],
-      "desktop": [
-        "WebUI"
-      ],
-      "yesterday": 73
-    },
-    {
-      "no": 249,
-      "name": "Ubuntu MATE",
-      "rank": 73,
-      "trend": "level",
-      "url": "https://ubuntu-mate.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ubuntu mate.png",
-      "category": [
-        "Beginners",
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "MATE"
-      ],
-      "yesterday": 73
-    },
-    {
-      "no": 250,
-      "name": "Flora",
-      "rank": 72,
-      "trend": "down",
-      "url": "https://flora-linux-libre.sourceforge.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/flora.png",
-      "category": [
-        "Desktop",
-        "Free Software",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Cinnamon",
-        "GNOME",
-        "MATE",
-        "Xfce"
-      ],
-      "yesterday": 73
-    },
-    {
-      "no": 251,
-      "name": "Glacia",
-      "rank": 72,
-      "trend": "up",
-      "url": "https://glaciaos.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/glacia.png",
-      "category": [
-        "Beginners",
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Unity"
-      ],
-      "yesterday": 71
-    },
-    {
-      "no": 252,
-      "name": "nakeDeb",
-      "rank": 72,
-      "trend": "level",
-      "url": "https://nakedeb.arpinux.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/nakedeb.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "i3",
-        "Fluxbox"
-      ],
-      "yesterday": 72
-    },
-    {
-      "no": 253,
-      "name": "Slimbook OS",
-      "rank": 72,
-      "trend": "down",
-      "url": "https://slimbook.com/en/slimbook-os",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/slimbook os.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME",
-        "KDE Plasma"
-      ],
       "yesterday": 74
     },
     {
       "no": 254,
-      "name": "BashCore",
-      "rank": 71,
-      "trend": "level",
-      "url": "https://www.bashcore.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/bashcore.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "GNOME",
-        "Xfce"
-      ],
-      "yesterday": 71
-    },
-    {
-      "no": 255,
-      "name": "Batocera",
-      "rank": 71,
-      "trend": "level",
-      "url": "https://batocera.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/batocera.png",
-      "category": [
-        "Gaming",
-        "Live Medium",
-        "Multimedia"
-      ],
-      "desktop": [
-        "Openbox"
-      ],
-      "yesterday": 71
-    },
-    {
-      "no": 256,
-      "name": "Porteus",
-      "rank": 71,
-      "trend": "level",
-      "url": "http://www.porteus.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/porteus.png",
-      "category": [
-        "From RAM",
-        "Live Medium",
-        "Old Computers"
-      ],
-      "desktop": [
-        "Cinnamon",
-        "GNOME",
-        "KDE Plasma",
-        "LXDE",
-        "LXQt",
-        "MATE",
-        "Openbox",
-        "Xfce"
-      ],
-      "yesterday": 71
-    },
-    {
-      "no": 257,
       "name": "Predator-OS",
-      "rank": 71,
+      "rank": 74,
       "trend": "level",
       "url": "https://predator-os.ir/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/predator-os.png",
@@ -4772,61 +4704,108 @@
         "LXQt",
         "MATE"
       ],
-      "yesterday": 71
+      "yesterday": 74
     },
     {
-      "no": 258,
-      "name": "Dr.Parted",
-      "rank": 70,
-      "trend": "down",
-      "url": "https://dr-parted-live.sourceforge.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/dr.parted.png",
+      "no": 255,
+      "name": "SliTaz",
+      "rank": 74,
+      "trend": "level",
+      "url": "http://www.slitaz.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/slitaz.png",
       "category": [
-        "Data Rescue",
-        "Disk Management",
-        "Live Medium"
+        "Desktop",
+        "From RAM",
+        "Live Medium",
+        "Old Computers",
+        "Raspberry Pi"
       ],
       "desktop": [
         "Openbox"
       ],
-      "yesterday": 71
+      "yesterday": 74
+    },
+    {
+      "no": 256,
+      "name": "AiO-SRT",
+      "rank": 73,
+      "trend": "level",
+      "url": "https://paul.is-a-geek.org/aio-srt/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/aio-srt.png",
+      "category": [
+        "Data Rescue",
+        "Live Medium"
+      ],
+      "desktop": [
+        "LXQt"
+      ],
+      "yesterday": 73
+    },
+    {
+      "no": 257,
+      "name": "AxOS",
+      "rank": 73,
+      "trend": "down",
+      "url": "https://www.axos-project.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/axos.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Hyprland",
+        "Sleex"
+      ],
+      "yesterday": 74
+    },
+    {
+      "no": 258,
+      "name": "MODOS",
+      "rank": 73,
+      "trend": "level",
+      "url": "https://sourceforge.net/projects/g0ll0z-smollos/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/modos.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Cinnamon"
+      ],
+      "yesterday": 73
     },
     {
       "no": 259,
-      "name": "HardenedBSD",
-      "rank": 70,
+      "name": "<<Hack|Track",
+      "rank": 72,
       "trend": "level",
-      "url": "https://hardenedbsd.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/hardenedbsd.png",
-      "category": [
-        "Security"
-      ],
-      "desktop": [
-        "No Desktop"
-      ],
-      "yesterday": 70
+      "url": "",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/<<hack|track.png",
+      "category": null,
+      "desktop": null,
+      "yesterday": 72
     },
     {
       "no": 260,
-      "name": "stillOS",
-      "rank": 70,
+      "name": "Redox",
+      "rank": 72,
       "trend": "level",
-      "url": "https://stillhq.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/stillos.png",
+      "url": "https://www.redox-os.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/redox.png",
       "category": [
-        "Beginners",
         "Desktop",
-        "Immutable"
+        "Live Medium",
+        "Server"
       ],
       "desktop": [
-        "GNOME"
+        "COSMIC"
       ],
-      "yesterday": 70
+      "yesterday": 72
     },
     {
       "no": 261,
       "name": "Tsurugi",
-      "rank": 70,
+      "rank": 72,
       "trend": "level",
       "url": "https://tsurugi-linux.org/",
       "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/tsurugi.png",
@@ -4838,44 +4817,158 @@
       "desktop": [
         "MATE"
       ],
-      "yesterday": 70
+      "yesterday": 72
     },
     {
       "no": 262,
-      "name": "Vipnix",
-      "rank": 70,
+      "name": "UBports",
+      "rank": 72,
       "trend": "down",
-      "url": "https://vipnix.com.br/site/livecd-vipnix/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/vipnix.png",
+      "url": "https://ubports.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ubports.png",
+      "category": [
+        "Immutable",
+        "Mobile"
+      ],
+      "desktop": [
+        "Lomiri"
+      ],
+      "yesterday": 78
+    },
+    {
+      "no": 263,
+      "name": "Debian Edu",
+      "rank": 71,
+      "trend": "up",
+      "url": "http://www.skolelinux.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/debian edu.png",
+      "category": [
+        "Desktop",
+        "Education",
+        "Thin Client"
+      ],
+      "desktop": [
+        "Cinnamon",
+        "GNOME",
+        "KDE",
+        "LXDE",
+        "LXQt",
+        "MATE",
+        "Xfce"
+      ],
+      "yesterday": 70
+    },
+    {
+      "no": 264,
+      "name": "Haiku",
+      "rank": 71,
+      "trend": "level",
+      "url": "https://haiku-os.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/haiku.png",
       "category": [
         "Desktop",
         "Live Medium"
       ],
       "desktop": [
-        "LXQt"
+        "Haiku"
       ],
       "yesterday": 71
     },
     {
-      "no": 263,
-      "name": "Ximper",
-      "rank": 69,
-      "trend": "level",
-      "url": "https://ximperlinux.ru/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/ximper.png",
+      "no": 265,
+      "name": "Eliza",
+      "rank": 70,
+      "trend": "down",
+      "url": "https://eliza-linux.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/eliza.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Enlightenment"
+      ],
+      "yesterday": 71
+    },
+    {
+      "no": 266,
+      "name": "NuTyX",
+      "rank": 70,
+      "trend": "down",
+      "url": "https://www.nutyx.org/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/nutyx.png",
       "category": [
         "Desktop",
         "Live Medium"
       ],
       "desktop": [
         "GNOME",
-        "Hyprland",
-        "Sway"
+        "KDE Plasma",
+        "Xfce"
+      ],
+      "yesterday": 75
+    },
+    {
+      "no": 267,
+      "name": "Canaima",
+      "rank": 69,
+      "trend": "level",
+      "url": "https://canaima.softwarelibre.gob.ve/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/canaima.png",
+      "category": [
+        "Desktop",
+        "Gaming",
+        "Live Medium",
+        "Multimedia"
+      ],
+      "desktop": [
+        "Cinnamon",
+        "GNOME",
+        "KDE Plasma",
+        "LXDE",
+        "LXQt",
+        "MATE",
+        "Xfce"
       ],
       "yesterday": 69
     },
     {
-      "no": 264,
+      "no": 268,
+      "name": "GXDE",
+      "rank": 69,
+      "trend": "level",
+      "url": "https://www.gxde.top/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/gxde.png",
+      "category": [
+        "Desktop",
+        "Live Medium"
+      ],
+      "desktop": [
+        "Deepin"
+      ],
+      "yesterday": 69
+    },
+    {
+      "no": 269,
+      "name": "Armbian",
+      "rank": 68,
+      "trend": "up",
+      "url": "https://www.armbian.com/",
+      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/armbian.png",
+      "category": [
+        "Desktop",
+        "Specialist"
+      ],
+      "desktop": [
+        "Cinnamon",
+        "GNOME",
+        "KDE Plasma",
+        "Xfce"
+      ],
+      "yesterday": 67
+    },
+    {
+      "no": 270,
       "name": "BlueOnyx",
       "rank": 68,
       "trend": "level",
@@ -4889,109 +4982,6 @@
         "WebUI"
       ],
       "yesterday": 68
-    },
-    {
-      "no": 265,
-      "name": "Haiku",
-      "rank": 68,
-      "trend": "level",
-      "url": "https://haiku-os.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/haiku.png",
-      "category": [
-        "Desktop",
-        "Live Medium"
-      ],
-      "desktop": [
-        "Haiku"
-      ],
-      "yesterday": 68
-    },
-    {
-      "no": 266,
-      "name": "MakuluLinux",
-      "rank": 68,
-      "trend": "down",
-      "url": "https://www.makululinux.com/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/makululinux.png",
-      "category": [
-        "Desktop",
-        "Gaming",
-        "Live Medium",
-        "Large Language Model"
-      ],
-      "desktop": [
-        "Cinnamon",
-        "MATE",
-        "Xfce"
-      ],
-      "yesterday": 69
-    },
-    {
-      "no": 267,
-      "name": "PimersusOS",
-      "rank": 68,
-      "trend": "down",
-      "url": "https://pimersusos.sourceforge.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/pimersusos.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Old Computers"
-      ],
-      "desktop": [
-        "Xfce"
-      ],
-      "yesterday": 69
-    },
-    {
-      "no": 268,
-      "name": "AiO-SRT",
-      "rank": 67,
-      "trend": "level",
-      "url": "https://paul.is-a-geek.org/aio-srt/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/aio-srt.png",
-      "category": [
-        "Data Rescue",
-        "Live Medium"
-      ],
-      "desktop": [
-        "LXQt"
-      ],
-      "yesterday": 67
-    },
-    {
-      "no": 269,
-      "name": "OpenIndiana",
-      "rank": 67,
-      "trend": "up",
-      "url": "https://openindiana.org/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/openindiana.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "UNIX"
-      ],
-      "desktop": [
-        "MATE"
-      ],
-      "yesterday": 66
-    },
-    {
-      "no": 270,
-      "name": "OsoLinux",
-      "rank": 67,
-      "trend": "level",
-      "url": "https://oso.sourceforge.io/",
-      "logo": "https://raw.githubusercontent.com/bdsach/linux-trend/refs/heads/main/public/logos/osolinux.png",
-      "category": [
-        "Desktop",
-        "Live Medium",
-        "Multimedia"
-      ],
-      "desktop": [
-        "KDE Plasma"
-      ],
-      "yesterday": 67
     }
   ]
 }
