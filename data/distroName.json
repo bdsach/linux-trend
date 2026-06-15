@@ -57,6 +57,41 @@
     "logo": "/logos/abeiros.png"
   },
   {
+    "name": "Abora",
+    "slug": "abora",
+    "basedOn": "NixOS",
+    "categories": [
+      "Declarative",
+      "Desktop",
+      "Server"
+    ],
+    "desktop": [
+      "Awesome",
+      "bspwm",
+      "Budgie",
+      "Cinnamon",
+      "COSMIC",
+      "Fluxbox",
+      "GNOME",
+      "herbstluftwm",
+      "Hyprland",
+      "i3",
+      "IceWM",
+      "KDE Plasma",
+      "LXQt",
+      "MATE",
+      "niri",
+      "Openbox",
+      "Pantheon",
+      "Qtile",
+      "River",
+      "Sway",
+      "Xfce"
+    ],
+    "url": "https://www.aboraos.org/",
+    "logo": "/logos/abora.png"
+  },
+  {
     "name": "Accessible-Coconut",
     "slug": "ac",
     "basedOn": "Debian",
@@ -684,6 +719,21 @@
     "logo": "/logos/avlinux.png"
   },
   {
+    "name": "AXEM-SX",
+    "slug": "axem",
+    "basedOn": "openSUSE",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma",
+      "LXQt"
+    ],
+    "url": "https://www.axem-sx.org/",
+    "logo": "/logos/axem.png"
+  },
+  {
     "name": "AxOS",
     "slug": "axos",
     "basedOn": "Arch",
@@ -697,6 +747,22 @@
     ],
     "url": "https://www.axos-project.com/",
     "logo": "/logos/axos.png"
+  },
+  {
+    "name": "B1ackOS",
+    "slug": "b1ackos",
+    "basedOn": "Debian (Unstable)",
+    "categories": [
+      "Desktop",
+      "Forensics",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "No Desktop"
+    ],
+    "url": "https://os.b1ack.net/",
+    "logo": "/logos/b1ackos.png"
   },
   {
     "name": "BackBox",
@@ -1005,6 +1071,20 @@
     "logo": "/logos/bunsenlabs.png"
   },
   {
+    "name": "butrelinux",
+    "slug": "butrelinux",
+    "basedOn": "CentOS",
+    "categories": [
+      "Desktop",
+      "Immutable"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://github.com/butrejp/butrelinux",
+    "logo": "/logos/butrelinux.png"
+  },
+  {
     "name": "Butterbian",
     "slug": "butterbian",
     "basedOn": "Debian (Stable)",
@@ -1180,6 +1260,20 @@
     "logo": "/logos/centos.png"
   },
   {
+    "name": "Cerberix",
+    "slug": "cerberix",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Security"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://cerberix.org/",
+    "logo": "/logos/cerberix.png"
+  },
+  {
     "name": "Chimera",
     "slug": "chimera",
     "basedOn": "Independent",
@@ -1294,6 +1388,24 @@
     ],
     "url": "https://www.commodoreusa.net/",
     "logo": "/logos/commodore.png"
+  },
+  {
+    "name": "CookieOS",
+    "slug": "cookieos",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "GNOME",
+      "KDE Plasma",
+      "MATE",
+      "Xfce"
+    ],
+    "url": "https://gaja-team.github.io/CookieOS/",
+    "logo": "/logos/cookieos.png"
   },
   {
     "name": "Coyote",
@@ -2868,6 +2980,20 @@
     "logo": "/logos/hardenedbsd.png"
   },
   {
+    "name": "Hardenwing",
+    "slug": "hardenwing",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Security"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://nixovena.org/hardenwing/",
+    "logo": "/logos/hardenwing.png"
+  },
+  {
     "name": "HeliumOS",
     "slug": "heliumos",
     "basedOn": "AlmaLinux",
@@ -2939,6 +3065,25 @@
     ],
     "url": "https://www.ipfire.org/",
     "logo": "/logos/ipfire.png"
+  },
+  {
+    "name": "JSP-Educa",
+    "slug": "jspeduca",
+    "basedOn": "Devuan",
+    "categories": [
+      "Desktop",
+      "Education",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": [
+      "JWM",
+      "Fluxbox",
+      "LXDE",
+      "Openbox"
+    ],
+    "url": "https://sourceforge.net/projects/jsp-educa/",
+    "logo": "/logos/jspeduca.png"
   },
   {
     "name": "Kader⁴²",
@@ -3106,6 +3251,20 @@
     "logo": "/logos/kiro.png"
   },
   {
+    "name": "KLV-Airedale",
+    "slug": "klv",
+    "basedOn": "Independent",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://klv-airedale.rockedge.org/",
+    "logo": "/logos/klv.png"
+  },
+  {
     "name": "Kodachi",
     "slug": "kodachi",
     "basedOn": "Debian (Stable)",
@@ -3249,6 +3408,21 @@
     ],
     "url": "https://lazylinuxos.github.io/",
     "logo": "/logos/lazylinux.png"
+  },
+  {
+    "name": "Legacy",
+    "slug": "legacy",
+    "basedOn": "Debian",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Old Computers"
+    ],
+    "desktop": [
+      "IceWM"
+    ],
+    "url": "https://legacyoslinux.net/",
+    "logo": "/logos/legacy.png"
   },
   {
     "name": "LengToolkit",
@@ -4394,6 +4568,20 @@
     "logo": "/logos/omnios.png"
   },
   {
+    "name": "OnixOS",
+    "slug": "onixos",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://onix-project.com/",
+    "logo": "/logos/onixos.png"
+  },
+  {
     "name": "OpenBSD",
     "slug": "openbsd",
     "basedOn": "Independent (forked from NetBSD)",
@@ -4587,20 +4775,6 @@
     "logo": "/logos/oreon.png"
   },
   {
-    "name": "Origami",
-    "slug": "origami",
-    "basedOn": "Fedora",
-    "categories": [
-      "Desktop",
-      "Immutable"
-    ],
-    "desktop": [
-      "COSMIC"
-    ],
-    "url": "https://origami.wf/",
-    "logo": "/logos/origami.png"
-  },
-  {
     "name": "OSGeoLive",
     "slug": "osgeo",
     "basedOn": "Debian",
@@ -4656,6 +4830,19 @@
     "logo": "/logos/osolinux.png"
   },
   {
+    "name": "OviOS",
+    "slug": "ovios",
+    "basedOn": "Independent",
+    "categories": [
+      "Server"
+    ],
+    "desktop": [
+      "No Desktop"
+    ],
+    "url": "https://www.ovios.org/",
+    "logo": "/logos/ovios.png"
+  },
+  {
     "name": "PakOS",
     "slug": "pakos",
     "basedOn": "Debian (Stable)",
@@ -4685,6 +4872,27 @@
     ],
     "url": "https://www.paldo.org/",
     "logo": "/logos/paldo.png"
+  },
+  {
+    "name": "PantherX",
+    "slug": "pantherx",
+    "basedOn": "Guix System",
+    "categories": [
+      "Desktop"
+    ],
+    "desktop": [
+      "Awesome",
+      "GNOME",
+      "i3",
+      "IceWM",
+      "KDE Plasma",
+      "MATE",
+      "Openbox",
+      "Ratpoison",
+      "Xfce"
+    ],
+    "url": "https://www.pantherx.org/",
+    "logo": null
   },
   {
     "name": "Parch",
@@ -5212,6 +5420,23 @@
     "logo": "/logos/puppy.png"
   },
   {
+    "name": "PureOS",
+    "slug": "pureos",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Free Software",
+      "Live Medium",
+      "Mobile"
+    ],
+    "desktop": [
+      "GNOME",
+      "KDE Plasma"
+    ],
+    "url": "https://pureos.net/",
+    "logo": "/logos/pureos.png"
+  },
+  {
     "name": "Q4OS",
     "slug": "q4os",
     "basedOn": "Debian (Stable)",
@@ -5676,6 +5901,20 @@
     "logo": "/logos/rosa.png"
   },
   {
+    "name": "RoshanOS",
+    "slug": "roshanos",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://esite.pk/roshan-os/",
+    "logo": "/logos/roshanos.png"
+  },
+  {
     "name": "RSS",
     "slug": "rss",
     "basedOn": "",
@@ -5699,6 +5938,20 @@
     ],
     "url": "http://www.runtu.org/",
     "logo": "/logos/runtu.png"
+  },
+  {
+    "name": "RuscaLinux",
+    "slug": "ruscalinux",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://www.ruscalinux.org/",
+    "logo": "/logos/ruscalinux.png"
   },
   {
     "name": "Salix",
@@ -5822,6 +6075,21 @@
     ],
     "url": "https://www.debian-srbija.iz.rs/p/serbian.html",
     "logo": "/logos/serbian.png"
+  },
+  {
+    "name": "Shadowfetch",
+    "slug": "shadowfetch",
+    "basedOn": "Debian (Testing)",
+    "categories": [
+      "Desktop",
+      "Live Medium",
+      "Privacy"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://www.shadowfetch.com/linux/",
+    "logo": "/logos/shadowfetch.png"
   },
   {
     "name": "Shanios",
@@ -6499,6 +6767,20 @@
     ],
     "url": "http://www.tinycorelinux.net/",
     "logo": "/logos/tinycore.png"
+  },
+  {
+    "name": "TitalcruiseOS",
+    "slug": "titalcruiseos",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://titalcruise.wixsite.com/titalcruise-oficial",
+    "logo": "/logos/titalcruiseos.png"
   },
   {
     "name": "ToaruOS",
@@ -7378,6 +7660,20 @@
     ],
     "url": "https://zenclora.org/",
     "logo": "/logos/zenclora.png"
+  },
+  {
+    "name": "ZenLake",
+    "slug": "zenlake",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://teejeetech.com/zenlake/",
+    "logo": "/logos/zenlake.png"
   },
   {
     "name": "Zenned",
