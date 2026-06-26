@@ -106,23 +106,6 @@
     "logo": "/logos/ac.png"
   },
   {
-    "name": "AçorOS",
-    "slug": "acoros",
-    "basedOn": "Debian (Stable)",
-    "categories": [
-      "Desktop",
-      "Live Medium"
-    ],
-    "desktop": [
-      "Cinnamon",
-      "LXQt",
-      "Openbox",
-      "Xfce"
-    ],
-    "url": "https://sourceforge.net/projects/acor-os/",
-    "logo": "/logos/acoros.png"
-  },
-  {
     "name": "AcreetionOS",
     "slug": "acreetionos",
     "basedOn": "Arch",
@@ -2411,21 +2394,6 @@
     ],
     "url": "https://fluxlinux.xyz/",
     "logo": "/logos/fluxlinux.png"
-  },
-  {
-    "name": "Fluxuan",
-    "slug": "fluxuan",
-    "basedOn": "Devuan",
-    "categories": [
-      "Desktop",
-      "Live Medium",
-      "Old Computers"
-    ],
-    "desktop": [
-      "Fluxbox"
-    ],
-    "url": "https://fluxuan.org/",
-    "logo": "/logos/fluxuan.png"
   },
   {
     "name": "FreeBSD",
@@ -4892,7 +4860,7 @@
       "Xfce"
     ],
     "url": "https://www.pantherx.org/",
-    "logo": null
+    "logo": "/logos/pantherx.png"
   },
   {
     "name": "Parch",
