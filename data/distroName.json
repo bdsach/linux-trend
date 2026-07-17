@@ -764,6 +764,21 @@
     "logo": "/logos/backbox.png"
   },
   {
+    "name": "Basalt",
+    "slug": "basalt",
+    "basedOn": "Debian (Stable)",
+    "categories": [
+      "Beginners",
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Xfce"
+    ],
+    "url": "https://basaltlinux.gitlab.io/",
+    "logo": null
+  },
+  {
     "name": "BashCore",
     "slug": "bashcore",
     "basedOn": "Debian (Stable)",
@@ -1176,6 +1191,19 @@
     ],
     "url": "https://www.calculate-linux.org/",
     "logo": "/logos/calculate.png"
+  },
+  {
+    "name": "CalyxOS",
+    "slug": "calyxos",
+    "basedOn": "LineageOS",
+    "categories": [
+      "Mobile"
+    ],
+    "desktop": [
+      "Quickstep"
+    ],
+    "url": "https://calyxos.org/",
+    "logo": null
   },
   {
     "name": "Canaima",
@@ -2022,6 +2050,22 @@
     "logo": "/logos/enux.png"
   },
   {
+    "name": "Equestria",
+    "slug": "equestria",
+    "basedOn": "Arch",
+    "categories": [
+      "Beginners",
+      "Desktop",
+      "Gaming",
+      "Live Medium"
+    ],
+    "desktop": [
+      "KDE Plasma"
+    ],
+    "url": "https://psyche-games.com/equestria-os.php",
+    "logo": null
+  },
+  {
     "name": "Escuelas",
     "slug": "escuelas",
     "basedOn": "Debian",
@@ -2537,6 +2581,20 @@
     ],
     "url": "https://gabeeoslinux.sourceforge.io/",
     "logo": "/logos/gabee.png"
+  },
+  {
+    "name": "Galactic Mandate",
+    "slug": "galactic",
+    "basedOn": "Ubuntu (LTS)",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Budgie"
+    ],
+    "url": "https://mr-richardson.com/galactic-mandate-linux/",
+    "logo": null
   },
   {
     "name": "Garuda",
@@ -3189,6 +3247,20 @@
     "logo": "/logos/kdu.png"
   },
   {
+    "name": "KibaOS",
+    "slug": "kibaos",
+    "basedOn": "Arch",
+    "categories": [
+      "Desktop",
+      "Live Medium"
+    ],
+    "desktop": [
+      "Budgie"
+    ],
+    "url": "https://wolftech.tech/",
+    "logo": null
+  },
+  {
     "name": "Kicksecure",
     "slug": "kicksecure",
     "basedOn": "Debian (Stable)",
@@ -3717,6 +3789,24 @@
     "logo": "/logos/ludora.png"
   },
   {
+    "name": "Lunar",
+    "slug": "lunar",
+    "basedOn": "Independent (forked from Sorcerer)",
+    "categories": [
+      "Source-based"
+    ],
+    "desktop": [
+      "Cinnamon",
+      "Fluxbox",
+      "GNOME",
+      "KDE",
+      "LXDE",
+      "Xfce"
+    ],
+    "url": "http://www.lunar-linux.org",
+    "logo": null
+  },
+  {
     "name": "LxPup",
     "slug": "lxpup",
     "basedOn": "Puppy",
@@ -3874,6 +3964,22 @@
     ],
     "url": "https://maplelinux.ca/",
     "logo": "/logos/maple.png"
+  },
+  {
+    "name": "Margine",
+    "slug": "margine",
+    "basedOn": "Fedora",
+    "categories": [
+      "Desktop",
+      "Immutable",
+      "Live Medium",
+      "Large Language Model"
+    ],
+    "desktop": [
+      "GNOME"
+    ],
+    "url": "https://margine.dev/",
+    "logo": null
   },
   {
     "name": "Mariposa",
@@ -6390,6 +6496,32 @@
     ],
     "url": "https://soplos.org/",
     "logo": "/logos/soplos.png"
+  },
+  {
+    "name": "Source Mage",
+    "slug": "sourcemage",
+    "basedOn": "Independent (forked from Sorcerer)",
+    "categories": [
+      "Desktop",
+      "Source-based"
+    ],
+    "desktop": [
+      "AfterStep",
+      "Blackbox",
+      "Fluxbox",
+      "GNOME",
+      "i3",
+      "IceWM",
+      "JWM",
+      "KDE",
+      "Openbox",
+      "Ratpoison",
+      "Razor-qt",
+      "WMaker",
+      "Xfce"
+    ],
+    "url": "https://www.sourcemage.org/",
+    "logo": null
   },
   {
     "name": "SparkyLinux",
